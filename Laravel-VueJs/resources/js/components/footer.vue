@@ -1,4 +1,4 @@
-// create file footer
+
 <template>
     <footer class="bg-dark text-center text-white">
         <!-- Grid container -->
@@ -122,5 +122,5 @@
 </template>
 
 <style scoped>
-</style>>
+</style>
 

@@ -1,4 +1,4 @@
-// create file header
+
 <template>
     <header >
         <nav id="navbar-example2" class="navbar navbar-light bg-light px-3">
