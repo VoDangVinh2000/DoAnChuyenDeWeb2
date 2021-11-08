@@ -9,19 +9,19 @@
         "prod": "npm run production",
         "production": "mix --production",
         "runOneTime": "php artisan serve  npm run watch",
-        "runMultiple" : "php artisan serve"
+        "runMultiple": "php artisan serve"
     },
     "devDependencies": {
-        "@types/webpack-env": "^1.16.2",
-        "@vue/compiler-sfc": "^3.2.19",
+        "@types/webpack-env": "^1.16.3",
+        "@vue/compiler-sfc": "^3.2.21",
         "axios": "^0.21",
-        "laravel-mix": "^6.0.31",
+        "laravel-mix": "^6.0.38",
         "laravel-mix-vue3": "^0.7.0",
         "lodash": "^4.17.19",
         "postcss": "^8.3.9",
-        "vue": "^3.2.19",
-        "vue-loader": "^16.8.1",
-        "vue-router": "^4.0.11"
+        "vue": "^3.2.21",
+        "vue-loader": "^16.8.3",
+        "vue-router": "^4.0.12"
     },
     "dependencies": {
         "@hennge/vue3-pagination": "^1.0.17",

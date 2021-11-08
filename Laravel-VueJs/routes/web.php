@@ -16,7 +16,7 @@ use Illuminate\Http\Request;
 */
 //tạo route login
 Route::get('/', function () {
-    return redirect('/login');
+    return redirect('/cars-home');
 });
 
 /* Hiển thị giao diện register */
