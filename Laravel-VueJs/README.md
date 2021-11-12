@@ -72,12 +72,5 @@ npm install && npm run dev
 
 ## Enviroment App
 # Đầu tiên , gõ câu lệnh cd Laravel-VueJs. Sau đó chạy những câu lệnh ở dưới
-npm install @types/webpack-env @vue/compiler-sfc vue-loader@next laravel-mix-vue3  --save-dev
-npm install vue@next --save-dev
-npm install laravel-mix@latest –-save-dev
-npm install vue-router@next --save-dev
-npm install @hennge/vue3-pagination (new-ver1)
-command-line enter : composer dump-autoload 
-                     + npm run development
-                     + npm run watch
-                     + php artisan serve
+### Đừng gõ các gói trong đây nữa, lên trello có hướng dẫn cài. ^^
+
