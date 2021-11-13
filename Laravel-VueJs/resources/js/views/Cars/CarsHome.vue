@@ -1,12 +1,13 @@
 <template>
     <!-- Gọi các cpn tạo ra trang home !-->
-    <div>
-            <p>Idol nuocws Myx</p>
-    </div>
+    <SliderSearch />
 </template>
 
 <script>
+import SliderSearch from '../../components/Products/SliderSearch.vue'
+
 export default {
+  components: { SliderSearch },
     name : 'CarsHome'
 }
 </script>
