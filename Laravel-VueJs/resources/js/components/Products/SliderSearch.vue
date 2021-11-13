@@ -1,104 +1,28 @@
 <template>
   <div id="banner__slider">
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-ride="carousel"
-    >
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img
-            class="d-block w-100"
-            src="../../../assets/06-mercedes-benz.webp"
-            alt="First slide"
-          />
+        <div v-bind:class="[itemClass, sl.activeClass]" v-for="(sl, index) in slider" :key="index">
+          <img class="d-block w-100" :src="sl.src" alt="First slide" />
           <div class="carousel-caption">
             <div class="container slide-title-learn-more">
-              <h3 class="animate__animated animate__fadeInDown animate__delay-1s">The EQE.</h3>
-              <a href="#" class="animate__animated animate__fadeInDownBig animate__delay-2s">Learn more about the EQE</a>
+              <h3 class="animate__animated animate__fadeInDown animate__delay-1s" v-bind:class="sl.color">
+                {{ sl.title }}
+              </h3>
+              <a href="#" class=" animate__animated animate__fadeInDownBig animate__delay-2s">
+                {{ sl.button }}
+              </a>
             </div>
           </div>
           <div class="carousel-description">
-            <div class="container slide-description animate__animated animate__fadeInDown animate__delay-2s">
+            <div
+              class="container slide-description animate__animated animate__fadeInDown animate__delay-2s">
               <p>
-                EQE 350 vorläufige Angaben WLTP:<br />
-                Stromverbrauch kombiniert: 19,3–15,7 kWh/100 km;<br />
-                CO₂-Emissionen kombiniert: 0 g/km.
+                {{ sl.des_1 }}
               </p>
               <p>
-                Angaben zum Stromverbrauch und zur Reichweite sind vorläufig und
-                wurden intern nach Maßgabe der Zertifizierungsmethode
-                „WLTP-Prüfverfahren“ ermittelt. Es liegen bislang weder
-                bestätigte Werte vom TÜV noch eine EG-Typgenehmigung noch eine
-                Konformitätsbescheinigung mit amtlichen Werten vor. Abweichungen
-                zwischen den Angaben und den amtlichen Werten sind möglich.
+                {{ sl.des_2 }}
               </p>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="../../../assets/03-mercedes-benz.webp"
-            alt="Second slide"
-            style="margin-left: -3px"
-          />
-          <div class="carousel-caption">
-            <div class="container slide-title-learn-more">
-              <h3 class="animate__animated animate__fadeInDown animate__delay-1s">The Concept EQG.</h3>
-              <a href="#" class="animate__animated animate__fadeInDown animate__delay-2s">Learn more about the Concept</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="../../../assets/05-maybach.webp"
-            alt="Third slide"
-          />
-          <div class="carousel-caption">
-            <div class="container slide-title-learn-more text-dark">
-              <h3 class="animate__animated animate__fadeInDown animate__delay-1s">The Concept Mercedes-Maybach EQS.</h3>
-              <a href="#" class="animate__animated animate__fadeInDown animate__delay-2s">Learn more about the Concept Mercedes-Maybach EQS.</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="../../../assets/04-mercedes-eq-eqb.webp"
-            alt="Third slide"
-          />
-          <div class="carousel-caption">
-            <div class="container slide-title-learn-more text-dark">
-              <h3 class="animate__animated animate__fadeInDown animate__delay-1s">The new EQB.</h3>
-              <a href="#" class="animate__animated animate__fadeInDown animate__delay-2s">Learn more about the EQB.</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="../../../assets/01-mercedes-benz.webp"
-            alt="Third slide"
-          />
-          <div class="carousel-caption">
-            <div class="container slide-title-learn-more text-light">
-              <h3 class="animate__animated animate__fadeInDown animate__delay-1s">IAA MOBILITY 2021.</h3>
-              <a href="#" class="animate__animated animate__fadeInDown animate__delay-2s">Learn more </a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            class="d-block w-100"
-            src="../../../assets/02-mercedes-benz-eqs.webp"
-            alt="Third slide"
-          />
-          <div class="carousel-caption">
-            <div class="container slide-title-learn-more text-light">
-              <h3 class="animate__animated animate__fadeInDown animate__delay-1s">The new EQS. This is for you, world.</h3>
-              <a href="#" class="animate__animated animate__fadeInDown animate__delay-2s">Learn more about the EQS.</a>
             </div>
           </div>
         </div>
@@ -129,7 +53,7 @@
           <input
             type="text"
             class="search-input"
-            placeholder=" I am looking for ..."
+            placeholder="I am looking for..."
           />
           <button class="btn"><i class="fab fa-searchengin"></i></button>
         </form>
@@ -141,6 +65,50 @@
 <script>
 export default {
   name: "SliderSearch",
+  data() {
+    return {
+      itemClass: "carousel-item",
+      slider: [
+        {
+          activeClass: "active",
+          title: "The EQE.",
+          button: "Learn more about the EQE",
+          src: ["images/06-mercedes-benz.webp"],
+          des_1:
+            "EQE 350 vorläufige Angaben WLTP: Stromverbrauch kombiniert: 19,3–15,7 kWh/100 km; CO₂-Emissionen kombiniert: 0 g/km.",
+          des_2:
+            "Angaben zum Stromverbrauch und zur Reichweite sind vorläufig und wurden intern nach Maßgabe der Zertifizierungsmethode, WLTP-Prüfverfahren“ ermittelt. Es liegen bislang weder bestätigte Werte vom TÜV noch eine EG-Typgenehmigung noch eine Konformitätsbescheinigung mit amtlichen Werten vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich.",
+        },
+        {
+          title: "The Concept EQG.",
+          button: "Learn more about the Concept",
+          src: ["images/03-mercedes-benz.webp"],
+        },
+        {
+          title: "The Concept Mercedes-Maybach EQS.",
+          button: "Learn more about the Concept Mercedes-Maybach EQS",
+          src: ["images/05-maybach.webp"],
+          color: "text-dark",
+        },
+        {
+          title: "The new EQB.",
+          button: "Learn more about the EQB.",
+          src: ["images/04-mercedes-eq-eqb.webp"],
+          color: "text-dark",
+        },
+        {
+          title: "IAA MOBILITY 2021.",
+          button: "Learn more",
+          src: ["images/01-mercedes-benz.webp"],
+        },
+        {
+          title: " The new EQS. This is for you, world.",
+          button: "Learn more about the EQS.",
+          src: ["images/02-mercedes-benz-eqs.webp"],
+        },
+      ],
+    };
+  },
 };
 </script>
 
@@ -214,15 +182,14 @@ export default {
   top: 0;
 }
 
-
-form.form-search{
+form.form-search {
   position: relative;
   background: #fff;
   width: 100%;
   height: 50px;
 }
 
-form input{
+form input {
   position: absolute;
   font-family: "Lora", serif;
   font-size: 18px;
@@ -234,10 +201,10 @@ form input{
   padding: 5px 15px;
 }
 
-form .btn{
+form .btn {
   position: absolute;
-    top: 6px;
-    right: 7px;
+  top: 6px;
+  right: 7px;
 }
 
 /* CSS cho tỷ lệ màn hình trên 1280px */
