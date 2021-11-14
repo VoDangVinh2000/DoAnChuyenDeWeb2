@@ -20115,31 +20115,31 @@ __webpack_require__.r(__webpack_exports__);
         activeClass: "active",
         title: "The EQE.",
         button: "Learn more about the EQE",
-        src: ["images/06-mercedes-benz.webp"],
+        src: "images/06-mercedes-benz.webp",
         des_1: "EQE 350 vorläufige Angaben WLTP: Stromverbrauch kombiniert: 19,3–15,7 kWh/100 km; CO₂-Emissionen kombiniert: 0 g/km.",
         des_2: "Angaben zum Stromverbrauch und zur Reichweite sind vorläufig und wurden intern nach Maßgabe der Zertifizierungsmethode, WLTP-Prüfverfahren“ ermittelt. Es liegen bislang weder bestätigte Werte vom TÜV noch eine EG-Typgenehmigung noch eine Konformitätsbescheinigung mit amtlichen Werten vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich."
       }, {
         title: "The Concept EQG.",
         button: "Learn more about the Concept",
-        src: ["images/03-mercedes-benz.webp"]
+        src: "images/03-mercedes-benz.webp"
       }, {
         title: "The Concept Mercedes-Maybach EQS.",
         button: "Learn more about the Concept Mercedes-Maybach EQS",
-        src: ["images/05-maybach.webp"],
+        src: "images/05-maybach.webp",
         color: "text-dark"
       }, {
         title: "The new EQB.",
         button: "Learn more about the EQB.",
-        src: ["images/04-mercedes-eq-eqb.webp"],
+        src: "images/04-mercedes-eq-eqb.webp",
         color: "text-dark"
       }, {
         title: "IAA MOBILITY 2021.",
         button: "Learn more",
-        src: ["images/01-mercedes-benz.webp"]
+        src: "images/01-mercedes-benz.webp"
       }, {
         title: " The new EQS. This is for you, world.",
         button: "Learn more about the EQS.",
-        src: ["images/02-mercedes-benz-eqs.webp"]
+        src: "images/02-mercedes-benz-eqs.webp"
       }]
     };
   }
@@ -20371,7 +20371,7 @@ __webpack_require__.r(__webpack_exports__);
   components: {
     SliderSearch: _components_Products_SliderSearch_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
   },
-  name: 'CarsHome'
+  name: "CarsHome"
 });
 
 /***/ }),
@@ -21014,7 +21014,7 @@ var _hoisted_6 = {
 };
 var _hoisted_7 = {
   href: "#",
-  "class": "animate__animated animate__fadeInDownBig animate__delay-2s"
+  "class": "animate__animated animate__fadeInDown animate__delay-2s"
 };
 var _hoisted_8 = {
   "class": "carousel-description"

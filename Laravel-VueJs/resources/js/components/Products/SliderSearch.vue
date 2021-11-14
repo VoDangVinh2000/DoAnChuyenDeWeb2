@@ -9,7 +9,7 @@
               <h3 class="animate__animated animate__fadeInDown animate__delay-1s" v-bind:class="sl.color">
                 {{ sl.title }}
               </h3>
-              <a href="#" class=" animate__animated animate__fadeInDownBig animate__delay-2s">
+              <a href="#" class=" animate__animated animate__fadeInDown animate__delay-2s">
                 {{ sl.button }}
               </a>
             </div>
@@ -73,7 +73,7 @@ export default {
           activeClass: "active",
           title: "The EQE.",
           button: "Learn more about the EQE",
-          src: ["images/06-mercedes-benz.webp"],
+          src: "images/06-mercedes-benz.webp",
           des_1:
             "EQE 350 vorläufige Angaben WLTP: Stromverbrauch kombiniert: 19,3–15,7 kWh/100 km; CO₂-Emissionen kombiniert: 0 g/km.",
           des_2:
@@ -82,29 +82,29 @@ export default {
         {
           title: "The Concept EQG.",
           button: "Learn more about the Concept",
-          src: ["images/03-mercedes-benz.webp"],
+          src: "images/03-mercedes-benz.webp",
         },
         {
           title: "The Concept Mercedes-Maybach EQS.",
           button: "Learn more about the Concept Mercedes-Maybach EQS",
-          src: ["images/05-maybach.webp"],
+          src: "images/05-maybach.webp",
           color: "text-dark",
         },
         {
           title: "The new EQB.",
           button: "Learn more about the EQB.",
-          src: ["images/04-mercedes-eq-eqb.webp"],
+          src: "images/04-mercedes-eq-eqb.webp",
           color: "text-dark",
         },
         {
           title: "IAA MOBILITY 2021.",
           button: "Learn more",
-          src: ["images/01-mercedes-benz.webp"],
+          src: "images/01-mercedes-benz.webp",
         },
         {
           title: " The new EQS. This is for you, world.",
           button: "Learn more about the EQS.",
-          src: ["images/02-mercedes-benz-eqs.webp"],
+          src: "images/02-mercedes-benz-eqs.webp",
         },
       ],
     };
