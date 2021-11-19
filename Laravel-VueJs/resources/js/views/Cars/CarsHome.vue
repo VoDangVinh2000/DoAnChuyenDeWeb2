@@ -1,13 +1,16 @@
 <template>
     <!-- Gọi các cpn tạo ra trang home !-->
-    <div>
-            <p>Idol nuocws Myx</p>
-    </div>
+        <Header />
 </template>
 
 <script>
+import Header from '../../components/Products/Header.vue';
+
 export default {
-    name : 'CarsHome'
+    name : 'CarsHome',
+    components: {
+    Header
+    }
 }
 </script>
 
