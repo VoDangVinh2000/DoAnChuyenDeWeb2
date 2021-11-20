@@ -1,0 +1,42 @@
+{
+    "sub_group" : [
+        {
+            "id" : 1,
+            "name" : "Sedans"
+        },
+        {
+            "id" : 2,
+            "name" : "Xe địa hình / SUV"
+        },
+        {
+            "id" : 3,
+            "name" : "Xe Coupé"
+        }
+    ],
+   "cars" : [
+       {
+           "id" : 1,
+           "name" : "GLE Coupé",
+           "sub_id" : 3,
+           "price_description" : "Giá từ 5.349.000.000đ",
+           "img_front" :"https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyItsd2HVcUfpO6XGEubYJ0l36xOB2sr%25bApUAbI5uGQMQC3aM1kzNHTnm7j8hohKVi%25E%25vqmUjyLRhnmYaxU0drH1Gm%25n8w7OcoiZKiEM4FvSlTg9Lte6PDarsSeWHthtsd8B3cUfD%25kXGE5YrJbXSqxVKnn8wPbIoTnlR4M6oeIlTg9vx96PDK1RSeWgeRtsdPvQcUfeFfXGE1zrJ0lBYrOB2A85bAp5tlI5uCQ2QCPFi2J%25xVZkFPsgGvx3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE040&amp;im=Crop,rect=(360,250,1280,580);Resize,width=300",
+           "img_back" : "https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyItsd2HVcUfpO6XGEubYJ0l36xOB2sr%25bApUAbI5uGQMQC3aM1kzNHTnm7j8hohKVi%25E%25vqmUjyLRhnmYaxU0drH1Gm%25n8w7OcoiZKiEM4FvSlTg9Lte6PDarsSeWHthtsd8B3cUfD%25kXGE5YrJbXSqxVKnn8wPbIoTnlR4M6oeIlTg9vx96PDK1RSeWgeRtsdPvQcUfeFfXGE1zrJ0lBYrOB2A85bAp5tlI5uCQ2QCPFi2J%25xVZkFPsgGvx3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE140&amp;im=Crop,rect=(290,250,1280,580);Resize,width=300"
+       },
+       {
+        "id" : 2,
+        "name" : "Mercedes-AMG GT Coupé",
+        "sub_id" : 3,
+        "price_description" : "11.590.000.000",
+        "img_front" :"https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqN8FqtyO67PobzIr3eWsrrCsdRRzwQZvVIZbMw3SGtGyItsd2JdcUfpAyXGEjymJ0leIAOB2sSnbApvPyI5uOo2QC3bsOkzNGTnm7j07ZhKVBYF%25vq8cXyr%25kWfDPJJ0lCrnOIJRdAbQOznRI5ue4YQC3PExkzN5%256m7jCtEhKVfj9%25vqLU9yLRaGfYaxHoWrH18jOn8wioxoiZ4egM4zuA1YtEWpTuz6ULquFIT9ZxeedNtjD%259j6hVNpLpIZIGwC7Ux0wPfejr9j&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE040&amp;im=Crop,rect=(360,250,1280,580);Resize,width=300",
+        "img_back" : "https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqN8FqtyO67PobzIr3eWsrrCsdRRzwQZvVIZbMw3SGtGyItsd2JdcUfpAyXGEjymJ0leIAOB2sSnbApvPyI5uOo2QC3bsOkzNGTnm7j07ZhKVBYF%25vq8cXyr%25kWfDPJJ0lCrnOIJRdAbQOznRI5ue4YQC3PExkzN5%256m7jCtEhKVfj9%25vqLU9yLRaGfYaxHoWrH18jOn8wioxoiZ4egM4zuA1YtEWpTuz6ULquFIT9ZxeedNtjD%259j6hVNpLpIZIGwC7Ux0wPfejr9j&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE140&amp;im=Crop,rect=(290,250,1280,580);Resize,width=300"
+    },
+    {
+        "id" : 3,
+        "name" : "AMG GT 4-door Coupé",
+        "sub_id" : 3,
+        "price_description" : "6.590.000.000",
+        "img_front" :"https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrWFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtieWtsd4ZtcUfgFfXGEzymJ0lgYhOB2PBqbAp7nCI5uKMTQmIJwF1H66PDGmhSc63ZstXS0h3cUf886XGEH9ZJ0lUHhOB2ZsbbA4wHEcmqN1IwCQKE7qpnIu2fzzjFm93Su9Q6DF1s1n2nvligKfLlCVz9Xu9&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE040&amp;im=Crop,rect=(360,250,1280,580);Resize,width=300",
+        "img_back" : "https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrWFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtieWtsd4ZtcUfgFfXGEzymJ0lgYhOB2PBqbAp7nCI5uKMTQmIJwF1H66PDGmhSc63ZstXS0h3cUf886XGEH9ZJ0lUHhOB2ZsbbA4wHEcmqN1IwCQKE7qpnIu2fzzjFm93Su9Q6DF1s1n2nvligKfLlCVz9Xu9&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE140&amp;im=Crop,rect=(290,250,1280,580);Resize,width=300"
+    }
+   ]
+}

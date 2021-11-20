@@ -21880,7 +21880,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nimg[data-v-9747a0e2] {\n  max-width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.car-image[data-v-9747a0e2] {\n  margin-top: 5px;\n  transform-style: preserve-3d;\n  transition: 1s all;\n  perspective: 1500px;\n  position: relative;\n}\n.front-image[data-v-9747a0e2] {\n  width: 100%;\n}\n.back-image[data-v-9747a0e2] {\n  position: absolute;\n  transform: rotateY(180deg) translateZ(85px);\n  width: 100%;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.car-image[data-v-9747a0e2]:hover {\n  background: #f1f2f6;\n  transform: rotateY(180deg);\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nimg[data-v-9747a0e2] {\r\n  max-width: 100%;\r\n  -o-object-fit: cover;\r\n     object-fit: cover;\n}\n.car-image[data-v-9747a0e2] {\r\n  margin-top: 5px;\r\n  transform-style: preserve-3d;\r\n  transition: 1s all;\r\n  perspective: 1500px;\r\n  position: relative;\n}\n.front-image[data-v-9747a0e2] {\r\n  width: 100%;\n}\n.back-image[data-v-9747a0e2] {\r\n  position: absolute;\r\n  transform: rotateY(180deg) translateZ(85px);\r\n  width: 100%;\r\n  top: 0;\r\n  bottom: 0;\r\n  left: 0;\r\n  right: 0;\n}\n.car-image[data-v-9747a0e2]:hover {\r\n  background: #f1f2f6;\r\n  transform: rotateY(180deg);\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
