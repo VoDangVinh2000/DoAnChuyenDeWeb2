@@ -22,7 +22,8 @@ class SubGroupFactory extends Factory
     public function definition()
     {
         return [
-           //
-        ];
+            'subgroup_name' => 'Sedans',
+            'status' => 'Tồn',
+            ];
     }
 }
