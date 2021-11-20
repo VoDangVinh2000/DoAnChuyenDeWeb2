@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class SubFooter extends Model
 {
+    protected $table = "subfooter";
     use HasFactory;
 }

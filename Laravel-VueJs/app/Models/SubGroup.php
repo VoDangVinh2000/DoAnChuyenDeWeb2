@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class SubGroup extends Model
 {
+    protected $table = "subgroup";
     use HasFactory;
 }
