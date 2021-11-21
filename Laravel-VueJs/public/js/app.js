@@ -20095,6 +20095,40 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=script&lang=js":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=script&lang=js ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Footer1"
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=script&lang=js":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=script&lang=js ***!
+  \**********************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  name: "Footer2"
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Register.vue?vue&type=script&lang=js":
 /*!**************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Register.vue?vue&type=script&lang=js ***!
@@ -20313,8 +20347,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _components_Products_Footer1_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../components/Products/Footer1.vue */ "./resources/js/components/Products/Footer1.vue");
+/* harmony import */ var _components_Products_Footer2_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../components/Products/Footer2.vue */ "./resources/js/components/Products/Footer2.vue");
+
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'CarsHome'
+  name: "CarsHome",
+  components: {
+    Footer1: _components_Products_Footer1_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    Footer2: _components_Products_Footer2_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
+  }
 });
 
 /***/ }),
@@ -20919,6 +20961,918 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516 ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "Footer 1", -1
+/* HOISTED */
+);
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "sitemap base parbase"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.sitemap.publish"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "container-outer brandhub-footer-sitemap-menu reveal-it brandhub-fade-in brandhub-from-bottom reveal-it-loaded view",
+  "data-analytics-content-milestone": "-1"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-section"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "spacer large"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-section-sitemap"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "col-xs-12 col-sm-12 col-md-12 col-lg-3 brandhub-sitemapgroup"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-headline-m"
+}, " More topics "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "brandhub-hr"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/next/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Innovation",
+  target: "_self"
+}, " Innovation ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/design/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Design",
+  target: "_self"
+}, " Design ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/exhibitions/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Exhibitions",
+  target: "_self"
+}, " Exhibitions ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/classic/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Museum & History",
+  target: "_self"
+}, " Museum & History ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/sports/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Sports",
+  target: "_self"
+}, " Sports ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.mercedes-benz.com/en/mercedes-benz/events/driving-events/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Driving Events",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Driving Events ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://me.secure.mercedes-benz.com/wps/portal",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes me Portal",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Mercedes me Portal ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "col-xs-12 col-sm-12 col-md-12 col-lg-3 brandhub-sitemapgroup"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-headline-m"
+}, " Shopping "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "brandhub-hr"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "http://mb4.me/your-retailer",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Dealer Search",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Dealer Search ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://configurator.mercedes-benz-accessories.com/?csref=_port_mbcom:en",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Benz Accessoires",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Mercedes-Benz Accessoires ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://shop.mercedes-benz.com/collection/?csref=_port_mbcom:en",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Benz Collection",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Mercedes-Benz Collection ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://shop.mercedes-benz.com/en-gb/connect/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes me connect Store",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Mercedes me connect Store ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/vehicles/service-parts/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Service & Parts",
+  target: "_self"
+}, " Service & Parts ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://shop.mercedesamgf1.com/?___store=eeur",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Formula 1 Store",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Formula 1 Store ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/classic/classiccenter/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Benz Classic Center",
+  target: "_self"
+}, " Mercedes-Benz Classic Center ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "col-xs-12 col-sm-12 col-md-12 col-lg-3 brandhub-sitemapgroup"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-headline-m"
+}, " All about cars "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "brandhub-hr"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "http://mb4.me/all-models",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Model Overview",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Model Overview ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "http://mb4.me/your-mercedes",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Configurator",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Configurator ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "http://mb4.me/book-a-test-drive",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Test Drive",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Test Drive ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.mercedes-benz.com/en/vehicles/passenger-cars/mercedes-maybach/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Maybach",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Mercedes-Maybach ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "http://mb4.me/mercedes-me-home",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes me connect",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Mercedes me connect ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.mercedes-benz.com/en/driving-aids/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Benz Ex-Factory Driving Aids",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Mercedes-Benz Ex-Factory Driving Aids ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/vehicles/wltp/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "WLTP",
+  target: "_self"
+}, " WLTP ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/vehicles/rde/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "RDE",
+  target: "_self"
+}, " RDE ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/semiconductor/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Semiconductors supply situation",
+  target: "_self"
+}, " Semiconductors supply situation ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/vehicles/li-ion-un383/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Li-Ion UN38.3",
+  target: "_self"
+}, " Li-Ion UN38.3 ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "col-xs-12 col-sm-12 col-md-12 col-lg-3 brandhub-sitemapgroup"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-headline-m"
+}, " Discover more "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "brandhub-hr"
+}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.daimler.com/en/",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Daimler AG",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Daimler AG ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.mercedes-benz.com/en/company/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Benz AG",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Mercedes-Benz AG ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/newsroom/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Newsroom",
+  target: "_self"
+}, " Newsroom ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.daimler.com/press/",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Press",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Press ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.daimler.com/career/",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Career",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Career ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/vehicles/heycar/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "heycar",
+  target: "_self"
+}, " heycar ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/vehicles/share-now/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "SHARE NOW",
+  target: "_self"
+}, " SHARE NOW ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.mercedes-benz.com/en/whitehat/",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Vulnerability Reporting Policy",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Vulnerability Reporting Policy ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/mercedes-benz-energy/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Benz Energy",
+  target: "_self"
+}, " Mercedes-Benz Energy ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "https://www.mercedes-benz-bank.de/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Benz Bank",
+  target: "_self",
+  "data-nn-externallink": ""
+}, " Mercedes-Benz Bank ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/vehicles/international-corporate-sales/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Fleet Sales",
+  target: "_self"
+}, " Fleet Sales ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/global-training/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Mercedes-Benz Global Training",
+  target: "_self"
+}, " Mercedes-Benz Global Training ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/customer-centre-sindelfingen/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Customer Centre Sindelfingen",
+  target: "_self"
+}, " Customer Centre Sindelfingen ")])])])])])])], -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
+  "class": "footersection base parbase"
+};
+var _hoisted_4 = {
+  "class": "brandhub-footer-section reveal-it brandhub-fade-in brandhub-from-bottom variant-6-6 reveal-it-loaded",
+  "data-analytics-content-milestone": "-1"
+};
+var _hoisted_5 = {
+  "class": "container-outer"
+};
+var _hoisted_6 = {
+  "class": "brandhub-section"
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-headline-m"
+}, " Stay informed ", -1
+/* HOISTED */
+);
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
+  "class": "brandhub-hr"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_9 = {
+  "class": "brandhub-footer-section__row"
+};
+var _hoisted_10 = {
+  "class": "brandhub-footer-section__col"
+};
+
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-paragraph-indent brandhub-paragraph-text brandhub-list-style brandhub-list-style-arrow-right arrow-right"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Follow us and use the following social media platforms to get in contact with us and to share your passion for the brand, products and services of Mercedes-Benz.")], -1
+/* HOISTED */
+);
+
+var _hoisted_12 = {
+  "class": "brandhub-footer-social-icons"
+};
+var _hoisted_13 = {
+  "class": "brandhub-footer-social-icons__list clearfix brandhub-footer-social-icons__list--medium"
+};
+var _hoisted_14 = {
+  role: "presentation",
+  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
+};
+var _hoisted_15 = {
+  href: "https://www.facebook.com/MercedesBenz",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "social links",
+  "data-analytics-label": "Facebook",
+  "data-analytics-destination-url": "https://www.facebook.com/MercedesBenz",
+  "data-nn-externallink": ""
+};
+var _hoisted_16 = {
+  role: "presentation",
+  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
+};
+var _hoisted_17 = {
+  href: "https://twitter.com/mercedesbenz",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "social links",
+  "data-analytics-label": "Twitter",
+  "data-analytics-destination-url": "https://twitter.com/mercedesbenz",
+  "data-nn-externallink": ""
+};
+var _hoisted_18 = {
+  role: "presentation",
+  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
+};
+var _hoisted_19 = {
+  href: "https://www.youtube.com/user/MercedesBenzTV",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "social links",
+  "data-analytics-label": "YouTube",
+  "data-analytics-destination-url": "https://www.youtube.com/user/MercedesBenzTV",
+  "data-nn-externallink": ""
+};
+var _hoisted_20 = {
+  role: "presentation",
+  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
+};
+var _hoisted_21 = {
+  href: "https://instagram.com/mercedesbenz/",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "social links",
+  "data-analytics-label": "Instagram",
+  "data-analytics-destination-url": "https://instagram.com/mercedesbenz/",
+  "data-nn-externallink": ""
+};
+var _hoisted_22 = {
+  role: "presentation",
+  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
+};
+var _hoisted_23 = {
+  href: "https://www.linkedin.com/company/mercedes-benz_ag",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "social links",
+  "data-analytics-label": "linkedin",
+  "data-analytics-destination-url": "https://www.linkedin.com/company/mercedes-benz_ag",
+  "data-nn-externallink": ""
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_brandhub_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("brandhub-icon");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", null, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.footersection.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.footersocialicons.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-facebook brandhub-icon--default",
+    icon: "facebook",
+    width: "27",
+    height: "27"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-twitter brandhub-icon--default",
+    icon: "twitter",
+    width: "27",
+    height: "27"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-youtube brandhub-icon--default",
+    icon: "youtube",
+    width: "27",
+    height: "27"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-instagram brandhub-icon--default",
+    icon: "instagram",
+    width: "27",
+    height: "27"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-linkedin brandhub-icon--default",
+    icon: "linkedin",
+    width: "27",
+    height: "27"
+  })])])])])])])])])])])])])]);
+}
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97 ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Footer 2", -1
+/* HOISTED */
+);
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"footersection base parbase\"><!-- Categories: brandhub-embxp.footersection.publish--><section class=\"brandhub-footer-section reveal-it brandhub-fade-in brandhub-from-bottom variant-12 reveal-it-loaded\" data-analytics-content-milestone=\"-1\"><div class=\"container-outer\"><div class=\"brandhub-section\"><hr class=\"brandhub-hr\"><div class=\"brandhub-footer-section__row\"><div class=\"brandhub-footer-section__col\"><div><div class=\"relatedwebsites__outer\"><!-- Categories: brandhub-embxp.relatedwebsites.publish--><div class=\"relatedwebsites\"><ul class=\"relatedwebsites__list\"><li class=\"relatedwebsites__item\"><a class=\"relatedwebsites__link\" href=\"https://www.mercedes-amg.com/en.html\" target=\"_blank\" rel=\"noopener\" data-analytics-category=\"link\" data-analytics-action=\"footer\" data-analytics-label=\"AMG - Driving Performance\" data-analytics-destination-url=\"https://www.mercedes-amg.com/en.html\" data-nn-externallink=\"\"><img class=\"img-responsive\" src=\"/content/dam/brandhub/experience-fragments/related-websites-logos/logo_amg.svg\" alt=\"AMG - Driving Performance\"></a></li><li class=\"relatedwebsites__item\"><a class=\"relatedwebsites__link\" href=\"https://www.daimler.com/en/\" target=\"_blank\" rel=\"noopener\" data-analytics-category=\"link\" data-analytics-action=\"footer\" data-analytics-label=\"Daimler AG\" data-analytics-destination-url=\"https://www.daimler.com/en/\" data-nn-externallink=\"\"><img class=\"img-responsive\" src=\"/content/dam/brandhub/experience-fragments/related-websites-logos/logo_daimler.svg\" alt=\"Daimler AG\"></a></li><li class=\"relatedwebsites__item\"><a class=\"relatedwebsites__link\" href=\"https://www.smart.com/en/en/index.html\" target=\"_blank\" rel=\"noopener\" data-analytics-category=\"link\" data-analytics-action=\"footer\" data-analytics-label=\"Smart\" data-analytics-destination-url=\"https://www.smart.com/en/en/index.html\" data-nn-externallink=\"\"><img class=\"img-responsive\" src=\"/content/dam/brandhub/experience-fragments/related-websites-logos/logo_smart.svg\" alt=\"Smart\"></a></li></ul></div></div></div></div></div></div></div></section></div><div class=\"footersection base parbase\"><!-- Categories: brandhub-embxp.footersection.publish--><section class=\"brandhub-footer-section reveal-it brandhub-fade-in brandhub-from-bottom variant-12 reveal-it-loaded\" data-analytics-content-milestone=\"-1\"><div class=\"container-outer\"><div class=\"brandhub-section\"><hr class=\"brandhub-hr\"><div class=\"brandhub-footer-section__row\"><div class=\"brandhub-footer-section__col\"><div><div class=\"brandhub-paragraph-indent brandhub-paragraph-text brandhub-list-style brandhub-list-style-arrow-right text-indent-none arrow-right\"><p>This is the International website of Mercedes-Benz AG. Visitors from the U.S., please visit our U.S. website <a href=\"https://www.mbusa.com\" target=\"_blank\" data-nn-externallink=\"\">www.mbusa.com</a>.</p></div></div></div></div></div></div></section></div><div class=\"spacer huge\"></div>", 3);
+
+var _hoisted_5 = {
+  "class": "container-outer"
+};
+var _hoisted_6 = {
+  "class": "brandhub-section"
+};
+var _hoisted_7 = {
+  "class": "row brandhub-main-footer-meta",
+  "data-contact-form-url": "https://www.mercedes-benz.de/content/germany/de/passengercars/content-pool/marketing-pool/contact-forms/forms/brandhub/brandhub-request/_jcr_content.formcomponentexporter.json"
+};
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"brandhub-meta-lang-wrapper\"><nav class=\"brandhub-meta-nav\"><!-- Categories: brandhub-embxp.languageswitcher.publish--><!-- Categories: brandhub-embxp.metanav.publish--><div class=\"brandhub-meta-nav__container brandhub-meta-nav__container--language\"><div class=\"brandhub-meta-lang-switch\"><ul class=\"brandhub-lang-list\"><li class=\"brandhub-lang-item brandhub-lang-item-de\"><a href=\"/de/\" data-lang=\"de\" class=\"brandhub-lang-link brandhub-hover\"><span class=\"brandhub-lang-link--mobile\"> Deutsch </span> <span class=\"brandhub-lang-link--desktop\"> Deutsch </span></a></li><li class=\"brandhub-lang-item brandhub-lang-item-en active\"><a href=\"/en/\" data-lang=\"en\" class=\"brandhub-lang-link brandhub-hover active\"><span class=\"brandhub-lang-link--mobile\"> English </span> <span class=\"brandhub-lang-link--desktop\"> English </span></a></li></ul></div></div></nav></div>", 1);
+
+var _hoisted_9 = {
+  "class": "brandhub-meta-footer"
+};
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-footer-navigation brandhub-meta-nav"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/newsfeed/",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Newsfeed (RSS)",
+  target: "_self"
+}, " Newsfeed (RSS) ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "#contact",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Contact",
+  target: "_blank"
+}, " Contact ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "http://www.daimler.com/career/",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Careers",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Careers ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "http://www.daimler.com/investors/",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Investor Relations",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Investor Relations ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "http://www.daimler.com/en/",
+  rel: "noopener",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-analytics-label": "Daimler AG",
+  target: "_blank",
+  "data-nn-externallink": ""
+}, " Daimler AG ")])])], -1
+/* HOISTED */
+);
+
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "brandhub-legal-navigation brandhub-meta-nav"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/providerprivacy-statement/provider/",
+  "data-js-anchor": "#provider",
+  "data-toggle": "modal",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-target": "#brandhub-legal-modal",
+  "data-analytics-label": "Provider"
+}, " Provider ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/providerprivacy-statement/legal-notice/",
+  "data-js-anchor": "#legalNotice",
+  "data-toggle": "modal",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-target": "#brandhub-legal-modal",
+  "data-analytics-label": "Legal Notice"
+}, " Legal Notice ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/providerprivacy-statement/cookies/",
+  "data-js-anchor": "#cookies",
+  "data-toggle": "modal",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-target": "#brandhub-legal-modal",
+  "data-analytics-label": "Cookies"
+}, " Cookies ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
+  role: "presentation"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
+  href: "/en/providerprivacy-statement/privacy-statement/",
+  "data-js-anchor": "#privacyStatement",
+  "data-toggle": "modal",
+  "data-analytics-category": "navigation click",
+  "data-analytics-action": "footer",
+  "data-target": "#brandhub-legal-modal",
+  "data-analytics-label": "Privacy Statement"
+}, " Privacy Statement ")])])], -1
+/* HOISTED */
+);
+
+var _hoisted_12 = {
+  "class": "modal fade",
+  id: "brandhub-legal-modal",
+  tabindex: "-1",
+  role: "dialog",
+  "aria-labelledby": "brandhub-legal-modal",
+  "aria-hidden": "true",
+  "aria-live": "polite"
+};
+var _hoisted_13 = {
+  "class": "modal-dialog"
+};
+var _hoisted_14 = {
+  "class": "modal-content"
+};
+var _hoisted_15 = {
+  "class": "modal-header"
+};
+var _hoisted_16 = {
+  type: "button",
+  "class": "brandhub-legal-modal-close",
+  "data-dismiss": "modal",
+  "aria-label": "Close"
+};
+
+var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "modal-body",
+  "data-js-legal-popup-url": "/content/experience-fragments/brandhub/mercedes-benz/brandhub-legal-links/en-legal-links.popup"
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_18 = {
+  "class": "brandhub-meta-toplink"
+};
+var _hoisted_19 = {
+  href: "#top",
+  "class": "brandhub-page-top"
+};
+
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Top ");
+
+var _hoisted_21 = {
+  "class": "ctastrap"
+};
+var _hoisted_22 = {
+  "class": "brandhub-cta-strap",
+  "data-num-items-desktop-tablet": "5",
+  "data-num-items-mobile": "4"
+};
+var _hoisted_23 = {
+  "class": "brandhub-cta-strap__inner"
+};
+var _hoisted_24 = {
+  "class": "brandhub-cta-strap__item brandhub-cta-strap__item--first"
+};
+var _hoisted_25 = {
+  href: "http://mb4.me/all-models",
+  target: "_blank",
+  "class": "brandhub-cta-strap__link",
+  "data-analytics-category": "link",
+  "data-analytics-action": "cta strap",
+  "data-analytics-label": "Product page",
+  "data-analytics-destination-url": "http://mb4.me/all-models",
+  "data-nn-externallink": ""
+};
+
+var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "brandhub-cta-strap__label"
+}, "Product page", -1
+/* HOISTED */
+);
+
+var _hoisted_28 = {
+  "class": "brandhub-cta-strap__item"
+};
+var _hoisted_29 = {
+  href: "http://mb4.me/your-mercedes",
+  target: "_blank",
+  "class": "brandhub-cta-strap__link",
+  "data-analytics-category": "link",
+  "data-analytics-action": "cta strap",
+  "data-analytics-label": "Configurator",
+  "data-analytics-destination-url": "http://mb4.me/your-mercedes",
+  "data-nn-externallink": ""
+};
+
+var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "brandhub-cta-strap__label"
+}, "Configurator", -1
+/* HOISTED */
+);
+
+var _hoisted_32 = {
+  "class": "brandhub-cta-strap__item brandhub-cta-strap__item--share brandhub-cta-strap__item--last"
+};
+var _hoisted_33 = {
+  "class": "brandhub-cta-strap__link"
+};
+
+var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+  "class": "brandhub-cta-strap__label brandhub-cta-strap__label-share"
+}, "Share", -1
+/* HOISTED */
+);
+
+var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_37 = {
+  "class": "brandhub-cta-strap__share-links-wrapper"
+};
+var _hoisted_38 = {
+  "class": "brandhub-cta-strap__share-link",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "cta strap",
+  "data-analytics-label": "emb-share-facebook",
+  "data-analytics-destination-url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
+  href: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
+  "data-nn-externallink": ""
+};
+
+var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_40 = {
+  "class": "brandhub-cta-strap__share-link",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "cta strap",
+  "data-analytics-label": "emb-share-twitter",
+  "data-analytics-destination-url": "https://twitter.com/intent/tweet?via=MercedesBenz&text=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
+  href: "https://twitter.com/intent/tweet?via=MercedesBenz&text=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
+  "data-nn-externallink": ""
+};
+
+var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_42 = {
+  "class": "brandhub-cta-strap__share-link",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "cta strap",
+  "data-analytics-label": "emb-share-pinterest",
+  "data-analytics-destination-url": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
+  href: "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
+  "data-nn-externallink": ""
+};
+
+var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_44 = {
+  "class": "brandhub-cta-strap__share-link brandhub-cta-strap__share-link--mobile-only",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "cta strap",
+  "data-analytics-label": "emb-share-facebook",
+  "data-analytics-destination-url": "fb-messenger://share/?link=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
+  href: "fb-messenger://share/?link=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F"
+};
+
+var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_46 = {
+  "class": "brandhub-cta-strap__share-link brandhub-cta-strap__share-link--mobile-only",
+  target: "_blank",
+  "data-analytics-category": "link",
+  "data-analytics-action": "cta strap",
+  "data-analytics-label": "emb-share-whatsapp",
+  "data-analytics-destination-url": "whatsapp://send?text=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
+  href: "whatsapp://send?text=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F"
+};
+
+var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
+
+var _hoisted_48 = {
+  "class": "brandhub-cta-strap__share-link",
+  "data-analytics-category": "link",
+  "data-analytics-action": "cta strap",
+  "data-analytics-label": "emb-share-mail",
+  "data-analytics-destination-url": "mailto:?body=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F&subject=www.mercedes-benz.com",
+  href: "mailto:?body=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F&subject=www.mercedes-benz.com"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_brandhub_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("brandhub-icon");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", null, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.footernavigation.publish"), _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.footernavigation.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.legallinks.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.accordion.publish"), _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-close",
+    icon: "close",
+    width: "13",
+    height: "13"
+  })])]), _hoisted_17])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.toplink.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_19, [_hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-arrow-up-inline",
+    icon: "chevron-up",
+    width: "16",
+    height: "18"
+  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.ctastrap.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-car brandhub-cta-strap__icon",
+    icon: "car",
+    style: {
+      "width": "25px",
+      "margin": "0 9px"
+    }
+  }), _hoisted_26, _hoisted_27])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-car-config brandhub-cta-strap__icon",
+    icon: "car-config",
+    style: {
+      "width": "30px",
+      "margin": "0 7px"
+    }
+  }), _hoisted_30, _hoisted_31])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-share brandhub-cta-strap__icon",
+    icon: "share",
+    width: "22",
+    height: "22"
+  }), _hoisted_34, _hoisted_35, _hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-facebook brandhub-cta-strap__share-link__icon",
+    icon: "facebook",
+    width: "22",
+    height: "22"
+  })]), _hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-twitter brandhub-cta-strap__share-link__icon",
+    icon: "twitter",
+    width: "22",
+    height: "22"
+  })]), _hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-pinterest brandhub-cta-strap__share-link__icon",
+    icon: "pinterest",
+    width: "30",
+    height: "22"
+  })]), _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-messenger brandhub-cta-strap__share-link__icon",
+    icon: "messenger",
+    width: "22",
+    height: "22"
+  })]), _hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-whatsapp brandhub-cta-strap__share-link__icon",
+    icon: "whatsapp",
+    width: "22",
+    height: "22"
+  })]), _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
+    "class": "brandhub-icon brandhub-icon-email brandhub-cta-strap__share-link__icon",
+    icon: "email",
+    width: "30",
+    height: "22"
+  })])])])])])])])])])])]);
+}
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Register.vue?vue&type=template&id=97358ae4&scoped=true":
 /*!******************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Register.vue?vue&type=template&id=97358ae4&scoped=true ***!
@@ -21331,14 +22285,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
-
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Idol nuocws Myx")], -1
-/* HOISTED */
-);
-
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Gọi các cpn tạo ra trang home !"), _hoisted_1], 2112
-  /* STABLE_FRAGMENT, DEV_ROOT_FRAGMENT */
+  var _component_Footer1 = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer1");
+
+  var _component_Footer2 = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer2");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Gọi các cpn tạo ra trang home !"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer1), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer2)], 64
+  /* STABLE_FRAGMENT */
   );
 }
 
@@ -40618,7 +41571,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _EditUser_vue_vue_type_template_id_bc956840_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EditUser.vue?vue&type=template&id=bc956840&scoped=true */ "./resources/js/components/EditUser.vue?vue&type=template&id=bc956840&scoped=true");
 /* harmony import */ var _EditUser_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EditUser.vue?vue&type=script&lang=js */ "./resources/js/components/EditUser.vue?vue&type=script&lang=js");
 /* harmony import */ var _EditUser_vue_vue_type_style_index_0_id_bc956840_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./EditUser.vue?vue&type=style&index=0&id=bc956840&scoped=true&lang=css */ "./resources/js/components/EditUser.vue?vue&type=style&index=0&id=bc956840&scoped=true&lang=css");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -40626,7 +41579,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_EditUser_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_EditUser_vue_vue_type_template_id_bc956840_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-bc956840"],['__file',"resources/js/components/EditUser.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_EditUser_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_EditUser_vue_vue_type_template_id_bc956840_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-bc956840"],['__file',"resources/js/components/EditUser.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40647,12 +41600,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var _Footer_vue_vue_type_template_id_61a7c374__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer.vue?vue&type=template&id=61a7c374 */ "./resources/js/components/Footer.vue?vue&type=template&id=61a7c374");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 const script = {}
 
 ;
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Footer_vue_vue_type_template_id_61a7c374__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Footer.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_1__["default"])(script, [['render',_Footer_vue_vue_type_template_id_61a7c374__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Footer.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40675,7 +41628,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Header_vue_vue_type_template_id_1f42fb90__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Header.vue?vue&type=template&id=1f42fb90 */ "./resources/js/components/Header.vue?vue&type=template&id=1f42fb90");
 /* harmony import */ var _Header_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Header.vue?vue&type=script&lang=js */ "./resources/js/components/Header.vue?vue&type=script&lang=js");
 /* harmony import */ var _Header_vue_vue_type_style_index_0_id_1f42fb90_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Header.vue?vue&type=style&index=0&id=1f42fb90&lang=css */ "./resources/js/components/Header.vue?vue&type=style&index=0&id=1f42fb90&lang=css");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -40683,7 +41636,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Header_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Header_vue_vue_type_template_id_1f42fb90__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Header.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Header_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Header_vue_vue_type_template_id_1f42fb90__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Header.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40706,7 +41659,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Home_vue_vue_type_template_id_f2b6376c_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=f2b6376c&scoped=true */ "./resources/js/components/Home.vue?vue&type=template&id=f2b6376c&scoped=true");
 /* harmony import */ var _Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js */ "./resources/js/components/Home.vue?vue&type=script&lang=js");
 /* harmony import */ var _Home_vue_vue_type_style_index_0_id_f2b6376c_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Home.vue?vue&type=style&index=0&id=f2b6376c&scoped=true&lang=css */ "./resources/js/components/Home.vue?vue&type=style&index=0&id=f2b6376c&scoped=true&lang=css");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -40714,7 +41667,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_f2b6376c_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-f2b6376c"],['__file',"resources/js/components/Home.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_f2b6376c_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-f2b6376c"],['__file',"resources/js/components/Home.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40737,7 +41690,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Login_vue_vue_type_template_id_6bdc8b8e_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Login.vue?vue&type=template&id=6bdc8b8e&scoped=true */ "./resources/js/components/Login.vue?vue&type=template&id=6bdc8b8e&scoped=true");
 /* harmony import */ var _Login_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Login.vue?vue&type=script&lang=js */ "./resources/js/components/Login.vue?vue&type=script&lang=js");
 /* harmony import */ var _Login_vue_vue_type_style_index_0_id_6bdc8b8e_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Login.vue?vue&type=style&index=0&id=6bdc8b8e&scoped=true&lang=css */ "./resources/js/components/Login.vue?vue&type=style&index=0&id=6bdc8b8e&scoped=true&lang=css");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -40745,7 +41698,63 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Login_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Login_vue_vue_type_template_id_6bdc8b8e_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-6bdc8b8e"],['__file',"resources/js/components/Login.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Login_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Login_vue_vue_type_template_id_6bdc8b8e_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-6bdc8b8e"],['__file',"resources/js/components/Login.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/components/Products/Footer1.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/Products/Footer1.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Footer1_vue_vue_type_template_id_4c288516__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer1.vue?vue&type=template&id=4c288516 */ "./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516");
+/* harmony import */ var _Footer1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer1.vue?vue&type=script&lang=js */ "./resources/js/components/Products/Footer1.vue?vue&type=script&lang=js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Footer1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Footer1_vue_vue_type_template_id_4c288516__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Products/Footer1.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
+/***/ "./resources/js/components/Products/Footer2.vue":
+/*!******************************************************!*\
+  !*** ./resources/js/components/Products/Footer2.vue ***!
+  \******************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Footer2_vue_vue_type_template_id_4c369c97__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer2.vue?vue&type=template&id=4c369c97 */ "./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97");
+/* harmony import */ var _Footer2_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer2.vue?vue&type=script&lang=js */ "./resources/js/components/Products/Footer2.vue?vue&type=script&lang=js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Footer2_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Footer2_vue_vue_type_template_id_4c369c97__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Products/Footer2.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40768,7 +41777,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Register_vue_vue_type_template_id_97358ae4_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Register.vue?vue&type=template&id=97358ae4&scoped=true */ "./resources/js/components/Register.vue?vue&type=template&id=97358ae4&scoped=true");
 /* harmony import */ var _Register_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Register.vue?vue&type=script&lang=js */ "./resources/js/components/Register.vue?vue&type=script&lang=js");
 /* harmony import */ var _Register_vue_vue_type_style_index_0_id_97358ae4_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Register.vue?vue&type=style&index=0&id=97358ae4&scoped=true&lang=css */ "./resources/js/components/Register.vue?vue&type=style&index=0&id=97358ae4&scoped=true&lang=css");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -40776,7 +41785,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Register_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Register_vue_vue_type_template_id_97358ae4_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-97358ae4"],['__file',"resources/js/components/Register.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Register_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Register_vue_vue_type_template_id_97358ae4_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-97358ae4"],['__file',"resources/js/components/Register.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40799,7 +41808,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Users_vue_vue_type_template_id_4243cd86_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Users.vue?vue&type=template&id=4243cd86&scoped=true */ "./resources/js/components/Users/Users.vue?vue&type=template&id=4243cd86&scoped=true");
 /* harmony import */ var _Users_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Users.vue?vue&type=script&lang=js */ "./resources/js/components/Users/Users.vue?vue&type=script&lang=js");
 /* harmony import */ var _Users_vue_vue_type_style_index_0_id_4243cd86_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Users.vue?vue&type=style&index=0&id=4243cd86&scoped=true&lang=css */ "./resources/js/components/Users/Users.vue?vue&type=style&index=0&id=4243cd86&scoped=true&lang=css");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -40807,7 +41816,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Users_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Users_vue_vue_type_template_id_4243cd86_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-4243cd86"],['__file',"resources/js/components/Users/Users.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Users_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Users_vue_vue_type_template_id_4243cd86_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-4243cd86"],['__file',"resources/js/components/Users/Users.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40829,13 +41838,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _CarsHome_vue_vue_type_template_id_0c21501f__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CarsHome.vue?vue&type=template&id=0c21501f */ "./resources/js/views/Cars/CarsHome.vue?vue&type=template&id=0c21501f");
 /* harmony import */ var _CarsHome_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CarsHome.vue?vue&type=script&lang=js */ "./resources/js/views/Cars/CarsHome.vue?vue&type=script&lang=js");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CarsHome_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CarsHome_vue_vue_type_template_id_0c21501f__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/views/Cars/CarsHome.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_CarsHome_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_CarsHome_vue_vue_type_template_id_0c21501f__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/views/Cars/CarsHome.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40857,13 +41866,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _EditUser_vue_vue_type_template_id_5ac38ad8__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./EditUser.vue?vue&type=template&id=5ac38ad8 */ "./resources/js/views/EditUser.vue?vue&type=template&id=5ac38ad8");
 /* harmony import */ var _EditUser_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./EditUser.vue?vue&type=script&lang=js */ "./resources/js/views/EditUser.vue?vue&type=script&lang=js");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_EditUser_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_EditUser_vue_vue_type_template_id_5ac38ad8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/views/EditUser.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_EditUser_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_EditUser_vue_vue_type_template_id_5ac38ad8__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/views/EditUser.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40885,13 +41894,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _Home_vue_vue_type_template_id_63cd6604__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Home.vue?vue&type=template&id=63cd6604 */ "./resources/js/views/Home.vue?vue&type=template&id=63cd6604");
 /* harmony import */ var _Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Home.vue?vue&type=script&lang=js */ "./resources/js/views/Home.vue?vue&type=script&lang=js");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_63cd6604__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/views/Home.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Home_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Home_vue_vue_type_template_id_63cd6604__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/views/Home.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40914,7 +41923,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Login_vue_vue_type_template_id_12f5395a_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Login.vue?vue&type=template&id=12f5395a&scoped=true */ "./resources/js/views/Login.vue?vue&type=template&id=12f5395a&scoped=true");
 /* harmony import */ var _Login_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Login.vue?vue&type=script&lang=js */ "./resources/js/views/Login.vue?vue&type=script&lang=js");
 /* harmony import */ var _Login_vue_vue_type_style_index_0_id_12f5395a_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Login.vue?vue&type=style&index=0&id=12f5395a&scoped=true&lang=css */ "./resources/js/views/Login.vue?vue&type=style&index=0&id=12f5395a&scoped=true&lang=css");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -40922,7 +41931,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Login_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Login_vue_vue_type_template_id_12f5395a_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-12f5395a"],['__file',"resources/js/views/Login.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Login_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Login_vue_vue_type_template_id_12f5395a_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-12f5395a"],['__file',"resources/js/views/Login.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -40945,7 +41954,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Register_vue_vue_type_template_id_3563ad7c_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Register.vue?vue&type=template&id=3563ad7c&scoped=true */ "./resources/js/views/Register.vue?vue&type=template&id=3563ad7c&scoped=true");
 /* harmony import */ var _Register_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Register.vue?vue&type=script&lang=js */ "./resources/js/views/Register.vue?vue&type=script&lang=js");
 /* harmony import */ var _Register_vue_vue_type_style_index_0_id_3563ad7c_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Register.vue?vue&type=style&index=0&id=3563ad7c&scoped=true&lang=css */ "./resources/js/views/Register.vue?vue&type=style&index=0&id=3563ad7c&scoped=true&lang=css");
-/* harmony import */ var D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
@@ -40953,7 +41962,7 @@ __webpack_require__.r(__webpack_exports__);
 ;
 
 
-const __exports__ = /*#__PURE__*/(0,D_Chuyen_De_Phat_Trien_Web_2_Do_an_web_2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Register_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Register_vue_vue_type_template_id_3563ad7c_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-3563ad7c"],['__file',"resources/js/views/Register.vue"]])
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Register_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Register_vue_vue_type_template_id_3563ad7c_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-3563ad7c"],['__file',"resources/js/views/Register.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -41022,6 +42031,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Login_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Login_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Login.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Login.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/components/Products/Footer1.vue?vue&type=script&lang=js":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/Products/Footer1.vue?vue&type=script&lang=js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer1.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
+/***/ "./resources/js/components/Products/Footer2.vue?vue&type=script&lang=js":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/Products/Footer2.vue?vue&type=script&lang=js ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer2.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=script&lang=js");
  
 
 /***/ }),
@@ -41214,6 +42255,38 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Login_vue_vue_type_template_id_6bdc8b8e_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Login_vue_vue_type_template_id_6bdc8b8e_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Login.vue?vue&type=template&id=6bdc8b8e&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Login.vue?vue&type=template&id=6bdc8b8e&scoped=true");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516 ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_template_id_4c288516__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_template_id_4c288516__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer1.vue?vue&type=template&id=4c288516 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97 ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_template_id_4c369c97__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_template_id_4c369c97__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer2.vue?vue&type=template&id=4c369c97 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97");
 
 
 /***/ }),
@@ -45154,7 +46227,7 @@ function compileToFunction(template, options) {
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('{"_args":[["axios@0.21.4","D:\\\\Chuyen-De-Phat-Trien-Web-2\\\\Do-an-web-2\\\\Laravel-VueJs"]],"_development":true,"_from":"axios@0.21.4","_id":"axios@0.21.4","_inBundle":false,"_integrity":"sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==","_location":"/axios","_phantomChildren":{},"_requested":{"type":"version","registry":true,"raw":"axios@0.21.4","name":"axios","escapedName":"axios","rawSpec":"0.21.4","saveSpec":null,"fetchSpec":"0.21.4"},"_requiredBy":["#DEV:/"],"_resolved":"https://registry.npmjs.org/axios/-/axios-0.21.4.tgz","_spec":"0.21.4","_where":"D:\\\\Chuyen-De-Phat-Trien-Web-2\\\\Do-an-web-2\\\\Laravel-VueJs","author":{"name":"Matt Zabriskie"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"bugs":{"url":"https://github.com/axios/axios/issues"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}],"dependencies":{"follow-redirects":"^1.14.0"},"description":"Promise based HTTP client for the browser and node.js","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"homepage":"https://axios-http.com","jsdelivr":"dist/axios.min.js","keywords":["xhr","http","ajax","promise","node"],"license":"MIT","main":"index.js","name":"axios","repository":{"type":"git","url":"git+https://github.com/axios/axios.git"},"scripts":{"build":"NODE_ENV=production grunt build","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","examples":"node ./examples/server.js","fix":"eslint --fix lib/**/*.js","postversion":"git push && git push --tags","preversion":"npm test","start":"node ./sandbox/server.js","test":"grunt test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json"},"typings":"./index.d.ts","unpkg":"dist/axios.min.js","version":"0.21.4"}');
+module.exports = JSON.parse('{"name":"axios","version":"0.21.4","description":"Promise based HTTP client for the browser and node.js","main":"index.js","scripts":{"test":"grunt test","start":"node ./sandbox/server.js","build":"NODE_ENV=production grunt build","preversion":"npm test","version":"npm run build && grunt version && git add -A dist && git add CHANGELOG.md bower.json package.json","postversion":"git push && git push --tags","examples":"node ./examples/server.js","coveralls":"cat coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js","fix":"eslint --fix lib/**/*.js"},"repository":{"type":"git","url":"https://github.com/axios/axios.git"},"keywords":["xhr","http","ajax","promise","node"],"author":"Matt Zabriskie","license":"MIT","bugs":{"url":"https://github.com/axios/axios/issues"},"homepage":"https://axios-http.com","devDependencies":{"coveralls":"^3.0.0","es6-promise":"^4.2.4","grunt":"^1.3.0","grunt-banner":"^0.6.0","grunt-cli":"^1.2.0","grunt-contrib-clean":"^1.1.0","grunt-contrib-watch":"^1.0.0","grunt-eslint":"^23.0.0","grunt-karma":"^4.0.0","grunt-mocha-test":"^0.13.3","grunt-ts":"^6.0.0-beta.19","grunt-webpack":"^4.0.2","istanbul-instrumenter-loader":"^1.0.0","jasmine-core":"^2.4.1","karma":"^6.3.2","karma-chrome-launcher":"^3.1.0","karma-firefox-launcher":"^2.1.0","karma-jasmine":"^1.1.1","karma-jasmine-ajax":"^0.1.13","karma-safari-launcher":"^1.0.0","karma-sauce-launcher":"^4.3.6","karma-sinon":"^1.0.5","karma-sourcemap-loader":"^0.3.8","karma-webpack":"^4.0.2","load-grunt-tasks":"^3.5.2","minimist":"^1.2.0","mocha":"^8.2.1","sinon":"^4.5.0","terser-webpack-plugin":"^4.2.3","typescript":"^4.0.5","url-search-params":"^0.10.0","webpack":"^4.44.2","webpack-dev-server":"^3.11.0"},"browser":{"./lib/adapters/http.js":"./lib/adapters/xhr.js"},"jsdelivr":"dist/axios.min.js","unpkg":"dist/axios.min.js","typings":"./index.d.ts","dependencies":{"follow-redirects":"^1.14.0"},"bundlesize":[{"path":"./dist/axios.min.js","threshold":"5kB"}]}');
 
 /***/ })
 
