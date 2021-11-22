@@ -171,8 +171,6 @@ methods :{
         width: 20px;
         height: 20px;
         border-radius: 50px;
-        box-shadow: 5px 5px red;
-        transform: rotate(42deg);
      }
     .size{
         display: none;
