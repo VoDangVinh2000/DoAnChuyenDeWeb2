@@ -163,15 +163,7 @@ methods :{
     border-radius: 20%;
     position: relative;
     }
-     .col-md-3 a:hover::after{
-         position: absolute;
-         top: 70%;
-         left: 27%;
-         content: "";
-        width: 20px;
-        height: 20px;
-        border-radius: 50px;
-     }
+ 
     .size{
         display: none;
     }
