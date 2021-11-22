@@ -2,11 +2,11 @@
   <div id="banner__slider">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div v-bind:class="[itemClass, sl.activeClass]" v-for="(sl, index) in slider" :key="index">
+        <div :class="[itemClass, sl.activeClass]" v-for="(sl, index) in slider" :key="index">
           <img class="d-block w-100" :src="sl.src" alt="First slide" />
           <div class="carousel-caption">
             <div class="container slide-title-learn-more">
-              <h3 class="animate__animated animate__fadeInDown animate__delay-1s" v-bind:class="sl.color">
+              <h3 class="animate__animated animate__fadeInDown animate__delay-1s" :class="sl.color">
                 {{ sl.title }}
               </h3>
               <a href="#" class=" animate__animated animate__fadeInDown animate__delay-2s">
