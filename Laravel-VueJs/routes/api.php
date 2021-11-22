@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\CarsController;
 use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -22,3 +23,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/all-user',[UserController::class,'index']);//Lấy danh sách users với api
 
 Route::get('/user-id/{id}',[UserController::class,'show']);//Tìm user với api
+
+Route::get('/all-cars',[CarsController::class,'index']);
