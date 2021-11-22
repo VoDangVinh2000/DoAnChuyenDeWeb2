@@ -1,12 +1,12 @@
 <template>
   <div class="product-main">
     <div class="row py-5 mx-1">
-      <div class="col-lg-4 d-flex justify-content-center wrapper" v-for="item in data" :key="item.id" >
+      <div class="col-lg-4 d-flex justify-content-center wrapper">
         <div  class="card my-2 overflow-hidden" style="width: 30rem; height: 100%" >
           <div class="card-body">
-            <h5 class="card-title text-center">{{ item.name }} </h5>
+            <h5 class="card-title text-center">Gle Coupes</h5>
             <!-- Car name !-->
-            <p class="card-text text-center">{{ item.price_description }} </p>
+            <p class="card-text text-center">2.590.000.000</p>
             <svg
               id="amg_svg__icon-amg"
               xmlns="http://www.w3.org/2000/svg"
@@ -25,10 +25,10 @@
           </div>
           <div class="car-image">
             <div class="front-image">
-              <img class="dh-io-vmos_2p2ii dh-io-vmos_1qzBt" :src="item.img_front"  srcset="  https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyItsd2HVcUfpO6XGEubYJ0l36xOB2sr%25bApUAbI5uGQMQC3aM1kzNHTnm7j8hohKVi%25E%25vqmUjyLRhnmYaxU0drH1Gm%25n8w7OcoiZKiEM4FvSlTg9Lte6PDarsSeWHthtsd8B3cUfD%25kXGE5YrJbXSqxVKnn8wPbIoTnlR4M6oeIlTg9vx96PDK1RSeWgeRtsdPvQcUfeFfXGE1zrJ0lBYrOB2A85bAp5tlI5uCQ2QCPFi2J%25xVZkFPsgGvx3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE040&amp;im=Crop,rect=(360,250,1280,580);Resize,width=600 2x"  alt="Mặt trước" />
+              <img class="dh-io-vmos_2p2ii dh-io-vmos_1qzBt" src="https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyItsd2HVcUfpO6XGEubYJ0l36xOB2sr%25bApUAbI5uGQMQC3aM1kzNHTnm7j8hohKVi%25E%25vqmUjyLRhnmYaxU0drH1Gm%25n8w7OcoiZKiEM4FvSlTg9Lte6PDarsSeWHthtsd8B3cUfD%25kXGE5YrJbXSqxVKnn8wPbIoTnlR4M6oeIlTg9vx96PDK1RSeWgeRtsdPvQcUfeFfXGE1zrJ0lBYrOB2A85bAp5tlI5uCQ2QCPFi2J%25xVZkFPsgGvx3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE040&amp;im=Crop,rect=(360,250,1280,580);Resize,width=300"  srcset="  https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyItsd2HVcUfpO6XGEubYJ0l36xOB2sr%25bApUAbI5uGQMQC3aM1kzNHTnm7j8hohKVi%25E%25vqmUjyLRhnmYaxU0drH1Gm%25n8w7OcoiZKiEM4FvSlTg9Lte6PDarsSeWHthtsd8B3cUfD%25kXGE5YrJbXSqxVKnn8wPbIoTnlR4M6oeIlTg9vx96PDK1RSeWgeRtsdPvQcUfeFfXGE1zrJ0lBYrOB2A85bAp5tlI5uCQ2QCPFi2J%25xVZkFPsgGvx3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE040&amp;im=Crop,rect=(360,250,1280,580);Resize,width=600 2x"  alt="Mặt trước" />
             </div>
             <div class="back-image">
-              <img  class="dh-io-vmos_2p2ii dh-io-vmos_1qzBt" :src="item.img_back" srcset=" https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyItsd2HVcUfpO6XGEubYJ0l36xOB2sr%25bApUAbI5uGQMQC3aM1kzNHTnm7j8hohKVi%25E%25vqmUjyLRhnmYaxU0drH1Gm%25n8w7OcoiZKiEM4FvSlTg9Lte6PDarsSeWHthtsd8B3cUfD%25kXGE5YrJbXSqxVKnn8wPbIoTnlR4M6oeIlTg9vx96PDK1RSeWgeRtsdPvQcUfeFfXGE1zrJ0lBYrOB2A85bAp5tlI5uCQ2QCPFi2J%25xVZkFPsgGvx3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE140&amp;im=Crop,rect=(290,250,1280,580);Resize,width=600 2x " alt="Mặt sau" />
+              <img  class="dh-io-vmos_2p2ii dh-io-vmos_1qzBt" src="https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyItsd2HVcUfpO6XGEubYJ0l36xOB2sr%25bApUAbI5uGQMQC3aM1kzNHTnm7j8hohKVi%25E%25vqmUjyLRhnmYaxU0drH1Gm%25n8w7OcoiZKiEM4FvSlTg9Lte6PDarsSeWHthtsd8B3cUfD%25kXGE5YrJbXSqxVKnn8wPbIoTnlR4M6oeIlTg9vx96PDK1RSeWgeRtsdPvQcUfeFfXGE1zrJ0lBYrOB2A85bAp5tlI5uCQ2QCPFi2J%25xVZkFPsgGvx3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE140&amp;im=Crop,rect=(290,250,1280,580);Resize,width=300" srcset=" https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrEFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtGyItsd2HVcUfpO6XGEubYJ0l36xOB2sr%25bApUAbI5uGQMQC3aM1kzNHTnm7j8hohKVi%25E%25vqmUjyLRhnmYaxU0drH1Gm%25n8w7OcoiZKiEM4FvSlTg9Lte6PDarsSeWHthtsd8B3cUfD%25kXGE5YrJbXSqxVKnn8wPbIoTnlR4M6oeIlTg9vx96PDK1RSeWgeRtsdPvQcUfeFfXGE1zrJ0lBYrOB2A85bAp5tlI5uCQ2QCPFi2J%25xVZkFPsgGvx3MkNulKKqD%25WjcNWmtdDZGZMuMapgeLlHp7RKWONW&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE140&amp;im=Crop,rect=(290,250,1280,580);Resize,width=600 2x " alt="Mặt sau" />
             </div>
           </div>
         </div>
@@ -47,17 +47,17 @@ export default {
       data: [],
     };
   },
-  methods: {
-    async getData() {
-      const url = "http://localhost:3000/cars/";
-      const response = await fetch(url);
-      const data = await response.json();
-      return data;
-    },
-  },
-  async created() {
-    this.data = await this.getData();
-  },
+//   methods: {
+//     async getData() {
+//       const url = "http://localhost:3000/cars/";
+//       const response = await fetch(url);
+//       const data = await response.json();
+//       return data;
+//     },
+//   },
+//   async created() {
+//     this.data = await this.getData();
+//   },
 };
 </script>
 
