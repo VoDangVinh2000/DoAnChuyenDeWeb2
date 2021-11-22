@@ -115,13 +115,11 @@ methods :{
 .col-md-3 a{
     text-decoration: none
 }
-/* .col-md-3 a:hover{
-    color:gray !important;
-    fill: gray;
-} */
+
 .col-md-3 .box:focus{
     font-size: 1.5rem;
     fill: black;
+      color:black !important;
     position: relative;
 }
 .col-md-3 .box:focus::before{
