@@ -42,6 +42,8 @@ Route::post('/login',[UserController::class,'login']);
 Route::get('/home',[UserController::class,'index']);
 Route::post('/edit-user/{id}',[UserController::class,'update']);//xử lý User tại hàm update thuộc file UserController
 Route::post('/delete/{id}',[UserController::class,'destroy']);
+
+//cars
 Route::get('/cars-home',function(){
     return view('layouts.carshome');
 });

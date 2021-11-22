@@ -1,13 +1,14 @@
 <template>
-    <!-- Gọi các cpn tạo ra trang home !-->
-    <div>
-            <p>Idol nuocws Myx</p>
-    </div>
+    <Product />
 </template>
 
 <script>
+import Product from '../../components/Products/Product.vue';
 export default {
-    name : 'CarsHome'
+    name : 'CarsHome',
+    components : {
+        Product
+    }
 }
 </script>
 
