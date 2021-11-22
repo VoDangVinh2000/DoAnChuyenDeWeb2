@@ -1,7 +1,7 @@
 <template>
   <div class="product-main">
-    <div class="row py-5 mx-1">
-      <div class="col-lg-4 d-flex justify-content-center wrapper" v-for="item in data" :key="item.id">
+    <div class="row gy-2">
+      <div class="col-lg-4 d-flex justify-content-center" v-for="item in data" :key="item.id">
         <div
           class="card my-2 overflow-hidden"
           style="width: 30rem; height: 100%"
@@ -79,6 +79,12 @@ export default {
 </script>
 
 <style scoped >
+.product-main{
+    max-width: 90%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 img {
   max-width: 100%;
   object-fit: cover;

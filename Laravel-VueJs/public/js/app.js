@@ -21030,7 +21030,7 @@ var _hoisted_1 = {
   "class": "product-main"
 };
 var _hoisted_2 = {
-  "class": "row py-5 mx-1"
+  "class": "row gy-2"
 };
 var _hoisted_3 = {
   "class": "card my-2 overflow-hidden",
@@ -21081,7 +21081,7 @@ var _hoisted_12 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.data, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
-      "class": "col-lg-4 d-flex justify-content-center wrapper",
+      "class": "col-lg-4 d-flex justify-content-center",
       key: item.id
     }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h5", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.name), 1
     /* TEXT */
@@ -21880,7 +21880,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nimg[data-v-9747a0e2] {\n  max-width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.car-image[data-v-9747a0e2] {\n  margin-top: 5px;\n  transform-style: preserve-3d;\n  transition: 1s all;\n  perspective: 1500px;\n  position: relative;\n}\n.front-image[data-v-9747a0e2] {\n  width: 100%;\n}\n.back-image[data-v-9747a0e2] {\n  position: absolute;\n  transform: rotateY(180deg) translateZ(85px);\n  width: 100%;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.car-image[data-v-9747a0e2]:hover {\n  background: #f1f2f6;\n  transform: rotateY(180deg);\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.product-main[data-v-9747a0e2]{\n    max-width: 90%;\n    height: 100%;\n    margin-left: auto;\n    margin-right: auto;\n}\nimg[data-v-9747a0e2] {\n  max-width: 100%;\n  -o-object-fit: cover;\n     object-fit: cover;\n}\n.car-image[data-v-9747a0e2] {\n  margin-top: 5px;\n  transform-style: preserve-3d;\n  transition: 1s all;\n  perspective: 1500px;\n  position: relative;\n}\n.front-image[data-v-9747a0e2] {\n  width: 100%;\n}\n.back-image[data-v-9747a0e2] {\n  position: absolute;\n  transform: rotateY(180deg) translateZ(85px);\n  width: 100%;\n  top: 0;\n  bottom: 0;\n  left: 0;\n  right: 0;\n}\n.car-image[data-v-9747a0e2]:hover {\n  background: #f1f2f6;\n  transform: rotateY(180deg);\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

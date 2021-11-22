@@ -32,9 +32,5 @@ class CarsFactory extends Factory
             'image_back' => 'https://assets.oneweb.mercedes-benz.com/iris/iris.jpg?COSY-EU-100-1713d0VXqrWFqtyO67PobzIr3eWsrrCsdRRzwQZg9pZbMw3SGtieWtsd4ZtcUfgFfXGEzymJ0lgYhOB2PBqbAp7nCI5uKMTQmIJwF1H66PDGmhSc63ZstXS0h3cUf886XGEH9ZJ0lUHhOB2ZsbbA4wHEcmqN1IwCQKE7qpnIu2fzzjFm93Su9Q6DF1s1n2nvligKfLlCVz9Xu9&amp;imgt=P27&amp;bkgnd=9&amp;pov=BE140&amp;im=Crop,rect=(290,250,1280,580);Resize,width=300'
         ];
 
-
-
-
-
     }
 }
