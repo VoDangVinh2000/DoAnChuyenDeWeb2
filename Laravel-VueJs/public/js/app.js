@@ -21656,7 +21656,7 @@ var routes = [{
   component: _views_EditUser_vue__WEBPACK_IMPORTED_MODULE_3__["default"]
 }, {
   name: "home-page",
-  path: "/car-home",
+  path: "/cars-home",
   component: _views_Cars_CarsHome_vue__WEBPACK_IMPORTED_MODULE_4__["default"]
 }];
 var router = (0,vue_router__WEBPACK_IMPORTED_MODULE_5__.createRouter)({
