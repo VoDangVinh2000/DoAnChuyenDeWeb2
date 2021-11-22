@@ -1,16 +1,16 @@
 <template>
-  <div id="banner__slider">
+  <div id="banner__slides">
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div :class="[itemClass, sl.activeClass]" v-for="(sl, index) in slider" :key="index">
-          <img class="d-block w-100" :src="sl.src" alt="First slide" />
+        <div :class="[itemClass, item.active]" v-for="(item, index) in slides" :key="index">
+          <img class="d-block w-100" :src="item.image" alt="First slide" />
           <div class="carousel-caption">
             <div class="container slide-title-learn-more">
-              <h3 class="animate__animated animate__fadeInDown animate__delay-1s" :class="sl.color">
-                {{ sl.title }}
+              <h3 class="animate__animated animate__fadeInDown animate__delay-1s" :class="item.color">
+                {{ item.title }}
               </h3>
               <a href="#" class=" animate__animated animate__fadeInDown animate__delay-2s">
-                {{ sl.button }}
+                {{ item.btn_text }}
               </a>
             </div>
           </div>
@@ -18,10 +18,10 @@
             <div
               class="container slide-description animate__animated animate__fadeInDown animate__delay-2s">
               <p>
-                {{ sl.des_1 }}
+                {{ item.des_1 }}
               </p>
               <p>
-                {{ sl.des_2 }}
+                {{ item.des_2 }}
               </p>
             </div>
           </div>
@@ -64,58 +64,31 @@
 
 <script>
 export default {
-  name: "SliderSearch",
+  name: "SlidesSearch",
   data() {
     return {
       itemClass: "carousel-item",
-      slider: [
-        {
-          activeClass: "active",
-          title: "The EQE.",
-          button: "Learn more about the EQE",
-          src: "images/06-mercedes-benz.webp",
-          des_1:
-            "EQE 350 vorläufige Angaben WLTP: Stromverbrauch kombiniert: 19,3–15,7 kWh/100 km; CO₂-Emissionen kombiniert: 0 g/km.",
-          des_2:
-            "Angaben zum Stromverbrauch und zur Reichweite sind vorläufig und wurden intern nach Maßgabe der Zertifizierungsmethode, WLTP-Prüfverfahren“ ermittelt. Es liegen bislang weder bestätigte Werte vom TÜV noch eine EG-Typgenehmigung noch eine Konformitätsbescheinigung mit amtlichen Werten vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich.",
-        },
-        {
-          title: "The Concept EQG.",
-          button: "Learn more about the Concept",
-          src: "images/03-mercedes-benz.webp",
-        },
-        {
-          title: "The Concept Mercedes-Maybach EQS.",
-          button: "Learn more about the Concept Mercedes-Maybach EQS",
-          src: "images/05-maybach.webp",
-          color: "text-dark",
-        },
-        {
-          title: "The new EQB.",
-          button: "Learn more about the EQB.",
-          src: "images/04-mercedes-eq-eqb.webp",
-          color: "text-dark",
-        },
-        {
-          title: "IAA MOBILITY 2021.",
-          button: "Learn more",
-          src: "images/01-mercedes-benz.webp",
-        },
-        {
-          title: " The new EQS. This is for you, world.",
-          button: "Learn more about the EQS.",
-          src: "images/02-mercedes-benz-eqs.webp",
-        },
-      ],
+      slides: []
     };
   },
+  methods : {
+      async getDataApi(){
+          const url = "/api/slides";
+          const response = await fetch(url);
+          const data = await response.json();
+          return data;
+      },
+  },
+  async created(){
+      this.slides = await this.getDataApi();
+  }
 };
 </script>
 
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 
-#banner__slider {
+#banner__slides {
   background: #f4f4f4;
 }
 

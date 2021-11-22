@@ -1,12 +1,12 @@
 <template>
   <!-- Gọi các cpn tạo ra trang home !-->
-  <SliderSearch />
+  <SlidesSearch />
 </template>
 
 <script>
-import SliderSearch from "../../components/Products/SliderSearch.vue";
+import SlidesSearch from "../../components/Products/SliderSearch.vue";
 export default {
-  components: { SliderSearch },
+  components: { SlidesSearch },
   name: "CarsHome",
 };
 </script>
