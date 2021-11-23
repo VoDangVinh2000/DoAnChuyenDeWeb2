@@ -73,4 +73,3 @@ npm install && npm run dev
 ## Enviroment App
 # Đầu tiên , gõ câu lệnh cd Laravel-VueJs. Sau đó chạy những câu lệnh ở dưới
 ### Đừng gõ các gói trong đây nữa, lên trello có hướng dẫn cài. ^^
-
