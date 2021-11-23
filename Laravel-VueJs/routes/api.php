@@ -24,4 +24,4 @@ Route::get('/all-user',[UserController::class,'index']);//Lấy danh sách users
 
 Route::get('/user-id/{id}',[UserController::class,'show']);//Tìm user với api
 
-Route::get('/all-subgroup',[SubgroupController::class,'index']);
+Route::get('/all-subgroup',[SubgroupController::class,'index']);//Lấy danh sách các cotegories
