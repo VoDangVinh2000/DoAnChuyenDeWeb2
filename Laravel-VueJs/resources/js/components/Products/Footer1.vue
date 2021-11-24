@@ -141,6 +141,7 @@ a {
 
 a:hover {
   color: #00adef;
+  text-decoration-line: underline;
 }
 
 #top__footer {
