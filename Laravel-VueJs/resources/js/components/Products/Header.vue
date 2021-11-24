@@ -5,15 +5,9 @@
       <div class="logo-header">
         <a href="" class="top-logo">
           <img
-            id="logo1"
-            src="https://www.mercedes-benz.com/etc/designs/brandhub/frontend/static-assets/header/logo.svg"
-            alt=""
-          />
+            id="logo1" src="https://www.mercedes-benz.com/etc/designs/brandhub/frontend/static-assets/header/logo.svg" alt="" />
           <img
-            id="logo2"
-            src="https://www.mercedes-benz.com/etc/designs/brandhub/frontend/static-assets/header/brand-without-claim.svg"
-            alt=""
-          />
+            id="logo2" src="https://www.mercedes-benz.com/etc/designs/brandhub/frontend/static-assets/header/brand-without-claim.svg" alt="" />
         </a>
       </div>
       <button
