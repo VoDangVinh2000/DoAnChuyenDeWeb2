@@ -3,6 +3,7 @@
 use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\SubgroupController;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,3 +23,5 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/all-user',[UserController::class,'index']);//Lấy danh sách users với api
 
 Route::get('/user-id/{id}',[UserController::class,'show']);//Tìm user với api
+
+Route::get('/all-subgroup',[SubgroupController::class,'index']);//Lấy danh sách các cotegories
