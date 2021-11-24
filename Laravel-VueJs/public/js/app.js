@@ -20961,10 +20961,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516":
-/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516 ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516&scoped=true":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516&scoped=true ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -20975,517 +20975,28 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "Footer 1", -1
-/* HOISTED */
-);
-
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "sitemap base parbase"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.sitemap.publish"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "container-outer brandhub-footer-sitemap-menu reveal-it brandhub-fade-in brandhub-from-bottom reveal-it-loaded view",
-  "data-analytics-content-milestone": "-1"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-section"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "spacer large"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-section-sitemap"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-xs-12 col-sm-12 col-md-12 col-lg-3 brandhub-sitemapgroup"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-headline-m"
-}, " More topics "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
-  "class": "brandhub-hr"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/next/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Innovation",
-  target: "_self"
-}, " Innovation ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/design/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Design",
-  target: "_self"
-}, " Design ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/exhibitions/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Exhibitions",
-  target: "_self"
-}, " Exhibitions ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/classic/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Museum & History",
-  target: "_self"
-}, " Museum & History ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/sports/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Sports",
-  target: "_self"
-}, " Sports ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.mercedes-benz.com/en/mercedes-benz/events/driving-events/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Driving Events",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Driving Events ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://me.secure.mercedes-benz.com/wps/portal",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes me Portal",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Mercedes me Portal ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-xs-12 col-sm-12 col-md-12 col-lg-3 brandhub-sitemapgroup"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-headline-m"
-}, " Shopping "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
-  "class": "brandhub-hr"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "http://mb4.me/your-retailer",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Dealer Search",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Dealer Search ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://configurator.mercedes-benz-accessories.com/?csref=_port_mbcom:en",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Benz Accessoires",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Mercedes-Benz Accessoires ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://shop.mercedes-benz.com/collection/?csref=_port_mbcom:en",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Benz Collection",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Mercedes-Benz Collection ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://shop.mercedes-benz.com/en-gb/connect/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes me connect Store",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Mercedes me connect Store ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/vehicles/service-parts/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Service & Parts",
-  target: "_self"
-}, " Service & Parts ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://shop.mercedesamgf1.com/?___store=eeur",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Formula 1 Store",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Formula 1 Store ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/classic/classiccenter/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Benz Classic Center",
-  target: "_self"
-}, " Mercedes-Benz Classic Center ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-xs-12 col-sm-12 col-md-12 col-lg-3 brandhub-sitemapgroup"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-headline-m"
-}, " All about cars "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
-  "class": "brandhub-hr"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "http://mb4.me/all-models",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Model Overview",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Model Overview ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "http://mb4.me/your-mercedes",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Configurator",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Configurator ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "http://mb4.me/book-a-test-drive",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Test Drive",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Test Drive ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.mercedes-benz.com/en/vehicles/passenger-cars/mercedes-maybach/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Maybach",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Mercedes-Maybach ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "http://mb4.me/mercedes-me-home",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes me connect",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Mercedes me connect ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.mercedes-benz.com/en/driving-aids/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Benz Ex-Factory Driving Aids",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Mercedes-Benz Ex-Factory Driving Aids ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/vehicles/wltp/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "WLTP",
-  target: "_self"
-}, " WLTP ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/vehicles/rde/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "RDE",
-  target: "_self"
-}, " RDE ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/semiconductor/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Semiconductors supply situation",
-  target: "_self"
-}, " Semiconductors supply situation ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/vehicles/li-ion-un383/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Li-Ion UN38.3",
-  target: "_self"
-}, " Li-Ion UN38.3 ")])])]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "col-xs-12 col-sm-12 col-md-12 col-lg-3 brandhub-sitemapgroup"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-headline-m"
-}, " Discover more "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
-  "class": "brandhub-hr"
-}), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.daimler.com/en/",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Daimler AG",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Daimler AG ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.mercedes-benz.com/en/company/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Benz AG",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Mercedes-Benz AG ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/newsroom/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Newsroom",
-  target: "_self"
-}, " Newsroom ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.daimler.com/press/",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Press",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Press ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.daimler.com/career/",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Career",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Career ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/vehicles/heycar/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "heycar",
-  target: "_self"
-}, " heycar ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/vehicles/share-now/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "SHARE NOW",
-  target: "_self"
-}, " SHARE NOW ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.mercedes-benz.com/en/whitehat/",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Vulnerability Reporting Policy",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Vulnerability Reporting Policy ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/mercedes-benz-energy/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Benz Energy",
-  target: "_self"
-}, " Mercedes-Benz Energy ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "https://www.mercedes-benz-bank.de/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Benz Bank",
-  target: "_self",
-  "data-nn-externallink": ""
-}, " Mercedes-Benz Bank ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/vehicles/international-corporate-sales/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Fleet Sales",
-  target: "_self"
-}, " Fleet Sales ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/global-training/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Mercedes-Benz Global Training",
-  target: "_self"
-}, " Mercedes-Benz Global Training ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/customer-centre-sindelfingen/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Customer Centre Sindelfingen",
-  target: "_self"
-}, " Customer Centre Sindelfingen ")])])])])])])], -1
-/* HOISTED */
-);
-
-var _hoisted_3 = {
-  "class": "footersection base parbase"
-};
-var _hoisted_4 = {
-  "class": "brandhub-footer-section reveal-it brandhub-fade-in brandhub-from-bottom variant-6-6 reveal-it-loaded",
-  "data-analytics-content-milestone": "-1"
-};
-var _hoisted_5 = {
-  "class": "container-outer"
-};
-var _hoisted_6 = {
-  "class": "brandhub-section"
+var _withScopeId = function _withScopeId(n) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-4c288516"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
 };
 
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-headline-m"
-}, " Stay informed ", -1
-/* HOISTED */
-);
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", {
-  "class": "brandhub-hr"
-}, null, -1
-/* HOISTED */
-);
-
-var _hoisted_9 = {
-  "class": "brandhub-footer-section__row"
-};
-var _hoisted_10 = {
-  "class": "brandhub-footer-section__col"
+var _hoisted_1 = {
+  id: "footer__1"
 };
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-paragraph-indent brandhub-paragraph-text brandhub-list-style brandhub-list-style-arrow-right arrow-right"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Follow us and use the following social media platforms to get in contact with us and to share your passion for the brand, products and services of Mercedes-Benz.")], -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"top__footer\" data-v-4c288516><div class=\"container-fluid\" data-v-4c288516><div class=\"row\" data-v-4c288516><div class=\"col-md-3 brand__items\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>More topics</h3><hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Innovation</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Design</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Exhibitions</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Museum &amp; History</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Sports</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Driving Events</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes me Portal</a></li></ul></div><div class=\"col-md-3 brand__items\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>Shopping</h3><hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Dealer Search</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Accessoires</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Collection </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes me connect Store </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Service &amp; Parts </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Formula 1 Store </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Classic Center </a></li></ul></div><div class=\"col-md-3 brand__items\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>All about cars</h3><hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Model Overview </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Configurator </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Test Drive </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Maybach </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes me connect </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Ex-Factory Driving Aids </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>WLTP </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>RDE </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Semiconductors supply situation </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Li-Ion UN38.3 </a></li></ul></div><div class=\"col-md-3 brand__items\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>Discover more</h3><hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Daimler AG </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz AG </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Newsroom </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Press </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Career </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>heycar </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>SHARE NOW </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Vulnerability Reporting Policy </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Energy </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Bank </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Fleet Sales </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Global Training </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Customer Centre Sindelfingen </a></li></ul></div></div></div></section>", 1);
 
-var _hoisted_12 = {
-  "class": "brandhub-footer-social-icons"
-};
-var _hoisted_13 = {
-  "class": "brandhub-footer-social-icons__list clearfix brandhub-footer-social-icons__list--medium"
-};
-var _hoisted_14 = {
-  role: "presentation",
-  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
-};
-var _hoisted_15 = {
-  href: "https://www.facebook.com/MercedesBenz",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "social links",
-  "data-analytics-label": "Facebook",
-  "data-analytics-destination-url": "https://www.facebook.com/MercedesBenz",
-  "data-nn-externallink": ""
-};
-var _hoisted_16 = {
-  role: "presentation",
-  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
-};
-var _hoisted_17 = {
-  href: "https://twitter.com/mercedesbenz",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "social links",
-  "data-analytics-label": "Twitter",
-  "data-analytics-destination-url": "https://twitter.com/mercedesbenz",
-  "data-nn-externallink": ""
-};
-var _hoisted_18 = {
-  role: "presentation",
-  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
-};
-var _hoisted_19 = {
-  href: "https://www.youtube.com/user/MercedesBenzTV",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "social links",
-  "data-analytics-label": "YouTube",
-  "data-analytics-destination-url": "https://www.youtube.com/user/MercedesBenzTV",
-  "data-nn-externallink": ""
-};
-var _hoisted_20 = {
-  role: "presentation",
-  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
-};
-var _hoisted_21 = {
-  href: "https://instagram.com/mercedesbenz/",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "social links",
-  "data-analytics-label": "Instagram",
-  "data-analytics-destination-url": "https://instagram.com/mercedesbenz/",
-  "data-nn-externallink": ""
-};
-var _hoisted_22 = {
-  role: "presentation",
-  "class": "brandhub-footer-social-icons__list-item brandhub-footer-social-icons__list-item--medium"
-};
-var _hoisted_23 = {
-  href: "https://www.linkedin.com/company/mercedes-benz_ag",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "social links",
-  "data-analytics-label": "linkedin",
-  "data-analytics-destination-url": "https://www.linkedin.com/company/mercedes-benz_ag",
-  "data-nn-externallink": ""
-};
+var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"bottom__footer\" data-v-4c288516><div class=\"container_fluid\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>Stay informed</h3><hr class=\"brand__line\" data-v-4c288516><p class=\"bottom__footer__descriptons\" data-v-4c288516> Follow us and use the following social media platforms to get in contact with us and to share your passion for the brand, products and services of Mercedes-Benz. </p><ul class=\"social__media\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-facebook\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-twitter\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-youtube\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-instagram\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-linkedin-in\" data-v-4c288516></i></a></li></ul></div></section>", 1);
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_brandhub_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("brandhub-icon");
-
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", null, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.footersection.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, _hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.footersocialicons.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-facebook brandhub-icon--default",
-    icon: "facebook",
-    width: "27",
-    height: "27"
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-twitter brandhub-icon--default",
-    icon: "twitter",
-    width: "27",
-    height: "27"
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-youtube brandhub-icon--default",
-    icon: "youtube",
-    width: "27",
-    height: "27"
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_20, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-instagram brandhub-icon--default",
-    icon: "instagram",
-    width: "27",
-    height: "27"
-  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-linkedin brandhub-icon--default",
-    icon: "linkedin",
-    width: "27",
-    height: "27"
-  })])])])])])])])])])])])])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Top Footer "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Botom Footer "), _hoisted_3]);
 }
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97":
-/*!**************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97 ***!
-  \**************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97&scoped=true":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97&scoped=true ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -21496,379 +21007,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Footer 2", -1
-/* HOISTED */
-);
-
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"footersection base parbase\"><!-- Categories: brandhub-embxp.footersection.publish--><section class=\"brandhub-footer-section reveal-it brandhub-fade-in brandhub-from-bottom variant-12 reveal-it-loaded\" data-analytics-content-milestone=\"-1\"><div class=\"container-outer\"><div class=\"brandhub-section\"><hr class=\"brandhub-hr\"><div class=\"brandhub-footer-section__row\"><div class=\"brandhub-footer-section__col\"><div><div class=\"relatedwebsites__outer\"><!-- Categories: brandhub-embxp.relatedwebsites.publish--><div class=\"relatedwebsites\"><ul class=\"relatedwebsites__list\"><li class=\"relatedwebsites__item\"><a class=\"relatedwebsites__link\" href=\"https://www.mercedes-amg.com/en.html\" target=\"_blank\" rel=\"noopener\" data-analytics-category=\"link\" data-analytics-action=\"footer\" data-analytics-label=\"AMG - Driving Performance\" data-analytics-destination-url=\"https://www.mercedes-amg.com/en.html\" data-nn-externallink=\"\"><img class=\"img-responsive\" src=\"/content/dam/brandhub/experience-fragments/related-websites-logos/logo_amg.svg\" alt=\"AMG - Driving Performance\"></a></li><li class=\"relatedwebsites__item\"><a class=\"relatedwebsites__link\" href=\"https://www.daimler.com/en/\" target=\"_blank\" rel=\"noopener\" data-analytics-category=\"link\" data-analytics-action=\"footer\" data-analytics-label=\"Daimler AG\" data-analytics-destination-url=\"https://www.daimler.com/en/\" data-nn-externallink=\"\"><img class=\"img-responsive\" src=\"/content/dam/brandhub/experience-fragments/related-websites-logos/logo_daimler.svg\" alt=\"Daimler AG\"></a></li><li class=\"relatedwebsites__item\"><a class=\"relatedwebsites__link\" href=\"https://www.smart.com/en/en/index.html\" target=\"_blank\" rel=\"noopener\" data-analytics-category=\"link\" data-analytics-action=\"footer\" data-analytics-label=\"Smart\" data-analytics-destination-url=\"https://www.smart.com/en/en/index.html\" data-nn-externallink=\"\"><img class=\"img-responsive\" src=\"/content/dam/brandhub/experience-fragments/related-websites-logos/logo_smart.svg\" alt=\"Smart\"></a></li></ul></div></div></div></div></div></div></div></section></div><div class=\"footersection base parbase\"><!-- Categories: brandhub-embxp.footersection.publish--><section class=\"brandhub-footer-section reveal-it brandhub-fade-in brandhub-from-bottom variant-12 reveal-it-loaded\" data-analytics-content-milestone=\"-1\"><div class=\"container-outer\"><div class=\"brandhub-section\"><hr class=\"brandhub-hr\"><div class=\"brandhub-footer-section__row\"><div class=\"brandhub-footer-section__col\"><div><div class=\"brandhub-paragraph-indent brandhub-paragraph-text brandhub-list-style brandhub-list-style-arrow-right text-indent-none arrow-right\"><p>This is the International website of Mercedes-Benz AG. Visitors from the U.S., please visit our U.S. website <a href=\"https://www.mbusa.com\" target=\"_blank\" data-nn-externallink=\"\">www.mbusa.com</a>.</p></div></div></div></div></div></div></section></div><div class=\"spacer huge\"></div>", 3);
-
-var _hoisted_5 = {
-  "class": "container-outer"
-};
-var _hoisted_6 = {
-  "class": "brandhub-section"
-};
-var _hoisted_7 = {
-  "class": "row brandhub-main-footer-meta",
-  "data-contact-form-url": "https://www.mercedes-benz.de/content/germany/de/passengercars/content-pool/marketing-pool/contact-forms/forms/brandhub/brandhub-request/_jcr_content.formcomponentexporter.json"
+var _withScopeId = function _withScopeId(n) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.pushScopeId)("data-v-4c369c97"), n = n(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.popScopeId)(), n;
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"brandhub-meta-lang-wrapper\"><nav class=\"brandhub-meta-nav\"><!-- Categories: brandhub-embxp.languageswitcher.publish--><!-- Categories: brandhub-embxp.metanav.publish--><div class=\"brandhub-meta-nav__container brandhub-meta-nav__container--language\"><div class=\"brandhub-meta-lang-switch\"><ul class=\"brandhub-lang-list\"><li class=\"brandhub-lang-item brandhub-lang-item-de\"><a href=\"/de/\" data-lang=\"de\" class=\"brandhub-lang-link brandhub-hover\"><span class=\"brandhub-lang-link--mobile\"> Deutsch </span> <span class=\"brandhub-lang-link--desktop\"> Deutsch </span></a></li><li class=\"brandhub-lang-item brandhub-lang-item-en active\"><a href=\"/en/\" data-lang=\"en\" class=\"brandhub-lang-link brandhub-hover active\"><span class=\"brandhub-lang-link--mobile\"> English </span> <span class=\"brandhub-lang-link--desktop\"> English </span></a></li></ul></div></div></nav></div>", 1);
-
-var _hoisted_9 = {
-  "class": "brandhub-meta-footer"
+var _hoisted_1 = {
+  id: "footer__2"
 };
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-footer-navigation brandhub-meta-nav"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/newsfeed/",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Newsfeed (RSS)",
-  target: "_self"
-}, " Newsfeed (RSS) ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "#contact",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Contact",
-  target: "_blank"
-}, " Contact ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "http://www.daimler.com/career/",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Careers",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Careers ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "http://www.daimler.com/investors/",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Investor Relations",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Investor Relations ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "http://www.daimler.com/en/",
-  rel: "noopener",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-analytics-label": "Daimler AG",
-  target: "_blank",
-  "data-nn-externallink": ""
-}, " Daimler AG ")])])], -1
-/* HOISTED */
-);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"brand__space\" data-v-4c369c97></div><section id=\"top__footer\" data-v-4c369c97><hr class=\"brand__line footer2__brand__line__top\" data-v-4c369c97><div class=\"footer__logo\" data-v-4c369c97><div class=\"row\" data-v-4c369c97><div class=\"col-md-4 logo__img\" data-v-4c369c97><img src=\"https://www.mercedes-benz.com/content/dam/brandhub/experience-fragments/related-websites-logos/logo_amg.svg\" alt=\"\" data-v-4c369c97></div><div class=\"col-md-4 logo__img\" data-v-4c369c97><img src=\"https://www.mercedes-benz.com/content/dam/brandhub/experience-fragments/related-websites-logos/logo_daimler.svg\" alt=\"\" data-v-4c369c97></div><div class=\"col-md-4 logo__img\" data-v-4c369c97><img src=\"https://www.mercedes-benz.com/content/dam/brandhub/experience-fragments/related-websites-logos/logo_smart.svg\" alt=\"\" data-v-4c369c97></div></div></div><hr class=\"brand__line\" data-v-4c369c97><p class=\"descriptons\" data-v-4c369c97> This is the International website of Mercedes-Benz AG. Visitors from the U.S., please visit our U.S. website <a href=\"#\" data-v-4c369c97>www.mbusa.com</a></p></section><section id=\"bottom__footer\" data-v-4c369c97><div class=\"brand__space\" style=\"height:2rem;\" data-v-4c369c97></div><div class=\"container_fluid\" data-v-4c369c97><div class=\"row\" data-v-4c369c97><div class=\"col-md-4 brand__left\" data-v-4c369c97><ul data-v-4c369c97><li data-v-4c369c97><a href=\"#\" class=\"active\" data-v-4c369c97>Deutsch</a></li><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>English</a></li></ul></div><div class=\"col-md-8 brand__right\" data-v-4c369c97><ul data-v-4c369c97><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Provider </a></li><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Legal Notice </a></li><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Cookies</a></li><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Privacy Statement </a></li></ul><ul data-v-4c369c97><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Newsfeed (RSS) </a></li><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Contact </a></li><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Careers </a></li><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Investor Relations </a></li><li data-v-4c369c97><a href=\"#\" data-v-4c369c97>Daimler AG </a></li></ul></div></div></div></section>", 3);
 
-var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "brandhub-legal-navigation brandhub-meta-nav"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/providerprivacy-statement/provider/",
-  "data-js-anchor": "#provider",
-  "data-toggle": "modal",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-target": "#brandhub-legal-modal",
-  "data-analytics-label": "Provider"
-}, " Provider ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/providerprivacy-statement/legal-notice/",
-  "data-js-anchor": "#legalNotice",
-  "data-toggle": "modal",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-target": "#brandhub-legal-modal",
-  "data-analytics-label": "Legal Notice"
-}, " Legal Notice ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/providerprivacy-statement/cookies/",
-  "data-js-anchor": "#cookies",
-  "data-toggle": "modal",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-target": "#brandhub-legal-modal",
-  "data-analytics-label": "Cookies"
-}, " Cookies ")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", {
-  role: "presentation"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", {
-  href: "/en/providerprivacy-statement/privacy-statement/",
-  "data-js-anchor": "#privacyStatement",
-  "data-toggle": "modal",
-  "data-analytics-category": "navigation click",
-  "data-analytics-action": "footer",
-  "data-target": "#brandhub-legal-modal",
-  "data-analytics-label": "Privacy Statement"
-}, " Privacy Statement ")])])], -1
-/* HOISTED */
-);
-
-var _hoisted_12 = {
-  "class": "modal fade",
-  id: "brandhub-legal-modal",
-  tabindex: "-1",
-  role: "dialog",
-  "aria-labelledby": "brandhub-legal-modal",
-  "aria-hidden": "true",
-  "aria-live": "polite"
-};
-var _hoisted_13 = {
-  "class": "modal-dialog"
-};
-var _hoisted_14 = {
-  "class": "modal-content"
-};
-var _hoisted_15 = {
-  "class": "modal-header"
-};
-var _hoisted_16 = {
-  type: "button",
-  "class": "brandhub-legal-modal-close",
-  "data-dismiss": "modal",
-  "aria-label": "Close"
-};
-
-var _hoisted_17 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "modal-body",
-  "data-js-legal-popup-url": "/content/experience-fragments/brandhub/mercedes-benz/brandhub-legal-links/en-legal-links.popup"
-}, null, -1
-/* HOISTED */
-);
-
-var _hoisted_18 = {
-  "class": "brandhub-meta-toplink"
-};
-var _hoisted_19 = {
-  href: "#top",
-  "class": "brandhub-page-top"
-};
-
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Top ");
-
-var _hoisted_21 = {
-  "class": "ctastrap"
-};
-var _hoisted_22 = {
-  "class": "brandhub-cta-strap",
-  "data-num-items-desktop-tablet": "5",
-  "data-num-items-mobile": "4"
-};
-var _hoisted_23 = {
-  "class": "brandhub-cta-strap__inner"
-};
-var _hoisted_24 = {
-  "class": "brandhub-cta-strap__item brandhub-cta-strap__item--first"
-};
-var _hoisted_25 = {
-  href: "http://mb4.me/all-models",
-  target: "_blank",
-  "class": "brandhub-cta-strap__link",
-  "data-analytics-category": "link",
-  "data-analytics-action": "cta strap",
-  "data-analytics-label": "Product page",
-  "data-analytics-destination-url": "http://mb4.me/all-models",
-  "data-nn-externallink": ""
-};
-
-var _hoisted_26 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_27 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "brandhub-cta-strap__label"
-}, "Product page", -1
-/* HOISTED */
-);
-
-var _hoisted_28 = {
-  "class": "brandhub-cta-strap__item"
-};
-var _hoisted_29 = {
-  href: "http://mb4.me/your-mercedes",
-  target: "_blank",
-  "class": "brandhub-cta-strap__link",
-  "data-analytics-category": "link",
-  "data-analytics-action": "cta strap",
-  "data-analytics-label": "Configurator",
-  "data-analytics-destination-url": "http://mb4.me/your-mercedes",
-  "data-nn-externallink": ""
-};
-
-var _hoisted_30 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_31 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "brandhub-cta-strap__label"
-}, "Configurator", -1
-/* HOISTED */
-);
-
-var _hoisted_32 = {
-  "class": "brandhub-cta-strap__item brandhub-cta-strap__item--share brandhub-cta-strap__item--last"
-};
-var _hoisted_33 = {
-  "class": "brandhub-cta-strap__link"
-};
-
-var _hoisted_34 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-  "class": "brandhub-cta-strap__label brandhub-cta-strap__label-share"
-}, "Share", -1
-/* HOISTED */
-);
-
-var _hoisted_36 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_37 = {
-  "class": "brandhub-cta-strap__share-links-wrapper"
-};
-var _hoisted_38 = {
-  "class": "brandhub-cta-strap__share-link",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "cta strap",
-  "data-analytics-label": "emb-share-facebook",
-  "data-analytics-destination-url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
-  href: "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
-  "data-nn-externallink": ""
-};
-
-var _hoisted_39 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_40 = {
-  "class": "brandhub-cta-strap__share-link",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "cta strap",
-  "data-analytics-label": "emb-share-twitter",
-  "data-analytics-destination-url": "https://twitter.com/intent/tweet?via=MercedesBenz&text=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
-  href: "https://twitter.com/intent/tweet?via=MercedesBenz&text=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
-  "data-nn-externallink": ""
-};
-
-var _hoisted_41 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_42 = {
-  "class": "brandhub-cta-strap__share-link",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "cta strap",
-  "data-analytics-label": "emb-share-pinterest",
-  "data-analytics-destination-url": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
-  href: "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
-  "data-nn-externallink": ""
-};
-
-var _hoisted_43 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_44 = {
-  "class": "brandhub-cta-strap__share-link brandhub-cta-strap__share-link--mobile-only",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "cta strap",
-  "data-analytics-label": "emb-share-facebook",
-  "data-analytics-destination-url": "fb-messenger://share/?link=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
-  href: "fb-messenger://share/?link=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F"
-};
-
-var _hoisted_45 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_46 = {
-  "class": "brandhub-cta-strap__share-link brandhub-cta-strap__share-link--mobile-only",
-  target: "_blank",
-  "data-analytics-category": "link",
-  "data-analytics-action": "cta strap",
-  "data-analytics-label": "emb-share-whatsapp",
-  "data-analytics-destination-url": "whatsapp://send?text=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F",
-  href: "whatsapp://send?text=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F"
-};
-
-var _hoisted_47 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)();
-
-var _hoisted_48 = {
-  "class": "brandhub-cta-strap__share-link",
-  "data-analytics-category": "link",
-  "data-analytics-action": "cta strap",
-  "data-analytics-label": "emb-share-mail",
-  "data-analytics-destination-url": "mailto:?body=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F&subject=www.mercedes-benz.com",
-  href: "mailto:?body=https%3A%2F%2Fwww.mercedes-benz.com%2Fen%2F&subject=www.mercedes-benz.com"
-};
+var _hoisted_5 = [_hoisted_2];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_brandhub_icon = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("brandhub-icon");
-
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", null, [_hoisted_1, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("footer", null, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_9, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.footernavigation.publish"), _hoisted_10, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.footernavigation.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.legallinks.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.accordion.publish"), _hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", _hoisted_16, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-close",
-    icon: "close",
-    width: "13",
-    height: "13"
-  })])]), _hoisted_17])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.toplink.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_19, [_hoisted_20, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-arrow-up-inline",
-    icon: "chevron-up",
-    width: "16",
-    height: "18"
-  })])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.ctastrap.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("ul", _hoisted_23, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_25, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-car brandhub-cta-strap__icon",
-    icon: "car",
-    style: {
-      "width": "25px",
-      "margin": "0 9px"
-    }
-  }), _hoisted_26, _hoisted_27])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_29, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-car-config brandhub-cta-strap__icon",
-    icon: "car-config",
-    style: {
-      "width": "30px",
-      "margin": "0 7px"
-    }
-  }), _hoisted_30, _hoisted_31])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("li", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Categories: brandhub-embxp.frontend-webcomponents.brandhub-frontend.publish"), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_33, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-share brandhub-cta-strap__icon",
-    icon: "share",
-    width: "22",
-    height: "22"
-  }), _hoisted_34, _hoisted_35, _hoisted_36, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_37, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_38, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-facebook brandhub-cta-strap__share-link__icon",
-    icon: "facebook",
-    width: "22",
-    height: "22"
-  })]), _hoisted_39, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_40, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-twitter brandhub-cta-strap__share-link__icon",
-    icon: "twitter",
-    width: "22",
-    height: "22"
-  })]), _hoisted_41, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_42, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-pinterest brandhub-cta-strap__share-link__icon",
-    icon: "pinterest",
-    width: "30",
-    height: "22"
-  })]), _hoisted_43, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_44, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-messenger brandhub-cta-strap__share-link__icon",
-    icon: "messenger",
-    width: "22",
-    height: "22"
-  })]), _hoisted_45, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_46, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-whatsapp brandhub-cta-strap__share-link__icon",
-    icon: "whatsapp",
-    width: "22",
-    height: "22"
-  })]), _hoisted_47, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("a", _hoisted_48, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_brandhub_icon, {
-    "class": "brandhub-icon brandhub-icon-email brandhub-cta-strap__share-link__icon",
-    icon: "email",
-    width: "30",
-    height: "22"
-  })])])])])])])])])])])]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, _hoisted_5);
 }
 
 /***/ }),
@@ -22625,6 +21776,56 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "\nhtml[data-v-6bdc8b8e] {\r\n  height: 100%;\r\n  background-repeat: no-repeat;\r\n  background-color: #d3d3d3;\r\n  font-family: \"Oxygen\", sans-serif;\n}\nh1.title[data-v-6bdc8b8e] {\r\n  font-size: 50px;\r\n  font-family: \"Passion One\", cursive;\r\n  font-weight: 400;\r\n  color: #fff;\r\n  text-align: center;\r\n  margin: 40px 0;\n}\nhr[data-v-6bdc8b8e] {\r\n  width: 20%;\r\n  height: 4px;\r\n  color: #fff;\r\n  background: #fff;\r\n  border-radius: 6px;\r\n  margin-bottom: 30px;\n}\n.form-group[data-v-6bdc8b8e] {\r\n  margin-bottom: 10px;\n}\n.vue-tempalte[data-v-6bdc8b8e]{\r\n    padding-top: 30px;\n}\n.main-center[data-v-6bdc8b8e][data-v-6bdc8b8e] {\r\n  max-width: 500px;\r\n  border-radius: 15px;\r\n  padding: 25px 40px;\r\n  background: #fff;\n}\nlabel[data-v-6bdc8b8e] {\r\n  margin-bottom: 10px;\r\n  font-weight: 500;\n}\nlabel.lable-success[data-v-6bdc8b8e] {\r\n  text-align: center;\r\n  display: inherit;\r\n  background: antiquewhite;\r\n  padding: 15px 0;\r\n  border-radius: 15px;\r\n  color: brown;\r\n  font-weight: 600;\r\n  letter-spacing: 0.5px;\n}\ninput.form-control[data-v-6bdc8b8e] {\r\n  border: 1px solid #ced4da;\r\n  border-radius: 7px !important;\r\n  font-size: 15px;\n}\ninput[data-v-6bdc8b8e],\r\ninput[data-v-6bdc8b8e]::-webkit-input-placeholder {\r\n  font-size: 15px;\r\n  padding-top: 3px;\n}\n.form-control[data-v-6bdc8b8e]:focus {\r\n  border-color: #2554ff;\r\n  box-shadow: none;\n}\n.main-login[data-v-6bdc8b8e] {\r\n  background-color: #fff;\r\n  /* shadows and rounded borders */\r\n  border-radius: 2px;\r\n  /* -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\r\n  /* -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\r\n  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\n}\n.main-center[data-v-6bdc8b8e] {\r\n  margin-top: 30px;\r\n  margin: 0 auto;\r\n  max-width: 330px;\r\n  padding: 40px 40px;\n}\n.login-button[data-v-6bdc8b8e] {\r\n  margin-top: 5px;\n}\n.login-register[data-v-6bdc8b8e] {\r\n  font-size: 11px;\r\n  text-align: center;\n}\nul[data-v-6bdc8b8e] {\r\n  display: flex;\r\n  justify-content: center;\n}\nli[data-v-6bdc8b8e] {\r\n  border: 1px solid #2554ff;\r\n  padding: 10px 15px;\r\n  list-style: none;\r\n  margin: 0 20px;\r\n  text-align: center;\r\n  width: 100%;\n}\n.btn_signin[data-v-6bdc8b8e] {\r\n  background: linear-gradient(45deg, #00a8ff, #487eb0);\r\n  color: white;\n}\n.a_signup[data-v-6bdc8b8e] {\r\n  background: linear-gradient(-45deg, #7bed9f, #227093);\r\n  color: white;\n}\n.fix-space[data-v-6bdc8b8e]{\r\n    padding-bottom: 188px;\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n#footer__1[data-v-4c288516] {\r\n  background: #000;\r\n  color: #fff;\r\n  font-family: \"Lora\", serif;\n}\nh3.title[data-v-4c288516] {\r\n  font-size: 29px;\r\n  font-weight: 300;\r\n  letter-spacing: -2px;\n}\n.brand__items[data-v-4c288516] {\r\n  padding: 0;\r\n  padding-top: 32px;\n}\nhr.brand__line[data-v-4c288516] {\r\n  border-top: 1px solid #313131;\r\n  margin: 30px 0;\n}\nul[data-v-4c288516] {\r\n  padding: 0;\r\n  margin: 0;\n}\nli[data-v-4c288516] {\r\n  list-style-type: none;\n}\na[data-v-4c288516] {\r\n  text-decoration: none;\r\n  color: #999;\r\n  font-size: 14px;\r\n  font-family: sans-serif;\r\n  line-height: 22px;\r\n  transition: 0.4s all ease;\n}\na[data-v-4c288516]:hover {\r\n  color: #00adef;\n}\n#top__footer[data-v-4c288516] {\r\n  margin: 0 32px;\n}\n#bottom__footer[data-v-4c288516]{\r\n    margin: 0 32px;\n}\np.bottom__footer__descriptons[data-v-4c288516]{\r\n    color: #999;\r\n    font-size: 14px;\r\n    width: 45%;\r\n     font-family: sans-serif;\n}\nul.social__media[data-v-4c288516]{\r\n    display: flex;\r\n    margin-top: 1.5rem;\n}\nul.social__media li[data-v-4c288516]{\r\n   margin: 10px 26px;\n}\nul.social__media li a i[data-v-4c288516]{\r\n  font-size: 25px;\n}\r\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "\n#footer__2[data-v-4c369c97] {\r\n  background: #000;\r\n  color: #fff;\r\n  font-family: \"Lora\", serif;\n}\n.footer__logo[data-v-4c369c97] {\r\n  height: 4rem;\r\n  display: grid;\r\n  align-items: center;\n}\n.footer__logo .row[data-v-4c369c97] {\r\n  max-width: 100%;\n}\n.brand__space[data-v-4c369c97] {\r\n  width: 100%;\r\n  height: 1px;\n}\n.logo__img[data-v-4c369c97] {\r\n  padding: 0;\n}\n.logo__img img[data-v-4c369c97] {\r\n  height: 1.5rem;\r\n  width: 100%;\n}\nhr.brand__line[data-v-4c369c97] {\r\n  border-top: 1px solid #313131;\r\n  margin: 30px 0;\n}\n#top__footer[data-v-4c369c97] {\r\n  margin: 0 32px;\n}\n#bottom__footer[data-v-4c369c97] {\r\n  margin: 0 32px;\n}\np[data-v-4c369c97] {\r\n  color: #999;\r\n  font-size: 14px;\r\n  margin-bottom: 0;\r\n  font-family: sans-serif;\r\n  padding-bottom: 1rem;\n}\na[data-v-4c369c97] {\r\n  text-decoration: none;\r\n  color: #fff;\r\n  font-size: 14px;\r\n  font-family: sans-serif;\r\n  line-height: 22px;\r\n  transition: 0.4s all ease;\n}\na[data-v-4c369c97]:hover {\r\n  color: #00adef;\n}\nul[data-v-4c369c97] {\r\n  display: flex;\r\n  padding: 0;\n}\n.brand__right[data-v-4c369c97]{\r\n    display: flex;\r\n    padding: 0;\n}\n.brand__left a[data-v-4c369c97]{\r\n    color: #fff;\r\n    font-size: 16px;\n}\n.brand__left a.active[data-v-4c369c97]{\r\n    color: #02b6fd;\r\n    padding-right: 20px;\r\n    border-right: 1px solid #02b6fd;\n}\nul li[data-v-4c369c97] {\r\n  margin: 10px;\n}\nul a[data-v-4c369c97] {\r\n  text-decoration: none;\r\n  color: #999;\r\n  font-size: 14px;\r\n  font-family: sans-serif;\r\n  line-height: 22px;\r\n  transition: 0.4s all ease;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -41136,6 +40337,66 @@ var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_style_index_0_id_4c288516_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_style_index_0_id_4c288516_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_style_index_0_id_4c288516_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_style_index_0_id_4c369c97_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _node_modules_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_style_index_0_id_4c369c97_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_style_index_0_id_4c369c97_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Register.vue?vue&type=style&index=0&id=97358ae4&scoped=true&lang=css":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Register.vue?vue&type=style&index=0&id=97358ae4&scoped=true&lang=css ***!
@@ -41718,15 +40979,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Footer1_vue_vue_type_template_id_4c288516__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer1.vue?vue&type=template&id=4c288516 */ "./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516");
+/* harmony import */ var _Footer1_vue_vue_type_template_id_4c288516_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer1.vue?vue&type=template&id=4c288516&scoped=true */ "./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516&scoped=true");
 /* harmony import */ var _Footer1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer1.vue?vue&type=script&lang=js */ "./resources/js/components/Products/Footer1.vue?vue&type=script&lang=js");
-/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Footer1_vue_vue_type_style_index_0_id_4c288516_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css */ "./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Footer1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Footer1_vue_vue_type_template_id_4c288516__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Products/Footer1.vue"]])
+
+
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Footer1_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Footer1_vue_vue_type_template_id_4c288516_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-4c288516"],['__file',"resources/js/components/Products/Footer1.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -41746,15 +41010,18 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Footer2_vue_vue_type_template_id_4c369c97__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer2.vue?vue&type=template&id=4c369c97 */ "./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97");
+/* harmony import */ var _Footer2_vue_vue_type_template_id_4c369c97_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Footer2.vue?vue&type=template&id=4c369c97&scoped=true */ "./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97&scoped=true");
 /* harmony import */ var _Footer2_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Footer2.vue?vue&type=script&lang=js */ "./resources/js/components/Products/Footer2.vue?vue&type=script&lang=js");
-/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+/* harmony import */ var _Footer2_vue_vue_type_style_index_0_id_4c369c97_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css */ "./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css");
+/* harmony import */ var E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
 
 
 
 
 ;
-const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Footer2_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Footer2_vue_vue_type_template_id_4c369c97__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/components/Products/Footer2.vue"]])
+
+
+const __exports__ = /*#__PURE__*/(0,E_DoAnChuyenDeWeb2_Laravel_VueJs_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_3__["default"])(_Footer2_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Footer2_vue_vue_type_template_id_4c369c97_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render],['__scopeId',"data-v-4c369c97"],['__file',"resources/js/components/Products/Footer2.vue"]])
 /* hot reload */
 if (false) {}
 
@@ -42259,34 +41526,34 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516":
-/*!************************************************************************************!*\
-  !*** ./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516 ***!
-  \************************************************************************************/
+/***/ "./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516&scoped=true":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516&scoped=true ***!
+  \************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_template_id_4c288516__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_template_id_4c288516_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_template_id_4c288516__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer1.vue?vue&type=template&id=4c288516 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_template_id_4c288516_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer1.vue?vue&type=template&id=4c288516&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=template&id=4c288516&scoped=true");
 
 
 /***/ }),
 
-/***/ "./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97":
-/*!************************************************************************************!*\
-  !*** ./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97 ***!
-  \************************************************************************************/
+/***/ "./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97&scoped=true":
+/*!************************************************************************************************!*\
+  !*** ./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97&scoped=true ***!
+  \************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_template_id_4c369c97__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_template_id_4c369c97_scoped_true__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_template_id_4c369c97__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer2.vue?vue&type=template&id=4c369c97 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_template_id_4c369c97_scoped_true__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer2.vue?vue&type=template&id=4c369c97&scoped=true */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=template&id=4c369c97&scoped=true");
 
 
 /***/ }),
@@ -42451,6 +41718,32 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Login_vue_vue_type_style_index_0_id_6bdc8b8e_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader/dist/cjs.js!../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Login.vue?vue&type=style&index=0&id=6bdc8b8e&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Login.vue?vue&type=style&index=0&id=6bdc8b8e&scoped=true&lang=css");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css ***!
+  \**************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer1_vue_vue_type_style_index_0_id_4c288516_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer1.vue?vue&type=style&index=0&id=4c288516&scoped=true&lang=css");
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css":
+/*!**************************************************************************************************************!*\
+  !*** ./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css ***!
+  \**************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_dist_cjs_js_node_modules_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_node_modules_vue_loader_dist_stylePostLoader_js_node_modules_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Footer2_vue_vue_type_style_index_0_id_4c369c97_scoped_true_lang_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../../node_modules/style-loader/dist/cjs.js!../../../../node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../../../node_modules/vue-loader/dist/stylePostLoader.js!../../../../node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!../../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css */ "./node_modules/style-loader/dist/cjs.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/vue-loader/dist/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/components/Products/Footer2.vue?vue&type=style&index=0&id=4c369c97&scoped=true&lang=css");
 
 
 /***/ }),
