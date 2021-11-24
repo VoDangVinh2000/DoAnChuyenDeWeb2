@@ -22,7 +22,9 @@ class MenuMainFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => 'Events',
+            'link' => '#',
+            'enabled' => 1
         ];
     }
 }

@@ -26,9 +26,9 @@
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item" v-for="(items, index) in item" :key="index">
-            <a class="nav-link" :href="items.link">{{ items.title }}</a>
+        <ul  class="navbar-nav ml-auto">
+          <li class="nav-item" v-for="item in data" :key="item.id">
+            <a class="nav-link" >{{ item.name }}</a>
           </li>
         </ul>
       </div>
@@ -37,50 +37,32 @@
         <a href=""><i class="fas fa-search"></i></a>
       </div>
     </nav>
-
-   
   </header>
 </template>
 
 <script>
+import { createApp } from 'vue';
 export default {
-  name: "Header",
-  data() {
-    return {
-      item: [
-        {
-          title: "Comany",
-          link: "#",
-        },
-        {
-          title: "Vehicles",
-          link: "#",
-        },
-        {
-          title: "Design",
-          link: "#",
-        },
-        {
-          title: "Innovation",
-          link: "#",
-        },
-        {
-          title: "Museum & History",
-          link: "#",
-        },
-        {
-          title: "Sports",
-          link: "#",
-        },
-        {
-          title: "Events",
-          link: "#",
-        },
-      ],
-    };
-  },
+    name: "Header.vue",
+    data(){
+      return {
+        data: [],
+      };
+    },
+    methods: {
+      async getData(){
+        const url = "/api/all-menu";
+        const response = await fetch(url);
+        const data = await response.json();
+       
+        return data;
+      },
+    },
 
-  moutnted() {},
+    async created() {
+      this.data = await this.getData();
+    },
+    
 };
 </script>
 
