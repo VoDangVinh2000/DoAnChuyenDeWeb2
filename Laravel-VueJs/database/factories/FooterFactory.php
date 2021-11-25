@@ -22,7 +22,8 @@ class FooterFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'topics' => 'Discover more'
         ];
     }
+    
 }

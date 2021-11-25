@@ -4,8 +4,8 @@
     <section id="top__footer">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-3 brand__items">
-            <h3 class="title">More topics</h3>
+          <div class="col-md-3 brand__items" v-for="item in data" :key="item.id">
+            <h3 class="title">{{item.topics}}</h3>
             <hr class="brand__line" />
             <ul class="brand__links">
               <li><a href="#">Innovation</a></li>
@@ -17,7 +17,7 @@
               <li><a href="#">Mercedes me Portal</a></li>
             </ul>
           </div>
-          <div class="col-md-3 brand__items">
+          <!-- <div class="col-md-3 brand__items">
             <h3 class="title">Shopping</h3>
             <hr class="brand__line" />
             <ul class="brand__links">
@@ -64,7 +64,7 @@
               <li><a href="#">Mercedes-Benz Global Training </a></li>
               <li><a href="#">Customer Centre Sindelfingen </a></li>
             </ul>
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
@@ -92,8 +92,27 @@
 
 <script>
 export default {
-  name: "Footer1",
+    name: "Footer1.vue",
+    data(){
+      return {
+        data: [],
+      };
+    },
+    methods: {
+      async getData(){
+        const url = "/api/all-footer";
+        const response = await fetch(url);
+        const data = await response.json();
+        return data;
+      },
+    },
+
+    async created() {
+      this.data = await this.getData();
+    },
+    
 };
+
 </script>
 
 <style scoped>

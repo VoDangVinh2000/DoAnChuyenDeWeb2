@@ -20106,8 +20106,73 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "Footer1"
+  name: "Footer1.vue",
+  data: function data() {
+    return {
+      data: []
+    };
+  },
+  methods: {
+    getData: function getData() {
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        var url, response, data;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                url = "/api/all-footer";
+                _context.next = 3;
+                return fetch(url);
+
+              case 3:
+                response = _context.sent;
+                _context.next = 6;
+                return response.json();
+
+              case 6:
+                data = _context.sent;
+                return _context.abrupt("return", data);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    }
+  },
+  created: function created() {
+    var _this = this;
+
+    return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return _this.getData();
+
+            case 2:
+              _this.data = _context2.sent;
+
+            case 3:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }))();
+  }
 });
 
 /***/ }),
@@ -20962,13 +21027,34 @@ var _withScopeId = function _withScopeId(n) {
 var _hoisted_1 = {
   id: "footer__1"
 };
+var _hoisted_2 = {
+  id: "top__footer"
+};
+var _hoisted_3 = {
+  "class": "container-fluid"
+};
+var _hoisted_4 = {
+  "class": "row"
+};
+var _hoisted_5 = {
+  "class": "title"
+};
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"top__footer\" data-v-4c288516><div class=\"container-fluid\" data-v-4c288516><div class=\"row\" data-v-4c288516><div class=\"col-md-3 brand__items\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>More topics</h3><hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Innovation</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Design</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Exhibitions</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Museum &amp; History</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Sports</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Driving Events</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes me Portal</a></li></ul></div><div class=\"col-md-3 brand__items\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>Shopping</h3><hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Dealer Search</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Accessoires</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Collection </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes me connect Store </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Service &amp; Parts </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Formula 1 Store </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Classic Center </a></li></ul></div><div class=\"col-md-3 brand__items\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>All about cars</h3><hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Model Overview </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Configurator </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Test Drive </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Maybach </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes me connect </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Ex-Factory Driving Aids </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>WLTP </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>RDE </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Semiconductors supply situation </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Li-Ion UN38.3 </a></li></ul></div><div class=\"col-md-3 brand__items\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>Discover more</h3><hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Daimler AG </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz AG </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Newsroom </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Press </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Career </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>heycar </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>SHARE NOW </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Vulnerability Reporting Policy </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Energy </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Bank </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Fleet Sales </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes-Benz Global Training </a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Customer Centre Sindelfingen </a></li></ul></div></div></div></section>", 1);
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<hr class=\"brand__line\" data-v-4c288516><ul class=\"brand__links\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516>Innovation</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Design</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Exhibitions</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Museum &amp; History</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Sports</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Driving Events</a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516>Mercedes me Portal</a></li></ul>", 2);
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"bottom__footer\" data-v-4c288516><div class=\"container_fluid\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>Stay informed</h3><hr class=\"brand__line\" data-v-4c288516><p class=\"bottom__footer__descriptons\" data-v-4c288516> Follow us and use the following social media platforms to get in contact with us and to share your passion for the brand, products and services of Mercedes-Benz. </p><ul class=\"social__media\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-facebook\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-twitter\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-youtube\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-instagram\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-linkedin-in\" data-v-4c288516></i></a></li></ul></div></section>", 1);
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<section id=\"bottom__footer\" data-v-4c288516><div class=\"container_fluid\" data-v-4c288516><h3 class=\"title\" data-v-4c288516>Stay informed</h3><hr class=\"brand__line\" data-v-4c288516><p class=\"bottom__footer__descriptons\" data-v-4c288516> Follow us and use the following social media platforms to get in contact with us and to share your passion for the brand, products and services of Mercedes-Benz. </p><ul class=\"social__media\" data-v-4c288516><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-facebook\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-twitter\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-youtube\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-instagram\" data-v-4c288516></i></a></li><li data-v-4c288516><a href=\"#\" data-v-4c288516><i class=\"fab fa-linkedin-in\" data-v-4c288516></i></a></li></ul></div></section>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Top Footer "), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Botom Footer "), _hoisted_3]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("footer", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Top Footer "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("section", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.data, function (item) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+      "class": "col-md-3 brand__items",
+      key: item.id
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.topics), 1
+    /* TEXT */
+    ), _hoisted_6]);
+  }), 128
+  /* KEYED_FRAGMENT */
+  )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"col-md-3 brand__items\">\r\n            <h3 class=\"title\">Shopping</h3>\r\n            <hr class=\"brand__line\" />\r\n            <ul class=\"brand__links\">\r\n              <li><a href=\"#\">Dealer Search</a></li>\r\n              <li><a href=\"#\">Mercedes-Benz Accessoires</a></li>\r\n              <li><a href=\"#\">Mercedes-Benz Collection </a></li>\r\n              <li><a href=\"#\">Mercedes me connect Store </a></li>\r\n              <li><a href=\"#\">Service & Parts </a></li>\r\n              <li><a href=\"#\">Formula 1 Store </a></li>\r\n              <li><a href=\"#\">Mercedes-Benz Classic Center </a></li>\r\n            </ul>\r\n          </div>\r\n          <div class=\"col-md-3 brand__items\">\r\n            <h3 class=\"title\">All about cars</h3>\r\n            <hr class=\"brand__line\" />\r\n            <ul class=\"brand__links\">\r\n              <li><a href=\"#\">Model Overview </a></li>\r\n              <li><a href=\"#\">Configurator </a></li>\r\n              <li><a href=\"#\">Test Drive </a></li>\r\n              <li><a href=\"#\">Mercedes-Maybach </a></li>\r\n              <li><a href=\"#\">Mercedes me connect </a></li>\r\n              <li><a href=\"#\">Mercedes-Benz Ex-Factory Driving Aids </a></li>\r\n              <li><a href=\"#\">WLTP </a></li>\r\n              <li><a href=\"#\">RDE </a></li>\r\n              <li><a href=\"#\">Semiconductors supply situation </a></li>\r\n              <li><a href=\"#\">Li-Ion UN38.3 </a></li>\r\n            </ul>\r\n          </div>\r\n          <div class=\"col-md-3 brand__items\">\r\n            <h3 class=\"title\">Discover more</h3>\r\n            <hr class=\"brand__line\" />\r\n            <ul class=\"brand__links\">\r\n              <li><a href=\"#\">Daimler AG </a></li>\r\n              <li><a href=\"#\">Mercedes-Benz AG </a></li>\r\n              <li><a href=\"#\">Newsroom </a></li>\r\n              <li><a href=\"#\">Press </a></li>\r\n              <li><a href=\"#\">Career </a></li>\r\n              <li><a href=\"#\">heycar </a></li>\r\n              <li><a href=\"#\">SHARE NOW </a></li>\r\n              <li><a href=\"#\">Vulnerability Reporting Policy </a></li>\r\n              <li><a href=\"#\">Mercedes-Benz Energy </a></li>\r\n              <li><a href=\"#\">Mercedes-Benz Bank </a></li>\r\n              <li><a href=\"#\">Fleet Sales </a></li>\r\n              <li><a href=\"#\">Mercedes-Benz Global Training </a></li>\r\n              <li><a href=\"#\">Customer Centre Sindelfingen </a></li>\r\n            </ul>\r\n          </div> ")])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Botom Footer "), _hoisted_8]);
 }
 
 /***/ }),
@@ -21722,7 +21808,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\nhtml[data-v-6bdc8b8e] {\n  height: 100%;\n  background-repeat: no-repeat;\n  background-color: #d3d3d3;\n  font-family: \"Oxygen\", sans-serif;\n}\nh1.title[data-v-6bdc8b8e] {\n  font-size: 50px;\n  font-family: \"Passion One\", cursive;\n  font-weight: 400;\n  color: #fff;\n  text-align: center;\n  margin: 40px 0;\n}\nhr[data-v-6bdc8b8e] {\n  width: 20%;\n  height: 4px;\n  color: #fff;\n  background: #fff;\n  border-radius: 6px;\n  margin-bottom: 30px;\n}\n.form-group[data-v-6bdc8b8e] {\n  margin-bottom: 10px;\n}\n.vue-tempalte[data-v-6bdc8b8e]{\n    padding-top: 30px;\n}\n.main-center[data-v-6bdc8b8e][data-v-6bdc8b8e] {\n  max-width: 500px;\n  border-radius: 15px;\n  padding: 25px 40px;\n  background: #fff;\n}\nlabel[data-v-6bdc8b8e] {\n  margin-bottom: 10px;\n  font-weight: 500;\n}\nlabel.lable-success[data-v-6bdc8b8e] {\n  text-align: center;\n  display: inherit;\n  background: antiquewhite;\n  padding: 15px 0;\n  border-radius: 15px;\n  color: brown;\n  font-weight: 600;\n  letter-spacing: 0.5px;\n}\ninput.form-control[data-v-6bdc8b8e] {\n  border: 1px solid #ced4da;\n  border-radius: 7px !important;\n  font-size: 15px;\n}\ninput[data-v-6bdc8b8e],\ninput[data-v-6bdc8b8e]::-webkit-input-placeholder {\n  font-size: 15px;\n  padding-top: 3px;\n}\n.form-control[data-v-6bdc8b8e]:focus {\n  border-color: #2554ff;\n  box-shadow: none;\n}\n.main-login[data-v-6bdc8b8e] {\n  background-color: #fff;\n  /* shadows and rounded borders */\n  border-radius: 2px;\n  /* -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\n  /* -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\n  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\n}\n.main-center[data-v-6bdc8b8e] {\n  margin-top: 30px;\n  margin: 0 auto;\n  max-width: 330px;\n  padding: 40px 40px;\n}\n.login-button[data-v-6bdc8b8e] {\n  margin-top: 5px;\n}\n.login-register[data-v-6bdc8b8e] {\n  font-size: 11px;\n  text-align: center;\n}\nul[data-v-6bdc8b8e] {\n  display: flex;\n  justify-content: center;\n}\nli[data-v-6bdc8b8e] {\n  border: 1px solid #2554ff;\n  padding: 10px 15px;\n  list-style: none;\n  margin: 0 20px;\n  text-align: center;\n  width: 100%;\n}\n.btn_signin[data-v-6bdc8b8e] {\n  background: linear-gradient(45deg, #00a8ff, #487eb0);\n  color: white;\n}\n.a_signup[data-v-6bdc8b8e] {\n  background: linear-gradient(-45deg, #7bed9f, #227093);\n  color: white;\n}\n.fix-space[data-v-6bdc8b8e]{\n    padding-bottom: 188px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\nhtml[data-v-6bdc8b8e] {\r\n  height: 100%;\r\n  background-repeat: no-repeat;\r\n  background-color: #d3d3d3;\r\n  font-family: \"Oxygen\", sans-serif;\n}\nh1.title[data-v-6bdc8b8e] {\r\n  font-size: 50px;\r\n  font-family: \"Passion One\", cursive;\r\n  font-weight: 400;\r\n  color: #fff;\r\n  text-align: center;\r\n  margin: 40px 0;\n}\nhr[data-v-6bdc8b8e] {\r\n  width: 20%;\r\n  height: 4px;\r\n  color: #fff;\r\n  background: #fff;\r\n  border-radius: 6px;\r\n  margin-bottom: 30px;\n}\n.form-group[data-v-6bdc8b8e] {\r\n  margin-bottom: 10px;\n}\n.vue-tempalte[data-v-6bdc8b8e]{\r\n    padding-top: 30px;\n}\n.main-center[data-v-6bdc8b8e][data-v-6bdc8b8e] {\r\n  max-width: 500px;\r\n  border-radius: 15px;\r\n  padding: 25px 40px;\r\n  background: #fff;\n}\nlabel[data-v-6bdc8b8e] {\r\n  margin-bottom: 10px;\r\n  font-weight: 500;\n}\nlabel.lable-success[data-v-6bdc8b8e] {\r\n  text-align: center;\r\n  display: inherit;\r\n  background: antiquewhite;\r\n  padding: 15px 0;\r\n  border-radius: 15px;\r\n  color: brown;\r\n  font-weight: 600;\r\n  letter-spacing: 0.5px;\n}\ninput.form-control[data-v-6bdc8b8e] {\r\n  border: 1px solid #ced4da;\r\n  border-radius: 7px !important;\r\n  font-size: 15px;\n}\ninput[data-v-6bdc8b8e],\r\ninput[data-v-6bdc8b8e]::-webkit-input-placeholder {\r\n  font-size: 15px;\r\n  padding-top: 3px;\n}\n.form-control[data-v-6bdc8b8e]:focus {\r\n  border-color: #2554ff;\r\n  box-shadow: none;\n}\n.main-login[data-v-6bdc8b8e] {\r\n  background-color: #fff;\r\n  /* shadows and rounded borders */\r\n  border-radius: 2px;\r\n  /* -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\r\n  /* -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\r\n  /* box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3); */\r\n  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);\n}\n.main-center[data-v-6bdc8b8e] {\r\n  margin-top: 30px;\r\n  margin: 0 auto;\r\n  max-width: 330px;\r\n  padding: 40px 40px;\n}\n.login-button[data-v-6bdc8b8e] {\r\n  margin-top: 5px;\n}\n.login-register[data-v-6bdc8b8e] {\r\n  font-size: 11px;\r\n  text-align: center;\n}\nul[data-v-6bdc8b8e] {\r\n  display: flex;\r\n  justify-content: center;\n}\nli[data-v-6bdc8b8e] {\r\n  border: 1px solid #2554ff;\r\n  padding: 10px 15px;\r\n  list-style: none;\r\n  margin: 0 20px;\r\n  text-align: center;\r\n  width: 100%;\n}\n.btn_signin[data-v-6bdc8b8e] {\r\n  background: linear-gradient(45deg, #00a8ff, #487eb0);\r\n  color: white;\n}\n.a_signup[data-v-6bdc8b8e] {\r\n  background: linear-gradient(-45deg, #7bed9f, #227093);\r\n  color: white;\n}\n.fix-space[data-v-6bdc8b8e]{\r\n    padding-bottom: 188px;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -21843,7 +21929,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.main-register[data-v-3563ad7c]{\n  background: #2554FF;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n.main-register[data-v-3563ad7c]{\r\n  background: #2554FF;\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
