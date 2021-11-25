@@ -32,7 +32,7 @@ const routes = [
         name : "home-page",
         path : "/car-home",
         component : CarsHome
-    }
+    },
 ];
 
 const router = createRouter({

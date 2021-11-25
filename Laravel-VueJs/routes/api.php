@@ -4,6 +4,7 @@ use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\FooterController;
+use App\Http\Controllers\Api\SubFooterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -25,3 +26,5 @@ Route::get('/all-user',[UserController::class,'index']);//Lấy danh sách users
 Route::get('/user-id/{id}',[UserController::class,'show']);//Tìm user với api
 
 Route::get('/all-footer',[FooterController::class,'index']);//Lấy danh sách footer với api
+
+Route::get('/subfooter/{id}',[SubFooterController::class,'show']);//Lấy danh sách subfooter với api
