@@ -15,7 +15,7 @@ class FooterController extends Controller
      */
     public function index()
     {
-        //
+        //footer
         $footer = Footer::all();
         return response($footer,200);
     }

@@ -21,6 +21,7 @@ class FooterFactory extends Factory
      */
     public function definition()
     {
+        //load data
         return [
             'topics' => 'Discover more'
         ];

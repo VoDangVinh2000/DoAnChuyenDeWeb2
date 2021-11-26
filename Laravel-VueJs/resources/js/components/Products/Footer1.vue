@@ -7,8 +7,8 @@
           <div class="col-md-3 brand__items" v-for="item in data" :key="item.id">
             <h3 class="title">{{item.topics}}</h3>
             <hr class="brand__line" />
-            <ul class="brand__links" v-for="item in data" :key="item.id">
-              <li><a href="#">{{item.name}}</a></li>
+            <ul class="brand__links" >
+              <li v-for="item2 in JSON.parse(item.subfooter)" :key="item2"><a href="">{{item2.name}}</a></li>
               <!-- <li><a href="#">Design</a></li>
               <li><a href="#">Exhibitions</a></li>
               <li><a href="#">Museum & History</a></li>
@@ -96,7 +96,6 @@ export default {
     data(){
       return {
         data: [],
-        data_subfooter : []
       };
     },
     methods: {
@@ -106,26 +105,9 @@ export default {
             const data = await response.json();
             return data;
         },
-        async getDataSubFooter(){
-            for(let i = 1; i <= Object.keys(await this.getData()).length; i++){
-               const url = '/api/subfooter/' + i;
-                const response = await fetch(url);
-                const data = await response.json();
-                this.data_subfooter = [...this.data_subfooter,await data];
-            }
-             return JSON.stringify(this.data_subfooter.map(item => console.log(JSON.stringify(item))))
-        },
-        async getDataSubFooterByID(id){
-            const url = "/api/subfooter/" + id;
-            const response = await fetch(url);
-            const data = await response.json();
-            return data;
-        }
     },
     async created() {
       this.data = await this.getData();
-      await this.getDataSubFooter();
-      console.log(JSON.stringify(this.data_subfooter));
     },
 
     
