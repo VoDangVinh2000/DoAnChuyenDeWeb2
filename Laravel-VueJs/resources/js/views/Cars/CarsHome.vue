@@ -1,5 +1,6 @@
 <template>
     <!-- Gọi các cpn tạo ra trang home !-->
+<<<<<<< HEAD
         <Header />
 </template>
 
@@ -10,6 +11,17 @@ export default {
     name : 'CarsHome',
     components: {
     Header
+=======
+     <Product />
+</template>
+
+<script>
+import Product from "../../components/Products/Product.vue";
+export default {
+    name : 'CarsHome',
+    components : {
+        Product
+>>>>>>> GroupD-Huy/Function
     }
 }
 </script>

@@ -7,6 +7,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\UserMenuController;
 use App\Http\Controllers\Api\FooterController;
 use App\Http\Controllers\Api\SubFooterController;
+use App\Http\Controllers\Api\SubgroupController;
 
 /*
 |--------------------------------------------------------------------------
@@ -33,3 +34,4 @@ Route::get('/all-footer',[FooterController::class,'index']);//Lấy danh sách f
 
 Route::get('/subfooter/{id}',[SubFooterController::class,'show']);//Lấy danh sách subfooter với api
 Route::get('/slides',[SlideShowController::class, 'index']);
+Route::get('/all-subgroup',[SubgroupController::class,'index']);//Lấy danh sách các cotegories
