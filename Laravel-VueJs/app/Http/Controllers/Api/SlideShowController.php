@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use App\Models\User;
+use App\Models\Slide;
 use Illuminate\Http\Request;
 
-class UserController extends Controller
+class SlideShowController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,9 +15,8 @@ class UserController extends Controller
      */
     public function index()
     {
-        //return users (type Json())
-        $users = User::paginate(5);
-        return response($users,200);
+        $slide = Slide::all();
+        return response($slide,200);
     }
 
     /**
@@ -38,7 +37,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-
+        //
     }
 
     /**
@@ -49,15 +48,7 @@ class UserController extends Controller
      */
     public function show($id)
     {
-        $user = null;
-        if($id != null){
-            $user = User::find($id);
-            return response($user,200);
-        }
-        else{
-            return $user;
-        }
-
+        //
     }
 
     /**

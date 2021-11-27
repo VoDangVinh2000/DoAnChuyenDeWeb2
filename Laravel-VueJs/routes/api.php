@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Api\SlideShowController;
 use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -31,3 +32,4 @@ Route::get('/all-menu',[UserMenuController::class,'index']); //Lấy danh sác
 Route::get('/all-footer',[FooterController::class,'index']);//Lấy danh sách footer với api
 
 Route::get('/subfooter/{id}',[SubFooterController::class,'show']);//Lấy danh sách subfooter với api
+Route::get('/slides',[SlideShowController::class, 'index']);
