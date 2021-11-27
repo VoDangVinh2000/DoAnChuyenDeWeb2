@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Api\SlideShowController;
+use App\Http\Controllers\Api\CarsController;
 use App\Http\Controllers\Api\UserController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
@@ -35,3 +36,4 @@ Route::get('/all-footer',[FooterController::class,'index']);//Lấy danh sách f
 Route::get('/subfooter/{id}',[SubFooterController::class,'show']);//Lấy danh sách subfooter với api
 Route::get('/slides',[SlideShowController::class, 'index']);
 Route::get('/all-subgroup',[SubgroupController::class,'index']);//Lấy danh sách các cotegories
+Route::get('/all-cars',[CarsController::class,'index']);

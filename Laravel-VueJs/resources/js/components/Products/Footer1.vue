@@ -110,7 +110,7 @@ export default {
       this.data = await this.getData();
     },
 
-    
+
 };
 
 </script>
@@ -164,11 +164,11 @@ a:hover {
 }
 
 #top__footer {
-  margin: 0 32px;
+  /* margin: 0 32px; */
 }
 
 #bottom__footer{
-    margin: 0 32px;
+    /* margin: 0 32px; */
 }
 
 p.bottom__footer__descriptons{
