@@ -5,6 +5,8 @@ namespace Database\Factories;
 use App\Models\MenuMain;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
+
+
 class MenuMainFactory extends Factory
 {
     /**
@@ -22,7 +24,9 @@ class MenuMainFactory extends Factory
     public function definition()
     {
         return [
-            //
+            'name' => 'Lifestyle',
+            'link' => 'https://www.mercedes-benz.com/en/lifestyle/',
+            'enabled' => 1
         ];
     }
 }
