@@ -16,6 +16,7 @@ class CreateFooterTable extends Migration
         Schema::create('footer', function (Blueprint $table) {
             $table->id();
             $table->string('topics',20);
+            $table->text('subfooter');
             $table->timestamps();
         });
     }

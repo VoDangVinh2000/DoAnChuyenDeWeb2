@@ -32,6 +32,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Users from './Users/Users';
 
+
 export default {
     name : 'Home.vue',
     components : {
