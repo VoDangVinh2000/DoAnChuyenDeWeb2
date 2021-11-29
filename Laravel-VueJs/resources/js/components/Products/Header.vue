@@ -35,6 +35,7 @@
       </div>
     </nav>
   </header>
+
 </template>
 
 <script>
@@ -51,7 +52,7 @@ export default {
         const url = "/api/all-menu";
         const response = await fetch(url);
         const data = await response.json();
-       
+
         return data;
       },
     },
@@ -59,7 +60,7 @@ export default {
     async created() {
       this.data = await this.getData();
     },
-    
+
 };
 </script>
 

@@ -1,6 +1,4 @@
 @extends('master')
-
 @section('content')
-    <footer-views></footer-views>
-
+    <page-innovation></page-innovation>
 @endsection
