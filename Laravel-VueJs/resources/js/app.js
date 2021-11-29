@@ -1,6 +1,9 @@
 require("./bootstrap");
 import { createApp } from "vue";
 import router from "./router";
+import BootstrapVue3 from "bootstrap-vue-3";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
 const app = createApp({});
 
 app.component("register-views", require("SrcComponent/views/Register.vue").default);
@@ -15,5 +18,6 @@ app.component("page-design", require("SrcComponent/views/Pages/Design/Design.vue
 app.component("page-events", require("SrcComponent/views/Pages/Events/Events.vue").default);
 app.component("page-museums_history", require("SrcComponent/views/Pages/Museums_History/Museums_History.vue").default);
 app.use(router);
+app.use(BootstrapVue3);
 app.mount("#app");
 export default app;
