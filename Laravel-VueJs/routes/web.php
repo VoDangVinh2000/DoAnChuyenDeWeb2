@@ -52,3 +52,7 @@ Route::get('/innovation',function(){
     return view('app.Pages.innovation');
 });
 
+Route::get('/company',function(){
+    return view('app.Pages.company');
+});
+
