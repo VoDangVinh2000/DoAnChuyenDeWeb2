@@ -6,6 +6,7 @@ import Home from "SrcComponent/views/Home.vue";
 import EditUser from "SrcComponent/views/EditUser.vue";
 import CarsHome from "SrcComponent/views/Cars/CarsHome.vue";
 import Innovation from "SrcComponent/views/Pages/Innovation/Innovation.vue";
+import Events from "SrcComponent/views/Pages/Events/Events.vue";
 const routes = [
     {
         /* Tạo routes trong vuejs */
@@ -57,7 +58,7 @@ const routes = [
     {
         name : "events",
         path : "/events",
-        // component : Innovation
+        component : Events
     },
     {
         name : "lifestyle",
