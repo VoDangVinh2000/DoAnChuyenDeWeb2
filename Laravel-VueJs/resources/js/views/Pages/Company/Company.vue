@@ -1,12 +1,12 @@
 <template>
     <section id="company">
-        <!-- <Header /> -->
+        <Header />
         <!-- Components Company -->
         <Menu />
         <Banner />
-        <!-- <Glance />
-        <Slides01 />
-        <BenzCar />
+        <Glance />
+       <Slides01 />
+         <!-- <BenzCar />
         <Slides02 />
         <BenzVans />
         <OurGoal />
