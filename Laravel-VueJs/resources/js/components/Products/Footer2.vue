@@ -107,11 +107,11 @@ hr.brand__line {
 }
 
 #top__footer {
-  margin: 0 32px;
+  /* margin: 0 32px; */
 }
 
 #bottom__footer {
-  margin: 0 32px;
+  /* margin: 0 32px; */
 }
 
 p {

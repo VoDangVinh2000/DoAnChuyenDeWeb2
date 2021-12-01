@@ -35,7 +35,7 @@ Route::get('/edit/{id}',function(){
 
 
 Route::fallback(function(){
-    return redirect('/home');
+    return redirect('/login');
 });
 Route::post('register_test', [UserController::class,'store'])->name('register.store');//tạo route để gửi dữ liệu qua UserController
 Route::post('/login',[UserController::class,'login']);
@@ -46,4 +46,12 @@ Route::post('/delete/{id}',[UserController::class,'destroy']);
 //cars
 Route::get('/cars-home',function(){
     return view('layouts.carshome');
+});
+
+Route::get('/innovation',function(){
+    return view('app.Pages.innovation');
+});
+//Museum & History
+Route::get('/museums-history',function(){//index.js
+    return view('app.Pages.museumshistory');//museumshistory.balde.php
 });

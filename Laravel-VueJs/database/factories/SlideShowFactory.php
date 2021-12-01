@@ -5,7 +5,7 @@ namespace Database\Factories;
 use App\Models\Slide;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
-class SlideFactory extends Factory
+class SlideShowFactory extends Factory
 {
     /**
      * The name of the factory's corresponding model.
@@ -22,7 +22,7 @@ class SlideFactory extends Factory
     public function definition()
     {
         return [
-            //
+            
         ];
     }
 }
