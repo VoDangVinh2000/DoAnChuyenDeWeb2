@@ -55,3 +55,8 @@ Route::get('/innovation',function(){
 Route::get('/museums-history',function(){//index.js
     return view('app.Pages.museumshistory');//museumshistory.balde.php
 });
+
+Route::get('/company',function(){
+    return view('app.Pages.company');
+});
+
