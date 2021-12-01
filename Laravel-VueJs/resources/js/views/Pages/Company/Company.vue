@@ -5,25 +5,25 @@
         <Menu />
         <Banner />
         <Glance />
-       <Slides01 />
-         <!-- <BenzCar />
+        <Slides01 />
+        <BenzCar />
         <Slides02 />
         <BenzVans />
         <OurGoal />
         <Ambition />
         <Purpose />
         <OurCorporate />
-        <ImageBottom /> -->
+        <ImageBottom />
         <!-- Footer -->
-        <!-- <Footer01 />
-        <Footer02 /> -->
+        <Footer01 />
+        <!-- <Footer02 /> -->
     </section>
 </template>
 <script>
 import Header from "../../../components/Products/Header.vue";
 import Footer01 from "../../../components/Products/Footer1.vue";
 import Footer02 from "../../../components/Products/Footer2.vue";
-import Menu from "../../../components/Pages/Company/MenuCompany.vue"
+import Menu from "../../../components/Pages/Company/MenuCompany.vue";
 import Banner from "../../../components/Pages/Company/BannerCompany.vue";
 import Glance from "../../../components/Pages/Company/GlanceIntro.vue";
 import Slides01 from "../../../components/Pages/Company/SlidesCompany01.vue";
@@ -59,8 +59,7 @@ export default {
 };
 </script>
 <style scoped>
-#company{
-    background: #000000;
-    color: #ffffff;
+#company {
+    background: #ffffff;
 }
 </style>

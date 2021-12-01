@@ -88,6 +88,7 @@ export default {
     text-indent: 25px;
     padding: 0 30px;
     line-height: 23px;
+    letter-spacing: 1px;
 }
 
 #glance__intro .top__link a span {
@@ -116,7 +117,7 @@ export default {
 
 #glance__intro .title__bottom {
     position: relative;
-    top: 19.5rem;
+    top: 14.5rem;
 }
 
 #glance__intro .glance__body {

@@ -30,7 +30,7 @@ export default {
     height: 90px;
     background: #1f1f1f;
     position: sticky;
-    z-index: 1;
+    z-index: 100;
     top: -1px;
 }
 

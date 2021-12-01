@@ -1,10 +1,11 @@
 <template>
     <section id="slide__01">
         <b-carousel
-            id="carousel-no-animation"
+            id="carousel-animation-01"
             controls
             img-width="1680"
             background="#ffffff"
+            :interval="4500"
             v-model="slide"
             @sliding-start="onSlideStart"
             @sliding-end="onSlideEnd"
@@ -46,5 +47,6 @@ export default {
 <style scoped>
 #slide__01 {
     max-width: 1680px;
+    background-color: #000000;
 }
 </style>
