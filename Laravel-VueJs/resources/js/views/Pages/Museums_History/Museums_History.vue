@@ -1,5 +1,5 @@
 <template>
-    <p>This is Museums_History vue page.^^</p>
+    <p>This is Museums_History vue page</p>
 </template>
 
 <script>

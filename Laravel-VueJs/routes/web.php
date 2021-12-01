@@ -51,7 +51,7 @@ Route::get('/cars-home',function(){
 Route::get('/innovation',function(){
     return view('app.Pages.innovation');
 });
-//Museum & History
+//Museums & History
 Route::get('/museums-history',function(){//index.js
     return view('app.Pages.museumshistory');//museumshistory.balde.php
 });

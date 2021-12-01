@@ -54,7 +54,7 @@ const routes = [
     {
         name : "museums-history",
         path : "/museums-history",
-        component : MuseumsHistory
+        component : MuseumsHistory,
     },
     {
         name : "events",
