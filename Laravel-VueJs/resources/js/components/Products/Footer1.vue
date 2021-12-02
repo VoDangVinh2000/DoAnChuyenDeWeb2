@@ -165,18 +165,18 @@ a:hover {
 
 #top__footer {
   margin: 0 32px;
-  max-width: 1280px;
+
 }
 
 #bottom__footer{
     margin: 0 32px;
-      max-width: 1280px;
+    
 }
 
 p.bottom__footer__descriptons{
     color: #999;
     font-size: 14px;
-    width: 45%;
+  
      font-family: sans-serif;
 }
 
@@ -202,35 +202,44 @@ ul.social__media li a i{
   }
  
 }
-/* CSS cho tỷ lệ màn hình dưới 1200px*/
-@media screen and (max-width: 1280px) {
-  #top__footer {
-max-width: 92%;
-}
-
-#bottom__footer{
-    max-width: 92%;
-}
-
-}
-/* CSS cho tỷ lệ màn hình dưới 1024px*/
 @media screen and (max-width: 1024px) {
-  
-
+    #footer__1 p {
+        padding-bottom: 20px;
+    }
 }
-/* CSS cho tỷ lệ màn hình dưới 768px */
 @media screen and (max-width: 768px) {
-
- 
+    #footer__1 {
+        height: 970px;
+    }
+    #footer__1 h1,
+    #footer__1 h2,
+    #footer__1 ul.social__media li a i {
+        font-size: 1.8rem;
+    }
 }
-/* CSS cho tỷ lệ màn hình dưới 480px */
+@media screen and (max-width: 600px) {
+    #footer__1 {
+        height: 1150px;
+    }
+}
 @media screen and (max-width: 480px) {
-
+    #footer__1 {
+        height: 1450px;
+    }
+    #footer__1 h1,
+    #footer__1 h2,
+    #footer__1 ul.social__media li a i {
+        font-size: 1.5rem;
+    }
 }
-
-/* CSS cho tỷ lệ màn hình dưới 320px - Iphone */
-@media screen and (max-width: 320px) {
-
-
+@media screen and (max-width: 380px) {
+    #footer__1 {
+        height: 1550px;
+    }
+}
+@media screen and (max-width: 280px) {
+    #footer__1 {
+        height: 2100px;
+    }
 }
 </style>
