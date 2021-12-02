@@ -86,4 +86,7 @@ export default {
 .icon-i-right{
   float: right;
 }
+.navbar-toggler{
+  background:white;
+}
 </style>

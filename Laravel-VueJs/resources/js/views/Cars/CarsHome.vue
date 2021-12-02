@@ -1,6 +1,9 @@
 <template>
   <!-- Gọi các cpn tạo ra trang home !-->
-  <Header />
+  <!-- @test="getMenuID" -->
+  <Header
+
+  />
   <SliderSearch />
   <Product />
   <div class="footer">
@@ -26,6 +29,8 @@ export default {
     Footer1,
     Footer2,
   },
+  methods :{
+  }
 };
 </script>
 
