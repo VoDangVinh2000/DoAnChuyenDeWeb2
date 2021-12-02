@@ -7,8 +7,6 @@
                        <p v-for="item in items" :key="item " data-aos ="fade-up"
                         data-aos-duration="1800">{{item.text}}</p>
             </div>
-
-            <!-- <h2 class="title__bottom">Our business divisions.</h2> -->
         </b-container>
     </section>
 </template>

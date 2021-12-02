@@ -20201,7 +20201,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "Footer1.vue",
   data: function data() {
     return {
       data: []
@@ -20286,8 +20285,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _assets_img_museums_01_classic_serviceparts_header_2560x1440_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../assets/img-museums/01-classic-serviceparts-header-2560x1440.webp */ "./resources/assets/img-museums/01-classic-serviceparts-header-2560x1440.webp");
 /* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_center_expertise_2560x1440_webp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp");
 /* harmony import */ var _assets_img_museums_01_mercedes_benz_museum_rudolf_caracciola_2560x1440_webp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp");
-// import intro from "../../../../assets/img-museums/06-mercedes-benz-classic-2560x1440.webp";
-// import intro1 from "../../../../assets/img-museums/05-mercedes-benz-classic-2560x1440.webp";
 
 
 
@@ -20329,9 +20326,7 @@ __webpack_require__.r(__webpack_exports__);
       }, {
         img: _assets_img_museums_01_mercedes_benz_museum_rudolf_caracciola_2560x1440_webp__WEBPACK_IMPORTED_MODULE_8__["default"],
         text: "Master of Silver Arrows. Rudolf Caracciola is the most successful German racing driver of the 1930s. Hot on his heels at the Mercede..."
-      }] //  img: intro,
-      // img1: intro1
-
+      }]
     };
   }
 });
@@ -21355,7 +21350,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: (_components = {
-    // Menu,
+    Menu: _components_Pages_Museums_History_MenuMuseum_vue__WEBPACK_IMPORTED_MODULE_2__["default"],
     Header: _components_Products_Header_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
     Footer01: _components_Products_Footer1_vue__WEBPACK_IMPORTED_MODULE_1__["default"],
     Banner: _components_Pages_Museums_History_BannerMuseum_vue__WEBPACK_IMPORTED_MODULE_3__["default"],
@@ -22604,7 +22599,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         );
       }), 128
       /* KEYED_FRAGMENT */
-      ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <h2 class=\"title__bottom\">Our business divisions.</h2> ")];
+      ))])];
     }),
     _: 1
     /* STABLE */
@@ -23971,6 +23966,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_Banner = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Banner");
 
+  var _component_Menu = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Menu");
+
   var _component_Intro = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Intro");
 
   var _component_BeforeRecenLeft = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("BeforeRecenLeft");
@@ -23997,7 +23994,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_Footer2 = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer2");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Header), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Components Museums & History "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Banner), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <Menu /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BeforeRecenLeft), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Recent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ImageRecent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_IntroMuseum), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MecBenzHoursntro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HistoryMecRight), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ImageBeforePhotos), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ThePhoto), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SlidesCarousel), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Follow), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer01), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <Footer02 /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer2)]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Header), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Components Museums & History "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Banner), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Menu), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BeforeRecenLeft), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Recent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ImageRecent), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_IntroMuseum), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MecBenzHoursntro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_HistoryMecRight), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ImageBeforePhotos), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ThePhoto), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_SlidesCarousel), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Follow), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer01), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <Footer02 /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer2)]);
 }
 
 /***/ }),

@@ -30,8 +30,6 @@
     </section>
 </template>
 <script>
-// import intro from "../../../../assets/img-museums/06-mercedes-benz-classic-2560x1440.webp";
-// import intro1 from "../../../../assets/img-museums/05-mercedes-benz-classic-2560x1440.webp";
 import img1 from "../../../../assets/img-museums/01-mercedes-benz-classic-magazine-it-must-be-love-2560x1440.webp";
 import img2 from "../../../../assets/img-museums/01-mercedes-benz-classic-magazine-dad-route-2560x1440.webp";
 import img3 from "../../../../assets/img-museums/01-mercedes-benz-history-in-orbit-for-100-years-2560x1440.webp";
@@ -59,8 +57,6 @@ export default {
                 { img: img8, text: "Manufacturer’s expert assessment. The unique confirmation of the originality of your classic: reliable, transparent, from Mercedes-Benz Class..." },
                 { img: img9, text: "Master of Silver Arrows. Rudolf Caracciola is the most successful German racing driver of the 1930s. Hot on his heels at the Mercede..." },
             ],
-            //  img: intro,
-            // img1: intro1
         };
     },
 };

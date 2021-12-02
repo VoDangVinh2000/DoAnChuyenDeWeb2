@@ -1,5 +1,4 @@
 <template>
- 
     <section id="intro">
       <div class="container" data-aos ="fade-up"
                         data-aos-duration="1800">
@@ -15,10 +14,9 @@
       </div>
     </section>
 </template>
-
 <script>
 export default {
-    name: "Footer1.vue",
+
     data(){
       return {
         data: [],
