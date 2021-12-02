@@ -47,7 +47,7 @@
             </div>
         </div>
         <!-- Background image -->
-        <b-container id="myID" class="bottomMenu hide">
+        <b-container id="myID" class="bottomMenu hide" data-aos="fade-up">
             <div class="home">
                 <h6>
                     <span id="back-home"> Home</span>
@@ -57,7 +57,7 @@
                     >
                 </h6>
             </div>
-            <div class="bv-example-row">
+            <div class="bv-example-row" data-aos="fade-up">
                 <b-row>
                     <b-col class="introduce">
                         <h3>Mercedes-Benz Event highlights.</h3>
@@ -86,7 +86,7 @@
             </div>
         </b-container>
         <div class="product-event">
-            <div class="bv-example-row">
+            <div class="bv-example-row" data-aos="fade-up">
                 <b-row>
                     <b-col
                         class="p-5 bg-image img-product"
@@ -194,7 +194,7 @@
                         kombinierten Testzyklus</span
                     >
                 </div>
-                <div class="footer-detail">
+                <div class="footer-detail" data-aos="fade-up">
                     <p>Product may vary after press date on 26.09.2014.</p>
                     <p>
                         1 Die angegebenen Werte wurden nach dem vorgeschriebenen
@@ -255,10 +255,12 @@
                         mit amtlichen Werten vor. Abweichungen zwischen den
                         Angaben und den amtlichen Werten sind möglich.
                     </p>
+                    
                 </div>
             </div>
         </div>
     </div>
+    
 </template>
 <script>
 import {
@@ -280,7 +282,7 @@ import {
       return {
         dropdown25,
       };
-    }, 
+    },
   };
   
 </script>
@@ -442,6 +444,18 @@ import {
     #events .footer-title span{
         display: flex;
         flex-direction: row;
+    }
+    #events .product-event .img-product span{
+        /* position: absolute;
+        width: 100%;
+        height: 100%; */
+        top: 90%;
+        /* text-align: center;
+        left: 0;
+        background: black;
+        opacity: 0.5;
+        color: white;
+        font-size: 1.2rem; */
     }
 }
 @media all and (max-width: 800px){
