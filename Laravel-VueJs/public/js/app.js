@@ -22930,12 +22930,12 @@ var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
     "data-aos": "fade-up",
     "data-aos-duration": "1800"
-  }, " Our goal: to build the world’s most desirable cars. ", -1
+  }, " The Purpose of Mercedes-Benz Cars. ", -1
   /* HOISTED */
   );
 });
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" The Mercedes-Benz strategy is made up of six pillars. At its heart is the transformation of the company to become the number 1 for electric mobility and all-encompassing digitalisation. At the same time, there is a clear focus on the structural improvement of profitability, with sustainability as a guiding principle. The basis for the success of our new strategy is provided by our highly qualified and motivated team. ");
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" “First Move the World” – that is the Purpose of Mercedes-Benz Cars. It is the deeper meaning behind our work, it is what drives us, our “reason why”. “First Move the World” means pursuing more than what is immediately achievable. This pioneering spirit is part of our DNA. In times of change, it gives us a direction for our all-embracing and sustainable business strategy, and for our decisions. It gave rise to, for example, Ambition 2039 – our road to sustainable mobility. ");
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Learn more ");
 

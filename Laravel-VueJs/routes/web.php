@@ -52,6 +52,7 @@ Route::get('/innovation',function(){
     return view('app.Pages.innovation');
 });
 
+// Tạo route cho page Company About us
 Route::get('/company',function(){
     return view('app.Pages.company');
 });
