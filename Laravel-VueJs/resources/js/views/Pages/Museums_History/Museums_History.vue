@@ -1,17 +1,62 @@
 <template>
-    <p>This is Museums_History vue page</p>
+    <section id="museums_history">
+        <Header />
+        <!-- Components Museums & History -->
+        <Banner />
+        <Menu />
+        <Intro />
+        <BeforeRecenLeft />
+        <Recent />
+        <ImageRecent />
+        <IntroMuseum />
+        <MecBenzHoursntro />
+        <HistoryMecRight />
+        <ImageBeforePhotos />
+      
+        <!-- Footer -->
+        <Footer01 />
+        <!-- <Footer02 /> -->
+        <Footer2 />
+    </section>
 </template>
-
 <script>
+import Header from "../../../components/Products/Header.vue";
+import Footer01 from "../../../components/Products/Footer1.vue";
+import Footer02 from "../../../components/Products/Footer2.vue";
+import Menu from "../../../components/Pages/Museums_History/MenuMuseum.vue";
+import Banner from "../../../components/Pages/Museums_History/BannerMuseum.vue";
+import Intro from "../../../components/Pages/Museums_History/Intro.vue";
+import "bootstrap/dist/css/bootstrap.css";
+import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
+import Recent from "../../../components/Pages/Museums_History/Recent.vue";
+import ImageRecent from "../../../components/Pages/Museums_History/ImageRecent.vue";
+import IntroMuseum from "../../../components/Pages/Museums_History/IntroMuseum.vue";
+import MecBenzHoursntro from "../../../components/Pages/Museums_History/MecBenzHoursntro.vue";
+import BeforeRecenLeft from "../../../components/Pages/Museums_History/BeforeRecenLeft.vue";
+import HistoryMecRight from "../../../components/Pages/Museums_History/HistoryMecRight.vue";
+import ImageBeforePhotos from "../../../components/Pages/Museums_History/ImageBeforePhotos.vue";
+
 export default {
-    name : "Museums_History.vue",
-    data() {
-        return {
-        }
-    },
-}
+    components: {
+    Menu,
+    Header,
+    Footer01,
+    Footer02,
+    Banner,
+    Intro,
+    MecBenzHoursntro,
+    Recent,
+    ImageRecent,
+    IntroMuseum,
+    MecBenzHoursntro,
+    BeforeRecenLeft,
+    HistoryMecRight,
+    ImageBeforePhotos
+},
+};
 </script>
-
 <style scoped>
-
+#museums_history {
+    background: #000;
+}
 </style>
