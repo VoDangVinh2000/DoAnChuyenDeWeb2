@@ -165,10 +165,12 @@ a:hover {
 
 #top__footer {
   margin: 0 32px;
+  max-width: 1280px;
 }
 
 #bottom__footer{
     margin: 0 32px;
+      max-width: 1280px;
 }
 
 p.bottom__footer__descriptons{
@@ -201,10 +203,15 @@ ul.social__media li a i{
  
 }
 /* CSS cho tỷ lệ màn hình dưới 1200px*/
-@media screen and (max-width: 1200px) {
- .container-fluid {
-    left: 0%;
-  }
+@media screen and (max-width: 1280px) {
+  #top__footer {
+max-width: 92%;
+}
+
+#bottom__footer{
+    max-width: 92%;
+}
+
 }
 /* CSS cho tỷ lệ màn hình dưới 1024px*/
 @media screen and (max-width: 1024px) {
@@ -223,6 +230,6 @@ ul.social__media li a i{
 /* CSS cho tỷ lệ màn hình dưới 320px - Iphone */
 @media screen and (max-width: 320px) {
 
-  
+
 }
 </style>
