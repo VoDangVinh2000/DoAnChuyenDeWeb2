@@ -190,7 +190,8 @@ ul.social__media{
 }
 
  ul.social__media li{
-   margin: 10px 26px;
+   margin: 10px 26px!important;
+   width: 100%;
 
 }
 
@@ -202,13 +203,35 @@ ul.social__media li a i{
 max-width: 92%;
 }
 
+
 #bottom__footer{
     max-width: 92%;
 }
-@media screen and (max-width: 480px) {
-  .icon ul.social__media li{
+ul.social__media li{
+   margin: 10px 26px;
    width: 100%;
+
 }
-}
+@media screen and (max-width: 768px) {
+  ul.social__media li{
+    width: 100%;
+    } 
+  }
+
+@media screen and (max-width: 480px) {
+  ul.social__media li{
+    width: 100%;
+    } 
+  }
+  @media screen and (max-width: 320px) {
+  ul.social__media li{
+    width: 100%;
+    } 
+  }
+  @media screen and (max-width: 240px) {
+  ul.social__media li{
+    width: 100%;
+    } 
+  }
 }
 </style>
