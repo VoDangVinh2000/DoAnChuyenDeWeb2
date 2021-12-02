@@ -72,10 +72,9 @@ hr.brand__line {
 }
 #top__footer {
   margin: 0 32px;
+  max-width: 1280px;
 }
-#bottom__footer {
-  margin: 0 32px;
-}
+
 p {
   color: #999;
   font-size: 14px;
@@ -121,5 +120,10 @@ ul a {
   font-family: sans-serif;
   line-height: 22px;
   transition: 0.4s all ease;
+}
+@media screen and (max-width: 1280px) {
+  #top__footer {
+max-width: 92%;
+}
 }
 </style>
