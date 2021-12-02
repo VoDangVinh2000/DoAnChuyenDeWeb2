@@ -186,7 +186,7 @@ ul.social__media{
 }
 
 ul.social__media li{
-   margin: 10px 26px;
+  width: 100%;
 }
 
 ul.social__media li a i{
@@ -225,8 +225,9 @@ max-width: 92%;
 }
 /* CSS cho tỷ lệ màn hình dưới 480px */
 @media screen and (max-width: 480px) {
-  
+
 }
+
 /* CSS cho tỷ lệ màn hình dưới 320px - Iphone */
 @media screen and (max-width: 320px) {
 
