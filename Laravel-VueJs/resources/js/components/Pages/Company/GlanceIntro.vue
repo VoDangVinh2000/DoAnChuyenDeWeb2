@@ -9,16 +9,40 @@
                     ><span>About us</span></b-nav-item
                 >
             </b-nav>
-            <h1 class="title__top">The Mercedes-Benz AG at a glance.</h1>
+            <h1
+                class="title__top"
+                data-aos="fade-up"
+                data-aos-duration="1800"
+            >
+                The Mercedes-Benz AG at a glance.
+            </h1>
             <div class="glance__body">
                 <b-row>
-                   <b-col md="4" v-for="item in items" :key="item">
-                       <p>{{item.text}}</p>
-                   </b-col>
+                    <b-col
+                        xl="4"
+                        lg="12"
+                        md="12"
+                        v-for="(item,index) in items"
+                        :key="index"
+                    >
+                        <p
+                            class="title__top"
+                            data-aos="fade-up"
+                            data-aos-duration="1500"
+                        >
+                            {{ item.text }}
+                        </p>
+                    </b-col>
                 </b-row>
             </div>
 
-            <h2 class="title__bottom">Our business divisions.</h2>
+            <h2
+                class="title__bottom"
+                data-aos="fade-up"
+                data-aos-duration="1800"
+            >
+                Our business divisions.
+            </h2>
         </b-container>
     </section>
 </template>
@@ -72,8 +96,8 @@ export default {
     letter-spacing: -2px;
 }
 
-#glance__intro h1{
-   position: relative;
+#glance__intro h1 {
+    position: relative;
     top: 5.5rem;
 }
 
@@ -99,7 +123,7 @@ export default {
     color: #00adef;
 }
 
-#glance__intro .top__link a i{
+#glance__intro .top__link a i {
     position: relative;
     left: 18px;
     font-size: 14px;
@@ -123,5 +147,48 @@ export default {
 #glance__intro .glance__body {
     position: relative;
     top: 10rem;
+}
+
+@media screen and (max-width: 1024px) {
+    #glance__intro p {
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #glance__intro {
+        height: 970px;
+    }
+    #glance__intro h1,
+    #glance__intro h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #glance__intro {
+        height: 1150px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #glance__intro {
+        height: 1450px;
+    }
+    #glance__intro h1,
+    #glance__intro h2 {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #glance__intro {
+        height: 1550px;
+    }
+}
+@media screen and (max-width: 280px) {
+    #glance__intro {
+        height: 2100px;
+    }
 }
 </style>

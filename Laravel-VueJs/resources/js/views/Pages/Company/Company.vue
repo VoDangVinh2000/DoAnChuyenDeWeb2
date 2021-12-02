@@ -1,10 +1,30 @@
 <template>
     <section id="company">
+        <!-- <Header />
+        <b-tabs pills card content-class="mt-3" align="center">
+            <b-tab title="About us" active>
+                <Banner />
+                <Glance />
+            </b-tab>
+            <b-tab title="Career">
+                <Slides01 />
+                <Glance />
+            </b-tab>
+            <b-tab title="Media">
+                <Banner />
+                <Glance />
+            </b-tab>
+            <b-tab title="Daimler AG Investors">
+                <Slides01 />
+                <Glance />
+            </b-tab>
+        </b-tabs>
+        <Footer01 /> -->
         <Header />
         <!-- Components Company -->
         <Menu />
         <Banner />
-        <Glance />
+         <Glance />
         <Slides01 />
         <BenzCar />
         <Slides02 />
@@ -37,7 +57,6 @@ import OurCorporate from "../../../components/Pages/Company/OurCorporateIntro.vu
 import ImageBottom from "../../../components/Pages/Company/ImageBottom.vue";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
-
 export default {
     components: {
         Menu,

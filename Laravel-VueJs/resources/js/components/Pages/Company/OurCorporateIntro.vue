@@ -2,15 +2,25 @@
     <section id="our__corporate">
         <b-container>
             <b-row>
-                <b-col md="8">
-                    <div class="left">
+                <b-col xl="8" md="12">
+                    <div
+                        class="left"
+                        data-aos="fade-up"
+                        data-aos-duration="1800"
+                    >
                         <b-img :src="img"></b-img>
                     </div>
                 </b-col>
-                <b-col md="4">
+                <b-col xl="4" md="12">
                     <div class="right">
-                        <h2>Our corporate governance.</h2>
-                        <b-card-text>
+                        <h2 data-aos="fade-up" data-aos-duration="1800">
+                            Our corporate governance.
+                        </h2>
+                        <b-card-text
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            data-aos-delay="200"
+                        >
                             As part of the new corporate structure of the
                             Daimler AG holding company, the Mercedes-Benz Cars
                             and Mercedes-Benz Vans divisions were consolidated
@@ -25,7 +35,14 @@
                             Mercedes-Benz AG and the allocation of
                             responsibilities.
                         </b-card-text>
-                        <b-link href="#"> Learn more </b-link>
+                        <b-link
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            data-aos-delay="200"
+                            href="#"
+                        >
+                            Learn more
+                        </b-link>
                     </div>
                 </b-col>
             </b-row>
@@ -103,5 +120,68 @@ p {
 }
 img {
     width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 1180px;
+    }
+    .right {
+        padding-left: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+    }
+
+    .left {
+        margin-bottom: 15px;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        max-width: 500px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 380px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        max-width: 340px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
 }
 </style>

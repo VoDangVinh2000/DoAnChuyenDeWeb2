@@ -2,15 +2,25 @@
     <section id="ambition">
         <b-container>
             <b-row>
-                <b-col md="8">
+                <b-col xl="8" md="12">
                     <div class="left">
-                        <b-img :src="img"></b-img>
+                        <b-img
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            :src="img"
+                        ></b-img>
                     </div>
                 </b-col>
-                <b-col md="4">
+                <b-col xl="4" md="12">
                     <div class="right">
-                        <h2>Ambition 2039: the road to CO₂-neutrality.</h2>
-                        <b-card-text>
+                        <h2 data-aos="fade-up" data-aos-duration="1800">
+                            Ambition 2039: the road to CO₂-neutrality.
+                        </h2>
+                        <b-card-text
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            data-aos-delay="300"
+                        >
                             Under the heading “Ambition 2039”, Mercedes-Benz
                             Cars has set itself ambitious yet realistic goals.
                             As part of this, the automotive manufacturer is
@@ -33,7 +43,14 @@
                             service life – a long way off in the case of a new
                             Mercedes-Benz.
                         </b-card-text>
-                        <b-link href="#"> Learn more </b-link>
+                        <b-link
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            data-aos-delay="300"
+                            href="#"
+                        >
+                            Learn more
+                        </b-link>
                     </div>
                 </b-col>
             </b-row>
@@ -63,7 +80,6 @@ export default {
 .container {
     max-width: 1265px;
 }
-
 
 h2,
 p,
@@ -112,5 +128,68 @@ p {
 }
 img {
     width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 1180px;
+    }
+    .right {
+        padding-left: 0px;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+    }
+
+    .left {
+        margin-bottom: 15px;
+    }
+
+    .row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        max-width: 500px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 380px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        max-width: 340px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
 }
 </style>

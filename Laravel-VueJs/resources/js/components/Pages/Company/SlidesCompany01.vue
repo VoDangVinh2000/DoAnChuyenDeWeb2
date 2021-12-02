@@ -5,8 +5,12 @@
             controls
             img-width="1680"
             background="#ffffff"
-            :interval="4500"
+            :interval="5500"
             v-model="slide"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+             data-aos-offset="100"
+             data-aos-delay="30"
             @sliding-start="onSlideStart"
             @sliding-end="onSlideEnd"
         >
@@ -15,7 +19,6 @@
                 :key="index"
                 :img-src="item.img"
                 :class="item.active"
-
             >
             </b-carousel-slide>
         </b-carousel>
@@ -48,5 +51,6 @@ export default {
 #slide__01 {
     max-width: 1680px;
     background-color: #000000;
+    overflow: hidden;
 }
 </style>

@@ -2,50 +2,59 @@
     <section id="mec__benz__vans">
         <b-container>
             <b-row>
-                <b-col md="4">
-                    <div class="title">
-                        <h1>Mercedes-Benz Vans.</h1>
-                    </div>
-                </b-col>
-                <b-col md="4">
-                    <div class="left">
-                        <b-card-text>
-                            Mercedes-Benz Vans is a global full-line supplier of
-                            vans and related services – the product range in the
-                            commercial segment includes the Sprinter van,
-                            midsize van Vito (in the USA “Metris”) and the small
-                            van Citan, who will get a successor in the second
-                            half of 2021. Mercedes-Benz Vans is represented in
-                            the private segment with the V-Class MPV and the
-                            Marco Polo recreational and camper vans. In the
-                            coming year, the product range will be expanded by
-                            the T-Class, a small van for private customers. With
-                            the eVito, the eSprinter and the EQV all-electric
-                            premium MPV, Mercedes-Benz Vans underlines how it is
-                            driving forward the development of alternative
-                            drives. Mercedes-Benz Vans reached unit sales of
-                            374,700 vehicles in 2020.
-                        </b-card-text>
-                    </div>
-                </b-col>
-                <b-col md="4">
-                    <div class="right">
-                        <b-card-text>
-                            EQV 300: Stromverbrauch kombiniert: 26,4–26,3
-                            kWh/100 km; CO₂-Emissionen kombiniert: 0 g/km.⁶
-                        </b-card-text>
-                        <b-link href="#"> Learn more </b-link>
+                <b-col
+                    xl="4"
+                    lg="12"
+                    md="12"
+                    v-for="item in benzCar"
+                    :key="item"
+                >
+                    <h1 data-aos="fade-up" data-aos-duration="1800">
+                        {{ item.title }}
+                    </h1>
+                    <div
+                        class="text"
+                        data-aos="fade-up"
+                        data-aos-duration="1800"
+                        data-aos-delay="300"
+                    >
+                        <b-card-text>{{ item.text }}</b-card-text>
+                        <b-card-text class="text02" v-if="item.load != ''">{{
+                            item.text02
+                        }}</b-card-text>
+                        <b-card-text class="text03" v-if="item.load != ''">{{
+                            item.text03
+                        }}</b-card-text>
+                        <b-link v-if="item.load != ''">{{ item.load }}</b-link>
                     </div>
                 </b-col>
             </b-row>
-            <div class="bottom__vans">
-                <h2>Our strategy.</h2>
-            </div>
+            <h2 data-aos="fade-up" data-aos-duration="1800">Our strategy.</h2>
         </b-container>
     </section>
 </template>
 <script>
-export default {};
+export default {
+    data() {
+        return {
+            benzCar: [
+                { title: "Mercedes-Benz Vans.", text: "", load: "" },
+                {
+                    title: "",
+                    text: "Mercedes-Benz Vans is a global full-line supplier of vans and related services – the product range in the commercial segment includes the Sprinter van, midsize van Vito (in the USA “Metris”) and the small van Citan, who will get a successor in the second half of 2021. Mercedes-Benz Vans is represented in the private segment with the V-Class MPV and the Marco Polo recreational and camper vans. In the coming year, the product range will be expanded by the T-Class, a small van for private customers. With the eVito, the eSprinter and the EQV all-electric premium MPV, Mercedes-Benz Vans underlines how it is driving forward the development of alternative drives. Mercedes-Benz Vans reached unit sales of 374,700 vehicles in 2020.",
+                    load: "",
+                },
+                {
+                    title: "",
+                    text: "EQV 300:",
+                    text02: "Stromverbrauch kombiniert: 26,4–26,3 kWh/100 km;",
+                    text03: "CO₂-Emissionen kombiniert: 0 g/km.⁶",
+                    load: "Learn more",
+                },
+            ],
+        };
+    },
+};
 </script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
@@ -55,6 +64,7 @@ export default {};
     height: 725px;
     background: #ffffff;
     color: #000000;
+    overflow: hidden;
 }
 
 #mec__benz__vans .container {
@@ -70,20 +80,20 @@ a {
     text-decoration: none;
 }
 
-h1,h2 {
+h1,
+h2 {
     font-size: 2rem;
     font-family: "Lora", serif;
     letter-spacing: -1px;
     font-weight: 300;
 }
-h2{
+h2 {
     text-align: center;
     position: relative;
     top: 15.5rem;
 }
 
 p {
-    text-indent: 25px;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -113,8 +123,93 @@ a:hover {
     color: #fff;
 }
 
-.left,
-.right {
+.text {
     padding: 0 30px;
+}
+.card-text:last-child {
+    text-indent: 25px;
+}
+
+@media screen and (max-width: 1024px) {
+    #mec__benz__vans {
+        height: 695px;
+    }
+
+    #mec__benz__vans .container {
+        max-width: 960px;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+    a {
+        top: 10px;
+    }
+    h1 {
+        padding: 0 30px;
+    }
+    h2 {
+        top: 9.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #mec__benz__vans {
+        height: 740px;
+    }
+    #mec__benz__vans .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #mec__benz__vans {
+        height: 830px;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    #mec__benz__vans .container {
+        max-width: 480px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #mec__benz__vans {
+        height: 930px;
+    }
+
+    #mec__benz__vans .container {
+        max-width: 380px;
+    }
+    a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #mec__benz__vans {
+        height: 930px;
+    }
+
+    #mec__benz__vans .container {
+        max-width: 365px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #mec__benz__vans {
+        height: 1050px;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    #mec__benz__vans .container {
+        max-width: 280px;
+    }
+
+    h1,
+    .text {
+        padding: 0 15px;
+    }
 }
 </style>

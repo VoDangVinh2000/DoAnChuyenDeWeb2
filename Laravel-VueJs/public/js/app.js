@@ -17757,6 +17757,17 @@ const getGlobalThis = () => {
 
 /***/ }),
 
+/***/ "./node_modules/aos/dist/aos.js":
+/*!**************************************!*\
+  !*** ./node_modules/aos/dist/aos.js ***!
+  \**************************************/
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+!function(e,t){ true?module.exports=t():0}(this,function(){"use strict";var e="undefined"!=typeof window?window:"undefined"!=typeof __webpack_require__.g?__webpack_require__.g:"undefined"!=typeof self?self:{},t="Expected a function",n=NaN,o="[object Symbol]",i=/^\s+|\s+$/g,a=/^[-+]0x[0-9a-f]+$/i,r=/^0b[01]+$/i,c=/^0o[0-7]+$/i,s=parseInt,u="object"==typeof e&&e&&e.Object===Object&&e,d="object"==typeof self&&self&&self.Object===Object&&self,l=u||d||Function("return this")(),f=Object.prototype.toString,m=Math.max,p=Math.min,b=function(){return l.Date.now()};function v(e,n,o){var i,a,r,c,s,u,d=0,l=!1,f=!1,v=!0;if("function"!=typeof e)throw new TypeError(t);function y(t){var n=i,o=a;return i=a=void 0,d=t,c=e.apply(o,n)}function h(e){var t=e-u;return void 0===u||t>=n||t<0||f&&e-d>=r}function k(){var e=b();if(h(e))return x(e);s=setTimeout(k,function(e){var t=n-(e-u);return f?p(t,r-(e-d)):t}(e))}function x(e){return s=void 0,v&&i?y(e):(i=a=void 0,c)}function O(){var e=b(),t=h(e);if(i=arguments,a=this,u=e,t){if(void 0===s)return function(e){return d=e,s=setTimeout(k,n),l?y(e):c}(u);if(f)return s=setTimeout(k,n),y(u)}return void 0===s&&(s=setTimeout(k,n)),c}return n=w(n)||0,g(o)&&(l=!!o.leading,r=(f="maxWait"in o)?m(w(o.maxWait)||0,n):r,v="trailing"in o?!!o.trailing:v),O.cancel=function(){void 0!==s&&clearTimeout(s),d=0,i=u=a=s=void 0},O.flush=function(){return void 0===s?c:x(b())},O}function g(e){var t=typeof e;return!!e&&("object"==t||"function"==t)}function w(e){if("number"==typeof e)return e;if(function(e){return"symbol"==typeof e||function(e){return!!e&&"object"==typeof e}(e)&&f.call(e)==o}(e))return n;if(g(e)){var t="function"==typeof e.valueOf?e.valueOf():e;e=g(t)?t+"":t}if("string"!=typeof e)return 0===e?e:+e;e=e.replace(i,"");var u=r.test(e);return u||c.test(e)?s(e.slice(2),u?2:8):a.test(e)?n:+e}var y=function(e,n,o){var i=!0,a=!0;if("function"!=typeof e)throw new TypeError(t);return g(o)&&(i="leading"in o?!!o.leading:i,a="trailing"in o?!!o.trailing:a),v(e,n,{leading:i,maxWait:n,trailing:a})},h="Expected a function",k=NaN,x="[object Symbol]",O=/^\s+|\s+$/g,j=/^[-+]0x[0-9a-f]+$/i,E=/^0b[01]+$/i,N=/^0o[0-7]+$/i,z=parseInt,C="object"==typeof e&&e&&e.Object===Object&&e,A="object"==typeof self&&self&&self.Object===Object&&self,q=C||A||Function("return this")(),L=Object.prototype.toString,T=Math.max,M=Math.min,S=function(){return q.Date.now()};function D(e){var t=typeof e;return!!e&&("object"==t||"function"==t)}function H(e){if("number"==typeof e)return e;if(function(e){return"symbol"==typeof e||function(e){return!!e&&"object"==typeof e}(e)&&L.call(e)==x}(e))return k;if(D(e)){var t="function"==typeof e.valueOf?e.valueOf():e;e=D(t)?t+"":t}if("string"!=typeof e)return 0===e?e:+e;e=e.replace(O,"");var n=E.test(e);return n||N.test(e)?z(e.slice(2),n?2:8):j.test(e)?k:+e}var $=function(e,t,n){var o,i,a,r,c,s,u=0,d=!1,l=!1,f=!0;if("function"!=typeof e)throw new TypeError(h);function m(t){var n=o,a=i;return o=i=void 0,u=t,r=e.apply(a,n)}function p(e){var n=e-s;return void 0===s||n>=t||n<0||l&&e-u>=a}function b(){var e=S();if(p(e))return v(e);c=setTimeout(b,function(e){var n=t-(e-s);return l?M(n,a-(e-u)):n}(e))}function v(e){return c=void 0,f&&o?m(e):(o=i=void 0,r)}function g(){var e=S(),n=p(e);if(o=arguments,i=this,s=e,n){if(void 0===c)return function(e){return u=e,c=setTimeout(b,t),d?m(e):r}(s);if(l)return c=setTimeout(b,t),m(s)}return void 0===c&&(c=setTimeout(b,t)),r}return t=H(t)||0,D(n)&&(d=!!n.leading,a=(l="maxWait"in n)?T(H(n.maxWait)||0,t):a,f="trailing"in n?!!n.trailing:f),g.cancel=function(){void 0!==c&&clearTimeout(c),u=0,o=s=i=c=void 0},g.flush=function(){return void 0===c?r:v(S())},g},W=function(){};function P(e){e&&e.forEach(function(e){var t=Array.prototype.slice.call(e.addedNodes),n=Array.prototype.slice.call(e.removedNodes);if(function e(t){var n=void 0,o=void 0;for(n=0;n<t.length;n+=1){if((o=t[n]).dataset&&o.dataset.aos)return!0;if(o.children&&e(o.children))return!0}return!1}(t.concat(n)))return W()})}function Y(){return window.MutationObserver||window.WebKitMutationObserver||window.MozMutationObserver}var _={isSupported:function(){return!!Y()},ready:function(e,t){var n=window.document,o=new(Y())(P);W=t,o.observe(n.documentElement,{childList:!0,subtree:!0,removedNodes:!0})}},B=function(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")},F=function(){function e(e,t){for(var n=0;n<t.length;n++){var o=t[n];o.enumerable=o.enumerable||!1,o.configurable=!0,"value"in o&&(o.writable=!0),Object.defineProperty(e,o.key,o)}}return function(t,n,o){return n&&e(t.prototype,n),o&&e(t,o),t}}(),I=Object.assign||function(e){for(var t=1;t<arguments.length;t++){var n=arguments[t];for(var o in n)Object.prototype.hasOwnProperty.call(n,o)&&(e[o]=n[o])}return e},K=/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i,G=/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i,J=/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i,Q=/1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i;function R(){return navigator.userAgent||navigator.vendor||window.opera||""}var U=new(function(){function e(){B(this,e)}return F(e,[{key:"phone",value:function(){var e=R();return!(!K.test(e)&&!G.test(e.substr(0,4)))}},{key:"mobile",value:function(){var e=R();return!(!J.test(e)&&!Q.test(e.substr(0,4)))}},{key:"tablet",value:function(){return this.mobile()&&!this.phone()}},{key:"ie11",value:function(){return"-ms-scroll-limit"in document.documentElement.style&&"-ms-ime-align"in document.documentElement.style}}]),e}()),V=function(e,t){var n=void 0;return U.ie11()?(n=document.createEvent("CustomEvent")).initCustomEvent(e,!0,!0,{detail:t}):n=new CustomEvent(e,{detail:t}),document.dispatchEvent(n)},X=function(e){return e.forEach(function(e,t){return function(e,t){var n=e.options,o=e.position,i=e.node,a=(e.data,function(){e.animated&&(function(e,t){t&&t.forEach(function(t){return e.classList.remove(t)})}(i,n.animatedClassNames),V("aos:out",i),e.options.id&&V("aos:in:"+e.options.id,i),e.animated=!1)});n.mirror&&t>=o.out&&!n.once?a():t>=o.in?e.animated||(function(e,t){t&&t.forEach(function(t){return e.classList.add(t)})}(i,n.animatedClassNames),V("aos:in",i),e.options.id&&V("aos:in:"+e.options.id,i),e.animated=!0):e.animated&&!n.once&&a()}(e,window.pageYOffset)})},Z=function(e){for(var t=0,n=0;e&&!isNaN(e.offsetLeft)&&!isNaN(e.offsetTop);)t+=e.offsetLeft-("BODY"!=e.tagName?e.scrollLeft:0),n+=e.offsetTop-("BODY"!=e.tagName?e.scrollTop:0),e=e.offsetParent;return{top:n,left:t}},ee=function(e,t,n){var o=e.getAttribute("data-aos-"+t);if(void 0!==o){if("true"===o)return!0;if("false"===o)return!1}return o||n},te=function(e,t){return e.forEach(function(e,n){var o=ee(e.node,"mirror",t.mirror),i=ee(e.node,"once",t.once),a=ee(e.node,"id"),r=t.useClassNames&&e.node.getAttribute("data-aos"),c=[t.animatedClassName].concat(r?r.split(" "):[]).filter(function(e){return"string"==typeof e});t.initClassName&&e.node.classList.add(t.initClassName),e.position={in:function(e,t,n){var o=window.innerHeight,i=ee(e,"anchor"),a=ee(e,"anchor-placement"),r=Number(ee(e,"offset",a?0:t)),c=a||n,s=e;i&&document.querySelectorAll(i)&&(s=document.querySelectorAll(i)[0]);var u=Z(s).top-o;switch(c){case"top-bottom":break;case"center-bottom":u+=s.offsetHeight/2;break;case"bottom-bottom":u+=s.offsetHeight;break;case"top-center":u+=o/2;break;case"center-center":u+=o/2+s.offsetHeight/2;break;case"bottom-center":u+=o/2+s.offsetHeight;break;case"top-top":u+=o;break;case"bottom-top":u+=o+s.offsetHeight;break;case"center-top":u+=o+s.offsetHeight/2}return u+r}(e.node,t.offset,t.anchorPlacement),out:o&&function(e,t){window.innerHeight;var n=ee(e,"anchor"),o=ee(e,"offset",t),i=e;return n&&document.querySelectorAll(n)&&(i=document.querySelectorAll(n)[0]),Z(i).top+i.offsetHeight-o}(e.node,t.offset)},e.options={once:i,mirror:o,animatedClassNames:c,id:a}}),e},ne=function(){var e=document.querySelectorAll("[data-aos]");return Array.prototype.map.call(e,function(e){return{node:e}})},oe=[],ie=!1,ae={offset:120,delay:0,easing:"ease",duration:400,disable:!1,once:!1,mirror:!1,anchorPlacement:"top-bottom",startEvent:"DOMContentLoaded",animatedClassName:"aos-animate",initClassName:"aos-init",useClassNames:!1,disableMutationObserver:!1,throttleDelay:99,debounceDelay:50},re=function(){return document.all&&!window.atob},ce=function(){arguments.length>0&&void 0!==arguments[0]&&arguments[0]&&(ie=!0),ie&&(oe=te(oe,ae),X(oe),window.addEventListener("scroll",y(function(){X(oe,ae.once)},ae.throttleDelay)))},se=function(){if(oe=ne(),de(ae.disable)||re())return ue();ce()},ue=function(){oe.forEach(function(e,t){e.node.removeAttribute("data-aos"),e.node.removeAttribute("data-aos-easing"),e.node.removeAttribute("data-aos-duration"),e.node.removeAttribute("data-aos-delay"),ae.initClassName&&e.node.classList.remove(ae.initClassName),ae.animatedClassName&&e.node.classList.remove(ae.animatedClassName)})},de=function(e){return!0===e||"mobile"===e&&U.mobile()||"phone"===e&&U.phone()||"tablet"===e&&U.tablet()||"function"==typeof e&&!0===e()};return{init:function(e){return ae=I(ae,e),oe=ne(),ae.disableMutationObserver||_.isSupported()||(console.info('\n      aos: MutationObserver is not supported on this browser,\n      code mutations observing has been disabled.\n      You may have to call "refreshHard()" by yourself.\n    '),ae.disableMutationObserver=!0),ae.disableMutationObserver||_.ready("[data-aos]",se),de(ae.disable)||re()?ue():(document.querySelector("body").setAttribute("data-aos-easing",ae.easing),document.querySelector("body").setAttribute("data-aos-duration",ae.duration),document.querySelector("body").setAttribute("data-aos-delay",ae.delay),-1===["DOMContentLoaded","load"].indexOf(ae.startEvent)?document.addEventListener(ae.startEvent,function(){ce(!0)}):window.addEventListener("load",function(){ce(!0)}),"DOMContentLoaded"===ae.startEvent&&["complete","interactive"].indexOf(document.readyState)>-1&&ce(!0),window.addEventListener("resize",$(ce,ae.debounceDelay,!0)),window.addEventListener("orientationchange",$(ce,ae.debounceDelay,!0)),oe)},refresh:ce,refreshHard:se}});
+
+
+/***/ }),
+
 /***/ "./node_modules/axios/index.js":
 /*!*************************************!*\
   !*** ./node_modules/axios/index.js ***!
@@ -20229,7 +20240,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      benzCar: [{
+        title: "Mercedes-Benz Cars.",
+        text: "",
+        load: ""
+      }, {
+        title: "",
+        text: "The Mercedes-Benz Cars range covers every passengercar segment: from the urban microcar by smart, tothe exclusive product range by Mercedes-Benz andMercedes-Maybach, to the performance and sports carsby Mercedes-AMG. With Mercedes-EQ, Mercedes-BenzCars is driving forward the systematic developmentof alternative drives: the aim is to electrify theentire portfolio by 2022. The company will offer arange of electrified models in each segment,including 48-volt models, a wide choice of plug-inhybrids, and all-electric vehicles with battery. Inthis way, the Cars division of Mercedes-Benz AGensures individual mobility for a vast spectrum ofcustomer needs. The company aims to build theworld’s most desirable cars.",
+        load: ""
+      }, {
+        title: "",
+        text: "In 2020, Mercedes-Benz Cars delivered 2,087,200 vehicles, achieving the fifth consecutive year with a wholesale level above two million passenger cars. Since 2016, Mercedes-Benz has maintained its leading global position in terms of sales compared with its core competitors every year.",
+        load: "Learn more"
+      }]
+    };
+  }
+});
 
 /***/ }),
 
@@ -20244,7 +20273,27 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      benzCar: [{
+        title: "Mercedes-Benz Vans.",
+        text: "",
+        load: ""
+      }, {
+        title: "",
+        text: "Mercedes-Benz Vans is a global full-line supplier of vans and related services – the product range in the commercial segment includes the Sprinter van, midsize van Vito (in the USA “Metris”) and the small van Citan, who will get a successor in the second half of 2021. Mercedes-Benz Vans is represented in the private segment with the V-Class MPV and the Marco Polo recreational and camper vans. In the coming year, the product range will be expanded by the T-Class, a small van for private customers. With the eVito, the eSprinter and the EQV all-electric premium MPV, Mercedes-Benz Vans underlines how it is driving forward the development of alternative drives. Mercedes-Benz Vans reached unit sales of 374,700 vehicles in 2020.",
+        load: ""
+      }, {
+        title: "",
+        text: "EQV 300:",
+        text02: "Stromverbrauch kombiniert: 26,4–26,3 kWh/100 km;",
+        text03: "CO₂-Emissionen kombiniert: 0 g/km.⁶",
+        load: "Learn more"
+      }]
+    };
+  }
+});
 
 /***/ }),
 
@@ -21808,7 +21857,10 @@ var _hoisted_3 = {
 };
 
 var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Ambition 2039: the road to CO₂-neutrality.", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+    "data-aos": "fade-up",
+    "data-aos-duration": "1800"
+  }, " Ambition 2039: the road to CO₂-neutrality. ", -1
   /* HOISTED */
   );
 });
@@ -21835,10 +21887,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "8"
+            xl: "8",
+            md: "12"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
               return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
                 src: $data.img
               }, null, 8
               /* PROPS */
@@ -21848,10 +21903,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             /* STABLE */
 
           }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
+            xl: "4",
+            md: "12"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
+                "data-aos-delay": "300"
+              }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                   return [_hoisted_5];
                 }),
@@ -21859,6 +21919,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 /* STABLE */
 
               }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
+                "data-aos-delay": "300",
                 href: "#"
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -21968,8 +22031,10 @@ var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-    "class": "title__top"
-  }, "The Mercedes-Benz AG at a glance.", -1
+    "class": "title__top",
+    "data-aos": "fade-up",
+    "data-aos-duration": "1800"
+  }, " The Mercedes-Benz AG at a glance. ", -1
   /* HOISTED */
   );
 });
@@ -21977,11 +22042,18 @@ var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
 var _hoisted_6 = {
   "class": "glance__body"
 };
+var _hoisted_7 = {
+  "class": "title__top",
+  "data-aos": "fade-up",
+  "data-aos-duration": "1500"
+};
 
-var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
-    "class": "title__bottom"
-  }, "Our business divisions.", -1
+    "class": "title__bottom",
+    "data-aos": "fade-up",
+    "data-aos-duration": "1800"
+  }, " Our business divisions. ", -1
   /* HOISTED */
   );
 });
@@ -22029,13 +22101,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
       }), _hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.items, function (item) {
+          return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.items, function (item, index) {
             return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_col, {
-              md: "4",
-              key: item
+              xl: "4",
+              lg: "12",
+              md: "12",
+              key: index
             }, {
               "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
+                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
                 /* TEXT */
                 )];
               }),
@@ -22052,7 +22126,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
         /* STABLE */
 
-      })]), _hoisted_7];
+      })]), _hoisted_8];
     }),
     _: 1
     /* STABLE */
@@ -22083,9 +22157,7 @@ var _withScopeId = function _withScopeId(n) {
 var _hoisted_1 = {
   id: "img__bottom"
 };
-var _hoisted_2 = {
-  "class": "group"
-};
+var _hoisted_2 = ["data-aos-delay"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_b_img = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-img");
 
@@ -22097,17 +22169,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.btImg, function (item, i) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_col, {
-          md: "4",
+          xl: "4",
+          md: "6",
+          xs: "12",
           key: i
         }, {
           "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+              "class": "group",
+              "data-aos": "fade-up",
+              "data-aos-duration": "1800",
+              "data-aos-delay": 200 * (i + 2)
+            }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
               src: item.img
             }, null, 8
             /* PROPS */
             , ["src"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
             /* TEXT */
-            )])];
+            )], 8
+            /* PROPS */
+            , _hoisted_2)];
           }),
           _: 2
           /* DYNAMIC */
@@ -22148,35 +22229,22 @@ var _withScopeId = function _withScopeId(n) {
 var _hoisted_1 = {
   id: "mec__benz__car"
 };
-
-var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "title"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "Mercedes-Benz Cars.")], -1
-  /* HOISTED */
-  );
-});
-
+var _hoisted_2 = {
+  "data-aos": "fade-up",
+  "data-aos-duration": "1800"
+};
 var _hoisted_3 = {
-  "class": "left"
+  "class": "text",
+  "data-aos": "fade-up",
+  "data-aos-duration": "1800",
+  "data-aos-delay": "300"
 };
-
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" The Mercedes-Benz Cars range covers every passenger car segment: from the urban microcar by smart, to the exclusive product range by Mercedes-Benz and Mercedes-Maybach, to the performance and sports cars by Mercedes-AMG. With Mercedes-EQ, Mercedes-Benz Cars is driving forward the systematic development of alternative drives: the aim is to electrify the entire portfolio by 2022. The company will offer a range of electrified models in each segment, including 48-volt models, a wide choice of plug-in hybrids, and all-electric vehicles with battery. In this way, the Cars division of Mercedes-Benz AG ensures individual mobility for a vast spectrum of customer needs. The company aims to build the world’s most desirable cars. ");
-
-var _hoisted_5 = {
-  "class": "right"
-};
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" In 2020, Mercedes-Benz Cars delivered 2,087,200 vehicles, achieving the fifth consecutive year with a wholesale level above two million passenger cars. Since 2016, Mercedes-Benz has maintained its leading global position in terms of sales compared with its core competitors every year. ");
-
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Learn more ");
-
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_b_col = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-col");
-
   var _component_b_card_text = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-card-text");
 
   var _component_b_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-link");
+
+  var _component_b_col = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-col");
 
   var _component_b_row = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-row");
 
@@ -22186,55 +22254,51 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_2];
-            }),
-            _: 1
-            /* STABLE */
+          return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.benzCar, function (item) {
+            return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_col, {
+              xl: "4",
+              lg: "12",
+              md: "12",
+              key: item
+            }, {
+              "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.title), 1
+                /* TEXT */
+                ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
+                  "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                    return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
+                    /* TEXT */
+                    )];
+                  }),
+                  _: 2
+                  /* DYNAMIC */
 
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_4];
-                }),
-                _: 1
-                /* STABLE */
+                }, 1024
+                /* DYNAMIC_SLOTS */
+                ), item.load != '' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_link, {
+                  key: 0
+                }, {
+                  "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                    return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.load), 1
+                    /* TEXT */
+                    )];
+                  }),
+                  _: 2
+                  /* DYNAMIC */
 
-              })])];
-            }),
-            _: 1
-            /* STABLE */
+                }, 1024
+                /* DYNAMIC_SLOTS */
+                )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])];
+              }),
+              _: 2
+              /* DYNAMIC */
 
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_6];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_7];
-                }),
-                _: 1
-                /* STABLE */
-
-              })])];
-            }),
-            _: 1
-            /* STABLE */
-
-          })];
+            }, 1024
+            /* DYNAMIC_SLOTS */
+            );
+          }), 128
+          /* KEYED_FRAGMENT */
+          ))];
         }),
         _: 1
         /* STABLE */
@@ -22270,43 +22334,32 @@ var _withScopeId = function _withScopeId(n) {
 var _hoisted_1 = {
   id: "mec__benz__vans"
 };
-
-var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "title"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", null, "Mercedes-Benz Vans.")], -1
-  /* HOISTED */
-  );
-});
-
+var _hoisted_2 = {
+  "data-aos": "fade-up",
+  "data-aos-duration": "1800"
+};
 var _hoisted_3 = {
-  "class": "left"
+  "class": "text",
+  "data-aos": "fade-up",
+  "data-aos-duration": "1800",
+  "data-aos-delay": "300"
 };
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Mercedes-Benz Vans is a global full-line supplier of vans and related services – the product range in the commercial segment includes the Sprinter van, midsize van Vito (in the USA “Metris”) and the small van Citan, who will get a successor in the second half of 2021. Mercedes-Benz Vans is represented in the private segment with the V-Class MPV and the Marco Polo recreational and camper vans. In the coming year, the product range will be expanded by the T-Class, a small van for private customers. With the eVito, the eSprinter and the EQV all-electric premium MPV, Mercedes-Benz Vans underlines how it is driving forward the development of alternative drives. Mercedes-Benz Vans reached unit sales of 374,700 vehicles in 2020. ");
-
-var _hoisted_5 = {
-  "class": "right"
-};
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" EQV 300: Stromverbrauch kombiniert: 26,4–26,3 kWh/100 km; CO₂-Emissionen kombiniert: 0 g/km.⁶ ");
-
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Learn more ");
-
-var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "bottom__vans"
-  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Our strategy.")], -1
+var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+    "data-aos": "fade-up",
+    "data-aos-duration": "1800"
+  }, "Our strategy.", -1
   /* HOISTED */
   );
 });
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_b_col = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-col");
-
   var _component_b_card_text = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-card-text");
 
   var _component_b_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-link");
+
+  var _component_b_col = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-col");
 
   var _component_b_row = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-row");
 
@@ -22316,62 +22369,84 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_2];
-            }),
-            _: 1
-            /* STABLE */
+          return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.benzCar, function (item) {
+            return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_col, {
+              xl: "4",
+              lg: "12",
+              md: "12",
+              key: item
+            }, {
+              "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.title), 1
+                /* TEXT */
+                ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
+                  "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                    return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
+                    /* TEXT */
+                    )];
+                  }),
+                  _: 2
+                  /* DYNAMIC */
 
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_4];
-                }),
-                _: 1
-                /* STABLE */
+                }, 1024
+                /* DYNAMIC_SLOTS */
+                ), item.load != '' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_card_text, {
+                  key: 0,
+                  "class": "text02"
+                }, {
+                  "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                    return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text02), 1
+                    /* TEXT */
+                    )];
+                  }),
+                  _: 2
+                  /* DYNAMIC */
 
-              })])];
-            }),
-            _: 1
-            /* STABLE */
+                }, 1024
+                /* DYNAMIC_SLOTS */
+                )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), item.load != '' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_card_text, {
+                  key: 1,
+                  "class": "text03"
+                }, {
+                  "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                    return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text03), 1
+                    /* TEXT */
+                    )];
+                  }),
+                  _: 2
+                  /* DYNAMIC */
 
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_6];
-                }),
-                _: 1
-                /* STABLE */
+                }, 1024
+                /* DYNAMIC_SLOTS */
+                )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), item.load != '' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_link, {
+                  key: 2
+                }, {
+                  "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                    return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.load), 1
+                    /* TEXT */
+                    )];
+                  }),
+                  _: 2
+                  /* DYNAMIC */
 
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
-                href: "#"
-              }, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_7];
-                }),
-                _: 1
-                /* STABLE */
+                }, 1024
+                /* DYNAMIC_SLOTS */
+                )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)])];
+              }),
+              _: 2
+              /* DYNAMIC */
 
-              })])];
-            }),
-            _: 1
-            /* STABLE */
-
-          })];
+            }, 1024
+            /* DYNAMIC_SLOTS */
+            );
+          }), 128
+          /* KEYED_FRAGMENT */
+          ))];
         }),
         _: 1
         /* STABLE */
 
-      }), _hoisted_8];
+      }), _hoisted_4];
     }),
     _: 1
     /* STABLE */
@@ -22470,14 +22545,19 @@ var _hoisted_1 = {
   id: "our__corporate"
 };
 var _hoisted_2 = {
-  "class": "left"
+  "class": "left",
+  "data-aos": "fade-up",
+  "data-aos-duration": "1800"
 };
 var _hoisted_3 = {
   "class": "right"
 };
 
 var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Our corporate governance.", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+    "data-aos": "fade-up",
+    "data-aos-duration": "1800"
+  }, " Our corporate governance. ", -1
   /* HOISTED */
   );
 });
@@ -22504,7 +22584,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "8"
+            xl: "8",
+            md: "12"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
               return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
@@ -22517,10 +22598,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             /* STABLE */
 
           }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
+            xl: "4",
+            md: "12"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
+                "data-aos-delay": "200"
+              }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                   return [_hoisted_5];
                 }),
@@ -22528,6 +22614,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 /* STABLE */
 
               }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
+                "data-aos-delay": "200",
                 href: "#"
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -22582,7 +22671,10 @@ var _hoisted_2 = {
 };
 
 var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, " Our goal: to build the world’s most desirable cars. ", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+    "data-aos": "fade-up",
+    "data-aos-duration": "1800"
+  }, " Our goal: to build the world’s most desirable cars. ", -1
   /* HOISTED */
   );
 });
@@ -22592,7 +22684,9 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNod
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Learn more ");
 
 var _hoisted_6 = {
-  "class": "right"
+  "class": "right",
+  "data-aos": "fade-up",
+  "data-aos-duration": "1800"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_b_card_text = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-card-text");
@@ -22612,10 +22706,16 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
+            xl: "4",
+            lg: "12",
+            md: "12"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
+                "data-aos-delay": "300"
+              }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                   return [_hoisted_4];
                 }),
@@ -22623,6 +22723,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 /* STABLE */
 
               }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
+                "data-aos-delay": "300",
                 href: "#"
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -22637,7 +22740,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             /* STABLE */
 
           }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "8"
+            xl: "8",
+            lg: "12",
+            md: "12"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
               return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
@@ -22695,11 +22800,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     controls: "",
     "img-width": "1680",
     background: "#ffffff",
-    interval: 4500,
+    interval: 5500,
     modelValue: $data.slide,
     "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
       return $data.slide = $event;
     }),
+    "data-aos": "fade-up",
+    "data-aos-duration": "1500",
+    "data-aos-offset": "100",
+    "data-aos-delay": "30",
     onSlidingStart: _ctx.onSlideStart,
     onSlidingEnd: _ctx.onSlideEnd
   }, {
@@ -22763,7 +22872,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return $data.slide = $event;
     }),
     onSlidingStart: _ctx.onSlideStart,
-    onSlidingEnd: _ctx.onSlideEnd
+    onSlidingEnd: _ctx.onSlideEnd,
+    "data-aos": "fade-up",
+    "data-aos-duration": "1500",
+    "data-aos-offset": "100",
+    "data-aos-delay": "30"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.isSlides, function (item, index) {
@@ -22814,7 +22927,10 @@ var _hoisted_2 = {
 };
 
 var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, " Our goal: to build the world’s most desirable cars. ", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", {
+    "data-aos": "fade-up",
+    "data-aos-duration": "1800"
+  }, " Our goal: to build the world’s most desirable cars. ", -1
   /* HOISTED */
   );
 });
@@ -22844,10 +22960,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "4"
+            xl: "4",
+            md: "12"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, [_hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
+                "data-aos-delay": "300"
+              }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                   return [_hoisted_4];
                 }),
@@ -22855,6 +22976,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 /* STABLE */
 
               }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
+                "data-aos-delay": "300",
                 href: "#"
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -22869,10 +22993,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             /* STABLE */
 
           }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-            md: "8"
+            xl: "8",
+            md: "12"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
               return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
+                "data-aos": "fade-up",
+                "data-aos-duration": "1800",
                 src: $data.img
               }, null, 8
               /* PROPS */
@@ -23884,7 +24011,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_Footer01 = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Footer01");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Header), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Components Company "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Menu), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Banner), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Glance), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Slides01), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BenzCar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Slides02), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BenzVans), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurGoal), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Ambition), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Purpose), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurCorporate), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ImageBottom), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer01), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <Footer02 /> ")]);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <Header />\n        <b-tabs pills card content-class=\"mt-3\" align=\"center\">\n            <b-tab title=\"About us\" active>\n                <Banner />\n                <Glance />\n            </b-tab>\n            <b-tab title=\"Career\">\n                <Slides01 />\n                <Glance />\n            </b-tab>\n            <b-tab title=\"Media\">\n                <Banner />\n                <Glance />\n            </b-tab>\n            <b-tab title=\"Daimler AG Investors\">\n                <Slides01 />\n                <Glance />\n            </b-tab>\n        </b-tabs>\n        <Footer01 /> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Header), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Components Company "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Menu), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Banner), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Glance), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Slides01), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BenzCar), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Slides02), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_BenzVans), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurGoal), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Ambition), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Purpose), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_OurCorporate), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_ImageBottom), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Footer01), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <Footer02 /> ")]);
 }
 
 /***/ }),
@@ -23955,7 +24082,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var bootstrap_vue_3__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bootstrap-vue-3 */ "./node_modules/bootstrap-vue-3/dist/bootstrap-vue-3.es.js");
 /* harmony import */ var bootstrap_dist_css_bootstrap_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.css */ "./node_modules/bootstrap/dist/css/bootstrap.css");
 /* harmony import */ var bootstrap_vue_3_dist_bootstrap_vue_3_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! bootstrap-vue-3/dist/bootstrap-vue-3.css */ "./node_modules/bootstrap-vue-3/dist/bootstrap-vue-3.css");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! aos */ "./node_modules/aos/dist/aos.js");
+/* harmony import */ var aos__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(aos__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var aos_dist_aos_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! aos/dist/aos.css */ "./node_modules/aos/dist/aos.css");
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+
 
 
 
@@ -23978,6 +24110,7 @@ app.component("page-company", (__webpack_require__(/*! ../js/views/Pages/Company
 app.use(_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 app.use(bootstrap_vue_3__WEBPACK_IMPORTED_MODULE_2__["default"]);
 app.mount("#app");
+aos__WEBPACK_IMPORTED_MODULE_5___default().init();
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);
 
 /***/ }),
@@ -24138,6 +24271,30 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
 ___CSS_LOADER_EXPORT___.push([module.id, "/*\n** Breakpoints\n*/\n/*\n** Black\n*/\n/*\n** Grey\n*/\n/*\n** Colors\n*/\n/*\n** Font\n*/\n.Pagination {\n  display: flex;\n  flex-flow: row;\n  flex-wrap: wrap;\n  align-items: center;\n  margin: 0;\n  padding: 0;\n  list-style-type: none; }\n\n.PaginationControl {\n  display: flex;\n  align-items: center; }\n\n.Control {\n  position: relative;\n  display: block;\n  width: 18px;\n  height: 18px;\n  margin: 0 2px;\n  fill: #BBBBBB; }\n  .Control-active {\n    fill: #333333;\n    cursor: pointer;\n    transition: fill 0.2s ease-in-out; }\n    .Control-active:hover {\n      fill: #000000;\n      transition: fill 0.2s ease-in-out; }\n\n/*\n** Breakpoints\n*/\n/*\n** Black\n*/\n/*\n** Grey\n*/\n/*\n** Colors\n*/\n/*\n** Font\n*/\n.Page {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 22px;\n  height: 22px;\n  margin: 0 2px;\n  color: #666666;\n  background-color: transparent;\n  font-size: 14px;\n  border-radius: 3px;\n  box-sizing: border-box;\n  border-color: transparent;\n  cursor: pointer;\n  outline: 0;\n  -webkit-user-select: none;\n     -moz-user-select: none;\n      -ms-user-select: none;\n          user-select: none; }\n  .Page:hover {\n    border: 1px solid #DEDEDE; }\n  .Page-active {\n    color: #333333;\n    border: 1px solid #DEDEDE; }\n\n.DotsHolder {\n  display: flex;\n  align-items: center;\n  justify-content: center;\n  width: 22px;\n  height: 22px;\n  margin: 0 2px;\n  box-sizing: border-box; }\n\n.Dots {\n  width: 8px;\n  height: 4px;\n  fill: #BBBBBB; }\n", ""]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/aos/dist/aos.css":
+/*!***********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/aos/dist/aos.css ***!
+  \***********************************************************************************************************************************************************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "[data-aos][data-aos][data-aos-duration=\"50\"],body[data-aos-duration=\"50\"] [data-aos]{transition-duration:50ms}[data-aos][data-aos][data-aos-delay=\"50\"],body[data-aos-delay=\"50\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"50\"].aos-animate,body[data-aos-delay=\"50\"] [data-aos].aos-animate{transition-delay:50ms}[data-aos][data-aos][data-aos-duration=\"100\"],body[data-aos-duration=\"100\"] [data-aos]{transition-duration:.1s}[data-aos][data-aos][data-aos-delay=\"100\"],body[data-aos-delay=\"100\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"100\"].aos-animate,body[data-aos-delay=\"100\"] [data-aos].aos-animate{transition-delay:.1s}[data-aos][data-aos][data-aos-duration=\"150\"],body[data-aos-duration=\"150\"] [data-aos]{transition-duration:.15s}[data-aos][data-aos][data-aos-delay=\"150\"],body[data-aos-delay=\"150\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"150\"].aos-animate,body[data-aos-delay=\"150\"] [data-aos].aos-animate{transition-delay:.15s}[data-aos][data-aos][data-aos-duration=\"200\"],body[data-aos-duration=\"200\"] [data-aos]{transition-duration:.2s}[data-aos][data-aos][data-aos-delay=\"200\"],body[data-aos-delay=\"200\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"200\"].aos-animate,body[data-aos-delay=\"200\"] [data-aos].aos-animate{transition-delay:.2s}[data-aos][data-aos][data-aos-duration=\"250\"],body[data-aos-duration=\"250\"] [data-aos]{transition-duration:.25s}[data-aos][data-aos][data-aos-delay=\"250\"],body[data-aos-delay=\"250\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"250\"].aos-animate,body[data-aos-delay=\"250\"] [data-aos].aos-animate{transition-delay:.25s}[data-aos][data-aos][data-aos-duration=\"300\"],body[data-aos-duration=\"300\"] [data-aos]{transition-duration:.3s}[data-aos][data-aos][data-aos-delay=\"300\"],body[data-aos-delay=\"300\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"300\"].aos-animate,body[data-aos-delay=\"300\"] [data-aos].aos-animate{transition-delay:.3s}[data-aos][data-aos][data-aos-duration=\"350\"],body[data-aos-duration=\"350\"] [data-aos]{transition-duration:.35s}[data-aos][data-aos][data-aos-delay=\"350\"],body[data-aos-delay=\"350\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"350\"].aos-animate,body[data-aos-delay=\"350\"] [data-aos].aos-animate{transition-delay:.35s}[data-aos][data-aos][data-aos-duration=\"400\"],body[data-aos-duration=\"400\"] [data-aos]{transition-duration:.4s}[data-aos][data-aos][data-aos-delay=\"400\"],body[data-aos-delay=\"400\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"400\"].aos-animate,body[data-aos-delay=\"400\"] [data-aos].aos-animate{transition-delay:.4s}[data-aos][data-aos][data-aos-duration=\"450\"],body[data-aos-duration=\"450\"] [data-aos]{transition-duration:.45s}[data-aos][data-aos][data-aos-delay=\"450\"],body[data-aos-delay=\"450\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"450\"].aos-animate,body[data-aos-delay=\"450\"] [data-aos].aos-animate{transition-delay:.45s}[data-aos][data-aos][data-aos-duration=\"500\"],body[data-aos-duration=\"500\"] [data-aos]{transition-duration:.5s}[data-aos][data-aos][data-aos-delay=\"500\"],body[data-aos-delay=\"500\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"500\"].aos-animate,body[data-aos-delay=\"500\"] [data-aos].aos-animate{transition-delay:.5s}[data-aos][data-aos][data-aos-duration=\"550\"],body[data-aos-duration=\"550\"] [data-aos]{transition-duration:.55s}[data-aos][data-aos][data-aos-delay=\"550\"],body[data-aos-delay=\"550\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"550\"].aos-animate,body[data-aos-delay=\"550\"] [data-aos].aos-animate{transition-delay:.55s}[data-aos][data-aos][data-aos-duration=\"600\"],body[data-aos-duration=\"600\"] [data-aos]{transition-duration:.6s}[data-aos][data-aos][data-aos-delay=\"600\"],body[data-aos-delay=\"600\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"600\"].aos-animate,body[data-aos-delay=\"600\"] [data-aos].aos-animate{transition-delay:.6s}[data-aos][data-aos][data-aos-duration=\"650\"],body[data-aos-duration=\"650\"] [data-aos]{transition-duration:.65s}[data-aos][data-aos][data-aos-delay=\"650\"],body[data-aos-delay=\"650\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"650\"].aos-animate,body[data-aos-delay=\"650\"] [data-aos].aos-animate{transition-delay:.65s}[data-aos][data-aos][data-aos-duration=\"700\"],body[data-aos-duration=\"700\"] [data-aos]{transition-duration:.7s}[data-aos][data-aos][data-aos-delay=\"700\"],body[data-aos-delay=\"700\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"700\"].aos-animate,body[data-aos-delay=\"700\"] [data-aos].aos-animate{transition-delay:.7s}[data-aos][data-aos][data-aos-duration=\"750\"],body[data-aos-duration=\"750\"] [data-aos]{transition-duration:.75s}[data-aos][data-aos][data-aos-delay=\"750\"],body[data-aos-delay=\"750\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"750\"].aos-animate,body[data-aos-delay=\"750\"] [data-aos].aos-animate{transition-delay:.75s}[data-aos][data-aos][data-aos-duration=\"800\"],body[data-aos-duration=\"800\"] [data-aos]{transition-duration:.8s}[data-aos][data-aos][data-aos-delay=\"800\"],body[data-aos-delay=\"800\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"800\"].aos-animate,body[data-aos-delay=\"800\"] [data-aos].aos-animate{transition-delay:.8s}[data-aos][data-aos][data-aos-duration=\"850\"],body[data-aos-duration=\"850\"] [data-aos]{transition-duration:.85s}[data-aos][data-aos][data-aos-delay=\"850\"],body[data-aos-delay=\"850\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"850\"].aos-animate,body[data-aos-delay=\"850\"] [data-aos].aos-animate{transition-delay:.85s}[data-aos][data-aos][data-aos-duration=\"900\"],body[data-aos-duration=\"900\"] [data-aos]{transition-duration:.9s}[data-aos][data-aos][data-aos-delay=\"900\"],body[data-aos-delay=\"900\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"900\"].aos-animate,body[data-aos-delay=\"900\"] [data-aos].aos-animate{transition-delay:.9s}[data-aos][data-aos][data-aos-duration=\"950\"],body[data-aos-duration=\"950\"] [data-aos]{transition-duration:.95s}[data-aos][data-aos][data-aos-delay=\"950\"],body[data-aos-delay=\"950\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"950\"].aos-animate,body[data-aos-delay=\"950\"] [data-aos].aos-animate{transition-delay:.95s}[data-aos][data-aos][data-aos-duration=\"1000\"],body[data-aos-duration=\"1000\"] [data-aos]{transition-duration:1s}[data-aos][data-aos][data-aos-delay=\"1000\"],body[data-aos-delay=\"1000\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1000\"].aos-animate,body[data-aos-delay=\"1000\"] [data-aos].aos-animate{transition-delay:1s}[data-aos][data-aos][data-aos-duration=\"1050\"],body[data-aos-duration=\"1050\"] [data-aos]{transition-duration:1.05s}[data-aos][data-aos][data-aos-delay=\"1050\"],body[data-aos-delay=\"1050\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1050\"].aos-animate,body[data-aos-delay=\"1050\"] [data-aos].aos-animate{transition-delay:1.05s}[data-aos][data-aos][data-aos-duration=\"1100\"],body[data-aos-duration=\"1100\"] [data-aos]{transition-duration:1.1s}[data-aos][data-aos][data-aos-delay=\"1100\"],body[data-aos-delay=\"1100\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1100\"].aos-animate,body[data-aos-delay=\"1100\"] [data-aos].aos-animate{transition-delay:1.1s}[data-aos][data-aos][data-aos-duration=\"1150\"],body[data-aos-duration=\"1150\"] [data-aos]{transition-duration:1.15s}[data-aos][data-aos][data-aos-delay=\"1150\"],body[data-aos-delay=\"1150\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1150\"].aos-animate,body[data-aos-delay=\"1150\"] [data-aos].aos-animate{transition-delay:1.15s}[data-aos][data-aos][data-aos-duration=\"1200\"],body[data-aos-duration=\"1200\"] [data-aos]{transition-duration:1.2s}[data-aos][data-aos][data-aos-delay=\"1200\"],body[data-aos-delay=\"1200\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1200\"].aos-animate,body[data-aos-delay=\"1200\"] [data-aos].aos-animate{transition-delay:1.2s}[data-aos][data-aos][data-aos-duration=\"1250\"],body[data-aos-duration=\"1250\"] [data-aos]{transition-duration:1.25s}[data-aos][data-aos][data-aos-delay=\"1250\"],body[data-aos-delay=\"1250\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1250\"].aos-animate,body[data-aos-delay=\"1250\"] [data-aos].aos-animate{transition-delay:1.25s}[data-aos][data-aos][data-aos-duration=\"1300\"],body[data-aos-duration=\"1300\"] [data-aos]{transition-duration:1.3s}[data-aos][data-aos][data-aos-delay=\"1300\"],body[data-aos-delay=\"1300\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1300\"].aos-animate,body[data-aos-delay=\"1300\"] [data-aos].aos-animate{transition-delay:1.3s}[data-aos][data-aos][data-aos-duration=\"1350\"],body[data-aos-duration=\"1350\"] [data-aos]{transition-duration:1.35s}[data-aos][data-aos][data-aos-delay=\"1350\"],body[data-aos-delay=\"1350\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1350\"].aos-animate,body[data-aos-delay=\"1350\"] [data-aos].aos-animate{transition-delay:1.35s}[data-aos][data-aos][data-aos-duration=\"1400\"],body[data-aos-duration=\"1400\"] [data-aos]{transition-duration:1.4s}[data-aos][data-aos][data-aos-delay=\"1400\"],body[data-aos-delay=\"1400\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1400\"].aos-animate,body[data-aos-delay=\"1400\"] [data-aos].aos-animate{transition-delay:1.4s}[data-aos][data-aos][data-aos-duration=\"1450\"],body[data-aos-duration=\"1450\"] [data-aos]{transition-duration:1.45s}[data-aos][data-aos][data-aos-delay=\"1450\"],body[data-aos-delay=\"1450\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1450\"].aos-animate,body[data-aos-delay=\"1450\"] [data-aos].aos-animate{transition-delay:1.45s}[data-aos][data-aos][data-aos-duration=\"1500\"],body[data-aos-duration=\"1500\"] [data-aos]{transition-duration:1.5s}[data-aos][data-aos][data-aos-delay=\"1500\"],body[data-aos-delay=\"1500\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1500\"].aos-animate,body[data-aos-delay=\"1500\"] [data-aos].aos-animate{transition-delay:1.5s}[data-aos][data-aos][data-aos-duration=\"1550\"],body[data-aos-duration=\"1550\"] [data-aos]{transition-duration:1.55s}[data-aos][data-aos][data-aos-delay=\"1550\"],body[data-aos-delay=\"1550\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1550\"].aos-animate,body[data-aos-delay=\"1550\"] [data-aos].aos-animate{transition-delay:1.55s}[data-aos][data-aos][data-aos-duration=\"1600\"],body[data-aos-duration=\"1600\"] [data-aos]{transition-duration:1.6s}[data-aos][data-aos][data-aos-delay=\"1600\"],body[data-aos-delay=\"1600\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1600\"].aos-animate,body[data-aos-delay=\"1600\"] [data-aos].aos-animate{transition-delay:1.6s}[data-aos][data-aos][data-aos-duration=\"1650\"],body[data-aos-duration=\"1650\"] [data-aos]{transition-duration:1.65s}[data-aos][data-aos][data-aos-delay=\"1650\"],body[data-aos-delay=\"1650\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1650\"].aos-animate,body[data-aos-delay=\"1650\"] [data-aos].aos-animate{transition-delay:1.65s}[data-aos][data-aos][data-aos-duration=\"1700\"],body[data-aos-duration=\"1700\"] [data-aos]{transition-duration:1.7s}[data-aos][data-aos][data-aos-delay=\"1700\"],body[data-aos-delay=\"1700\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1700\"].aos-animate,body[data-aos-delay=\"1700\"] [data-aos].aos-animate{transition-delay:1.7s}[data-aos][data-aos][data-aos-duration=\"1750\"],body[data-aos-duration=\"1750\"] [data-aos]{transition-duration:1.75s}[data-aos][data-aos][data-aos-delay=\"1750\"],body[data-aos-delay=\"1750\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1750\"].aos-animate,body[data-aos-delay=\"1750\"] [data-aos].aos-animate{transition-delay:1.75s}[data-aos][data-aos][data-aos-duration=\"1800\"],body[data-aos-duration=\"1800\"] [data-aos]{transition-duration:1.8s}[data-aos][data-aos][data-aos-delay=\"1800\"],body[data-aos-delay=\"1800\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1800\"].aos-animate,body[data-aos-delay=\"1800\"] [data-aos].aos-animate{transition-delay:1.8s}[data-aos][data-aos][data-aos-duration=\"1850\"],body[data-aos-duration=\"1850\"] [data-aos]{transition-duration:1.85s}[data-aos][data-aos][data-aos-delay=\"1850\"],body[data-aos-delay=\"1850\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1850\"].aos-animate,body[data-aos-delay=\"1850\"] [data-aos].aos-animate{transition-delay:1.85s}[data-aos][data-aos][data-aos-duration=\"1900\"],body[data-aos-duration=\"1900\"] [data-aos]{transition-duration:1.9s}[data-aos][data-aos][data-aos-delay=\"1900\"],body[data-aos-delay=\"1900\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1900\"].aos-animate,body[data-aos-delay=\"1900\"] [data-aos].aos-animate{transition-delay:1.9s}[data-aos][data-aos][data-aos-duration=\"1950\"],body[data-aos-duration=\"1950\"] [data-aos]{transition-duration:1.95s}[data-aos][data-aos][data-aos-delay=\"1950\"],body[data-aos-delay=\"1950\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"1950\"].aos-animate,body[data-aos-delay=\"1950\"] [data-aos].aos-animate{transition-delay:1.95s}[data-aos][data-aos][data-aos-duration=\"2000\"],body[data-aos-duration=\"2000\"] [data-aos]{transition-duration:2s}[data-aos][data-aos][data-aos-delay=\"2000\"],body[data-aos-delay=\"2000\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2000\"].aos-animate,body[data-aos-delay=\"2000\"] [data-aos].aos-animate{transition-delay:2s}[data-aos][data-aos][data-aos-duration=\"2050\"],body[data-aos-duration=\"2050\"] [data-aos]{transition-duration:2.05s}[data-aos][data-aos][data-aos-delay=\"2050\"],body[data-aos-delay=\"2050\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2050\"].aos-animate,body[data-aos-delay=\"2050\"] [data-aos].aos-animate{transition-delay:2.05s}[data-aos][data-aos][data-aos-duration=\"2100\"],body[data-aos-duration=\"2100\"] [data-aos]{transition-duration:2.1s}[data-aos][data-aos][data-aos-delay=\"2100\"],body[data-aos-delay=\"2100\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2100\"].aos-animate,body[data-aos-delay=\"2100\"] [data-aos].aos-animate{transition-delay:2.1s}[data-aos][data-aos][data-aos-duration=\"2150\"],body[data-aos-duration=\"2150\"] [data-aos]{transition-duration:2.15s}[data-aos][data-aos][data-aos-delay=\"2150\"],body[data-aos-delay=\"2150\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2150\"].aos-animate,body[data-aos-delay=\"2150\"] [data-aos].aos-animate{transition-delay:2.15s}[data-aos][data-aos][data-aos-duration=\"2200\"],body[data-aos-duration=\"2200\"] [data-aos]{transition-duration:2.2s}[data-aos][data-aos][data-aos-delay=\"2200\"],body[data-aos-delay=\"2200\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2200\"].aos-animate,body[data-aos-delay=\"2200\"] [data-aos].aos-animate{transition-delay:2.2s}[data-aos][data-aos][data-aos-duration=\"2250\"],body[data-aos-duration=\"2250\"] [data-aos]{transition-duration:2.25s}[data-aos][data-aos][data-aos-delay=\"2250\"],body[data-aos-delay=\"2250\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2250\"].aos-animate,body[data-aos-delay=\"2250\"] [data-aos].aos-animate{transition-delay:2.25s}[data-aos][data-aos][data-aos-duration=\"2300\"],body[data-aos-duration=\"2300\"] [data-aos]{transition-duration:2.3s}[data-aos][data-aos][data-aos-delay=\"2300\"],body[data-aos-delay=\"2300\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2300\"].aos-animate,body[data-aos-delay=\"2300\"] [data-aos].aos-animate{transition-delay:2.3s}[data-aos][data-aos][data-aos-duration=\"2350\"],body[data-aos-duration=\"2350\"] [data-aos]{transition-duration:2.35s}[data-aos][data-aos][data-aos-delay=\"2350\"],body[data-aos-delay=\"2350\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2350\"].aos-animate,body[data-aos-delay=\"2350\"] [data-aos].aos-animate{transition-delay:2.35s}[data-aos][data-aos][data-aos-duration=\"2400\"],body[data-aos-duration=\"2400\"] [data-aos]{transition-duration:2.4s}[data-aos][data-aos][data-aos-delay=\"2400\"],body[data-aos-delay=\"2400\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2400\"].aos-animate,body[data-aos-delay=\"2400\"] [data-aos].aos-animate{transition-delay:2.4s}[data-aos][data-aos][data-aos-duration=\"2450\"],body[data-aos-duration=\"2450\"] [data-aos]{transition-duration:2.45s}[data-aos][data-aos][data-aos-delay=\"2450\"],body[data-aos-delay=\"2450\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2450\"].aos-animate,body[data-aos-delay=\"2450\"] [data-aos].aos-animate{transition-delay:2.45s}[data-aos][data-aos][data-aos-duration=\"2500\"],body[data-aos-duration=\"2500\"] [data-aos]{transition-duration:2.5s}[data-aos][data-aos][data-aos-delay=\"2500\"],body[data-aos-delay=\"2500\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2500\"].aos-animate,body[data-aos-delay=\"2500\"] [data-aos].aos-animate{transition-delay:2.5s}[data-aos][data-aos][data-aos-duration=\"2550\"],body[data-aos-duration=\"2550\"] [data-aos]{transition-duration:2.55s}[data-aos][data-aos][data-aos-delay=\"2550\"],body[data-aos-delay=\"2550\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2550\"].aos-animate,body[data-aos-delay=\"2550\"] [data-aos].aos-animate{transition-delay:2.55s}[data-aos][data-aos][data-aos-duration=\"2600\"],body[data-aos-duration=\"2600\"] [data-aos]{transition-duration:2.6s}[data-aos][data-aos][data-aos-delay=\"2600\"],body[data-aos-delay=\"2600\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2600\"].aos-animate,body[data-aos-delay=\"2600\"] [data-aos].aos-animate{transition-delay:2.6s}[data-aos][data-aos][data-aos-duration=\"2650\"],body[data-aos-duration=\"2650\"] [data-aos]{transition-duration:2.65s}[data-aos][data-aos][data-aos-delay=\"2650\"],body[data-aos-delay=\"2650\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2650\"].aos-animate,body[data-aos-delay=\"2650\"] [data-aos].aos-animate{transition-delay:2.65s}[data-aos][data-aos][data-aos-duration=\"2700\"],body[data-aos-duration=\"2700\"] [data-aos]{transition-duration:2.7s}[data-aos][data-aos][data-aos-delay=\"2700\"],body[data-aos-delay=\"2700\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2700\"].aos-animate,body[data-aos-delay=\"2700\"] [data-aos].aos-animate{transition-delay:2.7s}[data-aos][data-aos][data-aos-duration=\"2750\"],body[data-aos-duration=\"2750\"] [data-aos]{transition-duration:2.75s}[data-aos][data-aos][data-aos-delay=\"2750\"],body[data-aos-delay=\"2750\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2750\"].aos-animate,body[data-aos-delay=\"2750\"] [data-aos].aos-animate{transition-delay:2.75s}[data-aos][data-aos][data-aos-duration=\"2800\"],body[data-aos-duration=\"2800\"] [data-aos]{transition-duration:2.8s}[data-aos][data-aos][data-aos-delay=\"2800\"],body[data-aos-delay=\"2800\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2800\"].aos-animate,body[data-aos-delay=\"2800\"] [data-aos].aos-animate{transition-delay:2.8s}[data-aos][data-aos][data-aos-duration=\"2850\"],body[data-aos-duration=\"2850\"] [data-aos]{transition-duration:2.85s}[data-aos][data-aos][data-aos-delay=\"2850\"],body[data-aos-delay=\"2850\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2850\"].aos-animate,body[data-aos-delay=\"2850\"] [data-aos].aos-animate{transition-delay:2.85s}[data-aos][data-aos][data-aos-duration=\"2900\"],body[data-aos-duration=\"2900\"] [data-aos]{transition-duration:2.9s}[data-aos][data-aos][data-aos-delay=\"2900\"],body[data-aos-delay=\"2900\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2900\"].aos-animate,body[data-aos-delay=\"2900\"] [data-aos].aos-animate{transition-delay:2.9s}[data-aos][data-aos][data-aos-duration=\"2950\"],body[data-aos-duration=\"2950\"] [data-aos]{transition-duration:2.95s}[data-aos][data-aos][data-aos-delay=\"2950\"],body[data-aos-delay=\"2950\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"2950\"].aos-animate,body[data-aos-delay=\"2950\"] [data-aos].aos-animate{transition-delay:2.95s}[data-aos][data-aos][data-aos-duration=\"3000\"],body[data-aos-duration=\"3000\"] [data-aos]{transition-duration:3s}[data-aos][data-aos][data-aos-delay=\"3000\"],body[data-aos-delay=\"3000\"] [data-aos]{transition-delay:0s}[data-aos][data-aos][data-aos-delay=\"3000\"].aos-animate,body[data-aos-delay=\"3000\"] [data-aos].aos-animate{transition-delay:3s}[data-aos]{pointer-events:none}[data-aos].aos-animate{pointer-events:auto}[data-aos][data-aos][data-aos-easing=linear],body[data-aos-easing=linear] [data-aos]{transition-timing-function:cubic-bezier(.25,.25,.75,.75)}[data-aos][data-aos][data-aos-easing=ease],body[data-aos-easing=ease] [data-aos]{transition-timing-function:ease}[data-aos][data-aos][data-aos-easing=ease-in],body[data-aos-easing=ease-in] [data-aos]{transition-timing-function:ease-in}[data-aos][data-aos][data-aos-easing=ease-out],body[data-aos-easing=ease-out] [data-aos]{transition-timing-function:ease-out}[data-aos][data-aos][data-aos-easing=ease-in-out],body[data-aos-easing=ease-in-out] [data-aos]{transition-timing-function:ease-in-out}[data-aos][data-aos][data-aos-easing=ease-in-back],body[data-aos-easing=ease-in-back] [data-aos]{transition-timing-function:cubic-bezier(.6,-.28,.735,.045)}[data-aos][data-aos][data-aos-easing=ease-out-back],body[data-aos-easing=ease-out-back] [data-aos]{transition-timing-function:cubic-bezier(.175,.885,.32,1.275)}[data-aos][data-aos][data-aos-easing=ease-in-out-back],body[data-aos-easing=ease-in-out-back] [data-aos]{transition-timing-function:cubic-bezier(.68,-.55,.265,1.55)}[data-aos][data-aos][data-aos-easing=ease-in-sine],body[data-aos-easing=ease-in-sine] [data-aos]{transition-timing-function:cubic-bezier(.47,0,.745,.715)}[data-aos][data-aos][data-aos-easing=ease-out-sine],body[data-aos-easing=ease-out-sine] [data-aos]{transition-timing-function:cubic-bezier(.39,.575,.565,1)}[data-aos][data-aos][data-aos-easing=ease-in-out-sine],body[data-aos-easing=ease-in-out-sine] [data-aos]{transition-timing-function:cubic-bezier(.445,.05,.55,.95)}[data-aos][data-aos][data-aos-easing=ease-in-quad],body[data-aos-easing=ease-in-quad] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-quad],body[data-aos-easing=ease-out-quad] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-quad],body[data-aos-easing=ease-in-out-quad] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}[data-aos][data-aos][data-aos-easing=ease-in-cubic],body[data-aos-easing=ease-in-cubic] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-cubic],body[data-aos-easing=ease-out-cubic] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-cubic],body[data-aos-easing=ease-in-out-cubic] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}[data-aos][data-aos][data-aos-easing=ease-in-quart],body[data-aos-easing=ease-in-quart] [data-aos]{transition-timing-function:cubic-bezier(.55,.085,.68,.53)}[data-aos][data-aos][data-aos-easing=ease-out-quart],body[data-aos-easing=ease-out-quart] [data-aos]{transition-timing-function:cubic-bezier(.25,.46,.45,.94)}[data-aos][data-aos][data-aos-easing=ease-in-out-quart],body[data-aos-easing=ease-in-out-quart] [data-aos]{transition-timing-function:cubic-bezier(.455,.03,.515,.955)}@media screen{html:not(.no-js) [data-aos^=fade][data-aos^=fade]{opacity:0;transition-property:opacity,transform}html:not(.no-js) [data-aos^=fade][data-aos^=fade].aos-animate{opacity:1;transform:none}html:not(.no-js) [data-aos=fade-up]{transform:translate3d(0,100px,0)}html:not(.no-js) [data-aos=fade-down]{transform:translate3d(0,-100px,0)}html:not(.no-js) [data-aos=fade-right]{transform:translate3d(-100px,0,0)}html:not(.no-js) [data-aos=fade-left]{transform:translate3d(100px,0,0)}html:not(.no-js) [data-aos=fade-up-right]{transform:translate3d(-100px,100px,0)}html:not(.no-js) [data-aos=fade-up-left]{transform:translate3d(100px,100px,0)}html:not(.no-js) [data-aos=fade-down-right]{transform:translate3d(-100px,-100px,0)}html:not(.no-js) [data-aos=fade-down-left]{transform:translate3d(100px,-100px,0)}html:not(.no-js) [data-aos^=zoom][data-aos^=zoom]{opacity:0;transition-property:opacity,transform}html:not(.no-js) [data-aos^=zoom][data-aos^=zoom].aos-animate{opacity:1;transform:translateZ(0) scale(1)}html:not(.no-js) [data-aos=zoom-in]{transform:scale(.6)}html:not(.no-js) [data-aos=zoom-in-up]{transform:translate3d(0,100px,0) scale(.6)}html:not(.no-js) [data-aos=zoom-in-down]{transform:translate3d(0,-100px,0) scale(.6)}html:not(.no-js) [data-aos=zoom-in-right]{transform:translate3d(-100px,0,0) scale(.6)}html:not(.no-js) [data-aos=zoom-in-left]{transform:translate3d(100px,0,0) scale(.6)}html:not(.no-js) [data-aos=zoom-out]{transform:scale(1.2)}html:not(.no-js) [data-aos=zoom-out-up]{transform:translate3d(0,100px,0) scale(1.2)}html:not(.no-js) [data-aos=zoom-out-down]{transform:translate3d(0,-100px,0) scale(1.2)}html:not(.no-js) [data-aos=zoom-out-right]{transform:translate3d(-100px,0,0) scale(1.2)}html:not(.no-js) [data-aos=zoom-out-left]{transform:translate3d(100px,0,0) scale(1.2)}html:not(.no-js) [data-aos^=slide][data-aos^=slide]{transition-property:transform;visibility:hidden}html:not(.no-js) [data-aos^=slide][data-aos^=slide].aos-animate{visibility:visible;transform:translateZ(0)}html:not(.no-js) [data-aos=slide-up]{transform:translate3d(0,100%,0)}html:not(.no-js) [data-aos=slide-down]{transform:translate3d(0,-100%,0)}html:not(.no-js) [data-aos=slide-right]{transform:translate3d(-100%,0,0)}html:not(.no-js) [data-aos=slide-left]{transform:translate3d(100%,0,0)}html:not(.no-js) [data-aos^=flip][data-aos^=flip]{-webkit-backface-visibility:hidden;backface-visibility:hidden;transition-property:transform}html:not(.no-js) [data-aos=flip-left]{transform:perspective(2500px) rotateY(-100deg)}html:not(.no-js) [data-aos=flip-left].aos-animate{transform:perspective(2500px) rotateY(0)}html:not(.no-js) [data-aos=flip-right]{transform:perspective(2500px) rotateY(100deg)}html:not(.no-js) [data-aos=flip-right].aos-animate{transform:perspective(2500px) rotateY(0)}html:not(.no-js) [data-aos=flip-up]{transform:perspective(2500px) rotateX(-100deg)}html:not(.no-js) [data-aos=flip-up].aos-animate{transform:perspective(2500px) rotateX(0)}html:not(.no-js) [data-aos=flip-down]{transform:perspective(2500px) rotateX(100deg)}html:not(.no-js) [data-aos=flip-down].aos-animate{transform:perspective(2500px) rotateX(0)}}", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24308,7 +24465,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#ambition[data-v-21a16a2d] {\n    max-width: 1680px;\n    padding-bottom: 50px;\n    background-color: #ffffff;\n    color: #000000;\n}\n.container[data-v-21a16a2d] {\n    max-width: 1265px;\n}\nh2[data-v-21a16a2d],\np[data-v-21a16a2d],\na[data-v-21a16a2d] {\n    margin: 0;\n    text-decoration: none;\n}\nh2[data-v-21a16a2d] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\na[data-v-21a16a2d] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\na[data-v-21a16a2d]:hover {\n    background: #0088c6;\n    color: #fff;\n}\np[data-v-21a16a2d] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n    padding: 33px 0;\n}\n.left[data-v-21a16a2d] {\n    width: 100%;\n}\n.right[data-v-21a16a2d] {\n    padding-left: 50px;\n}\nimg[data-v-21a16a2d] {\n    width: 100%;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#ambition[data-v-21a16a2d] {\n    max-width: 1680px;\n    padding-bottom: 50px;\n    background-color: #ffffff;\n    color: #000000;\n}\n.container[data-v-21a16a2d] {\n    max-width: 1265px;\n}\nh2[data-v-21a16a2d],\np[data-v-21a16a2d],\na[data-v-21a16a2d] {\n    margin: 0;\n    text-decoration: none;\n}\nh2[data-v-21a16a2d] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\na[data-v-21a16a2d] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\na[data-v-21a16a2d]:hover {\n    background: #0088c6;\n    color: #fff;\n}\np[data-v-21a16a2d] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n    padding: 33px 0;\n}\n.left[data-v-21a16a2d] {\n    width: 100%;\n}\n.right[data-v-21a16a2d] {\n    padding-left: 50px;\n}\nimg[data-v-21a16a2d] {\n    width: 100%;\n}\n@media screen and (max-width: 1280px) {\n.container[data-v-21a16a2d] {\n        max-width: 1180px;\n}\n.right[data-v-21a16a2d] {\n        padding-left: 0px;\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 1024px) {\n.container[data-v-21a16a2d] {\n        max-width: 964px;\n}\n.left[data-v-21a16a2d] {\n        margin-bottom: 15px;\n}\n.row[data-v-21a16a2d] {\n        flex-direction: column-reverse;\n}\n}\n@media screen and (max-width: 768px) {\n.container[data-v-21a16a2d] {\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n.container[data-v-21a16a2d] {\n        max-width: 500px;\n}\nh2[data-v-21a16a2d] {\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n.container[data-v-21a16a2d] {\n        max-width: 380px;\n}\nh2[data-v-21a16a2d] {\n        font-size: 1.2rem;\n}\na[data-v-21a16a2d] {\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n.container[data-v-21a16a2d] {\n        max-width: 340px;\n}\nh2[data-v-21a16a2d] {\n        font-size: 1.2rem;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24357,7 +24514,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#glance__intro[data-v-32658420] {\n    max-width: 1680px;\n    height: 827px;\n    background: #fff;\n    color: #000000;\n    font-family: sans-serif;\n}\n#glance__intro .container[data-v-32658420] {\n    max-width: 1265px;\n}\n#glance__intro h1[data-v-32658420],\n#glance__intro h2[data-v-32658420],\n#glance__intro p[data-v-32658420] {\n    margin: 0;\n}\n#glance__intro h1[data-v-32658420],\n#glance__intro h2[data-v-32658420] {\n    text-align: center;\n    font-family: \"Lora\", serif;\n    font-size: 2.42857rem;\n    line-height: 3.14286rem;\n    font-weight: 200;\n    letter-spacing: -2px;\n}\n#glance__intro h1[data-v-32658420]{\n   position: relative;\n    top: 5.5rem;\n}\n#glance__intro ul.top__link[data-v-32658420] {\n    position: relative;\n    top: 13px;\n}\n#glance__intro p[data-v-32658420] {\n    text-align: start;\n    font-size: 13px;\n    text-indent: 25px;\n    padding: 0 30px;\n    line-height: 23px;\n    letter-spacing: 1px;\n}\n#glance__intro .top__link a span[data-v-32658420] {\n    color: #333;\n}\n#glance__intro .top__link a:hover span[data-v-32658420] {\n    color: #00adef;\n}\n#glance__intro .top__link a i[data-v-32658420]{\n    position: relative;\n    left: 18px;\n    font-size: 14px;\n}\n#glance__intro .top__link a i[data-v-32658420],\n#glance__intro .top__link a span[data-v-32658420],\n#glance__intro p[data-v-32658420] {\n    color: #333;\n}\n#glance__intro .top__link li.active span[data-v-32658420] {\n    color: #00adef;\n}\n#glance__intro .title__bottom[data-v-32658420] {\n    position: relative;\n    top: 14.5rem;\n}\n#glance__intro .glance__body[data-v-32658420] {\n    position: relative;\n    top: 10rem;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#glance__intro[data-v-32658420] {\n    max-width: 1680px;\n    height: 827px;\n    background: #fff;\n    color: #000000;\n    font-family: sans-serif;\n}\n#glance__intro .container[data-v-32658420] {\n    max-width: 1265px;\n}\n#glance__intro h1[data-v-32658420],\n#glance__intro h2[data-v-32658420],\n#glance__intro p[data-v-32658420] {\n    margin: 0;\n}\n#glance__intro h1[data-v-32658420],\n#glance__intro h2[data-v-32658420] {\n    text-align: center;\n    font-family: \"Lora\", serif;\n    font-size: 2.42857rem;\n    line-height: 3.14286rem;\n    font-weight: 200;\n    letter-spacing: -2px;\n}\n#glance__intro h1[data-v-32658420] {\n    position: relative;\n    top: 5.5rem;\n}\n#glance__intro ul.top__link[data-v-32658420] {\n    position: relative;\n    top: 13px;\n}\n#glance__intro p[data-v-32658420] {\n    text-align: start;\n    font-size: 13px;\n    text-indent: 25px;\n    padding: 0 30px;\n    line-height: 23px;\n    letter-spacing: 1px;\n}\n#glance__intro .top__link a span[data-v-32658420] {\n    color: #333;\n}\n#glance__intro .top__link a:hover span[data-v-32658420] {\n    color: #00adef;\n}\n#glance__intro .top__link a i[data-v-32658420] {\n    position: relative;\n    left: 18px;\n    font-size: 14px;\n}\n#glance__intro .top__link a i[data-v-32658420],\n#glance__intro .top__link a span[data-v-32658420],\n#glance__intro p[data-v-32658420] {\n    color: #333;\n}\n#glance__intro .top__link li.active span[data-v-32658420] {\n    color: #00adef;\n}\n#glance__intro .title__bottom[data-v-32658420] {\n    position: relative;\n    top: 14.5rem;\n}\n#glance__intro .glance__body[data-v-32658420] {\n    position: relative;\n    top: 10rem;\n}\n@media screen and (max-width: 1024px) {\n#glance__intro p[data-v-32658420] {\n        padding-bottom: 20px;\n}\n}\n@media screen and (max-width: 768px) {\n#glance__intro[data-v-32658420] {\n        height: 970px;\n}\n#glance__intro h1[data-v-32658420],\n    #glance__intro h2[data-v-32658420] {\n        font-size: 1.8rem;\n}\n}\n@media screen and (max-width: 600px) {\n#glance__intro[data-v-32658420] {\n        height: 1150px;\n}\n}\n@media screen and (max-width: 480px) {\n#glance__intro[data-v-32658420] {\n        height: 1450px;\n}\n#glance__intro h1[data-v-32658420],\n    #glance__intro h2[data-v-32658420] {\n        font-size: 1.5rem;\n}\n}\n@media screen and (max-width: 380px) {\n#glance__intro[data-v-32658420] {\n        height: 1550px;\n}\n}\n@media screen and (max-width: 280px) {\n#glance__intro[data-v-32658420] {\n        height: 2100px;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24407,7 +24564,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#mec__benz__car[data-v-f0a8ba4c] {\n    max-width: 1680px;\n    height: 445px;\n    background: #ffffff;\n    color: #000000;\n}\n#mec__benz__car .container[data-v-f0a8ba4c] {\n    max-width: 1265px;\n}\nh1[data-v-f0a8ba4c],\np[data-v-f0a8ba4c],\na[data-v-f0a8ba4c] {\n    margin: 0;\n    text-decoration: none;\n}\nh1[data-v-f0a8ba4c] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\np[data-v-f0a8ba4c] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n}\n.row[data-v-f0a8ba4c] {\n    position: relative;\n    top: 55px;\n}\na[data-v-f0a8ba4c] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    top: 30px;\n}\na[data-v-f0a8ba4c]:hover {\n    background: #0088c6;\n    color: #fff;\n}\n.left[data-v-f0a8ba4c],\n.right[data-v-f0a8ba4c] {\n    padding: 0 30px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#mec__benz__car[data-v-f0a8ba4c] {\n    max-width: 1680px;\n    height: 445px;\n    background: #ffffff;\n    color: #000000;\n    overflow: hidden;\n}\n#mec__benz__car .container[data-v-f0a8ba4c] {\n    max-width: 1265px;\n}\nh1[data-v-f0a8ba4c],\np[data-v-f0a8ba4c],\na[data-v-f0a8ba4c] {\n    margin: 0;\n    text-decoration: none;\n}\nh1[data-v-f0a8ba4c] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\np[data-v-f0a8ba4c] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n}\n.row[data-v-f0a8ba4c] {\n    position: relative;\n    top: 55px;\n}\na[data-v-f0a8ba4c] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    top: 30px;\n}\na[data-v-f0a8ba4c]:hover {\n    background: #0088c6;\n    color: #fff;\n}\n@media screen and (max-width: 1024px) {\n#mec__benz__car .container[data-v-f0a8ba4c] {\n        max-width: 960px;\n}\np[data-v-f0a8ba4c] {\n        padding-bottom: 20px;\n}\na[data-v-f0a8ba4c] {\n        top: 10px;\n}\n}\n@media screen and (max-width: 768px) {\n#mec__benz__car[data-v-f0a8ba4c] {\n        height: 490px;\n}\n#mec__benz__car .container[data-v-f0a8ba4c] {\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 600px) {\n#mec__benz__car[data-v-f0a8ba4c] {\n        height: 620px;\n}\nh1[data-v-f0a8ba4c] {\n        font-size: 1.7rem;\n}\n#mec__benz__car .container[data-v-f0a8ba4c] {\n        max-width: 480px;\n}\n}\n@media screen and (max-width: 480px) {\n#mec__benz__car[data-v-f0a8ba4c] {\n        height: 680px;\n}\n#mec__benz__car .container[data-v-f0a8ba4c] {\n        max-width: 380px;\n}\na[data-v-f0a8ba4c] {\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n#mec__benz__car[data-v-f0a8ba4c] {\n        height: 810px;\n}\n#mec__benz__car .container[data-v-f0a8ba4c] {\n        max-width: 300px;\n}\n}\n@media screen and (max-width: 280px) {\n#mec__benz__car[data-v-f0a8ba4c] {\n        height: 1050px;\n}\nh1[data-v-f0a8ba4c] {\n        font-size: 1.3rem;\n}\n#mec__benz__car .container[data-v-f0a8ba4c] {\n        max-width: 230px;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24432,7 +24589,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#mec__benz__vans[data-v-5d79f6ea] {\n    max-width: 1680px;\n    height: 725px;\n    background: #ffffff;\n    color: #000000;\n}\n#mec__benz__vans .container[data-v-5d79f6ea] {\n    max-width: 1265px;\n    height: 100%;\n}\nh1[data-v-5d79f6ea],\nh2[data-v-5d79f6ea],\np[data-v-5d79f6ea],\na[data-v-5d79f6ea] {\n    margin: 0;\n    text-decoration: none;\n}\nh1[data-v-5d79f6ea],h2[data-v-5d79f6ea] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\nh2[data-v-5d79f6ea]{\n    text-align: center;\n    position: relative;\n    top: 15.5rem;\n}\np[data-v-5d79f6ea] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n}\n.row[data-v-5d79f6ea] {\n    position: relative;\n    top: 55px;\n}\na[data-v-5d79f6ea] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    top: 30px;\n}\na[data-v-5d79f6ea]:hover {\n    background: #0088c6;\n    color: #fff;\n}\n.left[data-v-5d79f6ea],\n.right[data-v-5d79f6ea] {\n    padding: 0 30px;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#mec__benz__vans[data-v-5d79f6ea] {\n    max-width: 1680px;\n    height: 725px;\n    background: #ffffff;\n    color: #000000;\n    overflow: hidden;\n}\n#mec__benz__vans .container[data-v-5d79f6ea] {\n    max-width: 1265px;\n    height: 100%;\n}\nh1[data-v-5d79f6ea],\nh2[data-v-5d79f6ea],\np[data-v-5d79f6ea],\na[data-v-5d79f6ea] {\n    margin: 0;\n    text-decoration: none;\n}\nh1[data-v-5d79f6ea],\nh2[data-v-5d79f6ea] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\nh2[data-v-5d79f6ea] {\n    text-align: center;\n    position: relative;\n    top: 15.5rem;\n}\np[data-v-5d79f6ea] {\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n}\n.row[data-v-5d79f6ea] {\n    position: relative;\n    top: 55px;\n}\na[data-v-5d79f6ea] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    position: relative;\n    top: 30px;\n}\na[data-v-5d79f6ea]:hover {\n    background: #0088c6;\n    color: #fff;\n}\n.text[data-v-5d79f6ea] {\n    padding: 0 30px;\n}\n.card-text[data-v-5d79f6ea]:last-child {\n    text-indent: 25px;\n}\n@media screen and (max-width: 1024px) {\n#mec__benz__vans[data-v-5d79f6ea] {\n        height: 695px;\n}\n#mec__benz__vans .container[data-v-5d79f6ea] {\n        max-width: 960px;\n}\np[data-v-5d79f6ea] {\n        padding-bottom: 20px;\n}\na[data-v-5d79f6ea] {\n        top: 10px;\n}\nh1[data-v-5d79f6ea] {\n        padding: 0 30px;\n}\nh2[data-v-5d79f6ea] {\n        top: 9.5rem;\n}\n}\n@media screen and (max-width: 768px) {\n#mec__benz__vans[data-v-5d79f6ea] {\n        height: 740px;\n}\n#mec__benz__vans .container[data-v-5d79f6ea] {\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 600px) {\n#mec__benz__vans[data-v-5d79f6ea] {\n        height: 830px;\n}\nh1[data-v-5d79f6ea] {\n        font-size: 1.7rem;\n}\n#mec__benz__vans .container[data-v-5d79f6ea] {\n        max-width: 480px;\n}\n}\n@media screen and (max-width: 480px) {\n#mec__benz__vans[data-v-5d79f6ea] {\n        height: 930px;\n}\n#mec__benz__vans .container[data-v-5d79f6ea] {\n        max-width: 380px;\n}\na[data-v-5d79f6ea] {\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n#mec__benz__vans[data-v-5d79f6ea] {\n        height: 930px;\n}\n#mec__benz__vans .container[data-v-5d79f6ea] {\n        max-width: 365px;\n}\n}\n@media screen and (max-width: 280px) {\n#mec__benz__vans[data-v-5d79f6ea] {\n        height: 1050px;\n}\nh1[data-v-5d79f6ea] {\n        font-size: 1.3rem;\n}\n#mec__benz__vans .container[data-v-5d79f6ea] {\n        max-width: 280px;\n}\nh1[data-v-5d79f6ea],\n    .text[data-v-5d79f6ea] {\n        padding: 0 15px;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24481,7 +24638,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#our__corporate[data-v-616122fb] {\n    max-width: 1680px;\n    padding: 50px 0;\n    background-color: #ffffff;\n    color: #000000;\n}\n.container[data-v-616122fb] {\n    max-width: 1265px;\n}\nh2[data-v-616122fb],\np[data-v-616122fb],\na[data-v-616122fb] {\n    margin: 0;\n    text-decoration: none;\n}\nh2[data-v-616122fb] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\na[data-v-616122fb] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\na[data-v-616122fb]:hover {\n    background: #0088c6;\n    color: #fff;\n}\np[data-v-616122fb] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n    padding: 33px 0;\n}\n.left[data-v-616122fb] {\n    width: 100%;\n}\n.right[data-v-616122fb] {\n    padding-left: 50px;\n}\nimg[data-v-616122fb] {\n    width: 100%;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#our__corporate[data-v-616122fb] {\n    max-width: 1680px;\n    padding: 50px 0;\n    background-color: #ffffff;\n    color: #000000;\n}\n.container[data-v-616122fb] {\n    max-width: 1265px;\n}\nh2[data-v-616122fb],\np[data-v-616122fb],\na[data-v-616122fb] {\n    margin: 0;\n    text-decoration: none;\n}\nh2[data-v-616122fb] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\na[data-v-616122fb] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\na[data-v-616122fb]:hover {\n    background: #0088c6;\n    color: #fff;\n}\np[data-v-616122fb] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n    padding: 33px 0;\n}\n.left[data-v-616122fb] {\n    width: 100%;\n}\n.right[data-v-616122fb] {\n    padding-left: 50px;\n}\nimg[data-v-616122fb] {\n    width: 100%;\n}\n@media screen and (max-width: 1280px) {\n.container[data-v-616122fb] {\n        max-width: 1180px;\n}\n.right[data-v-616122fb] {\n        padding-left: 0px;\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 1024px) {\n.container[data-v-616122fb] {\n        max-width: 964px;\n}\n.left[data-v-616122fb] {\n        margin-bottom: 15px;\n}\n.row[data-v-616122fb] {\n        flex-direction: column-reverse;\n}\n}\n@media screen and (max-width: 768px) {\n.container[data-v-616122fb] {\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n.container[data-v-616122fb] {\n        max-width: 500px;\n}\nh2[data-v-616122fb] {\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n.container[data-v-616122fb] {\n        max-width: 380px;\n}\nh2[data-v-616122fb] {\n        font-size: 1.2rem;\n}\na[data-v-616122fb] {\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n.container[data-v-616122fb] {\n        max-width: 340px;\n}\nh2[data-v-616122fb] {\n        font-size: 1.2rem;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24506,7 +24663,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#our__goal[data-v-7de187da] {\n    max-width: 1680px;\n    padding: 50px 0;\n    background-color: #ffffff;\n    color: #000000;\n}\n.container[data-v-7de187da] {\n    max-width: 1265px;\n}\nh2[data-v-7de187da],\np[data-v-7de187da],\na[data-v-7de187da] {\n    margin: 0;\n    text-decoration: none;\n}\nh2[data-v-7de187da] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\na[data-v-7de187da] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\na[data-v-7de187da]:hover {\n    background: #0088c6;\n    color: #fff;\n}\np[data-v-7de187da] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n    padding: 33px 0;\n    padding-right: 20px;\n}\n.right[data-v-7de187da]{\n    width: 100%;\n}\nimg[data-v-7de187da]{\n    width: 100%;\n}\n\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#our__goal[data-v-7de187da] {\n    max-width: 1680px;\n    padding: 50px 0;\n    background-color: #ffffff;\n    color: #000000;\n    overflow: hidden;\n}\n.container[data-v-7de187da] {\n    max-width: 1265px;\n}\nh2[data-v-7de187da],\np[data-v-7de187da],\na[data-v-7de187da] {\n    margin: 0;\n    text-decoration: none;\n}\nh2[data-v-7de187da] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\na[data-v-7de187da] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\na[data-v-7de187da]:hover {\n    background: #0088c6;\n    color: #fff;\n}\np[data-v-7de187da] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n    padding: 33px 0;\n    padding-right: 20px;\n}\n.right[data-v-7de187da] {\n    width: 100%;\n}\nimg[data-v-7de187da] {\n    width: 100%;\n}\n@media screen and (max-width: 1280px) {\n.container[data-v-7de187da] {\n        max-width: 1180px;\n}\n}\n@media screen and (max-width: 1024px) {\n.container[data-v-7de187da] {\n        max-width: 964px;\n}\n.left[data-v-7de187da] {\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 768px) {\n.container[data-v-7de187da] {\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n.container[data-v-7de187da] {\n        max-width: 500px;\n}\nh2[data-v-7de187da] {\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n.container[data-v-7de187da] {\n        max-width: 380px;\n}\nh2[data-v-7de187da] {\n        font-size: 1.2rem;\n}\na[data-v-7de187da] {\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n.container[data-v-7de187da] {\n        max-width: 340px;\n}\nh2[data-v-7de187da] {\n        font-size: 1.2rem;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24530,7 +24687,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#slide__01[data-v-c48378f8] {\n    max-width: 1680px;\n    background-color: #000000;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#slide__01[data-v-c48378f8] {\n    max-width: 1680px;\n    background-color: #000000;\n    overflow: hidden;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24554,7 +24711,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#slide__02[data-v-c46749f6] {\n    max-width: 1680px;\n    background-color: #000000;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#slide__02[data-v-c46749f6] {\n    max-width: 1680px;\n    background-color: #000000;\n    overflow: hidden;\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24578,7 +24735,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#purpose[data-v-b96cc6f2] {\n    max-width: 1680px;\n    padding: 50px 0;\n    background-color: #ffffff;\n    color: #000000;\n}\n.container[data-v-b96cc6f2] {\n    max-width: 1265px;\n}\nh2[data-v-b96cc6f2],\np[data-v-b96cc6f2],\na[data-v-b96cc6f2] {\n    margin: 0;\n    text-decoration: none;\n}\nh2[data-v-b96cc6f2] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\na[data-v-b96cc6f2] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\na[data-v-b96cc6f2]:hover {\n    background: #0088c6;\n    color: #fff;\n}\np[data-v-b96cc6f2] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n    padding: 33px 0;\n    padding-right: 20px;\n}\n.right[data-v-b96cc6f2]{\n    width: 100%;\n}\nimg[data-v-b96cc6f2]{\n    width: 100%;\n}\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#purpose[data-v-b96cc6f2] {\n    max-width: 1680px;\n    padding: 50px 0;\n    background-color: #ffffff;\n    color: #000000;\n}\n.container[data-v-b96cc6f2] {\n    max-width: 1265px;\n}\nh2[data-v-b96cc6f2],\np[data-v-b96cc6f2],\na[data-v-b96cc6f2] {\n    margin: 0;\n    text-decoration: none;\n}\nh2[data-v-b96cc6f2] {\n    font-size: 2rem;\n    font-family: \"Lora\", serif;\n    letter-spacing: -1px;\n    font-weight: 300;\n}\na[data-v-b96cc6f2] {\n    width: 110px;\n    height: 45px;\n    color: #fff;\n    background: #00adef;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n}\na[data-v-b96cc6f2]:hover {\n    background: #0088c6;\n    color: #fff;\n}\np[data-v-b96cc6f2] {\n    text-indent: 25px;\n    font-size: 13px;\n    font-weight: 400;\n    letter-spacing: 1px;\n    line-height: 20px;\n    text-align: start;\n    font-family: sans-serif;\n    padding: 33px 0;\n    padding-right: 20px;\n}\n.right[data-v-b96cc6f2] {\n    width: 100%;\n}\nimg[data-v-b96cc6f2] {\n    width: 100%;\n}\n@media screen and (max-width: 1280px) {\n.container[data-v-b96cc6f2] {\n        max-width: 1180px;\n}\n}\n@media screen and (max-width: 1024px) {\n.container[data-v-b96cc6f2] {\n        max-width: 964px;\n}\n.left[data-v-b96cc6f2] {\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 768px) {\n.container[data-v-b96cc6f2] {\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n.container[data-v-b96cc6f2] {\n        max-width: 500px;\n}\nh2[data-v-b96cc6f2] {\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n.container[data-v-b96cc6f2] {\n        max-width: 380px;\n}\nh2[data-v-b96cc6f2] {\n        font-size: 1.2rem;\n}\na[data-v-b96cc6f2] {\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n.container[data-v-b96cc6f2] {\n        max-width: 340px;\n}\nh2[data-v-b96cc6f2] {\n        font-size: 1.2rem;\n}\n}\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -43408,6 +43565,36 @@ var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMP
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_vue3_pagination_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
+
+/***/ }),
+
+/***/ "./node_modules/aos/dist/aos.css":
+/*!***************************************!*\
+  !*** ./node_modules/aos/dist/aos.css ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! !../../style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+/* harmony import */ var _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _css_loader_dist_cjs_js_clonedRuleSet_9_use_1_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_aos_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! !!../../css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!../../postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./aos.css */ "./node_modules/css-loader/dist/cjs.js??clonedRuleSet-9.use[1]!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-9.use[2]!./node_modules/aos/dist/aos.css");
+
+            
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = _style_loader_dist_runtime_injectStylesIntoStyleTag_js__WEBPACK_IMPORTED_MODULE_0___default()(_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_aos_css__WEBPACK_IMPORTED_MODULE_1__["default"], options);
+
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_css_loader_dist_cjs_js_clonedRuleSet_9_use_1_postcss_loader_dist_cjs_js_clonedRuleSet_9_use_2_aos_css__WEBPACK_IMPORTED_MODULE_1__["default"].locals || {});
 
 /***/ }),
 

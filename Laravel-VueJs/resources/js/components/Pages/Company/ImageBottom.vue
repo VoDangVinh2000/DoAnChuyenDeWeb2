@@ -1,8 +1,13 @@
 <template>
     <section id="img__bottom">
         <b-row>
-            <b-col md="4" v-for="(item, i) in btImg" :key="i">
-                <div class="group">
+            <b-col xl="4" md="6" xs="12" v-for="(item, i) in btImg" :key="i">
+                <div
+                    class="group"
+                    data-aos="fade-up"
+                    data-aos-duration="1800"
+                    v-bind:data-aos-delay="200 * (i + 2)"
+                >
                     <b-img :src="item.img"></b-img>
                     <h2>{{ item.text }}</h2>
                 </div>

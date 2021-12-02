@@ -2,43 +2,24 @@
     <section id="mec__benz__car">
         <b-container>
             <b-row>
-                <b-col md="4">
-                    <div class="title">
-                        <h1>Mercedes-Benz Cars.</h1>
-                    </div>
-                </b-col>
-                <b-col md="4">
-                    <div class="left">
-                        <b-card-text>
-                            The Mercedes-Benz Cars range covers every passenger
-                            car segment: from the urban microcar by smart, to
-                            the exclusive product range by Mercedes-Benz and
-                            Mercedes-Maybach, to the performance and sports cars
-                            by Mercedes-AMG. With Mercedes-EQ, Mercedes-Benz
-                            Cars is driving forward the systematic development
-                            of alternative drives: the aim is to electrify the
-                            entire portfolio by 2022. The company will offer a
-                            range of electrified models in each segment,
-                            including 48-volt models, a wide choice of plug-in
-                            hybrids, and all-electric vehicles with battery. In
-                            this way, the Cars division of Mercedes-Benz AG
-                            ensures individual mobility for a vast spectrum of
-                            customer needs. The company aims to build the
-                            world’s most desirable cars.
-                        </b-card-text>
-                    </div>
-                </b-col>
-                <b-col md="4">
-                    <div class="right">
-                        <b-card-text>
-                            In 2020, Mercedes-Benz Cars delivered 2,087,200
-                            vehicles, achieving the fifth consecutive year with
-                            a wholesale level above two million passenger cars.
-                            Since 2016, Mercedes-Benz has maintained its leading
-                            global position in terms of sales compared with its
-                            core competitors every year.
-                        </b-card-text>
-                        <b-link> Learn more </b-link>
+                <b-col
+                    xl="4"
+                    lg="12"
+                    md="12"
+                    v-for="item in benzCar"
+                    :key="item"
+                >
+                    <h1 data-aos="fade-up" data-aos-duration="1800">
+                        {{ item.title }}
+                    </h1>
+                    <div
+                        class="text"
+                        data-aos="fade-up"
+                        data-aos-duration="1800"
+                        data-aos-delay="300"
+                    >
+                        <b-card-text>{{ item.text }}</b-card-text>
+                        <b-link v-if="item.load != ''">{{ item.load }}</b-link>
                     </div>
                 </b-col>
             </b-row>
@@ -46,7 +27,25 @@
     </section>
 </template>
 <script>
-export default {};
+export default {
+    data() {
+        return {
+            benzCar: [
+                { title: "Mercedes-Benz Cars.", text: "", load: "" },
+                {
+                    title: "",
+                    text: "The Mercedes-Benz Cars range covers every passengercar segment: from the urban microcar by smart, tothe exclusive product range by Mercedes-Benz andMercedes-Maybach, to the performance and sports carsby Mercedes-AMG. With Mercedes-EQ, Mercedes-BenzCars is driving forward the systematic developmentof alternative drives: the aim is to electrify theentire portfolio by 2022. The company will offer arange of electrified models in each segment,including 48-volt models, a wide choice of plug-inhybrids, and all-electric vehicles with battery. Inthis way, the Cars division of Mercedes-Benz AGensures individual mobility for a vast spectrum ofcustomer needs. The company aims to build theworld’s most desirable cars.",
+                    load: "",
+                },
+                {
+                    title: "",
+                    text: "In 2020, Mercedes-Benz Cars delivered 2,087,200 vehicles, achieving the fifth consecutive year with a wholesale level above two million passenger cars. Since 2016, Mercedes-Benz has maintained its leading global position in terms of sales compared with its core competitors every year.",
+                    load: "Learn more",
+                },
+            ],
+        };
+    },
+};
 </script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
@@ -56,6 +55,7 @@ export default {};
     height: 445px;
     background: #ffffff;
     color: #000000;
+    overflow: hidden;
 }
 
 #mec__benz__car .container {
@@ -107,8 +107,71 @@ a:hover {
     color: #fff;
 }
 
-.left,
-.right {
-    padding: 0 30px;
+@media screen and (max-width: 1024px) {
+    #mec__benz__car .container {
+        max-width: 960px;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+    a {
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #mec__benz__car {
+        height: 490px;
+    }
+    #mec__benz__car .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #mec__benz__car {
+        height: 620px;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    #mec__benz__car .container {
+        max-width: 480px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #mec__benz__car {
+        height: 680px;
+    }
+
+    #mec__benz__car .container {
+        max-width: 380px;
+    }
+    a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #mec__benz__car {
+        height: 810px;
+    }
+
+    #mec__benz__car .container {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    #mec__benz__car {
+        height: 1050px;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    #mec__benz__car .container {
+        max-width: 230px;
+    }
 }
 </style>

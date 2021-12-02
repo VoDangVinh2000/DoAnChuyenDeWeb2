@@ -2,12 +2,16 @@
     <section id="purpose">
         <b-container>
             <b-row>
-                <b-col md="4">
+                <b-col xl="4" md="12">
                     <div class="left">
-                        <h2>
+                        <h2 data-aos="fade-up" data-aos-duration="1800">
                             Our goal: to build the world’s most desirable cars.
                         </h2>
-                        <b-card-text>
+                        <b-card-text
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            data-aos-delay="300"
+                        >
                             The Mercedes-Benz strategy is made up of six
                             pillars. At its heart is the transformation of the
                             company to become the number 1 for electric mobility
@@ -18,12 +22,23 @@
                             our new strategy is provided by our highly qualified
                             and motivated team.
                         </b-card-text>
-                        <b-link href="#"> Learn more </b-link>
+                        <b-link
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            data-aos-delay="300"
+                            href="#"
+                        >
+                            Learn more
+                        </b-link>
                     </div>
                 </b-col>
-                <b-col md="8">
+                <b-col xl="8" md="12">
                     <div class="right">
-                        <b-img :src="img" />
+                        <b-img
+                            data-aos="fade-up"
+                            data-aos-duration="1800"
+                            :src="img"
+                        />
                     </div>
                 </b-col>
             </b-row>
@@ -91,11 +106,66 @@ p {
     padding-right: 20px;
 }
 
-.right{
+.right {
     width: 100%;
 }
 
-img{
+img {
     width: 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+    }
+
+    .left {
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .container {
+        max-width: 500px;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 380px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+    a {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container {
+        max-width: 340px;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
 }
 </style>
