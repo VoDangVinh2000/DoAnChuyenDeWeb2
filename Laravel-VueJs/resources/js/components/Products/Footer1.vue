@@ -190,4 +190,39 @@ ul.social__media li{
 ul.social__media li a i{
   font-size: 25px;
 }
+/* CSS cho tỷ lệ màn hình dưới 1280px*/
+@media screen and (max-width: 1280px) {
+   .container-fluid {
+    left: 2%;
+  }
+  .container-fluid .row {
+    max-width: 90%;
+  }
+ 
+}
+/* CSS cho tỷ lệ màn hình dưới 1200px*/
+@media screen and (max-width: 1200px) {
+ .container-fluid {
+    left: 0%;
+  }
+}
+/* CSS cho tỷ lệ màn hình dưới 1024px*/
+@media screen and (max-width: 1024px) {
+  
+
+}
+/* CSS cho tỷ lệ màn hình dưới 768px */
+@media screen and (max-width: 768px) {
+
+ 
+}
+/* CSS cho tỷ lệ màn hình dưới 480px */
+@media screen and (max-width: 480px) {
+  
+}
+/* CSS cho tỷ lệ màn hình dưới 320px - Iphone */
+@media screen and (max-width: 320px) {
+
+  
+}
 </style>
