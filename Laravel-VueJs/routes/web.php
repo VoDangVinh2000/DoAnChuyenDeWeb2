@@ -52,3 +52,8 @@ Route::get('/innovation',function(){
     return view('app.Pages.innovation');
 });
 
+//page-design
+Route::get('/design',function(){
+    return view('app.Pages.design');
+});
+

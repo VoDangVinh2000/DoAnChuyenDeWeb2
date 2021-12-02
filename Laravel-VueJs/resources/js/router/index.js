@@ -4,8 +4,10 @@ import Register from "SrcComponent/views/Register.vue";
 import Login from "SrcComponent/views/Login.vue";
 import Home from "SrcComponent/views/Home.vue";
 import EditUser from "SrcComponent/views/EditUser.vue";
+import Design from "SrcComponent/views/Pages/Design/Design.vue";
 import CarsHome from "SrcComponent/views/Cars/CarsHome.vue";
 import Innovation from "SrcComponent/views/Pages/Innovation/Innovation.vue";
+
 const routes = [
     {
         /* Tạo routes trong vuejs */
@@ -47,7 +49,7 @@ const routes = [
     {
         name : "design",
         path : "/design",
-        // component : Innovation
+        component : Design,
     },
     {
         name : "museums-history",
