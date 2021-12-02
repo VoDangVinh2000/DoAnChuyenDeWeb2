@@ -12,6 +12,9 @@
         <MecBenzHoursntro />
         <HistoryMecRight />
         <ImageBeforePhotos />
+        <ThePhoto />
+        <SlidesCarousel />
+        <Follow />
       
         <!-- Footer -->
         <Footer01 />
@@ -35,13 +38,15 @@ import BeforeRecenLeft from "../../../components/Pages/Museums_History/BeforeRec
 import HistoryMecRight from "../../../components/Pages/Museums_History/HistoryMecRight.vue";
 import ImageBeforePhotos from "../../../components/Pages/Museums_History/ImageBeforePhotos.vue";
 import Footer2 from "../../../components/Products/Footer2.vue";
+import ThePhoto from "../../../components/Pages/Museums_History/ThePhoto.vue";
+import SlidesCarousel from "../../../components/Pages/Museums_History/SlidesCarousel.vue";
+import Follow from "../../../components/Pages/Museums_History/Follow.vue";
 
 export default {
     components: {
     Menu,
     Header,
     Footer01,
-
     Banner,
     Intro,
     MecBenzHoursntro,
@@ -52,7 +57,10 @@ export default {
     BeforeRecenLeft,
     HistoryMecRight,
     ImageBeforePhotos,
-    Footer2
+    Footer2,
+    ThePhoto,
+    SlidesCarousel,
+    Follow
 },
 };
 </script>

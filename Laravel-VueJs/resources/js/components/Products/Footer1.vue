@@ -189,9 +189,8 @@ ul.social__media{
     margin-top: 1.5rem;
 }
 
- ul.social__media li{
-   margin: 10px 26px!important;
-   width: 100%;
+ ul.social__media li {
+   width: 45%;
 
 }
 
@@ -208,13 +207,12 @@ max-width: 92%;
     max-width: 92%;
 }
 ul.social__media li{
-   margin: 10px 26px;
-   width: 100%;
+   width: 45%;
 
 }
 @media screen and (max-width: 768px) {
   ul.social__media li{
-    width: 100%;
+    width: 45%;
     } 
   }
 

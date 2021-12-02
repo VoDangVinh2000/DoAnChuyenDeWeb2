@@ -32,8 +32,6 @@ export default {
     max-width: 1680px;
     height: 90px;
     background: #1f1f1f;
-    /* background-image: url(../../../../assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp); */
-    background-repeat: no-repeat;
     position: sticky;
     z-index: 100;
     top: -1px;
