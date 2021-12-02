@@ -98,7 +98,44 @@ export default {
     color: #00adef;
 }
 
-
+@media screen and (max-width: 1024px) {
+    #recent  {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #recent{
+        height: 970px;
+    }
+    #recent h1,
+    #recent h2 {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    #recent {
+        height: 1150px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #recent{
+        height: 1450px;
+    }
+    #recent h1,
+    #recent h2 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 380px) {
+    #recent {
+        height: 1550px;
+    }
+}
+@media screen and (max-width: 280px) {
+    #recent{
+        height: 2100px;
+    }
+}
 
 
 </style>

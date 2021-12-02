@@ -97,4 +97,50 @@ p {
 img{
     width: 100%;
 }
+
+@media screen and (max-width: 1280px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .container {
+        max-width: 964px;
+    }
+    .left {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .container {
+        max-width: 500px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 380px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    a {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .container {
+        max-width: 340px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+}
 </style>

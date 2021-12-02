@@ -10,33 +10,14 @@
                 <b-col md="4" >
                     <div class="title_left">
                         <h2>Opening hours.</h2>
-                        <b-card-text>
-                            Tue to Sun, from 9 a.m. to 6 p.m. 
-                        </b-card-text>
-                        <b-card-text>
-                            Last admission is at 5 p.m. 
-                        </b-card-text>
-                        <b-card-text>
-                            Closed on Mondays. 
-                        </b-card-text>
-                        <b-card-text>
-                            Please see our opening times for public holidays. 
-                        </b-card-text>
-                         <b-button size="lg">  To the Mercedes-Benz Museum  </b-button>
+                        <p v-for="item in items1" :key="item ">{{item.text}}</p>
+                        <b-button variant="outline-secondary">To the Mercedes-Benz Museum</b-button>
                     </div>
                 </b-col>
                 <b-col md="4" >
                     <div class="title_right">
                         <h2>Exhibitions & events.</h2>
-                        <b-card-text>
-                            Classics & Coffee
-                        </b-card-text>
-                        <b-card-text>
-                            Special exhibition: Future Mobility
-                        </b-card-text>
-                        <b-card-text>
-                            experimenta
-                        </b-card-text>
+                       <p v-for="item in items2" :key="item ">{{item.text}}</p>
                         <b-link> Learn more </b-link>
                     </div>
                 </b-col>
@@ -50,6 +31,19 @@ export default {
         data() {
         return {
             img: intro,
+            items1: [
+            {text: "Tue to Sun, from 9 a.m. to 6 p.m. "},
+            {text: "Last admission is at 5 p.m."},  
+            {text: "Closed on Mondays."},
+            {text: "Please see our opening times for public"},
+            {text: 'holidays.'}
+            ],
+                        items2: [
+            {text: "Classics & Coffee"},
+            {text: "Special exhibition: Future Mobility"},  
+            {text: "experimenta"},
+
+            ],
 
         };
     },
@@ -65,30 +59,30 @@ export default {
     color: #fff;
 }
 
-#mec__benz__car .container {
-    max-width: 1265px;
+.container{
+    max-width: 1280px;
+        padding-left: 48px;
 }
 
-h1,
+h2,
 p,
 a {
     margin: 0;
     text-decoration: none;
 }
 
-h1 {
+h2 {
     font-size: 2rem;
     font-family: "Lora", serif;
     letter-spacing: -1px;
     font-weight: 300;
 }
 
-p {
+p{
     text-indent: 25px;
-    font-size: 13px;
-    font-weight: 400;
+    font-size: 14px;
     letter-spacing: 1px;
-    line-height: 20px;
+    line-height: 30px;
     text-align: start;
     font-family: sans-serif;
 }
@@ -109,6 +103,7 @@ a {
     position: relative;
     top: 30px;
 }
+
 a:hover {
     background: #0088c6;
     color: #fff;
@@ -120,5 +115,83 @@ a:hover {
 }
 img{
     width: 100%;
+}
+#mec__benz__car 
+.intro__right {
+    position: relative;
+    top :10px
+}
+@media screen and (max-width: 1024px) {
+    #mec__benz__car {
+        height: 695px;
+    }
+    #mec__benz__car .container {
+        max-width: 960px;
+    }
+    p {
+        padding-bottom: 20px;
+    }
+    a {
+        top: 10px;
+    }
+    h1 {
+        padding: 0 30px;
+    }
+    h2 {
+        top: 9.5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    #mec__benz__car {
+        height: 740px;
+    }
+    #mec__benz__car .container {
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 600px) {
+    #mec__benz__car {
+        height: 830px;
+    }
+    h1 {
+        font-size: 1.7rem;
+    }
+    #mec__benz__car .container {
+        max-width: 480px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #mec__benz__car {
+        height: 930px;
+    }
+    #mec__benz__car .container {
+        max-width: 380px;
+    }
+    a {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+    #mec__benz__car {
+        height: 930px;
+    }
+    #mec__benz__car .container {
+        max-width: 365px;
+    }
+}
+@media screen and (max-width: 280px) {
+    #mec__benz__car {
+        height: 1050px;
+    }
+    h1 {
+        font-size: 1.3rem;
+    }
+    #mec__benz__car .container {
+        max-width: 280px;
+    }
+    h1,
+    .text {
+        padding: 0 15px;
+    }
 }
 </style>

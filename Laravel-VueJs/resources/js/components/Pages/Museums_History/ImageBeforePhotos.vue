@@ -7,20 +7,20 @@
                     <b-card-text>
                            Find a large collection of Mercedes-Benz accessories, model cars, fashion, watches, literature and much more in our Mercedes-Benz Classic online shop.
                     </b-card-text>
-                    <b-button> Visit the online shop </b-button>
+                    <b-link href="#">Visit the online shop </b-link>
                   
             </b-col>
             <b-col md="4">
                     <b-img :src="img2"></b-img>
                     <h2>Classic Part Search.</h2>
                     <b-card-text>Use the online Classic Part Search to find availabilities and information for 110,000 original parts for your classic Mercedes-Benz.</b-card-text>
-                    <b-button> Go to Classic Part Search </b-button>
+                    <b-link href="#"> Go to Classic Part Search </b-link>
             </b-col>
             <b-col md="4">
                     <b-img :src="img3"></b-img>
                     <h2>Classic Center Fellbach.</h2>
                     <b-card-text>Fulfill your dream of owning a classic Mercedes-Benz car from the Classic Center Fellbach.</b-card-text>
-                    <b-button>  Go to Classic Center  </b-button>
+                    <b-link href="#"> Go to Classic Center  </b-link>
             </b-col>
         </b-row>
     </section>
@@ -70,19 +70,19 @@ h2 {
     letter-spacing: -1px;
     font-weight: 300;
 }
-
 a {
-    width: 110px;
+    width: 220px;
     height: 45px;
     color: #fff;
-    background: #00adef;
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #fff;
 }
 a:hover {
-    background: #0088c6;
-    color: #fff;
+    background: #fff;
+    color: #000;
 }
 
 p {
@@ -96,5 +96,47 @@ p {
     padding: 33px 0;
     padding-right: 20px;
 }
-
+@media screen and (max-width: 1280px) {
+    #img__bottom {
+        max-width: 1180px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #img__bottom {
+        max-width: 964px;
+    }
+     
+}
+@media screen and (max-width: 768px) {
+    #img__bottom {
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 580px) {
+    #img__bottom {
+        max-width: 500px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    #img__bottom {
+        max-width: 380px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    a {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+    #img__bottom {
+        max-width: 340px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+}
 </style>

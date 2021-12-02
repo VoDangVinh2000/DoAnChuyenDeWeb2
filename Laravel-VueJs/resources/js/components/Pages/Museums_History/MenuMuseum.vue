@@ -86,4 +86,5 @@ export default {
 #menu__museum .nav .nav-item > .nav-link {
     background: #fff;
 }
+
 </style>

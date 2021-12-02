@@ -20377,7 +20377,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      img: _assets_img_museums_01_at_the_mercedes_benz_museum_with_2560x1440_webp__WEBPACK_IMPORTED_MODULE_0__["default"]
+      img: _assets_img_museums_01_at_the_mercedes_benz_museum_with_2560x1440_webp__WEBPACK_IMPORTED_MODULE_0__["default"],
+      items1: [{
+        text: "Tue to Sun, from 9 a.m. to 6 p.m. "
+      }, {
+        text: "Last admission is at 5 p.m."
+      }, {
+        text: "Closed on Mondays."
+      }, {
+        text: "Please see our opening times for public"
+      }, {
+        text: 'holidays.'
+      }],
+      items2: [{
+        text: "Classics & Coffee"
+      }, {
+        text: "Special exhibition: Future Mobility"
+      }, {
+        text: "experimenta"
+      }]
     };
   }
 });
@@ -22046,7 +22064,7 @@ var _withScopeId = function _withScopeId(n) {
 };
 
 var _hoisted_1 = {
-  id: "our__corporate"
+  id: "our__history"
 };
 var _hoisted_2 = {
   "class": "left"
@@ -22169,7 +22187,7 @@ var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Find a large collection of Mercedes-Benz accessories, model cars, fashion, watches, literature and much more in our Mercedes-Benz Classic online shop. ");
 
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Visit the online shop ");
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Visit the online shop ");
 
 var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Classic Part Search.", -1
@@ -22196,7 +22214,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_b_card_text = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-card-text");
 
-  var _component_b_button = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-button");
+  var _component_b_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-link");
 
   var _component_b_col = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-col");
 
@@ -22219,7 +22237,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             _: 1
             /* STABLE */
 
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_button, null, {
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
+            href: "#"
+          }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
               return [_hoisted_4];
             }),
@@ -22246,7 +22266,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             _: 1
             /* STABLE */
 
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_button, null, {
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
+            href: "#"
+          }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
               return [_hoisted_7];
             }),
@@ -22273,7 +22295,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             _: 1
             /* STABLE */
 
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_button, null, {
+          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, {
+            href: "#"
+          }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
               return [_hoisted_10];
             }),
@@ -22570,40 +22594,24 @@ var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Tue to Sun, from 9 a.m. to 6 p.m. ");
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("To the Mercedes-Benz Museum");
 
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Last admission is at 5 p.m. ");
-
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Closed on Mondays. ");
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Please see our opening times for public holidays. ");
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" To the Mercedes-Benz Museum ");
-
-var _hoisted_10 = {
+var _hoisted_6 = {
   "class": "title_right"
 };
 
-var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, "Exhibitions & events.", -1
   /* HOISTED */
   );
 });
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Classics & Coffee ");
-
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Special exhibition: Future Mobility ");
-
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" experimenta ");
-
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Learn more ");
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Learn more ");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_b_img = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-img");
 
   var _component_b_col = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-col");
-
-  var _component_b_card_text = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-card-text");
 
   var _component_b_button = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-button");
 
@@ -22634,39 +22642,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             md: "4"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_5];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_6];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_7];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_8];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_button, {
-                size: "lg"
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.items1, function (item) {
+                return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", {
+                  key: item
+                }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
+                /* TEXT */
+                );
+              }), 128
+              /* KEYED_FRAGMENT */
+              )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_button, {
+                variant: "outline-secondary"
               }, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_9];
+                  return [_hoisted_5];
                 }),
                 _: 1
                 /* STABLE */
@@ -22680,30 +22668,17 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             md: "4"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [_hoisted_11, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
+              return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.items2, function (item) {
+                return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", {
+                  key: item
+                }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
+                /* TEXT */
+                );
+              }), 128
+              /* KEYED_FRAGMENT */
+              )), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, null, {
                 "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_12];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_13];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_card_text, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_14];
-                }),
-                _: 1
-                /* STABLE */
-
-              }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_link, null, {
-                "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-                  return [_hoisted_15];
+                  return [_hoisted_8];
                 }),
                 _: 1
                 /* STABLE */
@@ -24387,7 +24362,7 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_img_museums_06_mercedes_benz_classic_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#our__goal[data-v-7f61bafc] {\r\n    max-width: 1680px;\r\n    padding: 50px 0;\r\n    background-color: #000;\r\n    color: #fff;\n}\n.container[data-v-7f61bafc] {\r\n    max-width: 1265px;\n}\nh2[data-v-7f61bafc],\r\np[data-v-7f61bafc],\r\na[data-v-7f61bafc] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-7f61bafc] {\r\n    font-size: 2rem;\r\n    font-family: \"MBCorpo Title, DaimlerCAC-Regular\", Helvetica, Arial, sans-serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\na[data-v-7f61bafc] {\r\n    width: 110px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #00adef;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\n}\na[data-v-7f61bafc]:hover {\r\n    background: #0088c6;\r\n    color: #fff;\n}\np[data-v-7f61bafc] {\r\n    text-indent: 0px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\r\n    padding: 33px 0;\r\n    padding-right: 20px;\n}\n.right[data-v-7f61bafc]{\r\n    width: 100%;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\nimg[data-v-7f61bafc]{\r\n    width: 100%;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#our__goal[data-v-7f61bafc] {\r\n    max-width: 1680px;\r\n    padding: 50px 0;\r\n    background-color: #000;\r\n    color: #fff;\n}\n.container[data-v-7f61bafc] {\r\n    max-width: 1265px;\n}\nh2[data-v-7f61bafc],\r\np[data-v-7f61bafc],\r\na[data-v-7f61bafc] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-7f61bafc] {\r\n    font-size: 2rem;\r\n    font-family: \"MBCorpo Title, DaimlerCAC-Regular\", Helvetica, Arial, sans-serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\na[data-v-7f61bafc] {\r\n    width: 110px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #00adef;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\n}\na[data-v-7f61bafc]:hover {\r\n    background: #0088c6;\r\n    color: #fff;\n}\np[data-v-7f61bafc] {\r\n    text-indent: 0px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\r\n    padding: 33px 0;\r\n    padding-right: 20px;\n}\n.right[data-v-7f61bafc]{\r\n    width: 100%;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\nimg[data-v-7f61bafc]{\r\n    width: 100%;\n}\n@media screen and (max-width: 1280px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 1180px;\n}\n}\n@media screen and (max-width: 1024px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 964px;\n}\n.left[data-v-7f61bafc] {\r\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 768px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 500px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 380px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.2rem;\n}\na[data-v-7f61bafc] {\r\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 340px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.2rem;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24412,7 +24387,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-6352af60] {\r\n    max-width: 1680px;\r\n    height: 430px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#intro .container[data-v-6352af60] {\r\n    max-width: 1265px;\n}\n#intro h1[data-v-6352af60],\r\n#intro h2[data-v-6352af60],\r\n#intro p[data-v-6352af60] {\r\n    margin: 0;\n}\n#intro h1[data-v-6352af60],\r\n#intro h2[data-v-6352af60] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#intro h1[data-v-6352af60]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#intro .icon[data-v-6352af60] {\r\n    position: relative;\r\n    top: 10rem;\n}\nul[data-v-6352af60] {\r\n  padding: 0;\r\n  margin: 0;\n}\nli[data-v-6352af60] {\r\n  list-style-type: none;\n}\na[data-v-6352af60] {\r\n  text-decoration: none;\r\n  color: #999;\r\n  font-size: 14px;\r\n  font-family: sans-serif;\r\n  line-height: 22px;\r\n  transition: 0.4s all ease;\n}\na[data-v-6352af60]:hover {\r\n  color: #00adef;\r\n  -webkit-text-decoration-line: underline;\r\n          text-decoration-line: underline;\n}\n#bottom__footer[data-v-6352af60]{\r\n    margin: 0 32px;\r\n    max-width: 1280px;\n}\nul.social__media[data-v-6352af60]{\r\n    display: flex;\r\n    justify-content: center;\n}\nul.social__media li a i[data-v-6352af60]{\r\n  font-size: 40px;\r\n  padding: 10px;\r\n  color: #fff;\n} \r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-6352af60] {\r\n    max-width: 1680px;\r\n    height: 430px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#intro .container[data-v-6352af60] {\r\n    max-width: 1265px;\n}\n#intro h1[data-v-6352af60],\r\n#intro h2[data-v-6352af60],\r\n#intro p[data-v-6352af60] {\r\n    margin: 0;\n}\n#intro h1[data-v-6352af60],\r\n#intro h2[data-v-6352af60] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#intro h1[data-v-6352af60]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#intro .icon[data-v-6352af60] {\r\n    position: relative;\r\n    top: 10rem;\n}\nul[data-v-6352af60] {\r\n  padding: 0;\r\n  margin: 0;\n}\nli[data-v-6352af60] {\r\n  list-style-type: none;\n}\na[data-v-6352af60] {\r\n  text-decoration: none;\r\n  color: #999;\r\n  font-size: 14px;\r\n  font-family: sans-serif;\r\n  line-height: 22px;\r\n  transition: 0.4s all ease;\n}\na[data-v-6352af60]:hover {\r\n  color: #00adef;\r\n  -webkit-text-decoration-line: underline;\r\n          text-decoration-line: underline;\n}\n#bottom__footer[data-v-6352af60]{\r\n    margin: 0 32px;\r\n    max-width: 1280px;\n}\nul.social__media[data-v-6352af60]{\r\n    display: flex;\r\n    justify-content: center;\n}\nul.social__media li a i[data-v-6352af60]{\r\n  font-size: 40px;\r\n  padding: 10px;\r\n  color: #fff;\n}\n@media screen and (max-width: 1024px) {\n#intro p[data-v-6352af60] {\r\n        padding-bottom: 20px;\n}\n}\n@media screen and (max-width: 768px) {\n#intro[data-v-6352af60] {\r\n        height: 970px;\n}\n#intro h1[data-v-6352af60],\r\n    #intro h2[data-v-6352af60],\r\n    #intro ul.social__media li a i[data-v-6352af60] {\r\n        font-size: 1.8rem;\n}\n}\n@media screen and (max-width: 600px) {\n#intro[data-v-6352af60] {\r\n        height: 1150px;\n}\n}\n@media screen and (max-width: 480px) {\n#intro[data-v-6352af60] {\r\n        height: 1450px;\n}\n#intro h1[data-v-6352af60],\r\n    #intro h2[data-v-6352af60],\r\n    #intro ul.social__media li a i[data-v-6352af60] {\r\n        font-size: 1.5rem;\n}\n}\n@media screen and (max-width: 380px) {\n#intro[data-v-6352af60] {\r\n        height: 1550px;\n}\n}\n@media screen and (max-width: 280px) {\n#intro[data-v-6352af60] {\r\n        height: 2100px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24437,7 +24412,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#our__corporate[data-v-6880a826] {\r\n    max-width: 1680px;\r\n    padding: 50px 0;\r\n    background-color: #000;\r\n    color: #fff;\n}\n.container[data-v-6880a826] {\r\n    max-width: 1300px;\r\n    padding-left: 48px;\n}\nh2[data-v-6880a826],\r\np[data-v-6880a826],\r\na[data-v-6880a826] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-6880a826] {\r\n    font-size: 2rem;\r\n    font-family: \"MBCorpo Title, DaimlerCAC-Regular\", Helvetica, Arial, sans-serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\na[data-v-6880a826] {\r\n    width: 110px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #00adef;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\n}\na[data-v-6880a826]:hover {\r\n    background: #0088c6;\r\n    color: #fff;\n}\np[data-v-6880a826] {\r\n    text-indent: 25px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\r\n    padding: 33px 0;\n}\n.left[data-v-6880a826] {\r\n    width: 100%;\n}\n.right[data-v-6880a826] {\r\n    padding-left: 50px;\n}\nimg[data-v-6880a826] {\r\n    width: 100%;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#our__history[data-v-6880a826] {\r\n    max-width: 1680px;\r\n    padding: 50px 0;\r\n    background-color: #000;\r\n    color: #fff;\n}\n.container[data-v-6880a826] {\r\n    max-width: 1300px;\r\n    padding-left: 48px;\n}\nh2[data-v-6880a826],\r\np[data-v-6880a826],\r\na[data-v-6880a826] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-6880a826] {\r\n    font-size: 2rem;\r\n        font-family: \"Lora\", serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\na[data-v-6880a826] {\r\n    width: 120px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #000;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    border: 1px solid #fff;\n}\na[data-v-6880a826]:hover {\r\n    background: #fff;\r\n    color: #000;\n}\np[data-v-6880a826] {\r\n    text-indent: 25px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\r\n    padding: 33px 0;\n}\n.left[data-v-6880a826] {\r\n    width: 100%;\n}\n.right[data-v-6880a826] {\r\n    padding-left: 50px;\n}\nimg[data-v-6880a826] {\r\n    width: 100%;\n}\n@media screen and (max-width: 1280px) {\n#our__history[data-v-6880a826] {\r\n        max-width: 1180px;\n}\n}\n@media screen and (max-width: 1024px) {\n#our__history[data-v-6880a826] {\r\n        max-width: 964px;\n}\n.left[data-v-6880a826] {\r\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 768px) {\n#our__history[data-v-6880a826] {\r\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n#our__history[data-v-6880a826] {\r\n        max-width: 500px;\n}\nh2[data-v-6880a826] {\r\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n#our__history[data-v-6880a826] {\r\n        max-width: 380px;\n}\nh2[data-v-6880a826] {\r\n        font-size: 1.2rem;\n}\na[data-v-6880a826] {\r\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n#our__history[data-v-6880a826] {\r\n        max-width: 340px;\n}\nh2[data-v-6880a826] {\r\n        font-size: 1.2rem;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24462,7 +24437,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#img__bottom[data-v-26c44608] {\r\n    max-width: 1680px;\r\n    background-color: #000;\r\n    color: #fff;\r\n    position: relative;\r\n    overflow: hidden;\n}\n.row[data-v-26c44608] {\r\n    width: 100%;\n}\nimg[data-v-26c44608] {\r\n    width: 105%;\n}\nh2[data-v-26c44608],\r\np[data-v-26c44608],\r\na[data-v-26c44608] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-26c44608] {\r\n    font-size: 2rem;\r\n    font-family: \"Lora\", serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\na[data-v-26c44608] {\r\n    width: 110px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #00adef;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\n}\na[data-v-26c44608]:hover {\r\n    background: #0088c6;\r\n    color: #fff;\n}\np[data-v-26c44608] {\r\n    text-indent: 0px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\r\n    padding: 33px 0;\r\n    padding-right: 20px;\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#img__bottom[data-v-26c44608] {\r\n    max-width: 1680px;\r\n    background-color: #000;\r\n    color: #fff;\r\n    position: relative;\r\n    overflow: hidden;\n}\n.row[data-v-26c44608] {\r\n    width: 100%;\n}\nimg[data-v-26c44608] {\r\n    width: 105%;\n}\nh2[data-v-26c44608],\r\np[data-v-26c44608],\r\na[data-v-26c44608] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-26c44608] {\r\n    font-size: 2rem;\r\n    font-family: \"Lora\", serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\na[data-v-26c44608] {\r\n    width: 220px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #000;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    border: 1px solid #fff;\n}\na[data-v-26c44608]:hover {\r\n    background: #fff;\r\n    color: #000;\n}\np[data-v-26c44608] {\r\n    text-indent: 0px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\r\n    padding: 33px 0;\r\n    padding-right: 20px;\n}\n@media screen and (max-width: 1280px) {\n#img__bottom[data-v-26c44608] {\r\n        max-width: 1180px;\n}\n}\n@media screen and (max-width: 1024px) {\n#img__bottom[data-v-26c44608] {\r\n        max-width: 964px;\n}\n}\n@media screen and (max-width: 768px) {\n#img__bottom[data-v-26c44608] {\r\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n#img__bottom[data-v-26c44608] {\r\n        max-width: 500px;\n}\nh2[data-v-26c44608] {\r\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n#img__bottom[data-v-26c44608] {\r\n        max-width: 380px;\n}\nh2[data-v-26c44608] {\r\n        font-size: 1.2rem;\n}\na[data-v-26c44608] {\r\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n#img__bottom[data-v-26c44608] {\r\n        max-width: 340px;\n}\nh2[data-v-26c44608] {\r\n        font-size: 1.2rem;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24487,7 +24462,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#img__recent[data-v-5718f012] {\r\n    max-width: 1680px;\r\n    background-color: #000;\r\n    position: relative;\r\n    overflow: hidden;\n}\n.row[data-v-5718f012] {\r\n    max-width: 1300px;\r\n    padding-left: 48px;\n}\n.group1[data-v-5718f012] {\r\n    max-width: 1349px;\r\n    max-height: 891px;\r\n    padding: 2px;\r\n    cursor: pointer;\n}\n.group2[data-v-5718f012] {\r\n    max-width: 1349px;\r\n    max-height: 891px;\r\n    padding: 2px;\r\n    cursor: pointer;\n}\n.group3[data-v-5718f012] {\r\n    max-width: 1349px;\r\n    max-height: 891px;\r\n    padding: 2px;\r\n    cursor: pointer;\n}\r\n/* .group4{\r\n    border-bottom: 2px solid transparent;\r\n    border-left: 1px solid transparent;\r\n    border-right: 1px solid transparent;\r\n    float: left;\r\n    overflow: hidden;\r\n    position: relative;\r\n    width: 25%;\r\n\r\n} */\nimg[data-v-5718f012] {\r\n    width: 105%;\n}\nh2[data-v-5718f012] {\r\n    margin: 0;\r\n    position: absolute;\r\n    bottom: 0;\r\n    color: #fff;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 22px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\r\n    background-color: rgba(0, 0, 0, 0.3);\r\n    width: 100%;\r\n    height: 65px;\r\n    padding-top: 20px;\r\n    padding-left: 20px;\r\n    transition: 0.5s all ease;\n}\n.group1:hover h2[data-v-5718f012] {\r\n    height: 150px;\r\n    background-color: rgba(0, 0, 0, 0.6);\n}\n.group2:hover h2[data-v-5718f012] {\r\n    height: 150px;\r\n    background-color: rgba(0, 0, 0, 0.6);\n}\n.group3:hover h2[data-v-5718f012] {\r\n    height: 150px;\r\n    background-color: rgba(0, 0, 0, 0.6);\n}\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#img__recent[data-v-5718f012] {\r\n    max-width: 1680px;\r\n    background-color: #000;\r\n    position: relative;\r\n    overflow: hidden;\n}\n.row[data-v-5718f012] {\r\n    max-width: 1300px;\r\n    padding-left: 48px;\n}\n.group1[data-v-5718f012] {\r\n    max-width: 1349px;\r\n    max-height: 891px;\r\n    padding: 2px;\r\n    cursor: pointer;\n}\n.group2[data-v-5718f012] {\r\n    max-width: 1349px;\r\n    max-height: 891px;\r\n    padding: 2px;\r\n    cursor: pointer;\n}\n.group3[data-v-5718f012] {\r\n    max-width: 1349px;\r\n    max-height: 891px;\r\n    padding: 2px;\r\n    cursor: pointer;\n}\r\n/* .group4{\r\n    border-bottom: 2px solid transparent;\r\n    border-left: 1px solid transparent;\r\n    border-right: 1px solid transparent;\r\n    float: left;\r\n    overflow: hidden;\r\n    position: relative;\r\n    width: 25%;\r\n\r\n} */\nimg[data-v-5718f012] {\r\n    width: 105%;\n}\nh2[data-v-5718f012] {\r\n    margin: 0;\r\n    position: absolute;\r\n    bottom: 0;\r\n    color: #fff;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 22px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\r\n    background-color: rgba(0, 0, 0, 0.3);\r\n    width: 100%;\r\n    height: 65px;\r\n    padding-top: 20px;\r\n    padding-left: 20px;\r\n    transition: 0.5s all ease;\n}\n.group1:hover h2[data-v-5718f012] {\r\n    height: 150px;\r\n    background-color: rgba(0, 0, 0, 0.6);\n}\n.group2:hover h2[data-v-5718f012] {\r\n    height: 150px;\r\n    background-color: rgba(0, 0, 0, 0.6);\n}\n.group3:hover h2[data-v-5718f012] {\r\n    height: 150px;\r\n    background-color: rgba(0, 0, 0, 0.6);\n}\n@media screen and (max-width: 1280px) {\n#img__recent[data-v-5718f012] {\r\n        max-width: 1180px;\n}\n}\n@media screen and (max-width: 1024px) {\n#img__recent[data-v-5718f012] {\r\n        max-width: 964px;\n}\n.left[data-v-5718f012] {\r\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 768px) {\n#img__recent[data-v-5718f012] {\r\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n#img__recent[data-v-5718f012] {\r\n        max-width: 500px;\n}\nh2[data-v-5718f012] {\r\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n#img__recent[data-v-5718f012] {\r\n        max-width: 380px;\n}\nh2[data-v-5718f012] {\r\n        font-size: 1.2rem;\n}\na[data-v-5718f012] {\r\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n#img__recent[data-v-5718f012] {\r\n        max-width: 340px;\n}\nh2[data-v-5718f012] {\r\n        font-size: 1.2rem;\n}\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24512,7 +24487,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-1eae1ae6] {\r\n    max-width: 1680px;\r\n    height: 370px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#intro .container[data-v-1eae1ae6] {\r\n    max-width: 1265px;\n}\n#intro h1[data-v-1eae1ae6],\r\n#intro h2[data-v-1eae1ae6],\r\n#intro p[data-v-1eae1ae6] {\r\n    margin: 0;\n}\n#intro h1[data-v-1eae1ae6],\r\n#intro h2[data-v-1eae1ae6] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#intro h1[data-v-1eae1ae6]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#intro ul.top__link[data-v-1eae1ae6] {\r\n    position: relative;\r\n    top: 13px;\n}\n#intro p[data-v-1eae1ae6] {\r\n    text-align: center;\r\n    font-size: 15px;\r\n    text-indent: 25px;\r\n    padding: 0 30px;\r\n    line-height: 23px;\r\n    letter-spacing: 1px;\n}\n#intro .top__link a span[data-v-1eae1ae6] {\r\n    color: #333;\n}\n#intro .top__link a:hover span[data-v-1eae1ae6] {\r\n    color: #00adef;\n}\n#intro .top__link a i[data-v-1eae1ae6]{\r\n    position: relative;\r\n    left: 18px;\r\n    font-size: 15px;\n}\n#intro .top__link a i[data-v-1eae1ae6],\r\n#intro .top__link a span[data-v-1eae1ae6],\r\n#intro p[data-v-1eae1ae6]:last-child {\r\n    color: #fff;\r\n    text-align: center;\n}\n#intro .top__link li.active span[data-v-1eae1ae6] {\r\n    color: #00adef;\n}\n#intro .title__bottom[data-v-1eae1ae6] {\r\n    position: relative;\r\n    top: 14.5rem;\n}\n#intro .intro__body[data-v-1eae1ae6] {\r\n    position: relative;\r\n    top: 10rem;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-1eae1ae6] {\r\n    max-width: 1680px;\r\n    height: 370px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#intro .container[data-v-1eae1ae6] {\r\n    max-width: 1265px;\n}\n#intro h1[data-v-1eae1ae6],\r\n#intro h2[data-v-1eae1ae6],\r\n#intro p[data-v-1eae1ae6] {\r\n    margin: 0;\n}\n#intro h1[data-v-1eae1ae6],\r\n#intro h2[data-v-1eae1ae6] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#intro h1[data-v-1eae1ae6]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#intro ul.top__link[data-v-1eae1ae6] {\r\n    position: relative;\r\n    top: 13px;\n}\n#intro p[data-v-1eae1ae6] {\r\n    text-align: center;\r\n    font-size: 15px;\r\n    text-indent: 25px;\r\n    padding: 0 30px;\r\n    line-height: 23px;\r\n    letter-spacing: 1px;\n}\n#intro .top__link a span[data-v-1eae1ae6] {\r\n    color: #333;\n}\n#intro .top__link a:hover span[data-v-1eae1ae6] {\r\n    color: #00adef;\n}\n#intro .top__link a i[data-v-1eae1ae6]{\r\n    position: relative;\r\n    left: 18px;\r\n    font-size: 15px;\n}\n#intro .top__link a i[data-v-1eae1ae6],\r\n#intro .top__link a span[data-v-1eae1ae6],\r\n#intro p[data-v-1eae1ae6]:last-child {\r\n    color: #fff;\r\n    text-align: center;\n}\n#intro .top__link li.active span[data-v-1eae1ae6] {\r\n    color: #00adef;\n}\n#intro .title__bottom[data-v-1eae1ae6] {\r\n    position: relative;\r\n    top: 14.5rem;\n}\n#intro .intro__body[data-v-1eae1ae6] {\r\n    position: relative;\r\n    top: 10rem;\n}\n@media screen and (max-width: 1024px) {\n#intro p[data-v-1eae1ae6] {\r\n        padding-bottom: 20px;\n}\n}\n@media screen and (max-width: 768px) {\n#intro[data-v-1eae1ae6] {\r\n        height: 970px;\n}\n#intro h1[data-v-1eae1ae6],\r\n    #intro h2[data-v-1eae1ae6] {\r\n        font-size: 1.8rem;\n}\n}\n@media screen and (max-width: 600px) {\n#intro[data-v-1eae1ae6] {\r\n        height: 1150px;\n}\n}\n@media screen and (max-width: 480px) {\n#intro[data-v-1eae1ae6] {\r\n        height: 1450px;\n}\n#intro h1[data-v-1eae1ae6],\r\n    #intro h2[data-v-1eae1ae6] {\r\n        font-size: 1.5rem;\n}\n}\n@media screen and (max-width: 380px) {\n#intro[data-v-1eae1ae6] {\r\n        height: 1550px;\n}\n}\n@media screen and (max-width: 280px) {\n#intro[data-v-1eae1ae6] {\r\n        height: 2100px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24537,7 +24512,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-cfd49802] {\r\n    max-width: 1680px;\r\n    height: 370px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#intro .container[data-v-cfd49802] {\r\n    max-width: 1265px;\n}\n#intro h1[data-v-cfd49802],\r\n#intro h2[data-v-cfd49802],\r\n#intro p[data-v-cfd49802] {\r\n    margin: 0;\n}\n#intro h1[data-v-cfd49802],\r\n#intro h2[data-v-cfd49802] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#intro h1[data-v-cfd49802]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#intro ul.top__link[data-v-cfd49802] {\r\n    position: relative;\r\n    top: 13px;\n}\n#intro p[data-v-cfd49802] {\r\n    font-size: 15px;\r\n    text-indent: 25px;\r\n    padding: 0 30px;\r\n    line-height: 23px;\r\n    letter-spacing: 1px;\n}\n#intro .top__link a span[data-v-cfd49802] {\r\n    color: #333;\n}\n#intro .top__link a:hover span[data-v-cfd49802] {\r\n    color: #00adef;\n}\n#intro .top__link a i[data-v-cfd49802]{\r\n    position: relative;\r\n    left: 18px;\r\n    font-size: 15px;\n}\n#intro .top__link a i[data-v-cfd49802],\r\n#intro .top__link a span[data-v-cfd49802],\r\n#intro p[data-v-cfd49802]:last-child {\r\n    color: #fff;\r\n    text-align: center;\n}\n#intro .top__link li.active span[data-v-cfd49802] {\r\n    color: #00adef;\n}\n#intro .title__bottom[data-v-cfd49802] {\r\n    position: relative;\r\n    top: 14.5rem;\n}\n#intro .intro__body[data-v-cfd49802] {\r\n    position: relative;\r\n    top: 10rem;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-cfd49802] {\r\n    max-width: 1680px;\r\n    height: 370px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#intro .container[data-v-cfd49802] {\r\n    max-width: 1265px;\n}\n#intro h1[data-v-cfd49802],\r\n#intro h2[data-v-cfd49802],\r\n#intro p[data-v-cfd49802] {\r\n    margin: 0;\n}\n#intro h1[data-v-cfd49802],\r\n#intro h2[data-v-cfd49802] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#intro h1[data-v-cfd49802]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#intro ul.top__link[data-v-cfd49802] {\r\n    position: relative;\r\n    top: 13px;\n}\n#intro p[data-v-cfd49802] {\r\n    font-size: 15px;\r\n    text-indent: 25px;\r\n    padding: 0 30px;\r\n    line-height: 23px;\r\n    letter-spacing: 1px;\n}\n#intro .top__link a span[data-v-cfd49802] {\r\n    color: #333;\n}\n#intro .top__link a:hover span[data-v-cfd49802] {\r\n    color: #00adef;\n}\n#intro .top__link a i[data-v-cfd49802]{\r\n    position: relative;\r\n    left: 18px;\r\n    font-size: 15px;\n}\n#intro .top__link a i[data-v-cfd49802],\r\n#intro .top__link a span[data-v-cfd49802],\r\n#intro p[data-v-cfd49802]:last-child {\r\n    color: #fff;\r\n    text-align: center;\n}\n#intro .top__link li.active span[data-v-cfd49802] {\r\n    color: #00adef;\n}\n#intro .title__bottom[data-v-cfd49802] {\r\n    position: relative;\r\n    top: 14.5rem;\n}\n#intro .intro__body[data-v-cfd49802] {\r\n    position: relative;\r\n    top: 10rem;\n}\n@media screen and (max-width: 1024px) {\n#intro p[data-v-cfd49802] {\r\n        padding-bottom: 20px;\n}\n}\n@media screen and (max-width: 768px) {\n#intro[data-v-cfd49802] {\r\n        height: 970px;\n}\n#intro h1[data-v-cfd49802],\r\n    #intro h2[data-v-cfd49802] {\r\n        font-size: 1.8rem;\n}\n}\n@media screen and (max-width: 600px) {\n#intro[data-v-cfd49802] {\r\n        height: 1150px;\n}\n}\n@media screen and (max-width: 480px) {\n#intro[data-v-cfd49802] {\r\n        height: 1450px;\n}\n#intro h1[data-v-cfd49802],\r\n    #intro h2[data-v-cfd49802] {\r\n        font-size: 1.5rem;\n}\n}\n@media screen and (max-width: 380px) {\n#intro[data-v-cfd49802] {\r\n        height: 1550px;\n}\n}\n@media screen and (max-width: 280px) {\n#intro[data-v-cfd49802] {\r\n        height: 2100px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24562,7 +24537,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#mec__benz__car[data-v-59d2f0e7] {\r\n    max-width: 1680px;\r\n    height: 418px;\r\n    background: #000;\r\n    color: #fff;\n}\n#mec__benz__car .container[data-v-59d2f0e7] {\r\n    max-width: 1265px;\n}\nh1[data-v-59d2f0e7],\r\np[data-v-59d2f0e7],\r\na[data-v-59d2f0e7] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh1[data-v-59d2f0e7] {\r\n    font-size: 2rem;\r\n    font-family: \"Lora\", serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\np[data-v-59d2f0e7] {\r\n    text-indent: 25px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\n}\n.row[data-v-59d2f0e7] {\r\n    position: relative;\r\n    top: 55px;\n}\na[data-v-59d2f0e7] {\r\n    width: 110px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #00adef;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    position: relative;\r\n    top: 30px;\n}\na[data-v-59d2f0e7]:hover {\r\n    background: #0088c6;\r\n    color: #fff;\n}\n.title_left[data-v-59d2f0e7],\r\n.title_right[data-v-59d2f0e7] {\r\n    padding: 0 30px;\n}\nimg[data-v-59d2f0e7]{\r\n    width: 100%;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#mec__benz__car[data-v-59d2f0e7] {\r\n    max-width: 1680px;\r\n    height: 418px;\r\n    background: #000;\r\n    color: #fff;\n}\n.container[data-v-59d2f0e7]{\r\n    max-width: 1280px;\r\n        padding-left: 48px;\n}\nh2[data-v-59d2f0e7],\r\np[data-v-59d2f0e7],\r\na[data-v-59d2f0e7] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-59d2f0e7] {\r\n    font-size: 2rem;\r\n    font-family: \"Lora\", serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\np[data-v-59d2f0e7]{\r\n    text-indent: 25px;\r\n    font-size: 14px;\r\n    letter-spacing: 1px;\r\n    line-height: 30px;\r\n    text-align: start;\r\n    font-family: sans-serif;\n}\n.row[data-v-59d2f0e7] {\r\n    position: relative;\r\n    top: 55px;\n}\na[data-v-59d2f0e7] {\r\n    width: 110px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #00adef;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\r\n    position: relative;\r\n    top: 30px;\n}\na[data-v-59d2f0e7]:hover {\r\n    background: #0088c6;\r\n    color: #fff;\n}\n.title_left[data-v-59d2f0e7],\r\n.title_right[data-v-59d2f0e7] {\r\n    padding: 0 30px;\n}\nimg[data-v-59d2f0e7]{\r\n    width: 100%;\n}\n#mec__benz__car \r\n.intro__right[data-v-59d2f0e7] {\r\n    position: relative;\r\n    top :10px\n}\n@media screen and (max-width: 1024px) {\n#mec__benz__car[data-v-59d2f0e7] {\r\n        height: 695px;\n}\n#mec__benz__car .container[data-v-59d2f0e7] {\r\n        max-width: 960px;\n}\np[data-v-59d2f0e7] {\r\n        padding-bottom: 20px;\n}\na[data-v-59d2f0e7] {\r\n        top: 10px;\n}\nh1[data-v-59d2f0e7] {\r\n        padding: 0 30px;\n}\nh2[data-v-59d2f0e7] {\r\n        top: 9.5rem;\n}\n}\n@media screen and (max-width: 768px) {\n#mec__benz__car[data-v-59d2f0e7] {\r\n        height: 740px;\n}\n#mec__benz__car .container[data-v-59d2f0e7] {\r\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 600px) {\n#mec__benz__car[data-v-59d2f0e7] {\r\n        height: 830px;\n}\nh1[data-v-59d2f0e7] {\r\n        font-size: 1.7rem;\n}\n#mec__benz__car .container[data-v-59d2f0e7] {\r\n        max-width: 480px;\n}\n}\n@media screen and (max-width: 480px) {\n#mec__benz__car[data-v-59d2f0e7] {\r\n        height: 930px;\n}\n#mec__benz__car .container[data-v-59d2f0e7] {\r\n        max-width: 380px;\n}\na[data-v-59d2f0e7] {\r\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n#mec__benz__car[data-v-59d2f0e7] {\r\n        height: 930px;\n}\n#mec__benz__car .container[data-v-59d2f0e7] {\r\n        max-width: 365px;\n}\n}\n@media screen and (max-width: 280px) {\n#mec__benz__car[data-v-59d2f0e7] {\r\n        height: 1050px;\n}\nh1[data-v-59d2f0e7] {\r\n        font-size: 1.3rem;\n}\n#mec__benz__car .container[data-v-59d2f0e7] {\r\n        max-width: 280px;\n}\nh1[data-v-59d2f0e7],\r\n    .text[data-v-59d2f0e7] {\r\n        padding: 0 15px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24586,7 +24561,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#menu__museum[data-v-1bb08880] {\r\n    max-width: 1680px;\r\n    height: 90px;\r\n    background: #1f1f1f;\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    z-index: 100;\r\n    top: -1px;\n}\n#menu__museum .container[data-v-1bb08880] {\r\n    height: 100%;\n}\n#menu__museum li[data-v-1bb08880] {\r\n    list-style-type: none;\n}\n#menu__museum a.active[data-v-1bb08880]{\r\n    color: #fff;\r\n    position: relative;\n}\n#menu__museum a.active[data-v-1bb08880]::before {\r\n    content: '';\r\n    position: absolute;\r\n    left: 0px;\r\n    color: #fff;\r\n    width: 100%;\r\n    bottom: 0;\r\n    border-bottom: 1px solid #fff;\n}\n#menu__museum a[data-v-1bb08880]:visited {\r\n    color: #fff;\n}\n#menu__museum a[data-v-1bb08880] {\r\n    height: 100%;\r\n    font-size: 16px;\r\n    display: flex;\r\n    align-items: center;\r\n    text-decoration: none;\r\n    font-size: 16px;\r\n    color: hsla(0, 0%, 100%, 0.5);\r\n    padding: 0 25px;\n}\n#menu__museum a[data-v-1bb08880]:hover {\r\n    color: #fff;\n}\n#menu__museum .nav[data-v-1bb08880] {\r\n    justify-content: center;\r\n    height: 100%;\n}\n#menu__museum .nav .nav-item > .nav-link[data-v-1bb08880] {\r\n    background: #fff;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#menu__museum[data-v-1bb08880] {\r\n    max-width: 1680px;\r\n    height: 90px;\r\n    background: #1f1f1f;\r\n    position: -webkit-sticky;\r\n    position: sticky;\r\n    z-index: 100;\r\n    top: -1px;\n}\n#menu__museum .container[data-v-1bb08880] {\r\n    height: 100%;\n}\n#menu__museum li[data-v-1bb08880] {\r\n    list-style-type: none;\n}\n#menu__museum a.active[data-v-1bb08880]{\r\n    color: #fff;\r\n    position: relative;\n}\n#menu__museum a.active[data-v-1bb08880]::before {\r\n    content: '';\r\n    position: absolute;\r\n    left: 0px;\r\n    color: #fff;\r\n    width: 100%;\r\n    bottom: 0;\r\n    border-bottom: 1px solid #fff;\n}\n#menu__museum a[data-v-1bb08880]:visited {\r\n    color: #fff;\n}\n#menu__museum a[data-v-1bb08880] {\r\n    height: 100%;\r\n    font-size: 16px;\r\n    display: flex;\r\n    align-items: center;\r\n    text-decoration: none;\r\n    font-size: 16px;\r\n    color: hsla(0, 0%, 100%, 0.5);\r\n    padding: 0 25px;\n}\n#menu__museum a[data-v-1bb08880]:hover {\r\n    color: #fff;\n}\n#menu__museum .nav[data-v-1bb08880] {\r\n    justify-content: center;\r\n    height: 100%;\n}\n#menu__museum .nav .nav-item > .nav-link[data-v-1bb08880] {\r\n    background: #fff;\n}\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24611,7 +24586,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#recent[data-v-1dfb55ec] {\r\n    max-width: 1680px;\r\n    height: 294px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#recent .container[data-v-1dfb55ec] {\r\n    max-width: 1265px;\n}\n#recent h1[data-v-1dfb55ec],\r\n#recent h2[data-v-1dfb55ec],\r\n#recent p[data-v-1dfb55ec] {\r\n    margin: 0;\n}\n#recent h1[data-v-1dfb55ec],\r\n#recent h2[data-v-1dfb55ec] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#recent h1[data-v-1dfb55ec]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#recent ul.top__link[data-v-1dfb55ec] {\r\n    position: relative;\r\n    top: 13px;\n}\n#recent p[data-v-1dfb55ec] {\r\n    text-align: center;\r\n    font-size: 15px;\r\n    text-indent: 25px;\r\n    padding: 0 30px;\r\n    line-height: 23px;\r\n    letter-spacing: 1px;\n}\n#recent .top__link a span[data-v-1dfb55ec] {\r\n    color: #333;\n}\n#recent .top__link a:hover span[data-v-1dfb55ec] {\r\n    color: #00adef;\n}\n#recent .top__link a i[data-v-1dfb55ec]{\r\n    position: relative;\r\n    left: 18px;\r\n    font-size: 15px;\n}\n#recent .top__link a i[data-v-1dfb55ec],\r\n#recent .top__link a span[data-v-1dfb55ec],\r\n#recent p[data-v-1dfb55ec]:last-child {\r\n    color: #fff;\r\n    text-align: center;\n}\n#recent .top__link li.active span[data-v-1dfb55ec] {\r\n    color: #00adef;\n}\r\n\r\n\r\n\r\n\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#recent[data-v-1dfb55ec] {\r\n    max-width: 1680px;\r\n    height: 294px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#recent .container[data-v-1dfb55ec] {\r\n    max-width: 1265px;\n}\n#recent h1[data-v-1dfb55ec],\r\n#recent h2[data-v-1dfb55ec],\r\n#recent p[data-v-1dfb55ec] {\r\n    margin: 0;\n}\n#recent h1[data-v-1dfb55ec],\r\n#recent h2[data-v-1dfb55ec] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#recent h1[data-v-1dfb55ec]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#recent ul.top__link[data-v-1dfb55ec] {\r\n    position: relative;\r\n    top: 13px;\n}\n#recent p[data-v-1dfb55ec] {\r\n    text-align: center;\r\n    font-size: 15px;\r\n    text-indent: 25px;\r\n    padding: 0 30px;\r\n    line-height: 23px;\r\n    letter-spacing: 1px;\n}\n#recent .top__link a span[data-v-1dfb55ec] {\r\n    color: #333;\n}\n#recent .top__link a:hover span[data-v-1dfb55ec] {\r\n    color: #00adef;\n}\n#recent .top__link a i[data-v-1dfb55ec]{\r\n    position: relative;\r\n    left: 18px;\r\n    font-size: 15px;\n}\n#recent .top__link a i[data-v-1dfb55ec],\r\n#recent .top__link a span[data-v-1dfb55ec],\r\n#recent p[data-v-1dfb55ec]:last-child {\r\n    color: #fff;\r\n    text-align: center;\n}\n#recent .top__link li.active span[data-v-1dfb55ec] {\r\n    color: #00adef;\n}\n@media screen and (max-width: 1024px) {\n#recent[data-v-1dfb55ec]  {\r\n        padding-bottom: 20px;\n}\n}\n@media screen and (max-width: 768px) {\n#recent[data-v-1dfb55ec]{\r\n        height: 970px;\n}\n#recent h1[data-v-1dfb55ec],\r\n    #recent h2[data-v-1dfb55ec] {\r\n        font-size: 1.8rem;\n}\n}\n@media screen and (max-width: 600px) {\n#recent[data-v-1dfb55ec] {\r\n        height: 1150px;\n}\n}\n@media screen and (max-width: 480px) {\n#recent[data-v-1dfb55ec]{\r\n        height: 1450px;\n}\n#recent h1[data-v-1dfb55ec],\r\n    #recent h2[data-v-1dfb55ec] {\r\n        font-size: 1.5rem;\n}\n}\n@media screen and (max-width: 380px) {\n#recent[data-v-1dfb55ec] {\r\n        height: 1550px;\n}\n}\n@media screen and (max-width: 280px) {\n#recent[data-v-1dfb55ec]{\r\n        height: 2100px;\n}\n}\r\n\r\n\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -24660,7 +24635,7 @@ __webpack_require__.r(__webpack_exports__);
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-45f2ce30] {\r\n    max-width: 1680px;\r\n    height: 370px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#intro .container[data-v-45f2ce30] {\r\n    max-width: 1265px;\n}\n#intro h1[data-v-45f2ce30],\r\n#intro h2[data-v-45f2ce30],\r\n#intro p[data-v-45f2ce30] {\r\n    margin: 0;\n}\n#intro h1[data-v-45f2ce30],\r\n#intro h2[data-v-45f2ce30] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#intro h1[data-v-45f2ce30]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#intro ul.top__link[data-v-45f2ce30] {\r\n    position: relative;\r\n    top: 13px;\n}\n#intro p[data-v-45f2ce30] {\r\n    text-align: center;\r\n    font-size: 15px;\r\n    text-indent: 25px;\r\n    padding: 0 30px;\r\n    line-height: 23px;\r\n    letter-spacing: 1px;\n}\n#intro .top__link a span[data-v-45f2ce30] {\r\n    color: #333;\n}\n#intro .top__link a:hover span[data-v-45f2ce30] {\r\n    color: #00adef;\n}\n#intro .top__link a i[data-v-45f2ce30]{\r\n    position: relative;\r\n    left: 18px;\r\n    font-size: 15px;\n}\n#intro .top__link a i[data-v-45f2ce30],\r\n#intro .top__link a span[data-v-45f2ce30],\r\n#intro p[data-v-45f2ce30]:last-child {\r\n    color: #fff;\r\n    text-align: center;\n}\n#intro .top__link li.active span[data-v-45f2ce30] {\r\n    color: #00adef;\n}\n#intro .title__bottom[data-v-45f2ce30] {\r\n    position: relative;\r\n    top: 14.5rem;\n}\n#intro .intro__body[data-v-45f2ce30] {\r\n    position: relative;\r\n    top: 10rem;\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#intro[data-v-45f2ce30] {\r\n    max-width: 1680px;\r\n    height: 370px;\r\n    background: #000;\r\n    color: #fff;\r\n    font-family: sans-serif;\n}\n#intro .container[data-v-45f2ce30] {\r\n    max-width: 1265px;\n}\n#intro h1[data-v-45f2ce30],\r\n#intro h2[data-v-45f2ce30],\r\n#intro p[data-v-45f2ce30] {\r\n    margin: 0;\n}\n#intro h1[data-v-45f2ce30],\r\n#intro h2[data-v-45f2ce30] {\r\n    text-align: center;\r\n    font-family: \"Lora\", serif;\r\n    font-size: 60px;\r\n    line-height: 60px;\r\n    font-weight: 200;\r\n    letter-spacing: -2px;\n}\n#intro h1[data-v-45f2ce30]{\r\n   position: relative;\r\n    top: 5.5rem;\n}\n#intro ul.top__link[data-v-45f2ce30] {\r\n    position: relative;\r\n    top: 13px;\n}\n#intro p[data-v-45f2ce30] {\r\n    text-align: center;\r\n    font-size: 15px;\r\n    text-indent: 25px;\r\n    padding: 0 30px;\r\n    line-height: 23px;\r\n    letter-spacing: 1px;\n}\n#intro .top__link a span[data-v-45f2ce30] {\r\n    color: #333;\n}\n#intro .top__link a:hover span[data-v-45f2ce30] {\r\n    color: #00adef;\n}\n#intro .top__link a i[data-v-45f2ce30]{\r\n    position: relative;\r\n    left: 18px;\r\n    font-size: 15px;\n}\n#intro .top__link a i[data-v-45f2ce30],\r\n#intro .top__link a span[data-v-45f2ce30],\r\n#intro p[data-v-45f2ce30]:last-child {\r\n    color: #fff;\r\n    text-align: center;\n}\n#intro .top__link li.active span[data-v-45f2ce30] {\r\n    color: #00adef;\n}\n#intro .title__bottom[data-v-45f2ce30] {\r\n    position: relative;\r\n    top: 14.5rem;\n}\n#intro .intro__body[data-v-45f2ce30] {\r\n    position: relative;\r\n    top: 10rem;\n}\n@media screen and (max-width: 1024px) {\n#intro p[data-v-45f2ce30] {\r\n        padding-bottom: 20px;\n}\n}\n@media screen and (max-width: 768px) {\n#intro[data-v-45f2ce30] {\r\n        height: 970px;\n}\n#intro h1[data-v-45f2ce30],\r\n    #intro h2[data-v-45f2ce30] {\r\n        font-size: 1.8rem;\n}\n}\n@media screen and (max-width: 600px) {\n#intro[data-v-45f2ce30] {\r\n        height: 1150px;\n}\n}\n@media screen and (max-width: 480px) {\n#intro[data-v-45f2ce30] {\r\n        height: 1450px;\n}\n#intro h1[data-v-45f2ce30],\r\n    #intro h2[data-v-45f2ce30] {\r\n        font-size: 1.5rem;\n}\n}\n@media screen and (max-width: 380px) {\n#intro[data-v-45f2ce30] {\r\n        height: 1550px;\n}\n}\n@media screen and (max-width: 280px) {\n#intro[data-v-45f2ce30] {\r\n        height: 2100px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

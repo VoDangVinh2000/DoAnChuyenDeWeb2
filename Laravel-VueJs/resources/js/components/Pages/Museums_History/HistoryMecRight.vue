@@ -1,5 +1,5 @@
 <template>
-    <section id="our__corporate">
+    <section id="our__history">
         <b-container>
             <b-row>
                 <b-col md="8">
@@ -36,7 +36,7 @@ export default {
 </script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
-#our__corporate {
+#our__history {
     max-width: 1680px;
     padding: 50px 0;
     background-color: #000;
@@ -57,23 +57,24 @@ a {
 
 h2 {
     font-size: 2rem;
-    font-family: "MBCorpo Title, DaimlerCAC-Regular", Helvetica, Arial, sans-serif;
+        font-family: "Lora", serif;
     letter-spacing: -1px;
     font-weight: 300;
 }
 
 a {
-    width: 110px;
+    width: 120px;
     height: 45px;
     color: #fff;
-    background: #00adef;
+    background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #fff;
 }
 a:hover {
-    background: #0088c6;
-    color: #fff;
+    background: #fff;
+    color: #000;
 }
 
 p {
@@ -95,5 +96,50 @@ p {
 }
 img {
     width: 100%;
+}
+@media screen and (max-width: 1280px) {
+    #our__history {
+        max-width: 1180px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #our__history {
+        max-width: 964px;
+    }
+    .left {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #our__history {
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 580px) {
+    #our__history {
+        max-width: 500px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    #our__history {
+        max-width: 380px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    a {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+    #our__history {
+        max-width: 340px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
 }
 </style>

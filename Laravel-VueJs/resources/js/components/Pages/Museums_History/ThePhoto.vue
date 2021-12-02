@@ -109,4 +109,42 @@ export default {
     position: relative;
     top: 10rem;
 }
+@media screen and (max-width: 1024px) {
+    #intro p {
+        padding-bottom: 20px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #intro {
+        height: 970px;
+    }
+    #intro h1,
+    #intro h2 {
+        font-size: 1.8rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    #intro {
+        height: 1150px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #intro {
+        height: 1450px;
+    }
+    #intro h1,
+    #intro h2 {
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 380px) {
+    #intro {
+        height: 1550px;
+    }
+}
+@media screen and (max-width: 280px) {
+    #intro {
+        height: 2100px;
+    }
+}
 </style>

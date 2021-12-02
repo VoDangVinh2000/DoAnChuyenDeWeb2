@@ -157,4 +157,50 @@ h2 {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+@media screen and (max-width: 1280px) {
+    #img__recent {
+        max-width: 1180px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    #img__recent {
+        max-width: 964px;
+    }
+    .left {
+        margin-bottom: 15px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #img__recent {
+        max-width: 720px;
+    }
+}
+@media screen and (max-width: 580px) {
+    #img__recent {
+        max-width: 500px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+}
+@media screen and (max-width: 480px) {
+    #img__recent {
+        max-width: 380px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+    a {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+    #img__recent {
+        max-width: 340px;
+    }
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
 </style>
