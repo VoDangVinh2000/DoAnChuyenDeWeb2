@@ -22,7 +22,6 @@
 <script>
 import Header from "../../../components/Products/Header.vue";
 import Footer01 from "../../../components/Products/Footer1.vue";
-import Footer02 from "../../../components/Products/Footer2.vue";
 import Menu from "../../../components/Pages/Museums_History/MenuMuseum.vue";
 import Banner from "../../../components/Pages/Museums_History/BannerMuseum.vue";
 import Intro from "../../../components/Pages/Museums_History/Intro.vue";
@@ -35,13 +34,14 @@ import MecBenzHoursntro from "../../../components/Pages/Museums_History/MecBenzH
 import BeforeRecenLeft from "../../../components/Pages/Museums_History/BeforeRecenLeft.vue";
 import HistoryMecRight from "../../../components/Pages/Museums_History/HistoryMecRight.vue";
 import ImageBeforePhotos from "../../../components/Pages/Museums_History/ImageBeforePhotos.vue";
+import Footer2 from "../../../components/Products/Footer2.vue";
 
 export default {
     components: {
     Menu,
     Header,
     Footer01,
-    Footer02,
+
     Banner,
     Intro,
     MecBenzHoursntro,
@@ -51,7 +51,8 @@ export default {
     MecBenzHoursntro,
     BeforeRecenLeft,
     HistoryMecRight,
-    ImageBeforePhotos
+    ImageBeforePhotos,
+    Footer2
 },
 };
 </script>

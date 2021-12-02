@@ -78,13 +78,16 @@
           contact with us and to share your passion for the brand, products and
           services of Mercedes-Benz.
         </p>
-        <ul class="social__media">
+        <div class="icon">
+          <ul class="social__media">
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#"><i class="fab fa-youtube"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-        </ul>
+          </ul>
+        </div>
+
       </div>
     </section>
   </footer>
@@ -164,12 +167,15 @@ a:hover {
 }
 
 #top__footer {
-  /* margin: 0 32px; */
+  margin: 0 32px;
+  max-width: 1280px;
 }
 
 #bottom__footer{
-    /* margin: 0 32px; */
+    margin: 0 32px;
+    max-width: 1280px;
 }
+
 
 p.bottom__footer__descriptons{
     color: #999;
@@ -183,11 +189,26 @@ ul.social__media{
     margin-top: 1.5rem;
 }
 
-ul.social__media li{
+ ul.social__media li{
    margin: 10px 26px;
+
 }
 
 ul.social__media li a i{
   font-size: 25px;
+}
+@media screen and (max-width: 1280px) {
+  #top__footer {
+max-width: 92%;
+}
+
+#bottom__footer{
+    max-width: 92%;
+}
+@media screen and (max-width: 480px) {
+  .icon ul.social__media li{
+   width: 100%;
+}
+}
 }
 </style>
