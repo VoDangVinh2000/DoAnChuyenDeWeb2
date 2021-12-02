@@ -1,7 +1,8 @@
 <template>
     <section id="img__bottom">
         <b-row>
-            <b-col md="4">
+            <b-col md="4" data-aos ="fade-up"
+                        data-aos-duration="1800">
                     <b-img :src="img1"></b-img>
                     <h2>Classic Store.</h2>
                     <b-card-text>
@@ -10,13 +11,15 @@
                     <b-link href="#">Visit the online shop </b-link>
                   
             </b-col>
-            <b-col md="4">
+            <b-col md="4" data-aos ="fade-up"
+                        data-aos-duration="1800">
                     <b-img :src="img2"></b-img>
                     <h2>Classic Part Search.</h2>
                     <b-card-text>Use the online Classic Part Search to find availabilities and information for 110,000 original parts for your classic Mercedes-Benz.</b-card-text>
                     <b-link href="#"> Go to Classic Part Search </b-link>
             </b-col>
-            <b-col md="4">
+            <b-col md="4" data-aos ="fade-up"
+                        data-aos-duration="1800">
                     <b-img :src="img3"></b-img>
                     <h2>Classic Center Fellbach.</h2>
                     <b-card-text>Fulfill your dream of owning a classic Mercedes-Benz car from the Classic Center Fellbach.</b-card-text>

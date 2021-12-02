@@ -1,7 +1,8 @@
 <template>
  
     <section id="intro">
-      <div class="container">
+      <div class="container" data-aos ="fade-up"
+                        data-aos-duration="1800">
         <h1 class="title__top">Follow the Mercedes-Benz Museum</h1>
         <div class="icon">
           <ul class="social__media">

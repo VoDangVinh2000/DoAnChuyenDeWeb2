@@ -2,19 +2,22 @@
     <section id="mec__benz__car">
         <b-container>
             <b-row>
-                <b-col md="4">
+                <b-col md="4" data-aos ="fade-up"
+                        data-aos-duration="1800">
                     <div class="img">
                         <b-img :src="img"></b-img>
                     </div>
                 </b-col>
-                <b-col md="4" >
+                <b-col md="4" data-aos ="fade-up"
+                        data-aos-duration="1800">
                     <div class="title_left">
                         <h2>Opening hours.</h2>
                         <p v-for="item in items1" :key="item ">{{item.text}}</p>
                         <b-button variant="outline-secondary">To the Mercedes-Benz Museum</b-button>
                     </div>
                 </b-col>
-                <b-col md="4" >
+                <b-col md="4" data-aos ="fade-up"
+                        data-aos-duration="1800" >
                     <div class="title_right">
                         <h2>Exhibitions & events.</h2>
                        <p v-for="item in items2" :key="item ">{{item.text}}</p>

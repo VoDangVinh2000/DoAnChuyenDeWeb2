@@ -1,5 +1,6 @@
 <template>
-    <section id="slide">
+    <section id="slide" data-aos ="fade-up"
+                        data-aos-duration="1800">
         <b-carousel
             id="carousel-animation-01"
             controls

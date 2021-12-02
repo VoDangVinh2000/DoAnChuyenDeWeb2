@@ -1,9 +1,11 @@
 <template>
     <section id="intro">
         <b-container>
-            <h1 class="title__top">The best photos.</h1>
+            <h1 class="title__top" data-aos ="fade-up"
+                        data-aos-duration="1800">The best photos.</h1>
             <div class="intro__body">
-                       <p v-for="item in items" :key="item ">{{item.text}}</p>
+                       <p v-for="item in items" :key="item " data-aos ="fade-up"
+                        data-aos-duration="1800">{{item.text}}</p>
             </div>
         </b-container>
     </section>

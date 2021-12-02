@@ -3,7 +3,7 @@
         <Header />
         <!-- Components Museums & History -->
         <Banner />
-        <Menu />
+        <!-- <Menu /> -->
         <Intro />
         <BeforeRecenLeft />
         <Recent />
@@ -44,7 +44,7 @@ import Follow from "../../../components/Pages/Museums_History/Follow.vue";
 
 export default {
     components: {
-    Menu,
+    // Menu,
     Header,
     Footer01,
     Banner,

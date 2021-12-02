@@ -2,12 +2,14 @@
     <section id="our__history">
         <b-container>
             <b-row>
-                <b-col md="8">
+                <b-col md="8" data-aos ="fade-up"
+                        data-aos-duration="1800">
                     <div class="left">
                         <b-img :src="img"></b-img>
                     </div>
                 </b-col>
-                <b-col md="4">
+                <b-col md="4" data-aos ="fade-up"
+                        data-aos-duration="1800">
                     <div class="right">
                         <h2>History of Mercedes-Benz.</h2>
                         <b-card-text>

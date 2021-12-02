@@ -1,21 +1,25 @@
 <template>
-    <section id="our__goal">
+    <section id="recent">
         <b-container>
             <b-row>
                 <b-col md="4">
                     <div class="left">
-                        <h2>
+                        <h2 data-aos ="fade-up"
+                        data-aos-duration="1800">
                             Mercedes-Benz Classic.
                         </h2>
-                        <b-card-text>
+                        <b-card-text data-aos ="fade-up"
+                        data-aos-duration="1800">
                             Experience a journey through time in the Mercedes-Benz Museum, fulfill your dream of a Mercedes-Benz classic car or learn more about our brand clubs.
                         </b-card-text>
-                        <b-img :src="img1" />
+                        <b-img :src="img1" data-aos ="fade-up"
+                        data-aos-duration="1500"/>
                     </div>
                 </b-col>
                 <b-col md="8">
                     <div class="right">
-                        <b-img :src="img" />
+                        <b-img :src="img" data-aos ="fade-up"
+                        data-aos-duration="1500" />
                     </div>
                 </b-col>
             </b-row>
@@ -38,7 +42,7 @@ export default {
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
 
-#our__goal {
+#recent {
     max-width: 1680px;
     padding: 50px 0;
     background-color: #000;
@@ -58,7 +62,7 @@ a {
 
 h2 {
     font-size: 2rem;
-    font-family: "MBCorpo Title, DaimlerCAC-Regular", Helvetica, Arial, sans-serif;
+    font-family: "Lora", serif;
     letter-spacing: -1px;
     font-weight: 300;
 }

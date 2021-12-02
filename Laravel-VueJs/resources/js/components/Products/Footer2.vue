@@ -1,5 +1,6 @@
 <template>
-  <footer id="footer__2">
+  <footer id="footer__2" data-aos ="fade-up"
+                        data-aos-duration="1800">
     <div class="brand__space"></div>
     <section id="top__footer">
       <hr class="brand__line footer2__brand__line__top" />

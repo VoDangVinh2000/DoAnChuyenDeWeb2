@@ -1,12 +1,15 @@
 <template>
     <section id="intro">
         <b-container>
-            <h1 class="title__top">Individualists unite.</h1>
+            <h1 class="title__top" 
+            data-aos ="fade-up"
+            data-aos-duration="1800">Individualists unite.</h1>
             <div class="intro__body">
-                       <p v-for="item in items" :key="item ">{{item.text}}</p>
+                       <p v-for="item in items" :key="item "
+                       h1 class="title__top" 
+                        data-aos ="fade-up"
+                        data-aos-duration="1800">{{item.text}}</p>
             </div>
-
-            <!-- <h2 class="title__bottom">Our business divisions.</h2> -->
         </b-container>
     </section>
 </template>

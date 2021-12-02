@@ -1,25 +1,8 @@
 <template>
     <section id="img__recent">
         <b-row>
-            <!-- <b-col md="8" v-for="(item, i) in btImg1" :key="i">
-                    <b-img :src="item.img"></b-img>
-                    <h2>{{ item.text }}</h2>
-            </b-col>
-            <b-col md="4" >
-            <div class="group4">
-                <b-row>
-                    <b-col md="6" v-for="(item, i) in btImg1" :key="i">
-                        <b-img :src="item.img"></b-img>
-                        <h2>{{ item.text }}</h2>
-                    </b-col>
-                    <b-col md="6" v-for="(item, i) in btImg1" :key="i">
-                        <b-img :src="item.img"></b-img>
-                        <h2>{{ item.text }}</h2>
-                    </b-col>
-            </b-row>
-            </div>
-        </b-col> -->
-            <b-col md="4" v-for="(item, i) in btImg1" :key="i">
+            <b-col md="4" v-for="(item, i) in btImg1" :key="i" data-aos ="fade-up"
+                        data-aos-duration="1800">
                 <div class="group1">
                     <b-img :src="item.img"></b-img>
                     <h2>{{ item.text }}</h2>
@@ -27,7 +10,8 @@
             </b-col>
         </b-row>
         <b-row>
-            <b-col md="4" v-for="(item, i) in btImg2" :key="i">
+            <b-col md="4" v-for="(item, i) in btImg2" :key="i" data-aos ="fade-up"
+                        data-aos-duration="1800">
                 <div class="group2">
                     <b-img :src="item.img"></b-img>
                     <h2>{{ item.text }}</h2>
@@ -35,7 +19,8 @@
             </b-col>
         </b-row>
         <b-row>
-            <b-col md="4" v-for="(item, i) in btImg3" :key="i">
+            <b-col md="4" v-for="(item, i) in btImg3" :key="i" data-aos ="fade-up"
+                        data-aos-duration="1800">
                 <div class="group3">
                     <b-img :src="item.img"></b-img>
                     <h2>{{ item.text }}</h2>

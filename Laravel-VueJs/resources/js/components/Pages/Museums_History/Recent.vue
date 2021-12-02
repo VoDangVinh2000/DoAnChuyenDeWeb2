@@ -1,25 +1,14 @@
 <template>
     <section id="recent">
         <b-container>
-            <h1 class="title__top"> Recent Articles.</h1>
-            <!-- <div class=#recent__body">
-                       <p v-for="item in items" :key="item ">{{item.text}}</p>
-            </div> -->
-
-            <!-- <h2 class="title__bottom">Our business divisions.</h2> -->
+            <h1 class="title__top" data-aos ="fade-up"
+                        data-aos-duration="1800"> Recent Articles.</h1>
         </b-container>
     </section>
 </template>
 <script>
 export default {
     data() {
-        // return {
-        //     items: [
-        //         {
-        //             text: " Recent Articles. ",
-        //         },
-        //     ],
-        // };
     },
 };
 </script>
