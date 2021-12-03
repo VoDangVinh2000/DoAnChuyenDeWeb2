@@ -24,4 +24,5 @@ app.component("page-museums_history", require("SrcComponent/views/Pages/Museums_
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");
+AOS.init()
 export default app;

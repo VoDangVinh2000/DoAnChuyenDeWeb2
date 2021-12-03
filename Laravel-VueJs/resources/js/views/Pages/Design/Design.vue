@@ -13,10 +13,13 @@
 
 <script>
 import Design from 'SrcComponent/components/Pages/Design/Design.vue';
+import Header from "SrcComponent/components/Products/Header.vue";
+
 export default {
     name : "Pages/Design.vue",
     components : {
-     Design
+     Design,
+     Header
     }
 }
 </script>

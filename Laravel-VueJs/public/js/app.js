@@ -20903,11 +20903,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var SrcComponent_components_Pages_Design_Design_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! SrcComponent/components/Pages/Design/Design.vue */ "./resources/js/components/Pages/Design/Design.vue");
+/* harmony import */ var SrcComponent_components_Products_Header_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! SrcComponent/components/Products/Header.vue */ "./resources/js/components/Products/Header.vue");
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "Pages/Design.vue",
   components: {
-    Design: SrcComponent_components_Pages_Design_Design_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+    Design: SrcComponent_components_Pages_Design_Design_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
+    Header: SrcComponent_components_Products_Header_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   }
 });
 
@@ -21466,60 +21469,320 @@ var _hoisted_1 = {
 };
 
 var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    src: "https://www.mercedes-benz.com/en/design/_jcr_content/root/slider_0_copy/sliderchilditems/slideritem_0/image/MQ7-0-image-20190523142249/01-mercedes-benz-design-uebersicht-3400x1440.jpeg",
-    alt: "",
-    "class": "img-fluid"
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Overview", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Circle of Excellence", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Driving Events", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "G-Class Experience", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "AMG Driving Academy", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Classic Car Travel", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Motorsport Tickets", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p data-v-30cbe409><img src=\"https://www.mercedes-benz.com/en/design/_jcr_content/root/slider_0_copy/sliderchilditems/slideritem_0/image/MQ7-0-image-20190523142249/01-mercedes-benz-design-uebersicht-3400x1440.jpeg\" alt=\"\" class=\"img-fluid\" data-v-30cbe409></p><div class=\"container\" data-v-30cbe409><div class=\"home-desgin\" data-v-30cbe409><span id=\"home\" style=\"cursor:pointer;\" data-v-30cbe409> Home </span><i class=\"fas fa-chevron-right\" data-v-30cbe409></i><span id=\"design\" style=\"cursor:pointer;\" data-v-30cbe409> Design </span></div><div class=\"row\" data-v-30cbe409><div class=\"content\" data-aos=\"fade-up\" data-v-30cbe409><div class=\"col-md-6\" data-v-30cbe409><h1 data-v-30cbe409>Mercedes-Benz Design: Sensual Purity and Modern Luxury.</h1><p data-v-30cbe409> The designers at Mercedes-Benz are reconciling tradition and modernity in designing the cars for the future. Their work centres on “Sensual Purity” as an expression of modern luxury. The new design idiom featuring reduced edges and creases – indentations and recesses in the sheet metal – aims to create clear forms and sensual surfaces which showcase high tech while also arousing emotions. Design creates something out of the ordinary and makes a major contribution to shaping the brand image. For Mercedes-Benz designers, good design has to be both beautiful and intelligent. </p></div><div class=\"col-md-6\" data-v-30cbe409><img src=\"https://www.mercedes-benz.com/en/design/_jcr_content/root/paragraph_3_copy/paragraph-right/video_copy_copy/image/MQ6-0-image-20190523142337/04-mercedes-benz-fahrzeuge-mercedes-amg-gt-concept-eq-power-1360x758.jpeg\" alt=\"\" class=\"img-fluid\" data-v-30cbe409></div></div></div></div>", 2);
+
+var _hoisted_11 = {
+  "class": "Articles",
+  "data-aos": "fade-up"
+};
+
+var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h3 data-v-30cbe409>Articles, News &amp; Videos.</h3><div class=\"post-content\" data-v-30cbe409><div class=\"new-post\" data-v-30cbe409><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 95 70\" width=\"1.3571428571428572rem\" height=\"1rem\" class=\"brandhub-icon\" data-v-30cbe409><path d=\"M61 10.9H34.7v26.3H61V10.9zm22.9 0H66.6v4.3H84v-4.3zm0 10.6H66.6v4.3H84v-4.3zm0 10.5H66.6v4.3H84V32zm0 10.6H34.7v4.3h49.2v-4.3zm-56.2 0H11.4v4.3h16.4v-4.3zm0-11H11.4v4.3h16.4v-4.3z\" fill=\"currentColor\" data-v-30cbe409></path><path d=\"M23.8.2v20.9H.5v35.6C.5 63.2 6.3 70 14 70h68.7c7.1 0 12.2-6.8 12.2-13.2V.2H23.8zm-18 56.5V26.3l18-.1v30.5c0 3.4-2.6 7.8-9.6 7.8-4.3.1-8.4-3.7-8.4-7.8zm76.9 7.8H25.8c.5-.1 3.3-2.4 3.3-7.8V5.8h60v51c0 4.7-2.8 7.7-6.4 7.7z\" fill=\"#00adef\" data-v-30cbe409></path></svg><div id=\"new-post1\" data-v-30cbe409>New</div></div></div>", 2);
+
+var _hoisted_14 = {
+  "class": "container"
+};
+var _hoisted_15 = {
+  "class": "post-top",
+  "data-aos": "fade-up"
+};
+
+var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh1"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh1.webp",
+    alt: ""
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, "The scent of Mercedes-Benz luxury"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " We have created 16 individual vehicle fragrances to experience Mercedes-Benz with all senses and enhance yo... ")])], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh2"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh2.webp",
+    alt: ""
   })], -1
   /* HOISTED */
   );
 });
 
-var _hoisted_3 = {
-  "class": "container"
-};
-var _hoisted_4 = {
-  "class": "home-desgin"
-};
-var _hoisted_5 = {
-  "class": "text-dark"
-};
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Home ");
-
-var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
-    "class": "fas fa-chevron-right"
-  }, null, -1
+var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, " How designers showcase the luxury of the future. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " Alternative drives and automated driving are opening up new options for the exterior design of Mercedes-Ben... ")], -1
   /* HOISTED */
   );
 });
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Design");
+var _hoisted_19 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh3"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh3.webp",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"row\" data-v-30cbe409><div class=\"content\" data-v-30cbe409><div class=\"col-md-6\" data-v-30cbe409><h1 data-v-30cbe409>Mercedes-Benz Design: Sensual Purity and Modern Luxury.</h1><p data-v-30cbe409> The designers at Mercedes-Benz are reconciling tradition and modernity in designing the cars for the future. Their work centres on “Sensual Purity” as an expression of modern luxury. The new design idiom featuring reduced edges and creases – indentations and recesses in the sheet metal – aims to create clear forms and sensual surfaces which showcase high tech while also arousing emotions. Design creates something out of the ordinary and makes a major contribution to shaping the brand image. For Mercedes-Benz designers, good design has to be both beautiful and intelligent. </p></div><div class=\"col-md-6\" data-v-30cbe409><img src=\"https://www.mercedes-benz.com/en/design/_jcr_content/root/paragraph_3_copy/paragraph-right/video_copy_copy/image/MQ6-0-image-20190523142337/04-mercedes-benz-fahrzeuge-mercedes-amg-gt-concept-eq-power-1360x758.jpeg\" alt=\"\" class=\"img-fluid\" data-v-30cbe409></div></div></div>", 1);
+var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, " Pioneering luxury with Mercedes-Benz and Virgil Abloh... "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " For Project Geländewagen, Mercedes-Benz collaborates with the polymath artist, architect and fashion design... ")], -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"Articles\" data-v-30cbe409><h3 data-v-30cbe409>Articles, News &amp; Videos.</h3><div class=\"post-content\" data-v-30cbe409><div class=\"new-post\" data-v-30cbe409><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 95 70\" width=\"1.3571428571428572rem\" height=\"1rem\" class=\"brandhub-icon\" data-v-30cbe409><path d=\"M61 10.9H34.7v26.3H61V10.9zm22.9 0H66.6v4.3H84v-4.3zm0 10.6H66.6v4.3H84v-4.3zm0 10.5H66.6v4.3H84V32zm0 10.6H34.7v4.3h49.2v-4.3zm-56.2 0H11.4v4.3h16.4v-4.3zm0-11H11.4v4.3h16.4v-4.3z\" fill=\"currentColor\" data-v-30cbe409></path><path d=\"M23.8.2v20.9H.5v35.6C.5 63.2 6.3 70 14 70h68.7c7.1 0 12.2-6.8 12.2-13.2V.2H23.8zm-18 56.5V26.3l18-.1v30.5c0 3.4-2.6 7.8-9.6 7.8-4.3.1-8.4-3.7-8.4-7.8zm76.9 7.8H25.8c.5-.1 3.3-2.4 3.3-7.8V5.8h60v51c0 4.7-2.8 7.7-6.4 7.7z\" fill=\"#00adef\" data-v-30cbe409></path></svg><div id=\"new-post1\" data-v-30cbe409>New</div></div></div><!-- Noi dung post --><div class=\"container\" data-v-30cbe409><div class=\"post-top\" data-v-30cbe409><div class=\"row\" data-v-30cbe409><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh1\" data-v-30cbe409><img src=\"/images/assets/design-post/anh1.webp\" alt=\"\" data-v-30cbe409><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409>The scent of Mercedes-Benz luxury</p><p class=\"content-post\" data-v-30cbe409> We have created 16 individual vehicle fragrances to experience Mercedes-Benz with all senses and enhance yo... </p></div></div></div><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh2\" data-v-30cbe409><img src=\"/images/assets/design-post/anh2.webp\" alt=\"\" data-v-30cbe409></div><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409> How designers showcase the luxury of the future. </p><p class=\"content-post\" data-v-30cbe409> Alternative drives and automated driving are opening up new options for the exterior design of Mercedes-Ben... </p></div></div><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh3\" data-v-30cbe409><img src=\"/images/assets/design-post/anh3.webp\" alt=\"\" data-v-30cbe409></div><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409> Pioneering luxury with Mercedes-Benz and Virgil Abloh... </p><p class=\"content-post\" data-v-30cbe409> For Project Geländewagen, Mercedes-Benz collaborates with the polymath artist, architect and fashion design... </p></div></div><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh4\" data-v-30cbe409><img src=\"/images/assets/design-post/anh4.webp\" alt=\"\" data-v-30cbe409><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409>Design: Team &amp; Studio</p><p class=\"content-post\" data-v-30cbe409> Get to know the Mercedes-Benz design team and take an exclusive look at our design studios. </p></div></div></div><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh5\" data-v-30cbe409><img src=\"/images/assets/design-post/anh5.jpeg\" alt=\"\" data-v-30cbe409></div><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409> Making of: VISION AVTR. </p><p class=\"content-post\" data-v-30cbe409> Mercedes-Benz and the upcoming “Avatar” films – how the two partners created the astonishing VISION AVTR. </p></div></div><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh6\" data-v-30cbe409><img src=\"/images/assets/design-post/anh6.webp\" alt=\"\" data-v-30cbe409></div><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409> Lewis Hamilton at the Mercedes-Benz Design Headquarter. </p><p class=\"content-post\" data-v-30cbe409> Take a look behind the scenes with Lewis Hamilton when he meets his colleagues at the Mercedes-Benz Design ... </p></div></div><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh7\" data-v-30cbe409><img src=\"/images/assets/design-post/anh7.webp\" alt=\"\" data-v-30cbe409></div><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409> How designers showcase the luxury of the future. </p><p class=\"content-post\" data-v-30cbe409> Alternative drives and automated driving are opening up new options for the exterior design of Mercedes-Ben... </p></div></div><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh8\" data-v-30cbe409><img src=\"/images/assets/design-post/anh8.webp\" alt=\"\" data-v-30cbe409></div><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409> Inisghts </p><p class=\"content-post\" data-v-30cbe409> Design creates the extraordinary. For Mercedes-Benz designers, good design must be beautiful and intelligen... </p></div></div><div class=\"col-md-4 up-img postion-relative\" data-v-30cbe409><div class=\"anh9\" data-v-30cbe409><img src=\"/images/assets/design-post/anh9.webp\" alt=\"\" data-v-30cbe409></div><div class=\"hienanh\" data-v-30cbe409><p class=\"title-post\" data-v-30cbe409> The new CLA Shooting Brake: Design. </p><p class=\"content-post\" data-v-30cbe409> The CLA Shooting Brake puts its own spin on the design idiom of sensual purity. </p></div></div></div></div></div></div>", 1);
+var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh4"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh4.webp",
+    alt: ""
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, "Design: Team & Studio"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " Get to know the Mercedes-Benz design team and take an exclusive look at our design studios. ")])], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh5"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh5.jpeg",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, " Making of: VISION AVTR. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " Mercedes-Benz and the upcoming “Avatar” films – how the two partners created the astonishing VISION AVTR. ")], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_24 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh6"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh6.webp",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_25 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, " Lewis Hamilton at the Mercedes-Benz Design Headquarter. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " Take a look behind the scenes with Lewis Hamilton when he meets his colleagues at the Mercedes-Benz Design ... ")], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_26 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh7"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh7.webp",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_27 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, " How designers showcase the luxury of the future. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " Alternative drives and automated driving are opening up new options for the exterior design of Mercedes-Ben... ")], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_28 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh8"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh8.webp",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, " Inisghts "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " Design creates the extraordinary. For Mercedes-Benz designers, good design must be beautiful and intelligen... ")], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_30 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "anh9"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: "/images/assets/design-post/anh9.webp",
+    alt: ""
+  })], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "hienanh"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "title-post"
+  }, " The new CLA Shooting Brake: Design. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "content-post"
+  }, " The CLA Shooting Brake puts its own spin on the design idiom of sensual purity. ")], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"footer-design\" data-aos=\"fade-up\" data-v-30cbe409><div class=\"footer-title\" data-v-30cbe409><span data-v-30cbe409><i class=\"fas fa-gas-pump\" data-v-30cbe409></i> Kraftstoffverbrauch kombiniert</span><span data-v-30cbe409><i class=\"fas fa-leaf\" data-v-30cbe409></i> CO₂-Emissionen kombiniert</span><span data-v-30cbe409><i class=\"fas fa-gas-pump\" data-v-30cbe409></i> Stromverbrauch im kombinierten Testzyklus</span></div><div class=\"footer-detail\" data-aos=\"fade-up\" data-v-30cbe409><p data-v-30cbe409>Product may vary after press date on 26.09.2014.</p><p data-v-30cbe409> 1 Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren ermittelt. Es handelt sich um die „NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 1 Durchführungsverordnung (EU) 2017/1153. Die Kraftstoffverbrauchswerte wurden auf Basis dieser Werte errechnet. Der Stromverbrauch wurde auf der Grundlage der VO 692/2008/EG ermittelt. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter www.dat.de unentgeltlich erhältlich ist. </p><p data-v-30cbe409> 4 Angaben zu Kraftstoffverbrauch, Stromverbrauch und CO₂-Emissionen sind vorläufig und wurden vom Technischen Dienst für das Zertifizierungsverfahren nach Maßgabe des WLTP-Prüfverfahrens ermittelt und in NEFZ-Werte korreliert. Eine EG-Typgenehmigung und Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p><p data-v-30cbe409> 6 Stromverbrauch und Reichweite wurden auf der Grundlage der VO 692/2008/EG ermittelt. Stromverbrauch und Reichweite sind abhängig von der Fahrzeugkonfiguration. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter www.dat.de unentgeltlich erhältlich ist. </p><p data-v-30cbe409> 7 Angaben zu Stromverbrauch und Reichweite sind vorläufig und wurden vom Technischen Dienst für das Zertifizierungsverfahren nach Maßgabe der UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung und eine Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p><p data-v-30cbe409> 8 Alle technischen Angaben sind vorläufig und wurden intern nach Maßgabe der jeweils anwendbaren Zertifizierungsmethode ermittelt. Es liegen bislang weder bestätigte Werte vom TÜV noch eine EG-Typgenehmigung noch eine Konformitätsbescheinigung mit amtlichen Werten vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  var _component_b_breadcrumb_item = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-breadcrumb-item");
+  var _component_b_nav_item = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-nav-item");
 
-  var _component_b_breadcrumb = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-breadcrumb");
+  var _component_b_nav = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-nav");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_breadcrumb, null, {
+  var _component_b_col = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-col");
+
+  var _component_b_row = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-row");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav, {
+    id: "nav-design",
+    toggleable: "",
+    type: "secondary",
+    "class": "bg-secondary header-title"
+  }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_breadcrumb_item, {
-        href: "#foo"
-      }, {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_2];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_3];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_4];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_5];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_6];
         }),
         _: 1
         /* STABLE */
 
-      })]), _hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_breadcrumb_item, {
-        href: "#bar"
-      }, {
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_7];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [_hoisted_8];
         }),
@@ -21531,7 +21794,109 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), _hoisted_9]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("  "), _hoisted_10]);
+  }), _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Noi dung post "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_16];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_17, _hoisted_18];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_19, _hoisted_20];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_21];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_22, _hoisted_23];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_24, _hoisted_25];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_26, _hoisted_27];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_28, _hoisted_29];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_30, _hoisted_31];
+        }),
+        _: 1
+        /* STABLE */
+
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  })])]), _hoisted_32]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer-design ")]);
 }
 
 /***/ }),
@@ -22597,6 +22962,7 @@ app.component("page-museums_history", (__webpack_require__(/*! SrcComponent/view
 app.use(_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
 app.use(bootstrap_vue_3__WEBPACK_IMPORTED_MODULE_2__["default"]);
 app.mount("#app");
+aos__WEBPACK_IMPORTED_MODULE_5___default().init();
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (app);
 
 /***/ }),
@@ -22950,7 +23316,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n.content[data-v-30cbe409] {\r\n  padding: 30px;\r\n  display: flex;\n}\n.breadcrumb-item + .breadcrumb-item[data-v-30cbe409]::before {\r\n  content: none;\n}\r\n/* span.text-dark{\r\n    color: black;\r\n    text-decoration: none;\r\n} */\n.home-design text-dark a[data-v-30cbe409] {\r\n  color: black !important;\r\n  text-decoration: none;\n}\n.Articles[data-v-30cbe409] {\r\n  max-width: 100%;\r\n  height: auto;\r\n  text-align: center;\r\n  padding-top: 30px;\r\n  background: black;\r\n  color: white;\n}\n.new-post[data-v-30cbe409] {\r\n  padding-top: 50px;\r\n  justify-content: center;\r\n  display: flex;\n}\n#new-post1[data-v-30cbe409] {\r\n  position: relative;\r\n  top: -5px;\r\n  left: 15px;\n}\r\n\r\n/* .post-top{\r\n    display: flex;\r\n} */\n.post-top[data-v-30cbe409] {\r\n  margin: 0 auto;\r\n  max-width: 1680px;\r\n  width: 100%;\r\n  background: #000;\n}\n.post-top img[data-v-30cbe409] {\r\n  max-width: 100%;\r\n  height: auto;\n}\n.hienanh[data-v-30cbe409] {\r\n  position: absolute;\r\n  height: 50px;\r\n  width: 100%;\r\n  bottom: 0;\r\n  padding: 13px 31px 13px 31px;\r\n  text-align: left;\r\n  background: #00000059;\r\n  text-overflow: ellipsis;\r\n  overflow: hidden;\r\n  transition: height 0.5s, background 1.5s;\n}\n.up-img:hover .hienanh[data-v-30cbe409]{\r\n\theight : 150px;\r\n\ttransition: height 0.5s, background 1.5s;\n}\n.content[data-v-30cbe409]{\r\n\ttransition: height 0.5s, background 1.5s;\n}\n.title-post[data-v-30cbe409] {\r\n  font-family: MBCorpo AScreen1Cond, MBCorpo Title, DaimlerCAC-Regular,\r\n    Helvetica, Arial, sans-serif;\r\n  font-size: 18px;\r\n  font-weight: bold;\r\n  text-overflow: ellipsis;\r\n  overflow: hidden;\r\n  white-space: nowrap;\n}\r\n/* .content-post{\r\n    text-overflow: ellipsis;\r\n    overflow: hidden;\r\n    white-space: nowrap;\r\n    font-size: 13px;\r\n} */\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#oto-red[data-v-30cbe409]{\r\n  max-width: 100%;\n}\n.content[data-v-30cbe409] {\r\n  padding: 30px;\r\n  display: flex;\r\n   transition: height 0.5s, background 1.5s;\n}\n.header-title span[data-v-30cbe409] {\r\n    color: rgba(211, 207, 197, 0.863);\r\n    cursor: pointer;\n}\n.header-title span[data-v-30cbe409]:hover {\r\n    color: white;\n}\n.header-title[data-v-30cbe409] {\r\n    height: 80px;\r\n    padding: 15px 95px;\r\n    display: flex;\r\n    font-size: 1.1rem;\r\n    justify-content: space-between;\n}\n#design[data-v-30cbe409] {\r\n  color: #00adef;\n}\n#home[data-v-30cbe409]:hover {\r\n  color: #00adef;\n}\n.Articles[data-v-30cbe409] {\r\n  max-width: 100%;\r\n  height: auto;\r\n  text-align: center;\r\n  padding-top: 30px;\r\n  background: black;\r\n  color: white;\n}\n.new-post[data-v-30cbe409] {\r\n  padding-top: 50px;\r\n  justify-content: center;\r\n  display: flex;\n}\n#new-post1[data-v-30cbe409] {\r\n  position: relative;\r\n  top: -5px;\r\n  left: 15px;\n}\n.post-top[data-v-30cbe409] {\r\n  margin: 0 auto;\r\n  width: 100%;\r\n  background: #000;\n}\n.post-top img[data-v-30cbe409] {\r\n  max-width: 100%;\r\n  height: auto;\n}\n.hienanh[data-v-30cbe409] {\r\n  position: absolute;\r\n  height: 50px;\r\n  width: 100%;\r\n  bottom: 0;\r\n  padding: 13px 31px 13px 31px;\r\n  text-align: left;\r\n  background: #00000059;\r\n  text-overflow: ellipsis;\r\n  overflow: hidden;\r\n  transition: height 0.5s, background 1.5s;\n}\n.up-img:hover .hienanh[data-v-30cbe409]{\r\n\theight : 150px;\r\n\ttransition: height 0.5s, background 1.5s;\n}\n.title-post[data-v-30cbe409] {\r\n  font-family: MBCorpo AScreen1Cond, MBCorpo Title, DaimlerCAC-Regular,\r\n    Helvetica, Arial, sans-serif;\r\n  font-size: 18px;\r\n  font-weight: bold;\r\n  text-overflow: ellipsis;\r\n  overflow: hidden;\r\n  white-space: nowrap;\n}\r\n\r\n/* Footer-design */\n.footer-design[data-v-30cbe409]{\r\n    padding: 50px ;\r\n\r\n    background: black;\r\n    color: white;\r\n    text-align: left;\n}\n.product-design .footer-design .footer-title span[data-v-30cbe409] {\r\n    position: relative;\r\n    padding: 0 30px;\r\n    top: 100px;\r\n    color: white;\n}\n.product-design .footer-design .footer-detail[data-v-30cbe409] {\r\n    position: relative;\r\n    padding: 0 30px;\r\n    margin-bottom: 180px;\r\n    top: 140px;\r\n    background: black;\r\n    color: white;\n}\n.footer-design span[data-v-30cbe409]{\r\npadding-right: 25px\n}\r\n\r\n/* Reponsive */\n@media only screen and (min-width: 1119px) and (max-width: 1345px){\n.header-title span[data-v-30cbe409] {\r\n    color: rgba(211, 207, 197, 0.863);\r\n    cursor: pointer;\r\n    font-size: 15px;\n}\n.footer-title span[data-v-30cbe409]{\r\n        padding: 5px 0;\r\n        display: flex;\r\n        flex-direction: row;\n}\n.up-img:hover .hienanh[data-v-30cbe409]{\r\n\theight : 110px;\r\n\ttransition: height 0.5s, background 1.5s;\n}\n}\n@media only screen and (min-width: 1208px) and (max-width: 1399px){\n.content h1[data-v-30cbe409] {\r\n    font-size: 1.5rem;\n}\n}\n@media only screen and (min-width: 1121px) and (max-width: 1200px){\n.content h1[data-v-30cbe409] {\r\n    font-size: 1.5rem;\n}\n.content p[data-v-30cbe409] {\r\n    font-size: 13px;\n}\n}\n@media only screen and (min-width: 1120px) and (max-width: 1208px){\n.header-title span[data-v-30cbe409] {\r\n    color: rgba(211, 207, 197, 0.863);\r\n    cursor: pointer;\r\n    font-size: 13px;\n}\n.content h1[data-v-30cbe409] {\r\n    font-size: 1.25rem;\n}\n.footer-title span[data-v-30cbe409]{\r\n        padding: 5px 0;\r\n        display: flex;\r\n        flex-direction: row;\n}\n}\n@media only screen and (min-width: 992px) and (max-width: 1120px){\n.content h1[data-v-30cbe409] {\r\n    font-size: 1.25rem;\n}\n.content p[data-v-30cbe409]{\r\n  font-size: 13px;\n}\n.header-title span[data-v-30cbe409] {\r\n    position: relative;\r\n    color: rgba(211, 207, 197, 0.863);\r\n    cursor: pointer;\r\n    padding: 44px 0 0 0;\r\n    font-size: 10px;\r\n    top: 8px;\n}\n.up-img:hover .hienanh[data-v-30cbe409]{\r\n\theight : 105px;\r\n\ttransition: height 0.5s, background 1.5s;\n}\n.footer-title span[data-v-30cbe409]{\r\n        padding: 5px 0;\r\n        display: flex;\r\n        flex-direction: row;\n}\n}\n@media (max-width: 991px){\n#nav-design[data-v-30cbe409]{\r\n    display: none;\n}\n.footer-title span[data-v-30cbe409]{\r\n        padding: 5px 0;\r\n        display: flex;\r\n        flex-direction: row;\n}\n.up-img:hover .hienanh[data-v-30cbe409]{\r\n\theight : 100px;\r\n\ttransition: height 0.5s, background 1.5s;\n}\n.content h1[data-v-30cbe409]{\r\n  font-size: 15px;\n}\n.content p[data-v-30cbe409]{\r\n  font-size: 10px;\n}\n}\n@media (max-width: 767px){\n.hienanh[data-v-30cbe409] {\r\n    display: none;\n}\n.footer-design[data-v-30cbe409]{\r\n    font-size: 0.75rem;\n}\n.content h1[data-v-30cbe409]{  \r\n    font-weight: bold;\r\n    font-size: 10px;\n}\n.content p[data-v-30cbe409]{  \r\n    font-weight: bold;\r\n    font-size: 5px;\n}\n@media (max-width: 441px){\n.content p[data-v-30cbe409]{\r\n      display: none;\n}\n.content h[data-v-30cbe409]{\r\n      font-size: 15px;\n}\n}\n@media (max-width: 441px){\n.content h[data-v-30cbe409]{\r\n      font-size: 13px;\n}\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
