@@ -4,6 +4,10 @@ import router from "./router";
 import BootstrapVue3 from "bootstrap-vue-3";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
+
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init()
 const app = createApp({});
 
 app.component("register-views", require("SrcComponent/views/Register.vue").default);
@@ -20,4 +24,5 @@ app.component("page-museums_history", require("SrcComponent/views/Pages/Museums_
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");
+AOS.init()
 export default app;
