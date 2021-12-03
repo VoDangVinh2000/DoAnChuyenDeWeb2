@@ -5,12 +5,11 @@
     <BreadCrumb />
     <Paragraph
       data-aos="fade-up"
-      data-aos-offset="5"
+      data-aos-offset=""
       data-aos-delay="50"
       data-aos-duration="500"
       data-aos-easing="ease-in-out"
       data-aos-mirror="true"
-      data-aos-once="false"
     />
     <ContainerOuter
         :getMenuID="getMenuMainID"

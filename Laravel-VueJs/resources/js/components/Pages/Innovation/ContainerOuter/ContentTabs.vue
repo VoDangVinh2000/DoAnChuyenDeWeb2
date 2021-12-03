@@ -1,5 +1,5 @@
 <template>
-  <MDBTabPane :tabId="tabId">
+  <MDBTabPane :tabId="tabId" class="d-block">
     <div class="container-outer">
       <ul class="brandhub-thumb-list gap-1">
         <li

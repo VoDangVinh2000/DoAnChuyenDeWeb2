@@ -6,18 +6,19 @@
         <MDBTabs v-model="activeTabId1">
           <!-- <h2><MDBBadge color="primary">Click vào bên dưới để xem các chủ đề mới và phổ biến</MDBBadge></h2>  -->
           <!-- Tabs navs -->
-          <MDBTabNav tabsClasses="mb-3 justify-content-center">
-            <ButtonTabsItem
-              v-for="categoryItem in categoryArticlePostByID_Data"
-              :key="categoryItem.id"
-              :category_post_name="categoryItem.category_post_name"
-              :category_article_post_id="categoryItem.id"
-              :tabId="String(categoryItem.id)"
-              :href="String(categoryItem.id)"
-              @click="getID(categoryItem.id)"
-
-            />
-          </MDBTabNav>
+          <span class="test">
+            <MDBTabNav tabsClasses="mb-3 justify-content-center">
+              <ButtonTabsItem
+                v-for="categoryItem in categoryArticlePostByID_Data"
+                :key="categoryItem.id"
+                :category_post_name="categoryItem.category_post_name"
+                :category_article_post_id="categoryItem.id"
+                :tabId="String(categoryItem.id)"
+                :href="String(categoryItem.id)"
+                @click="getID(categoryItem.id)"
+              />
+            </MDBTabNav>
+          </span>
           <!-- Tabs navs -->
           <!-- Tabs content -->
           <!-- v-if này sẽ bắt sự kiện nếu có dữ liệu bài post !-->
@@ -35,6 +36,12 @@
               :tabId="String(getIDCategoryPost)"
             />
           </MDBTabContent>
+           <!-- <MDBTabContent v-show="categoryArticleID.length > 0 && sectionArticlePost_Data_ID.length ==0">
+            <ContentTabs
+              :sectionArticlePost="categoryArticleID"
+              :tabId="String(1)"
+            />
+          </MDBTabContent> -->
           <!-- !-->
           <!-- Tabs content -->
         </MDBTabs>
@@ -86,15 +93,13 @@ export default {
       testGetID: 0,
     };
   },
-  mounted() {
-    this.testGetID = ref("1");
-  },
   async created() {
     // this.activeTabId1 = ref("1");
     // this.categoryArticlePost_Data = await this.getCategoryArticlePost_Data();
     this.sectionArticlePost_Data_ID = await this.getID();
     this.categoryArticlePostByID_Data =
       await this.getCategoryArticlePostByID_Data();
+        this.categoryArticleID = await this.getCategoryArticlePostByID_Data();
   },
   methods: {
     // async getCategoryArticlePost_Data() {
@@ -113,6 +118,7 @@ export default {
         "/api/category-article-post-innovation-menu-main-id/" + this.menuMainID;
       const response = await fetch(url);
       const data = response.json();
+
       return data;
     },
     async getID(id) {
