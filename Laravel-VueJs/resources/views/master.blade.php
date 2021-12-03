@@ -7,6 +7,8 @@
     <meta name="csrf-token" content="{{csrf_token()}}">
     <link rel="icon" href="https://assets.oneweb.mercedes-benz.com/global/1.9.0/favicon/favicon-32x32.png" type="image/png" sizes="32x32">
     <title>@yield('title')</title>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="{{ asset('js/app.js') }}"></script>
     <link rel="stylesheet" href="../css/app.css">
     <link rel="stylesheet"
@@ -20,8 +22,6 @@
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">    
 </head>
 
 <body>

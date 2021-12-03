@@ -51,6 +51,9 @@ Route::get('/cars-home',function(){
 Route::get('/innovation',function(){
     return view('app.Pages.innovation');
 });
+Route::get('/events',function(){
+    return view('app.Pages.events');
+});
 
 //page-design
 Route::get('/design',function(){
