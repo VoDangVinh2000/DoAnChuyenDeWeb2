@@ -11,11 +11,9 @@
             <b-nav-item><span>Motorsport Tickets</span></b-nav-item>
         </b-nav>
     <p>
-      <img
-        src="https://www.mercedes-benz.com/en/design/_jcr_content/root/slider_0_copy/sliderchilditems/slideritem_0/image/MQ7-0-image-20190523142249/01-mercedes-benz-design-uebersicht-3400x1440.jpeg"
-        alt=""
-        class="img-fluid"
-      />
+         <img src="/images/assets/design-post/baner.webp" alt="" class="img-fluid"/>
+        
+      
     </p>
 
     <div class="container">
