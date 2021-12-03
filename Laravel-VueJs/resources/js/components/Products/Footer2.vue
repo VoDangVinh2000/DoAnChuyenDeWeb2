@@ -1,5 +1,6 @@
 <template>
-  <footer id="footer__2">
+  <footer id="footer__2" data-aos ="fade-up"
+                        data-aos-duration="1800">
     <div class="brand__space"></div>
     <section id="top__footer">
       <hr class="brand__line footer2__brand__line__top" />
@@ -30,34 +31,6 @@
         This is the International website of Mercedes-Benz AG. Visitors from the
         U.S., please visit our U.S. website <a href="#">www.mbusa.com</a>
       </p>
-    </section>
-    <section id="bottom__footer">
-        <div class="brand__space" style="height:2rem;"></div>
-      <div class="container_fluid">
-        <div class="row">
-          <div class="col-md-4 brand__left">
-            <ul>
-              <li><a href="#" class="active">Deutsch</a></li>
-              <li><a href="#">English</a></li>
-            </ul>
-          </div>
-          <div class="col-md-8 brand__right">
-            <ul>
-              <li><a href="#">Provider </a></li>
-              <li><a href="#">Legal Notice </a></li>
-              <li><a href="#">Cookies</a></li>
-              <li><a href="#">Privacy Statement </a></li>
-            </ul>
-            <ul>
-              <li><a href="#">Newsfeed (RSS) </a></li>
-              <li><a href="#">Contact </a></li>
-              <li><a href="#">Careers </a></li>
-              <li><a href="#">Investor Relations </a></li>
-              <li><a href="#">Daimler AG </a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </section>
   </footer>
 </template>
@@ -107,12 +80,10 @@ hr.brand__line {
 }
 
 #top__footer {
-  /* margin: 0 32px; */
+  margin: 0 32px;
+  max-width: 1280px;
 }
 
-#bottom__footer {
-  /* margin: 0 32px; */
-}
 
 p {
   color: #999;
@@ -167,5 +138,11 @@ ul a {
   font-family: sans-serif;
   line-height: 22px;
   transition: 0.4s all ease;
+}
+@media screen and (max-width: 1280px) {
+  #top__footer {
+max-width: 92%;
+}
+
 }
 </style>

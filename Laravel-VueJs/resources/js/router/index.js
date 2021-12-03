@@ -9,6 +9,8 @@ import CarsHome from "SrcComponent/views/Cars/CarsHome.vue";
 import Innovation from "SrcComponent/views/Pages/Innovation/Innovation.vue";
 
 import Events from "SrcComponent/views/Pages/Events/Events.vue";
+import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue"
+import Company from "../views/Pages/Company/Company.vue"
 const routes = [
     {
         /* Tạo routes trong vuejs */
@@ -45,7 +47,7 @@ const routes = [
      {
         name : "company",
         path : "/company",
-        // component : Innovation
+        component : Company
     },
     {
         name : "design",
@@ -55,7 +57,7 @@ const routes = [
     {
         name : "museums-history",
         path : "/museums-history",
-        // component : Innovation
+        component : MuseumsHistory,
     },
     {
         name : "events",

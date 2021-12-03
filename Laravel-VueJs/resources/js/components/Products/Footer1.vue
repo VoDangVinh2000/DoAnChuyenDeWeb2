@@ -3,74 +3,22 @@
     <!-- Top Footer -->
     <section id="top__footer">
       <div class="container-fluid">
-        <div class="row">
+        <div class="row" data-aos ="fade-up"
+                        data-aos-duration="1800">
           <div class="col-md-3 brand__items" v-for="item in data" :key="item.id">
             <h3 class="title">{{item.topics}}</h3>
             <hr class="brand__line" />
             <ul class="brand__links" >
               <li v-for="item2 in JSON.parse(item.subfooter)" :key="item2"><a href="">{{item2.name}}</a></li>
-              <!-- <li><a href="#">Design</a></li>
-              <li><a href="#">Exhibitions</a></li>
-              <li><a href="#">Museum & History</a></li>
-              <li><a href="#">Sports</a></li>
-              <li><a href="#">Driving Events</a></li>
-              <li><a href="#">Mercedes me Portal</a></li> -->
             </ul>
           </div>
-          <!-- <div class="col-md-3 brand__items">
-            <h3 class="title">Shopping</h3>
-            <hr class="brand__line" />
-            <ul class="brand__links">
-              <li><a href="#">Dealer Search</a></li>
-              <li><a href="#">Mercedes-Benz Accessoires</a></li>
-              <li><a href="#">Mercedes-Benz Collection </a></li>
-              <li><a href="#">Mercedes me connect Store </a></li>
-              <li><a href="#">Service & Parts </a></li>
-              <li><a href="#">Formula 1 Store </a></li>
-              <li><a href="#">Mercedes-Benz Classic Center </a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 brand__items">
-            <h3 class="title">All about cars</h3>
-            <hr class="brand__line" />
-            <ul class="brand__links">
-              <li><a href="#">Model Overview </a></li>
-              <li><a href="#">Configurator </a></li>
-              <li><a href="#">Test Drive </a></li>
-              <li><a href="#">Mercedes-Maybach </a></li>
-              <li><a href="#">Mercedes me connect </a></li>
-              <li><a href="#">Mercedes-Benz Ex-Factory Driving Aids </a></li>
-              <li><a href="#">WLTP </a></li>
-              <li><a href="#">RDE </a></li>
-              <li><a href="#">Semiconductors supply situation </a></li>
-              <li><a href="#">Li-Ion UN38.3 </a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 brand__items">
-            <h3 class="title">Discover more</h3>
-            <hr class="brand__line" />
-            <ul class="brand__links">
-              <li><a href="#">Daimler AG </a></li>
-              <li><a href="#">Mercedes-Benz AG </a></li>
-              <li><a href="#">Newsroom </a></li>
-              <li><a href="#">Press </a></li>
-              <li><a href="#">Career </a></li>
-              <li><a href="#">heycar </a></li>
-              <li><a href="#">SHARE NOW </a></li>
-              <li><a href="#">Vulnerability Reporting Policy </a></li>
-              <li><a href="#">Mercedes-Benz Energy </a></li>
-              <li><a href="#">Mercedes-Benz Bank </a></li>
-              <li><a href="#">Fleet Sales </a></li>
-              <li><a href="#">Mercedes-Benz Global Training </a></li>
-              <li><a href="#">Customer Centre Sindelfingen </a></li>
-            </ul>
-          </div> -->
         </div>
       </div>
     </section>
     <!-- Botom Footer -->
     <section id="bottom__footer">
-      <div class="container_fluid">
+      <div class="container_fluid" data-aos ="fade-up"
+                        data-aos-duration="1800">
         <h3 class="title">Stay informed</h3>
         <hr class="brand__line" />
         <p class="bottom__footer__descriptons">
@@ -78,13 +26,16 @@
           contact with us and to share your passion for the brand, products and
           services of Mercedes-Benz.
         </p>
-        <ul class="social__media">
+        <div class="icon">
+          <ul class="social__media">
             <li><a href="#"><i class="fab fa-facebook"></i></a></li>
             <li><a href="#"><i class="fab fa-twitter"></i></a></li>
             <li><a href="#"><i class="fab fa-youtube"></i></a></li>
             <li><a href="#"><i class="fab fa-instagram"></i></a></li>
             <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-        </ul>
+          </ul>
+        </div>
+
       </div>
     </section>
   </footer>
@@ -164,12 +115,15 @@ a:hover {
 }
 
 #top__footer {
-  /* margin: 0 32px; */
+  margin: 0 32px;
+  max-width: 1280px;
 }
 
 #bottom__footer{
-    /* margin: 0 32px; */
+    margin: 0 32px;
+    max-width: 1280px;
 }
+
 
 p.bottom__footer__descriptons{
     color: #999;
@@ -183,11 +137,47 @@ ul.social__media{
     margin-top: 1.5rem;
 }
 
-ul.social__media li{
-   margin: 10px 26px;
+ ul.social__media li {
+   width: 45%;
+
 }
 
 ul.social__media li a i{
   font-size: 25px;
+}
+@media screen and (max-width: 1280px) {
+  #top__footer {
+max-width: 92%;
+}
+
+
+#bottom__footer{
+    max-width: 92%;
+}
+ul.social__media li{
+   width: 45%;
+
+}
+@media screen and (max-width: 768px) {
+  ul.social__media li{
+    width: 45%;
+    } 
+  }
+
+@media screen and (max-width: 480px) {
+  ul.social__media li{
+    width: 100%;
+    } 
+  }
+  @media screen and (max-width: 320px) {
+  ul.social__media li{
+    width: 100%;
+    } 
+  }
+  @media screen and (max-width: 240px) {
+  ul.social__media li{
+    width: 100%;
+    } 
+  }
 }
 </style>

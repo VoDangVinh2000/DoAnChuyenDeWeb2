@@ -59,4 +59,10 @@ Route::get('/events',function(){
 Route::get('/design',function(){
     return view('app.Pages.design');
 });
+//Museums & History
+Route::get('/museums-history',function(){//index.js
+    return view('app.Pages.museumshistory');//museumshistory.balde.php
+});
+
+
 
