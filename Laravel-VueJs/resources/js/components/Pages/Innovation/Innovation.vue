@@ -14,8 +14,10 @@
     <ContainerOuter
         :getMenuID="getMenuMainID"
      />
-    <Footer1 />
-    <Footer2 />
+   <div class="footer">
+      <Footer1 />
+      <Footer2 />
+  </div>
   </div>
 </template>
 

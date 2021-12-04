@@ -3,11 +3,11 @@
   <div class="container-outer">
     <div class="brandhub-thumb-tabs-btn-group-container">
       <div class="brandhub-thumb-tabs-btn-group">
-        <MDBTabs v-model="activeTabId1">
+        <MDBTabs  v-model="activeTabId1">
           <!-- <h2><MDBBadge color="primary">Click vào bên dưới để xem các chủ đề mới và phổ biến</MDBBadge></h2>  -->
           <!-- Tabs navs -->
           <span class="test">
-            <MDBTabNav tabsClasses="mb-3 justify-content-center">
+            <MDBTabNav tabsClasses="mb-3 justify-content-center border-bottom-0">
               <ButtonTabsItem
                 v-for="categoryItem in categoryArticlePostByID_Data"
                 :key="categoryItem.id"
@@ -22,8 +22,9 @@
           <!-- Tabs navs -->
           <!-- Tabs content -->
           <!-- v-if này sẽ bắt sự kiện nếu có dữ liệu bài post !-->
-          <MDBTabContent v-if="sectionArticlePost_Data_ID.length > 0">
+          <MDBTabContent  v-if="sectionArticlePost_Data_ID.length > 0">
             <ContentTabs
+
               data-aos="fade-up"
               data-aos-offset="5"
               data-aos-delay="50"
@@ -99,7 +100,7 @@ export default {
     this.sectionArticlePost_Data_ID = await this.getID();
     this.categoryArticlePostByID_Data =
       await this.getCategoryArticlePostByID_Data();
-        this.categoryArticleID = await this.getCategoryArticlePostByID_Data();
+
   },
   methods: {
     // async getCategoryArticlePost_Data() {
@@ -141,7 +142,7 @@ export default {
   background: #000;
 }
 .brandhub-thumb-tabs-btn-group-container {
-  padding: 60px 30px 20px 30px;
+  padding: 0;
   text-align: center;
 }
 .brandhub-thumb-tabs-btn-group {

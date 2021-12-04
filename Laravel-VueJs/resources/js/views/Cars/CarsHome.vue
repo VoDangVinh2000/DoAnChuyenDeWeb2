@@ -7,10 +7,10 @@
   <SliderSearch />
   <Product />
   <div class="footer">
-    <div class="container">
+    <!-- <div class="container"> -->
       <Footer1 />
       <Footer2 />
-    </div>
+    <!-- </div> -->
   </div>
 </template>
 
