@@ -26,4 +26,5 @@ app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");
 AOS.init()
+
 export default app;

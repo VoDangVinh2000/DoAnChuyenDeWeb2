@@ -63,6 +63,10 @@ Route::get('/design',function(){
 Route::get('/museums-history',function(){//index.js
     return view('app.Pages.museumshistory');//museumshistory.balde.php
 });
+// Tạo route cho page Company About us
+Route::get('/company',function(){
+    return view('app.Pages.company');
+});
 
 
 
