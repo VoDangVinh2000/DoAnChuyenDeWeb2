@@ -35,7 +35,7 @@ Route::get('/edit/{id}',function(){
 
 
 Route::fallback(function(){
-    return redirect('/login');
+    return redirect('/cars-home');
 });
 Route::post('register_test', [UserController::class,'store'])->name('register.store');//tạo route để gửi dữ liệu qua UserController
 Route::post('/login',[UserController::class,'login']);
@@ -63,6 +63,7 @@ Route::get('/design',function(){
 Route::get('/museums-history',function(){//index.js
     return view('app.Pages.museumshistory');//museumshistory.balde.php
 });
+
 
 
 

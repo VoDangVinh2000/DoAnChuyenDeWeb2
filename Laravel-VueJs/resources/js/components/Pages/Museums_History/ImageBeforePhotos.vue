@@ -9,7 +9,7 @@
                            Find a large collection of Mercedes-Benz accessories, model cars, fashion, watches, literature and much more in our Mercedes-Benz Classic online shop.
                     </b-card-text>
                     <b-link href="#">Visit the online shop </b-link>
-                  
+
             </b-col>
             <b-col md="4" data-aos ="fade-up"
                         data-aos-duration="1800">
@@ -108,7 +108,7 @@ p {
     #img__bottom {
         max-width: 964px;
     }
-     
+
 }
 @media screen and (max-width: 768px) {
     #img__bottom {

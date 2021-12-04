@@ -22,7 +22,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
         <ul  class="navbar-nav ml-auto">
           <li class="nav-item" v-for="item in data" :key="item.id">
             <a class="nav-link" :href="item.link"> {{item.name}} </a>
@@ -85,5 +85,8 @@ export default {
 }
 .icon-i-right{
   float: right;
+}
+.navbar-toggler{
+  background:white;
 }
 </style>

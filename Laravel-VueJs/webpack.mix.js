@@ -19,7 +19,9 @@ mix.js('resources/js/app.js', 'public/js')
     ]).webpackConfig({
         resolve: {
             alias: {
-                SrcComponent : path.resolve(__dirname,'resources/js/')
-            }
+                SrcComponent : path.resolve(__dirname,'resources/js/'),
+                Image : path.resolve(__dirname,'public/images/')
+            },
+
         }
-    });
+    }).sourceMaps();

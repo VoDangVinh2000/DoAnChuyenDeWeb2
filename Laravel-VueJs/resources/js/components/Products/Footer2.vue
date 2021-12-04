@@ -80,8 +80,9 @@ hr.brand__line {
 }
 
 #top__footer {
-  margin: 0 32px;
-  max-width: 1280px;
+  /* margin: 0 32px; */
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 

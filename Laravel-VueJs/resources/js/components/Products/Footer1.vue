@@ -115,13 +115,15 @@ a:hover {
 }
 
 #top__footer {
-  margin: 0 32px;
-  max-width: 1280px;
+  /* margin: 0 32px; */
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 #bottom__footer{
-    margin: 0 32px;
-    max-width: 1280px;
+    /* margin: 0 32px; */
+    max-width: 1320px;
+     margin: 0 auto;
 }
 
 
@@ -161,23 +163,23 @@ ul.social__media li{
 @media screen and (max-width: 768px) {
   ul.social__media li{
     width: 45%;
-    } 
+    }
   }
 
 @media screen and (max-width: 480px) {
   ul.social__media li{
     width: 100%;
-    } 
+    }
   }
   @media screen and (max-width: 320px) {
   ul.social__media li{
     width: 100%;
-    } 
+    }
   }
   @media screen and (max-width: 240px) {
   ul.social__media li{
     width: 100%;
-    } 
+    }
   }
 }
 </style>

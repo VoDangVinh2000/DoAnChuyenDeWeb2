@@ -1,8 +1,8 @@
 <template>
     <Header/>
     <Events/>
-    <!-- <Footer1/>
-    <Footer2/> -->
+    <Footer1/>
+    <Footer2/>
 </template>
 
 <script>
