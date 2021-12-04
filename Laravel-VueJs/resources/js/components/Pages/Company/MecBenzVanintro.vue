@@ -6,7 +6,7 @@
                     xl="4"
                     lg="12"
                     md="12"
-                    v-for="item in benzCar"
+                    v-for="item in benzVans"
                     :key="item"
                 >
                     <h1 data-aos="fade-up" data-aos-duration="1800">
@@ -37,22 +37,20 @@
 export default {
     data() {
         return {
-            benzCar: [
-                { title: "Mercedes-Benz Vans.", text: "", load: "" },
-                {
-                    title: "",
-                    text: "Mercedes-Benz Vans is a global full-line supplier of vans and related services – the product range in the commercial segment includes the Sprinter van, midsize van Vito (in the USA “Metris”) and the small van Citan, who will get a successor in the second half of 2021. Mercedes-Benz Vans is represented in the private segment with the V-Class MPV and the Marco Polo recreational and camper vans. In the coming year, the product range will be expanded by the T-Class, a small van for private customers. With the eVito, the eSprinter and the EQV all-electric premium MPV, Mercedes-Benz Vans underlines how it is driving forward the development of alternative drives. Mercedes-Benz Vans reached unit sales of 374,700 vehicles in 2020.",
-                    load: "",
-                },
-                {
-                    title: "",
-                    text: "EQV 300:",
-                    text02: "Stromverbrauch kombiniert: 26,4–26,3 kWh/100 km;",
-                    text03: "CO₂-Emissionen kombiniert: 0 g/km.⁶",
-                    load: "Learn more",
-                },
+            benzVans: [
             ],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/company-mec-ben-vans";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.benzVans = await this.getDataApi();
     },
 };
 </script>

@@ -17,7 +17,7 @@
             <b-carousel-slide
                 v-for="(item, index) in isSlides"
                 :key="index"
-                :img-src="item.img"
+                :img-src="item.image"
                 :class="item.active"
             >
             </b-carousel-slide>
@@ -25,25 +25,25 @@
     </section>
 </template>
 <script>
-import img01 from "../../../../assets/img-company/slides-01.jpeg";
-import img02 from "../../../../assets/img-company/slides-02.jpeg";
-import img03 from "../../../../assets/img-company/slides-03.jpeg";
-import img04 from "../../../../assets/img-company/slides-04.webp";
-import img05 from "../../../../assets/img-company/slides-05.webp";
-
 export default {
     data() {
         return {
             slide: 0,
             sliding: null,
             isSlides: [
-                { img: img01, active: "active" },
-                { img: img02 },
-                { img: img03 },
-                { img: img04 },
-                { img: img05 },
             ],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/company-slide-01";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.isSlides = await this.getDataApi();
     },
 };
 </script>

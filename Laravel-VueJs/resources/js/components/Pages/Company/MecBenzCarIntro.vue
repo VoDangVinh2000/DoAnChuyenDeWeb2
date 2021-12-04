@@ -31,19 +31,19 @@ export default {
     data() {
         return {
             benzCar: [
-                { title: "Mercedes-Benz Cars.", text: "", load: "" },
-                {
-                    title: "",
-                    text: "The Mercedes-Benz Cars range covers every passengercar segment: from the urban microcar by smart, tothe exclusive product range by Mercedes-Benz andMercedes-Maybach, to the performance and sports carsby Mercedes-AMG. With Mercedes-EQ, Mercedes-BenzCars is driving forward the systematic developmentof alternative drives: the aim is to electrify theentire portfolio by 2022. The company will offer arange of electrified models in each segment,including 48-volt models, a wide choice of plug-inhybrids, and all-electric vehicles with battery. Inthis way, the Cars division of Mercedes-Benz AGensures individual mobility for a vast spectrum ofcustomer needs. The company aims to build theworld’s most desirable cars.",
-                    load: "",
-                },
-                {
-                    title: "",
-                    text: "In 2020, Mercedes-Benz Cars delivered 2,087,200 vehicles, achieving the fifth consecutive year with a wholesale level above two million passenger cars. Since 2016, Mercedes-Benz has maintained its leading global position in terms of sales compared with its core competitors every year.",
-                    load: "Learn more",
-                },
             ],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/company-mec-ben-car";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.benzCar = await this.getDataApi();
     },
 };
 </script>

@@ -1,26 +1,18 @@
 <template>
     <section id="our__goal">
-        <b-container>
-            <b-row>
+        <b-container  v-for="(item, index) in intro" :key="index">
+            <b-row v-if="item.name === 'our-goal'">
                 <b-col xl="4" lg="12" md="12">
                     <div class="left">
                         <h2 data-aos="fade-up" data-aos-duration="1800">
-                            Our goal: to build the world’s most desirable cars.
+                           {{item.title}}
                         </h2>
                         <b-card-text
                             data-aos="fade-up"
                             data-aos-duration="1800"
                             data-aos-delay="300"
                         >
-                            The Mercedes-Benz strategy is made up of six
-                            pillars. At its heart is the transformation of the
-                            company to become the number 1 for electric mobility
-                            and all-encompassing digitalisation. At the same
-                            time, there is a clear focus on the structural
-                            improvement of profitability, with sustainability as
-                            a guiding principle. The basis for the success of
-                            our new strategy is provided by our highly qualified
-                            and motivated team.
+                            {{item.text}}
                         </b-card-text>
                         <b-link
                             data-aos="fade-up"
@@ -38,7 +30,7 @@
                         data-aos="fade-up"
                         data-aos-duration="1800"
                     >
-                        <b-img :src="img" />
+                        <b-img :src="item.img" />
                     </div>
                 </b-col>
             </b-row>
@@ -46,12 +38,23 @@
     </section>
 </template>
 <script>
-import intro from "../../../../assets/img-company/intro-our-goal.webp";
 export default {
     data() {
         return {
-            img: intro,
+            intro: [
+            ],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/company-bottom-intro";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.intro = await this.getDataApi();
     },
 };
 </script>

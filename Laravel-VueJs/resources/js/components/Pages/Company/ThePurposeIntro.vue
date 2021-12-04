@@ -1,27 +1,18 @@
 <template>
     <section id="purpose">
-        <b-container>
-            <b-row>
+        <b-container v-for="(item, index) in intro" :key="index">
+            <b-row v-if="item.name === 'purpose'">
                 <b-col xl="4" md="12">
                     <div class="left">
                         <h2 data-aos="fade-up" data-aos-duration="1800">
-                            The Purpose of Mercedes-Benz Cars.
+                            {{item.title}}
                         </h2>
                         <b-card-text
                             data-aos="fade-up"
                             data-aos-duration="1800"
                             data-aos-delay="300"
                         >
-                            “First Move the World” – that is the Purpose of
-                            Mercedes-Benz Cars. It is the deeper meaning behind
-                            our work, it is what drives us, our “reason why”.
-                            “First Move the World” means pursuing more than what
-                            is immediately achievable. This pioneering spirit is
-                            part of our DNA. In times of change, it gives us a
-                            direction for our all-embracing and sustainable
-                            business strategy, and for our decisions. It gave
-                            rise to, for example, Ambition 2039 – our road to
-                            sustainable mobility.
+                           {{item.text}}
                         </b-card-text>
                         <b-link
                             data-aos="fade-up"
@@ -38,7 +29,7 @@
                         <b-img
                             data-aos="fade-up"
                             data-aos-duration="1800"
-                            :src="img"
+                            :src="item.img"
                         />
                     </div>
                 </b-col>
@@ -47,12 +38,24 @@
     </section>
 </template>
 <script>
-import introPurpose from "../../../../assets/img-company/the-purpose.webp";
 export default {
     data() {
         return {
-            img: introPurpose,
+             intro: [
+
+            ],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/company-bottom-intro";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.intro = await this.getDataApi();
     },
 };
 </script>
