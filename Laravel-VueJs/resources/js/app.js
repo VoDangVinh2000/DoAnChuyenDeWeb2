@@ -4,10 +4,10 @@ import router from "./router";
 import BootstrapVue3 from "bootstrap-vue-3";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue-3/dist/bootstrap-vue-3.css";
-import 'mdb-vue-ui-kit/css/mdb.min.css';
+
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+AOS.init()
 const app = createApp({});
 
 app.component("register-views", require("SrcComponent/views/Register.vue").default);
@@ -21,8 +21,13 @@ app.component("page-innovation", require("SrcComponent/views/Pages/Innovation/In
 app.component("page-design", require("SrcComponent/views/Pages/Design/Design.vue").default);
 app.component("page-events", require("SrcComponent/views/Pages/Events/Events.vue").default);
 app.component("page-museums_history", require("SrcComponent/views/Pages/Museums_History/Museums_History.vue").default);
+app.component("page-company",require("../js/views/Pages/Company/Company.vue").default);
+//Admin
+app.component("admin-innovation", require("SrcComponent/Components/Admin/Layouts/Innovation/Innovation.vue").default);
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");
-AOS.init();
+app.mount('#wrapper');
+AOS.init()
+
 export default app;

@@ -30,9 +30,9 @@
         </ul>
       </div>
       <!-- Search -->
-      <div class="iconsearch ">
+      <!-- <div class="iconsearch ">
         <a href=""><i class="fas fa-search"></i></a>
-      </div>
+      </div> -->
     </nav>
   </header>
 
@@ -87,6 +87,6 @@ export default {
   float: right;
 }
 .navbar-toggler{
-  background:white;
+  background:darkgray;
 }
 </style>

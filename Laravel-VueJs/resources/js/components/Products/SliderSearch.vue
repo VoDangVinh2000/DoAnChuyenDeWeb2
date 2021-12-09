@@ -118,6 +118,7 @@ export default {
   border: 1px solid #444444;
   border-radius: 0;
   color: #ddd;
+  text-decoration: none;
 }
 
 .carousel-caption a:hover {

@@ -51,5 +51,28 @@ Route::get('/cars-home',function(){
 Route::get('/innovation',function(){
     return view('app.Pages.innovation');
 });
+Route::get('/events',function(){
+    return view('app.Pages.events');
+});
+
+//page-design
+Route::get('/design',function(){
+    return view('app.Pages.design');
+});
+//Museums & History
+Route::get('/museums-history',function(){//index.js
+    return view('app.Pages.museumshistory');//museumshistory.balde.php
+});
+// Tạo route cho page Company About us
+Route::get('/company',function(){
+    return view('app.Pages.company');
+});
+
+
+//Admin
+Route::get('/admin/innovation',function(){
+    return view('app.Admin.Layouts.Innovation.Innovation');
+});
+
 
 

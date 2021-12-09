@@ -1,6 +1,6 @@
 <template>
   <MDBTabItem :tabId="tabId" :href="href">
-    <MDBBtn color="dark" rounded>{{ category_post_name }}</MDBBtn>
+    <button class="btn btn-dark">{{ category_post_name }}</button>
   </MDBTabItem>
 </template>
 

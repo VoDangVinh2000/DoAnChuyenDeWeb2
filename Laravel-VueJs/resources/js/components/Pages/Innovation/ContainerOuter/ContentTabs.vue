@@ -1,5 +1,5 @@
 <template>
-  <MDBTabPane :tabId="tabId" class="d-block">
+  <MDBTabPane :tabId="tabId">
     <div class="container-outer">
       <ul class="brandhub-thumb-list gap-1">
         <li
@@ -72,7 +72,7 @@ ul {
 
 .title-subtitle-brandhub .subtitle {
   transition: opacity 0.5s;
-  opacity: 0;
+  opacity: 1;
 }
 .title {
   overflow: hidden;
