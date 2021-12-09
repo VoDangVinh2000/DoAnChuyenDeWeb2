@@ -74,3 +74,7 @@ npm install && npm run dev
 # Đầu tiên , gõ câu lệnh cd Laravel-VueJs. Sau đó chạy những câu lệnh ở dưới
 ### Đừng gõ các gói trong đây nữa, lên trello có hướng dẫn cài. ^^
 
+## Các gói mới cần cài - Vĩnh
+
+npm install --save-dev node-sass sass-loader
+"json-server": "^0.17.0",

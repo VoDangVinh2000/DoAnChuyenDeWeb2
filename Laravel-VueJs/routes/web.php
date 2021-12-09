@@ -35,7 +35,7 @@ Route::get('/edit/{id}',function(){
 
 
 Route::fallback(function(){
-    return redirect('/home');
+    return redirect('/cars-home');
 });
 Route::post('register_test', [UserController::class,'store'])->name('register.store');//tạo route để gửi dữ liệu qua UserController
 Route::post('/login',[UserController::class,'login']);
@@ -47,3 +47,32 @@ Route::post('/delete/{id}',[UserController::class,'destroy']);
 Route::get('/cars-home',function(){
     return view('layouts.carshome');
 });
+
+Route::get('/innovation',function(){
+    return view('app.Pages.innovation');
+});
+Route::get('/events',function(){
+    return view('app.Pages.events');
+});
+
+//page-design
+Route::get('/design',function(){
+    return view('app.Pages.design');
+});
+//Museums & History
+Route::get('/museums-history',function(){//index.js
+    return view('app.Pages.museumshistory');//museumshistory.balde.php
+});
+// Tạo route cho page Company About us
+Route::get('/company',function(){
+    return view('app.Pages.company');
+});
+
+
+//Admin
+Route::get('/admin/innovation',function(){
+    return view('app.Admin.Layouts.Innovation.Innovation');
+});
+
+
+

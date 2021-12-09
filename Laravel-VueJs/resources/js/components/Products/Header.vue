@@ -16,65 +16,45 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item" v-for="(items, index) in item" :key="index">
-            <a class="nav-link" :href="items.link">{{ items.title }}</a>
+      <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+        <ul  class="navbar-nav ml-auto">
+          <li class="nav-item" v-for="item in data" :key="item.id">
+            <a class="nav-link" :href="item.link"> {{item.name}} </a>
           </li>
         </ul>
       </div>
       <!-- Search -->
-      <div class="iconsearch ">
+      <!-- <div class="iconsearch ">
         <a href=""><i class="fas fa-search"></i></a>
-      </div>
+      </div> -->
     </nav>
-
-   
   </header>
+
 </template>
 
 <script>
+import { createApp } from 'vue';
 export default {
-  name: "Header",
-  data() {
-    return {
-      item: [
-        {
-          title: "Comany",
-          link: "#",
-        },
-        {
-          title: "Vehicles",
-          link: "#",
-        },
-        {
-          title: "Design",
-          link: "#",
-        },
-        {
-          title: "Innovation",
-          link: "#",
-        },
-        {
-          title: "Museum & History",
-          link: "#",
-        },
-        {
-          title: "Sports",
-          link: "#",
-        },
-        {
-          title: "Events",
-          link: "#",
-        },
-      ],
-    };
-  },
+    name: "Header.vue",
+    data(){
+      return {
+        data: [],
+      };
+    },
+    methods: {
+      async getData(){
+        const url = "/api/all-menu";
+        const response = await fetch(url);
+        const data = await response.json();
 
-  moutnted() {},
+        return data;
+      },
+    },
+
+    async created() {
+      this.data = await this.getData();
+    },
+
 };
 </script>
 
@@ -99,5 +79,8 @@ export default {
 }
 .icon-i-right{
   float: right;
+}
+.navbar-toggler{
+  background:darkgray;
 }
 </style>
