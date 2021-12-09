@@ -20116,23 +20116,90 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! mdb-vue-ui-kit */ "./node_modules/mdb-vue-ui-kit/js/mdb.umd.min.js");
-/* harmony import */ var mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! mdb-vue-ui-kit */ "./node_modules/mdb-vue-ui-kit/js/mdb.umd.min.js");
+/* harmony import */ var mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    MDBDropdown: mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_0__.MDBDropdown,
-    MDBDropdownToggle: mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_0__.MDBDropdownToggle,
-    MDBDropdownMenu: mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_0__.MDBDropdownMenu,
-    MDBDropdownItem: mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_0__.MDBDropdownItem
+    MDBDropdown: mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_1__.MDBDropdown,
+    MDBDropdownToggle: mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_1__.MDBDropdownToggle,
+    MDBDropdownMenu: mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_1__.MDBDropdownMenu,
+    MDBDropdownItem: mdb_vue_ui_kit__WEBPACK_IMPORTED_MODULE_1__.MDBDropdownItem
   },
   setup: function setup() {
-    var dropdown25 = (0,vue__WEBPACK_IMPORTED_MODULE_1__.ref)(false);
+    var dropdown25 = (0,vue__WEBPACK_IMPORTED_MODULE_2__.ref)(false);
     return {
       dropdown25: dropdown25
     };
+  },
+  name: "Events.vue",
+  data: function data() {
+    return {
+      data_subevent: []
+    };
+  },
+  methods: {
+    getDataSubevent: function getDataSubevent() {
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        var url, reponse, data;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                url = "/api/all-subevent";
+                _context.next = 3;
+                return fetch(url);
+
+              case 3:
+                reponse = _context.sent;
+                _context.next = 6;
+                return reponse.json();
+
+              case 6:
+                data = _context.sent;
+                console.log(data);
+                return _context.abrupt("return", data);
+
+              case 9:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    }
+  },
+  created: function created() {
+    var _this = this;
+
+    return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return _this.getDataSubevent();
+
+            case 2:
+              _this.data_subevent = _context2.sent;
+
+            case 3:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }))();
   }
 });
 
@@ -21470,79 +21537,23 @@ var _hoisted_1 = {
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Lựa chọn ");
 
-var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("IAA MOBILITY 2021");
-
-var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Circle of Excellence");
-
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Driving Events");
-
-var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("G-Class Experience");
-
-var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("AMG Driving Academy");
-
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Classic Car Travel");
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Motorsport Tickets");
-
-var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "IAA MOBILITY 2021", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Circle of Excellence", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_12 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Driving Events", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_13 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "G-Class Experience", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "AMG Driving Academy", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_15 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Classic Car Travel", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Motorsport Tickets", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_17 = {
+var _hoisted_3 = {
   "class": "p-5 bg-image img-content",
   style: {
     "background-image": "url('https://www.mercedes-benz.com/en/events/_jcr_content/root/slider_0_copy/sliderchilditems/slideritem_0/image/MQ7-0-image-20191115103522/01-mercedes-benz_events_titel-3-3400x1440.jpeg')"
   }
 };
-var _hoisted_18 = {
+var _hoisted_4 = {
   "class": "mask"
 };
-var _hoisted_19 = {
+var _hoisted_5 = {
   "class": "h-100"
 };
-var _hoisted_20 = {
+var _hoisted_6 = {
   "class": "text-white"
 };
 
-var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
     "class": "mb-3"
   }, "Mercedes-Benz Events.", -1
@@ -21550,13 +21561,13 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Together with Mercedes-Benz, discover diverse events from the fields of "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" travel, driving events, sport, culture, classics and lifestyle, as well as "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("br"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" regular vehicle topics.")], -1
   /* HOISTED */
   );
 });
 
-var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "home"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h6", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
@@ -21573,32 +21584,32 @@ var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_24 = {
+var _hoisted_10 = {
   "class": "bv-example-row",
   "data-aos": "fade-up"
 };
 
-var _hoisted_25 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h3", null, "Mercedes-Benz Event highlights.", -1
   /* HOISTED */
   );
 });
 
-var _hoisted_26 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_12 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, " Today meConvention, tomorrow Circle of Excellence – experience the best Mercedes-Benz Events as if you were there by watching our live streams, get your exclusive motorsport tickets, and take part in driving safety trainings open to a select few only. Be it the AMG Driving Academy or one of the exciting classic-car tours – Mercedes-Benz Events are highlights packed with driving enjoyment, power and dynamism. ", -1
   /* HOISTED */
   );
 });
 
-var _hoisted_27 = {
+var _hoisted_13 = {
   "class": "product-event"
 };
-var _hoisted_28 = {
+var _hoisted_14 = {
   "class": "bv-example-row",
   "data-aos": "fade-up"
 };
 
-var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_15 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "G-class Experiencs Center."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     style: {
       "font-size": "1rem"
@@ -21608,7 +21619,7 @@ var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_30 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Mercedes-Benz Driving Events."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     style: {
       "font-size": "1rem"
@@ -21618,7 +21629,7 @@ var _hoisted_30 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Mercedes-AMG Driving Academy."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     style: {
       "font-size": "1rem"
@@ -21628,11 +21639,11 @@ var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_32 = {
+var _hoisted_18 = {
   "class": "bv-example-row"
 };
 
-var _hoisted_33 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_19 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Classic Car Travel."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     style: {
       "font-size": "1rem"
@@ -21642,7 +21653,7 @@ var _hoisted_33 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "G-class Experiencs Center."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
     style: {
       "font-size": "1rem"
@@ -21652,8 +21663,16 @@ var _hoisted_34 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_35 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"footer-event\" data-v-7c1327a9><div class=\"footer-title\" data-v-7c1327a9><span data-v-7c1327a9><i class=\"fas fa-gas-pump\" data-v-7c1327a9></i> Kraftstoffverbrauch kombiniert</span><span data-v-7c1327a9><i class=\"fas fa-leaf\" data-v-7c1327a9></i> CO₂-Emissionen kombiniert</span><span data-v-7c1327a9><i class=\"fas fa-gas-pump\" data-v-7c1327a9></i> Stromverbrauch im kombinierten Testzyklus</span></div><div class=\"footer-detail\" data-aos=\"fade-up\" data-v-7c1327a9><p data-v-7c1327a9>Product may vary after press date on 26.09.2014.</p><p data-v-7c1327a9> 1 Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren ermittelt. Es handelt sich um die „NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 1 Durchführungsverordnung (EU) 2017/1153. Die Kraftstoffverbrauchswerte wurden auf Basis dieser Werte errechnet. Der Stromverbrauch wurde auf der Grundlage der VO 692/2008/EG ermittelt. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter www.dat.de unentgeltlich erhältlich ist. </p><p data-v-7c1327a9> 4 Angaben zu Kraftstoffverbrauch, Stromverbrauch und CO₂-Emissionen sind vorläufig und wurden vom Technischen Dienst für das Zertifizierungsverfahren nach Maßgabe des WLTP-Prüfverfahrens ermittelt und in NEFZ-Werte korreliert. Eine EG-Typgenehmigung und Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p><p data-v-7c1327a9> 6 Stromverbrauch und Reichweite wurden auf der Grundlage der VO 692/2008/EG ermittelt. Stromverbrauch und Reichweite sind abhängig von der Fahrzeugkonfiguration. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter www.dat.de unentgeltlich erhältlich ist. </p><p data-v-7c1327a9> 7 Angaben zu Stromverbrauch und Reichweite sind vorläufig und wurden vom Technischen Dienst für das Zertifizierungsverfahren nach Maßgabe der UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung und eine Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p><p data-v-7c1327a9> 8 Alle technischen Angaben sind vorläufig und wurden intern nach Maßgabe der jeweils anwendbaren Zertifizierungsmethode ermittelt. Es liegen bislang weder bestätigte Werte vom TÜV noch eine EG-Typgenehmigung noch eine Konformitätsbescheinigung mit amtlichen Werten vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p></div></div>", 1);
-
+var _hoisted_21 = {
+  "class": "footer-event"
+};
+var _hoisted_22 = {
+  "class": "footer-title"
+};
+var _hoisted_23 = {
+  "class": "footer-detail",
+  "data-aos": "fade-up"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_MDBDropdownToggle = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("MDBDropdownToggle");
 
@@ -21705,70 +21724,26 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
       }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownMenu, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownItem, {
-            href: "#"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_3];
-            }),
-            _: 1
-            /* STABLE */
+          return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.data_subevent, function (itemSubevent) {
+            return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+              key: itemSubevent.id
+            }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownItem, {
+              href: "#"
+            }, {
+              "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+                return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(itemSubevent.subevent_item), 1
+                /* TEXT */
+                )];
+              }),
+              _: 2
+              /* DYNAMIC */
 
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownItem, {
-            href: "#"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_4];
-            }),
-            _: 1
-            /* STABLE */
-
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownItem, {
-            href: "#"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_5];
-            }),
-            _: 1
-            /* STABLE */
-
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownItem, {
-            href: "#"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_6];
-            }),
-            _: 1
-            /* STABLE */
-
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownItem, {
-            href: "#"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_7];
-            }),
-            _: 1
-            /* STABLE */
-
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownItem, {
-            href: "#"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_8];
-            }),
-            _: 1
-            /* STABLE */
-
-          }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_MDBDropdownItem, {
-            href: "#"
-          }, {
-            "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_9];
-            }),
-            _: 1
-            /* STABLE */
-
-          })];
+            }, 1024
+            /* DYNAMIC_SLOTS */
+            )]);
+          }), 128
+          /* KEYED_FRAGMENT */
+          ))];
         }),
         _: 1
         /* STABLE */
@@ -21786,65 +21761,33 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "bg-secondary header-title"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_10];
-        }),
-        _: 1
-        /* STABLE */
+      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.data_subevent, function (itemSubevent) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+          key: itemSubevent.id
+        }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+          "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(itemSubevent.subevent_item), 1
+            /* TEXT */
+            )];
+          }),
+          _: 2
+          /* DYNAMIC */
 
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_11];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_12];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_13];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_14];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_15];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_16];
-        }),
-        _: 1
-        /* STABLE */
-
-      })];
+        }, 1024
+        /* DYNAMIC_SLOTS */
+        )]);
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))];
     }),
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Background image "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_20, [_hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_h7, {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Background image "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [_hoisted_7, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_h7, {
     "class": "mb-3"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_22];
+      return [_hoisted_8];
     }),
     _: 1
     /* STABLE */
@@ -21855,13 +21798,13 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "data-aos": "fade-up"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+      return [_hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
           return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
             "class": "introduce"
           }, {
             "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-              return [_hoisted_25, _hoisted_26];
+              return [_hoisted_11, _hoisted_12];
             }),
             _: 1
             /* STABLE */
@@ -21883,7 +21826,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_28, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
         "class": "p-5 bg-image img-product",
@@ -21895,7 +21838,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_29];
+          return [_hoisted_15];
         }),
         _: 1
         /* STABLE */
@@ -21909,7 +21852,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_30];
+          return [_hoisted_16];
         }),
         _: 1
         /* STABLE */
@@ -21923,7 +21866,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_31];
+          return [_hoisted_17];
         }),
         _: 1
         /* STABLE */
@@ -21933,7 +21876,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_32, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
         "class": "p-5 bg-image img-product img-product-fail",
@@ -21943,7 +21886,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_33];
+          return [_hoisted_19];
         }),
         _: 1
         /* STABLE */
@@ -21957,7 +21900,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         }
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_34];
+          return [_hoisted_20];
         }),
         _: 1
         /* STABLE */
@@ -21975,7 +21918,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  })]), _hoisted_35])]);
+  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_22, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.data_subevent, function (itemSubevent) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", {
+      key: itemSubevent.id
+    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(itemSubevent.event_introduce_title), 1
+    /* TEXT */
+    );
+  }), 128
+  /* KEYED_FRAGMENT */
+  ))]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_23, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.data_subevent, function (itemSubevent) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
+      key: itemSubevent.id
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(itemSubevent.event_introduce), 1
+    /* TEXT */
+    )]);
+  }), 128
+  /* KEYED_FRAGMENT */
+  ))])])])]);
 }
 
 /***/ }),
@@ -23390,7 +23349,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#events[data-v-7c1327a9] {\r\n    font-family: Arial, Helvetica, sans-serif;\n}\n#events .header-title[data-v-7c1327a9] {\r\n    height: 80px;\r\n    padding: 15px 95px;\r\n    display: flex;\r\n    font-size: 1.1rem;\r\n    justify-content: space-between;\r\n    /* left: 0;\r\n    max-width: 100%;\r\n    overflow: visible;\r\n    position: fixed !important;\r\n    top: 0;\r\n    width: 100%;\r\n    z-index: 1000; */\n}\n#events .img-content[data-v-7c1327a9]{\r\n    width:100%;\r\n    height:711px;\r\n    background-size: contain;\r\n    background-repeat: no-repeat;\n}\n#events .header-title span[data-v-7c1327a9] {\r\n    color: rgba(211, 207, 197, 0.863);\r\n    cursor: pointer;\n}\n#events .header-title span[data-v-7c1327a9]:hover {\r\n    color: white;\n}\n#events .text-white[data-v-7c1327a9] {\r\n    position: relative;\r\n    left: 54px;\n}\n#events .home[data-v-7c1327a9] {\r\n    padding: 40px 0;\n}\n#events .home #back-home[data-v-7c1327a9]:hover {\r\n    color: #00adef;\r\n    cursor: pointer;\n}\n#events .bv-example-row p[data-v-7c1327a9] {\r\n    padding-right: 30px;\n}\n#events .product-event[data-v-7c1327a9] {\r\n    width: 100%;\r\n    height: 100%;\r\n    background: black;\r\n    padding: 0 10px;\r\n    position: relative;\r\n    top: 40px;\r\n    overflow: hidden;\n}\n#events .product-event .img-product[data-v-7c1327a9] {\r\n    margin: 1px;\r\n    overflow: hidden;\n}\n#events .product-event .footer-event .footer-title span[data-v-7c1327a9] {\r\n    position: relative;\r\n    padding: 0 30px;\r\n    top: 100px;\r\n    color: white;\n}\n#events .product-event .footer-event .footer-detail[data-v-7c1327a9] {\r\n    position: relative;\r\n    padding: 0 30px;\r\n    margin-bottom: 179px;\r\n    top: 140px;\r\n    background: black;\r\n    color: white;\n}\n#events .product-event .img-product span[data-v-7c1327a9] {\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n    top: 85%;\r\n    text-align: center;\r\n    left: 0;\r\n    background: black;\r\n    opacity: 0.5;\r\n    color: white;\r\n    font-size: 1.2rem;\n}\n#events .product-event .img-product span[data-v-7c1327a9]:hover {\r\n    transition: all 0.6s;\r\n    transform: translateY(-100px);\n}\r\n/* .hide {\r\n  opacity: 0;\r\n  left: -100%;\r\n} */\n@media all and (max-width: 1450px) {\n#events .header-title[data-v-7c1327a9] {\r\n        font-size: 0.8rem;\n}\n#events .img-content[data-v-7c1327a9]{\r\n        position: relative;\r\n        margin-bottom: -99px;\n}\n}\n@media all and (max-width: 1280px){\n#events .img-content[data-v-7c1327a9]{\r\n       margin-bottom: -178px;\n}\n}\n@media all and (max-width: 1180px){\n#events .drop-down-header[data-v-7c1327a9]{\r\n        display: block !important;\n}\n#events .header-title[data-v-7c1327a9] {\r\n      display: none;\n}\n#events .img-content[data-v-7c1327a9]{\r\n        margin-bottom: -218px;\n}\n}\n@media all and (max-width: 1000px){\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -292px;\n}\n#events .hidden-cars[data-v-7c1327a9]{\r\n        display: none;\n}\n#events .row[data-v-7c1327a9]{\r\n        height: 1120px;\r\n        display: flex;\r\n        flex-direction: column;\n}\n#events .introduce[data-v-7c1327a9]{\r\n        max-height: 250px !important;\n}\n#events .img-introduce[data-v-7c1327a9]{\r\n        max-height: 431px !important;\r\n        background-size: contain;\r\n        background-repeat: no-repeat;\n}\n#events .product-event[data-v-7c1327a9]{\r\n        position: relative;\r\n        top: -400px;\n}\n#events .img-product[data-v-7c1327a9]{\r\n            margin: -34px 0px;\n}\n#events .img-product-fail[data-v-7c1327a9]{\r\n        max-height: 463px;\r\n        overflow: hidden;\n}\n#events .footer-event[data-v-7c1327a9] {\r\n        position: relative;\r\n        top: -737px;\r\n        max-height: 711px;\n}\n#events .footer-title span[data-v-7c1327a9]{\r\n        display: flex;\r\n        flex-direction: row;\n}\n#events .product-event .img-product span[data-v-7c1327a9]{\r\n        /* position: absolute;\r\n        width: 100%;\r\n        height: 100%; */\r\n        top: 90%;\r\n        /* text-align: center;\r\n        left: 0;\r\n        background: black;\r\n        opacity: 0.5;\r\n        color: white;\r\n        font-size: 1.2rem; */\n}\n}\n@media all and (max-width: 800px){\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -377px;\n}\n}\n@media all and (max-width: 720px){\n#events .mask[data-v-7c1327a9]{\r\n        display: none;\n}\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -418px;\n}\n}\n@media all and (max-width: 600px){\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -468px;\n}\n}\n@media all and (max-width: 400px){\n#events .img-content[data-v-7c1327a9]{\r\n        margin-bottom: -553px;\n}\n}\n@media all and (max-width: 300px){\n#events .img-content[data-v-7c1327a9]{\r\n       margin-bottom: -600px;\n}\n}\n@media all and (max-width: 200px){\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -649px;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#events[data-v-7c1327a9] {\r\n    font-family: Arial, Helvetica, sans-serif;\n}\n#events .header-title[data-v-7c1327a9] {\r\n    height: 80px;\r\n    padding: 15px 95px;\r\n    display: flex;\r\n    font-size: 1.1rem;\r\n    justify-content: space-between;\r\n    /* left: 0;\r\n    max-width: 100%;\r\n    overflow: visible;\r\n    position: fixed !important;\r\n    top: 0;\r\n    width: 100%;\r\n    z-index: 1000; */\n}\n#events .img-content[data-v-7c1327a9]{\r\n    width:100%;\r\n    height:711px;\r\n    background-size: contain;\r\n    background-repeat: no-repeat;\n}\n#events .header-title span[data-v-7c1327a9] {\r\n    color: rgba(211, 207, 197, 0.863);\r\n    cursor: pointer;\n}\n#events .header-title span[data-v-7c1327a9]:hover {\r\n    color: white;\n}\n#events .text-white[data-v-7c1327a9] {\r\n    position: relative;\r\n    left: 54px;\n}\n#events .home[data-v-7c1327a9] {\r\n    padding: 40px 0;\n}\n#events .home #back-home[data-v-7c1327a9]:hover {\r\n    color: #00adef;\r\n    cursor: pointer;\n}\n#events .bv-example-row p[data-v-7c1327a9] {\r\n    padding-right: 30px;\n}\n#events .product-event[data-v-7c1327a9] {\r\n    width: 100%;\r\n    height: 100%;\r\n    background: black;\r\n    padding: 0 10px;\r\n    position: relative;\r\n    top: 40px;\r\n    overflow: hidden;\n}\n#events .product-event .img-product[data-v-7c1327a9] {\r\n    margin: 1px;\r\n    overflow: hidden;\n}\n#events .product-event .footer-event .footer-title span[data-v-7c1327a9] {\r\n    position: relative;\r\n    padding: 0 30px;\r\n    top: 100px;\r\n    color: white;\n}\n#events .product-event .footer-event .footer-detail[data-v-7c1327a9] {\r\n    position: relative;\r\n    padding: 0 30px;\r\n    margin-bottom: 179px;\r\n    top: 140px;\r\n    background: black;\r\n    color: white;\n}\n#events .product-event .img-product span[data-v-7c1327a9] {\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n    top: 85%;\r\n    text-align: center;\r\n    left: 0;\r\n    background: black;\r\n    opacity: 0.5;\r\n    color: white;\r\n    font-size: 1.2rem;\n}\n#events .product-event .img-product span[data-v-7c1327a9]:hover {\r\n    transition: all 0.6s;\r\n    transform: translateY(-100px);\n}\r\n/* .hide {\r\n  opacity: 0;\r\n  left: -100%;\r\n} */\n@media all and (max-width: 1450px) {\n#events .header-title[data-v-7c1327a9] {\r\n        font-size: 0.8rem;\n}\n#events .img-content[data-v-7c1327a9]{\r\n        position: relative;\r\n        margin-bottom: -99px;\n}\n}\n@media all and (max-width: 1280px){\n#events .img-content[data-v-7c1327a9]{\r\n       margin-bottom: -178px;\n}\n}\n@media all and (max-width: 1180px){\n#events .drop-down-header[data-v-7c1327a9]{\r\n        display: block !important;\n}\n#events .header-title[data-v-7c1327a9] {\r\n      display: none;\n}\n#events .img-content[data-v-7c1327a9]{\r\n        margin-bottom: -218px;\n}\n}\n@media all and (max-width: 1000px){\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -292px;\n}\n#events .hidden-cars[data-v-7c1327a9]{\r\n        display: none;\n}\n#events .row[data-v-7c1327a9]{\r\n        height: 1120px;\r\n        display: flex;\r\n        flex-direction: column;\r\n\t\tpadding: 0 20px;\n}\n#events .introduce[data-v-7c1327a9]{\r\n        max-height: 250px !important;\n}\n#events .img-introduce[data-v-7c1327a9]{\r\n        max-height: 431px !important;\r\n        background-size: contain;\r\n        background-repeat: no-repeat;\n}\n#events .product-event[data-v-7c1327a9]{\r\n        position: relative;\r\n        top: -400px;\n}\n#events .img-product[data-v-7c1327a9]{\r\n            margin: -34px 0px;\n}\n#events .img-product-fail[data-v-7c1327a9]{\r\n        max-height: 463px;\r\n        overflow: hidden;\n}\n#events .footer-event[data-v-7c1327a9] {\r\n        position: relative;\r\n        top: -737px;\r\n        max-height: 711px;\n}\n#events .footer-title span[data-v-7c1327a9]{\r\n        display: flex;\r\n        flex-direction: row;\n}\n#events .product-event .img-product span[data-v-7c1327a9]{\r\n        /* position: absolute;\r\n        width: 100%;\r\n        height: 100%; */\r\n        top: 90%;\r\n        /* text-align: center;\r\n        left: 0;\r\n        background: black;\r\n        opacity: 0.5;\r\n        color: white;\r\n        font-size: 1.2rem; */\n}\n}\n@media all and (max-width: 800px){\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -377px;\n}\n}\n@media all and (max-width: 720px){\n#events .mask[data-v-7c1327a9]{\r\n        display: none;\n}\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -418px;\n}\n}\n@media all and (max-width: 600px){\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -468px;\n}\n}\n@media all and (max-width: 400px){\n#events .img-content[data-v-7c1327a9]{\r\n        margin-bottom: -553px;\n}\n}\n@media all and (max-width: 300px){\n#events .img-content[data-v-7c1327a9]{\r\n       margin-bottom: -600px;\n}\n}\n@media all and (max-width: 200px){\n#events .img-content[data-v-7c1327a9]{\r\n         margin-bottom: -649px;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
