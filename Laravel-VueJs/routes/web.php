@@ -69,5 +69,10 @@ Route::get('/company',function(){
 });
 
 
+//Admin
+Route::get('/admin/innovation',function(){
+    return view('app.Admin.Layouts.Innovation.Innovation');
+});
+
 
 

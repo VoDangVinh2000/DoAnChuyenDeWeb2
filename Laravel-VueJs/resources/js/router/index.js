@@ -11,6 +11,8 @@ import Innovation from "SrcComponent/views/Pages/Innovation/Innovation.vue";
 import Events from "SrcComponent/views/Pages/Events/Events.vue";
 import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue"
 import Company from "../views/Pages/Company/Company.vue"
+//Admin
+// import Innovation from "SrcComponent/components/Admin/Layouts/Innovation.vue";
 const routes = [
     {
         /* Tạo routes trong vuejs */
@@ -70,6 +72,12 @@ const routes = [
         // component : Innovation
     },
 
+    //Admin router (Nếu f12 mà nó thông báo already component thì khỏi import đường dẫn nhé)
+      {
+        name : "admin-innovation",
+        path : "/admin/innovation",
+        component : Innovation
+    },
 ];
 
 const router = createRouter({
