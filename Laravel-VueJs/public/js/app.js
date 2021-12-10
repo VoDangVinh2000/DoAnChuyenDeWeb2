@@ -20248,7 +20248,9 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      intro: []
+      // img1: intro1,
+      // img2: intro
+      recent: []
     };
   },
   methods: {
@@ -20293,7 +20295,7 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
               return _this.getDataApi();
 
             case 2:
-              _this.intro = _context2.sent;
+              _this.recent = _context2.sent;
 
             case 3:
             case "end":
@@ -20394,15 +20396,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_magazine_it_must_be_love_2560x1440_webp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-magazine-it-must-be-love-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-magazine-it-must-be-love-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_magazine_dad_route_2560x1440_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-magazine-dad-route-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-magazine-dad-route-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_history_in_orbit_for_100_years_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-history-in-orbit-for-100-years-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-history-in-orbit-for-100-years-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_magazine_south_american_adventure_2560x1440_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_history_c_126_2560x1440_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_sl_special_2560x1440_webp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-sl-special-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-sl-special-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_classic_serviceparts_header_2560x1440_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../assets/img-museums/01-classic-serviceparts-header-2560x1440.webp */ "./resources/assets/img-museums/01-classic-serviceparts-header-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_center_expertise_2560x1440_webp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_museum_rudolf_caracciola_2560x1440_webp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_magazine_it_must_be_love_2560x1440_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-magazine-it-must-be-love-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-magazine-it-must-be-love-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_magazine_dad_route_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-magazine-dad-route-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-magazine-dad-route-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_history_in_orbit_for_100_years_2560x1440_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-history-in-orbit-for-100-years-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-history-in-orbit-for-100-years-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_magazine_south_american_adventure_2560x1440_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_history_c_126_2560x1440_webp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_sl_special_2560x1440_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-sl-special-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-sl-special-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_classic_serviceparts_header_2560x1440_webp__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../../../assets/img-museums/01-classic-serviceparts-header-2560x1440.webp */ "./resources/assets/img-museums/01-classic-serviceparts-header-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_center_expertise_2560x1440_webp__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_museum_rudolf_caracciola_2560x1440_webp__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 
 
 
@@ -20415,37 +20425,73 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
     return {
-      btImg1: [{
-        img: _assets_img_museums_01_mercedes_benz_classic_magazine_it_must_be_love_2560x1440_webp__WEBPACK_IMPORTED_MODULE_0__["default"],
-        text: "It must be love. More and more young people are driving and celebrating Mercedes-Benz classics. A journey through a very colourful, passionate scene."
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_classic_magazine_dad_route_2560x1440_webp__WEBPACK_IMPORTED_MODULE_1__["default"],
-        text: "On the “Dad Route”: A success story. With hard work and luck, dreams can come true. Danny Lucas believed it and wrote his own success story."
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_history_in_orbit_for_100_years_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__["default"],
-        text: "In orbit for 100 years. The Mercedes star in the ring turns 100: the trademark was registered by the Daimler-Motoren-Gesellschaft i..."
-      }],
-      btImg2: [{
-        img: _assets_img_museums_01_mercedes_benz_classic_magazine_south_american_adventure_2560x1440_webp__WEBPACK_IMPORTED_MODULE_3__["default"],
-        text: "South American adventure. After a year of pandemic, Kevin and Lars see their Mercedes-Benz 300 TE left behind in the jungle again."
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_classic_history_c_126_2560x1440_webp__WEBPACK_IMPORTED_MODULE_4__["default"],
-        text: "The epic SEC. Born in 1981: the SEC Coupés of the 126 model series."
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_classic_sl_special_2560x1440_webp__WEBPACK_IMPORTED_MODULE_5__["default"],
-        text: "The Mercedes-Benz SL. There is no end to the fascination of the Mercedes-Benz SL: each generation is a chapter in this tradition ..."
-      }],
-      btImg3: [{
-        img: _assets_img_museums_01_classic_serviceparts_header_2560x1440_webp__WEBPACK_IMPORTED_MODULE_6__["default"],
-        text: "Classic spare parts. Mercedes-Benz Classic offers genuine spare parts of the highest quality for the preservation of your classi..."
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_classic_center_expertise_2560x1440_webp__WEBPACK_IMPORTED_MODULE_7__["default"],
-        text: "Manufacturer’s expert assessment. The unique confirmation of the originality of your classic: reliable, transparent, from Mercedes-Benz Class..."
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_museum_rudolf_caracciola_2560x1440_webp__WEBPACK_IMPORTED_MODULE_8__["default"],
-        text: "Master of Silver Arrows. Rudolf Caracciola is the most successful German racing driver of the 1930s. Hot on his heels at the Mercede..."
-      }]
+      btImg: [// { img: img1, text: "It must be love. More and more young people are driving and celebrating Mercedes-Benz classics. A journey through a very colourful, passionate scene." },
+        // { img: img2, text: "On the “Dad Route”: A success story. With hard work and luck, dreams can come true. Danny Lucas believed it and wrote his own success story." },
+        // { img: img3, text: "In orbit for 100 years. The Mercedes star in the ring turns 100: the trademark was registered by the Daimler-Motoren-Gesellschaft i..." },
+      ] // btImg2: [
+      // { img: img4, text: "South American adventure. After a year of pandemic, Kevin and Lars see their Mercedes-Benz 300 TE left behind in the jungle again."},
+      // { img: img5, text: "The epic SEC. Born in 1981: the SEC Coupés of the 126 model series." },
+      // { img: img6, text: "The Mercedes-Benz SL. There is no end to the fascination of the Mercedes-Benz SL: each generation is a chapter in this tradition ..." },
+      // ],
+      // btImg3: [
+      // { img: img7, text: "Classic spare parts. Mercedes-Benz Classic offers genuine spare parts of the highest quality for the preservation of your classi..." },
+      // { img: img8, text: "Manufacturer’s expert assessment. The unique confirmation of the originality of your classic: reliable, transparent, from Mercedes-Benz Class..." },
+      // { img: img9, text: "Master of Silver Arrows. Rudolf Caracciola is the most successful German racing driver of the 1930s. Hot on his heels at the Mercede..." },
+      // ],
+
     };
+  },
+  methods: {
+    getDataApi: function getDataApi() {
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        var url, response, data;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                url = "/api/image-recent-museum";
+                _context.next = 3;
+                return fetch(url);
+
+              case 3:
+                response = _context.sent;
+                _context.next = 6;
+                return response.json();
+
+              case 6:
+                data = _context.sent;
+                return _context.abrupt("return", data);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    }
+  },
+  created: function created() {
+    var _this = this;
+
+    return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return _this.getDataApi();
+
+            case 2:
+              _this.btImg = _context2.sent;
+
+            case 3:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }))();
   }
 });
 
@@ -20656,12 +20702,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_magazine_south_american_adventure_2560x1440_webp__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_history_c_126_2560x1440_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_sl_special_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-sl-special-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-sl-special-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_classic_serviceparts_header_2560x1440_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/img-museums/01-classic-serviceparts-header-2560x1440.webp */ "./resources/assets/img-museums/01-classic-serviceparts-header-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_center_expertise_2560x1440_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp");
-/* harmony import */ var _assets_img_museums_01_mercedes_benz_museum_rudolf_caracciola_2560x1440_webp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_magazine_south_american_adventure_2560x1440_webp__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-magazine-south-american-adventure-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_history_c_126_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-history-c-126-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_sl_special_2560x1440_webp__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-sl-special-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-sl-special-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_classic_serviceparts_header_2560x1440_webp__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../../assets/img-museums/01-classic-serviceparts-header-2560x1440.webp */ "./resources/assets/img-museums/01-classic-serviceparts-header-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_classic_center_expertise_2560x1440_webp__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-classic-center-expertise-2560x1440.webp");
+/* harmony import */ var _assets_img_museums_01_mercedes_benz_museum_rudolf_caracciola_2560x1440_webp__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../../../assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp */ "./resources/assets/img-museums/01-mercedes-benz-museum-rudolf-caracciola-2560x1440.webp");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 
 
 
@@ -20673,21 +20727,66 @@ __webpack_require__.r(__webpack_exports__);
     return {
       slide: 0,
       sliding: null,
-      isSlides: [{
-        img: _assets_img_museums_01_mercedes_benz_classic_magazine_south_american_adventure_2560x1440_webp__WEBPACK_IMPORTED_MODULE_0__["default"],
-        active: "active"
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_classic_history_c_126_2560x1440_webp__WEBPACK_IMPORTED_MODULE_1__["default"]
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_classic_sl_special_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__["default"]
-      }, {
-        img: _assets_img_museums_01_classic_serviceparts_header_2560x1440_webp__WEBPACK_IMPORTED_MODULE_3__["default"]
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_classic_center_expertise_2560x1440_webp__WEBPACK_IMPORTED_MODULE_4__["default"]
-      }, {
-        img: _assets_img_museums_01_mercedes_benz_museum_rudolf_caracciola_2560x1440_webp__WEBPACK_IMPORTED_MODULE_5__["default"]
-      }]
+      isSlides: [// { img: img1, active: "active" },
+        // { img: img2 },
+        // { img: img3 },
+        // { img: img4 },
+        // { img: img5 },
+        // { img: img6 },
+      ]
     };
+  },
+  methods: {
+    getDataApi: function getDataApi() {
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        var url, response, data;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                url = "/api/slides-carousel-museum";
+                _context.next = 3;
+                return fetch(url);
+
+              case 3:
+                response = _context.sent;
+                _context.next = 6;
+                return response.json();
+
+              case 6:
+                data = _context.sent;
+                return _context.abrupt("return", data);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    }
+  },
+  created: function created() {
+    var _this = this;
+
+    return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return _this.getDataApi();
+
+            case 2:
+              _this.isSlides = _context2.sent;
+
+            case 3:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }))();
   }
 });
 
@@ -22145,9 +22244,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_b_container = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-container");
 
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.intro, function (item, index) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.recent, function (item) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_container, {
-      key: index
+      key: item
     }, {
       "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
         return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
@@ -22174,7 +22273,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
                 }, 1024
                 /* DYNAMIC_SLOTS */
                 ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
-                  src: item.img,
+                  src: item.img1,
                   "data-aos": "fade-up",
                   "data-aos-duration": "1500"
                 }, null, 8
@@ -22192,7 +22291,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
             }, {
               "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
                 return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
-                  src: item.img,
+                  src: item.img1,
                   "data-aos": "fade-up",
                   "data-aos-duration": "1500"
                 }, null, 8
@@ -22565,12 +22664,6 @@ var _hoisted_1 = {
 var _hoisted_2 = {
   "class": "group1"
 };
-var _hoisted_3 = {
-  "class": "group2"
-};
-var _hoisted_4 = {
-  "class": "group3"
-};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_b_img = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-img");
 
@@ -22580,7 +22673,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("section", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.btImg1, function (item, i) {
+      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.btImg, function (item, i) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_col, {
           md: "4",
           key: i,
@@ -22609,69 +22702,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.btImg2, function (item, i) {
-        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_col, {
-          md: "4",
-          key: i,
-          "data-aos": "fade-up",
-          "data-aos-duration": "1800"
-        }, {
-          "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
-              src: item.img
-            }, null, 8
-            /* PROPS */
-            , ["src"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
-            /* TEXT */
-            )])];
-          }),
-          _: 2
-          /* DYNAMIC */
-
-        }, 1024
-        /* DYNAMIC_SLOTS */
-        );
-      }), 128
-      /* KEYED_FRAGMENT */
-      ))];
-    }),
-    _: 1
-    /* STABLE */
-
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.btImg3, function (item, i) {
-        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_col, {
-          md: "4",
-          key: i,
-          "data-aos": "fade-up",
-          "data-aos-duration": "1800"
-        }, {
-          "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_img, {
-              src: item.img
-            }, null, 8
-            /* PROPS */
-            , ["src"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h2", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.text), 1
-            /* TEXT */
-            )])];
-          }),
-          _: 2
-          /* DYNAMIC */
-
-        }, 1024
-        /* DYNAMIC_SLOTS */
-        );
-      }), 128
-      /* KEYED_FRAGMENT */
-      ))];
-    }),
-    _: 1
-    /* STABLE */
-
-  })]);
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <b-row>\r\n            <b-col  md=\"4\" v-for=\"(item, i) in btImg2\" :key=\"i\" data-aos =\"fade-up\"\r\n                        data-aos-duration=\"1800\">\r\n                <div class=\"group2\">\r\n                    <b-img :src=\"item.img\"></b-img>\r\n                    <h2>{{ item.text }}</h2>\r\n                </div>\r\n            </b-col>\r\n        </b-row>\r\n        <b-row>\r\n            <b-col md=\"4\"  v-for=\"(item, i) in btImg3\" :key=\"i\" data-aos =\"fade-up\"\r\n                        data-aos-duration=\"1800\">\r\n                <div class=\"group3\">\r\n                    <b-img :src=\"item.img\"></b-img>\r\n                    <h2>{{ item.text }}</h2>\r\n                </div>\r\n            </b-col>\r\n        </b-row> ")]);
 }
 
 /***/ }),
@@ -23106,7 +23137,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.isSlides, function (item, index) {
         return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_carousel_slide, {
           key: index,
-          "img-src": item.img,
+          "img-src": item.image,
           "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)(item.active)
         }, null, 8
         /* PROPS */
@@ -24637,18 +24668,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../../node_modules/css-loader/dist/runtime/getUrl.js */ "./node_modules/css-loader/dist/runtime/getUrl.js");
-/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _assets_img_museums_06_mercedes_benz_classic_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../assets/img-museums/06-mercedes-benz-classic-2560x1440.webp */ "./resources/assets/img-museums/06-mercedes-benz-classic-2560x1440.webp");
 // Imports
-
-
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(function(i){return i[1]});
 ___CSS_LOADER_EXPORT___.push([module.id, "@import url(https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap);"]);
-var ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_1___default()(_assets_img_museums_06_mercedes_benz_classic_2560x1440_webp__WEBPACK_IMPORTED_MODULE_2__["default"]);
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "\n#recent[data-v-7f61bafc] {\r\n    max-width: 1680px;\r\n    padding: 50px 0;\r\n    background-color: #000;\r\n    color: #fff;\n}\n.container[data-v-7f61bafc] {\r\n    max-width: 1265px;\n}\nh2[data-v-7f61bafc],\r\np[data-v-7f61bafc],\r\na[data-v-7f61bafc] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-7f61bafc] {\r\n    font-size: 2rem;\r\n    font-family: \"Lora\", serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\na[data-v-7f61bafc] {\r\n    width: 110px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #00adef;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\n}\na[data-v-7f61bafc]:hover {\r\n    background: #0088c6;\r\n    color: #fff;\n}\np[data-v-7f61bafc] {\r\n    text-indent: 0px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\r\n    padding: 33px 0;\r\n    padding-right: 20px;\n}\n.right[data-v-7f61bafc]{\r\n    width: 100%;\r\n    background-image: url(" + ___CSS_LOADER_URL_REPLACEMENT_0___ + ");\n}\nimg[data-v-7f61bafc]{\r\n    width: 100%;\n}\n@media screen and (max-width: 1280px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 1180px;\n}\n}\n@media screen and (max-width: 1024px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 964px;\n}\n.left[data-v-7f61bafc] {\r\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 768px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 500px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 380px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.2rem;\n}\na[data-v-7f61bafc] {\r\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 340px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.2rem;\n}\n}\r\n", ""]);
+___CSS_LOADER_EXPORT___.push([module.id, "\n#recent[data-v-7f61bafc] {\r\n    max-width: 1680px;\r\n    padding: 50px 0;\r\n    background-color: #000;\r\n    color: #fff;\n}\n.container[data-v-7f61bafc] {\r\n    max-width: 1265px;\n}\nh2[data-v-7f61bafc],\r\np[data-v-7f61bafc],\r\na[data-v-7f61bafc] {\r\n    margin: 0;\r\n    text-decoration: none;\n}\nh2[data-v-7f61bafc] {\r\n    font-size: 2rem;\r\n    font-family: \"Lora\", serif;\r\n    letter-spacing: -1px;\r\n    font-weight: 300;\n}\na[data-v-7f61bafc] {\r\n    width: 110px;\r\n    height: 45px;\r\n    color: #fff;\r\n    background: #00adef;\r\n    display: flex;\r\n    align-items: center;\r\n    justify-content: center;\n}\na[data-v-7f61bafc]:hover {\r\n    background: #0088c6;\r\n    color: #fff;\n}\np[data-v-7f61bafc] {\r\n    text-indent: 0px;\r\n    font-size: 13px;\r\n    font-weight: 400;\r\n    letter-spacing: 1px;\r\n    line-height: 20px;\r\n    text-align: start;\r\n    font-family: sans-serif;\r\n    padding: 33px 0;\r\n    padding-right: 20px;\n}\r\n\r\n/* .right{\r\n    width: 100%;\r\n    background-image: url(\"../../../../assets/img-museums/06-mercedes-benz-classic-2560x1440.webp\");\r\n} */\nimg[data-v-7f61bafc]{\r\n    width: 100%;\n}\n@media screen and (max-width: 1280px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 1180px;\n}\n}\n@media screen and (max-width: 1024px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 964px;\n}\n.left[data-v-7f61bafc] {\r\n        margin-bottom: 15px;\n}\n}\n@media screen and (max-width: 768px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 720px;\n}\n}\n@media screen and (max-width: 580px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 500px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.4rem;\n}\n}\n@media screen and (max-width: 480px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 380px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.2rem;\n}\na[data-v-7f61bafc] {\r\n        width: 100%;\n}\n}\n@media screen and (max-width: 380px) {\n.container[data-v-7f61bafc] {\r\n        max-width: 340px;\n}\nh2[data-v-7f61bafc] {\r\n        font-size: 1.2rem;\n}\n}\r\n", ""]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -25267,50 +25292,6 @@ module.exports = function (cssWithMappingToString) {
   };
 
   return list;
-};
-
-/***/ }),
-
-/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
-/*!********************************************************!*\
-  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
-  \********************************************************/
-/***/ ((module) => {
-
-"use strict";
-
-
-module.exports = function (url, options) {
-  if (!options) {
-    // eslint-disable-next-line no-param-reassign
-    options = {};
-  } // eslint-disable-next-line no-underscore-dangle, no-param-reassign
-
-
-  url = url && url.__esModule ? url.default : url;
-
-  if (typeof url !== "string") {
-    return url;
-  } // If url is already wrapped in quotes, remove them
-
-
-  if (/^['"].*['"]$/.test(url)) {
-    // eslint-disable-next-line no-param-reassign
-    url = url.slice(1, -1);
-  }
-
-  if (options.hash) {
-    // eslint-disable-next-line no-param-reassign
-    url += options.hash;
-  } // Should url be wrapped?
-  // See https://drafts.csswg.org/css-values-3/#urls
-
-
-  if (/["'() \t\n]/.test(url) || options.needQuotes) {
-    return "\"".concat(url.replace(/"/g, '\\"').replace(/\n/g, "\\n"), "\"");
-  }
-
-  return url;
 };
 
 /***/ }),

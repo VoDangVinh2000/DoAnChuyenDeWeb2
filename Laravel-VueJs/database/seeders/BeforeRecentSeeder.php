@@ -20,12 +20,14 @@ class BeforeRecentSeeder extends Seeder
             [
                 'title' => 'Mercedes-Benz Classic',
                 'text' => ' Experience a journey through time in the Mercedes-Benz Museum, fulfill your dream of a Mercedes-Benz classic car or learn more about our brand clubs. ',
-                'img' => 'images/05-mercedes-benz-classic-2560x1440.webp',
+                'img1' => 'images/05-mercedes-benz-classic-2560x1440.webp',
+                'img2' => '',
             ],
             [
                 'title' => '',
                 'text' => '',
-                'img' => 'images/06-mercedes-benz-classic-2560x1440.webp',
+                'img1' => '',
+                'img2' => 'images/06-mercedes-benz-classic-2560x1440.webp',
             ],
         ]);
     }

@@ -15,6 +15,8 @@ class CreateSlidesCarouselTable extends Migration
     {
         Schema::create('slides_carousel', function (Blueprint $table) {
             $table->id();
+            $table->string('active', 20);
+            $table->text('image');
             $table->timestamps();
         });
     }

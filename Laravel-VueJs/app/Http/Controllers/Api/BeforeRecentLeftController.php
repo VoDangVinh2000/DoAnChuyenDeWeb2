@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Models\BeforeRecent;
 use Illuminate\Http\Request;
 
-class BeforeRecentLeftControlle extends Controller
+class BeforeRecentLeftController extends Controller
 {
     /**
      * Display a listing of the resource.

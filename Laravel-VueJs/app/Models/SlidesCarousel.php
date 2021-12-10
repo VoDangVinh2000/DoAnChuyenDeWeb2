@@ -7,5 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 
 class SlidesCarousel extends Model
 {
+    protected $table = "slides_carousel";
     use HasFactory;
 }

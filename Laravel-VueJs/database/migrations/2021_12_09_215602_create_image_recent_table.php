@@ -15,6 +15,8 @@ class CreateImageRecentTable extends Migration
     {
         Schema::create('image_recent', function (Blueprint $table) {
             $table->id();
+            $table->text('img');
+            $table->text('text');
             $table->timestamps();
         });
     }

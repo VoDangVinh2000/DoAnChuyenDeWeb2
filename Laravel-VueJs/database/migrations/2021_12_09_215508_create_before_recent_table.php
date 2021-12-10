@@ -15,9 +15,11 @@ class CreateBeforeRecentTable extends Migration
     {
         Schema::create('before_recent', function (Blueprint $table) {
             $table->id();
+            // $table->string('name', 20);
             $table->text('title');
             $table->text('text');
-            $table->text('img');
+            $table->text('img1');
+            $table->text('img2');
             $table->timestamps();
         });
     }

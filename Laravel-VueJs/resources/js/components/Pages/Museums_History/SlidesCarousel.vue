@@ -14,7 +14,7 @@
             <b-carousel-slide
                 v-for="(item, index) in isSlides"
                 :key="index"
-                :img-src="item.img"
+                :img-src="item.image"
                 :class="item.active"
 
             >
@@ -37,14 +37,25 @@ export default {
             slide: 0,
             sliding: null,
             isSlides: [
-                { img: img1, active: "active" },
-                { img: img2 },
-                { img: img3 },
-                { img: img4 },
-                { img: img5 },
-                { img: img6 },
+                // { img: img1, active: "active" },
+                // { img: img2 },
+                // { img: img3 },
+                // { img: img4 },
+                // { img: img5 },
+                // { img: img6 },
             ],
         };
+    },
+     methods: {
+       async getDataApi() {
+            const url = "/api/slides-carousel-museum";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.isSlides = await this.getDataApi();
     },
 };
 </script>

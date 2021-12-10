@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\SlidesCarousel;
 use Illuminate\Http\Request;
 
 class SlidesCarouselController extends Controller
@@ -15,6 +16,9 @@ class SlidesCarouselController extends Controller
     public function index()
     {
         //
+
+        $slides = SlidesCarousel::all();
+        return response($slides, 200);
     }
 
     /**

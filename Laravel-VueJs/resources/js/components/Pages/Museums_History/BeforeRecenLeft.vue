@@ -1,8 +1,9 @@
 <template>
-    <section id="recent">
-        <b-container  v-for="(item, index) in intro" :key="index">
+    <section id="recent"  >
+        <b-container v-for="item in recent"
+                    :key="item">
             <b-row >
-                <b-col xl="4" md="12">
+                <b-col xl ="4" md="12" >
                     <div class="left">
                         <h2 data-aos ="fade-up"
                         data-aos-duration="1800">
@@ -14,13 +15,13 @@
                             <!-- Experience a journey through time in the Mercedes-Benz Museum, fulfill your dream of a Mercedes-Benz classic car or learn more about our brand clubs. -->
                             {{item.text}}
                         </b-card-text>
-                        <b-img  :src="item.img" data-aos ="fade-up"
+                        <b-img  :src="item.img1" data-aos ="fade-up"
                         data-aos-duration="1500"/>
                     </div>
                 </b-col>
-                <b-col xl="8" md="12">
+                <b-col xl= "8" md="12" >
                     <div class="right">
-                        <b-img  :src="item.img" data-aos ="fade-up"
+                        <b-img  :src="item.img1" data-aos ="fade-up"
                         data-aos-duration="1500" />
                     </div>
                 </b-col>
@@ -35,7 +36,9 @@ import intro1 from "../../../../assets/img-museums/05-mercedes-benz-classic-2560
 export default {
     data() {
         return {
-            intro:[],
+            // img1: intro1,
+            // img2: intro
+            recent:[],
         };
     },
      methods: {
@@ -47,7 +50,7 @@ export default {
         },
     },
     async created() {
-        this.intro = await this.getDataApi();
+        this.recent = await this.getDataApi();
     },
 };
 </script>
@@ -105,10 +108,10 @@ p {
     padding-right: 20px;
 }
 
-.right{
+/* .right{
     width: 100%;
     background-image: url("../../../../assets/img-museums/06-mercedes-benz-classic-2560x1440.webp");
-}
+} */
 
 img{
     width: 100%;
