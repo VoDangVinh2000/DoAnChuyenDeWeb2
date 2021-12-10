@@ -31,6 +31,7 @@
                         <th>{{itemSubgroup.subgroup_name}}</th>
                         <th>{{itemSubgroup.status}}</th>
                         <button type="button" class="btn" @click.prevent="editGetSubGroup(itemSubgroup.id)" data-toggle="modal" data-target="#exampleModal"><i class="far fa-edit"></i></button>
+                        <button type="button" class="btn" @click.prevent="deleteSubGroup(itemSubgroup.id)"><i class="fas fa-trash-alt"></i></button>
                         
                     </tr>
                 </thead>
@@ -119,6 +120,16 @@ export default {
       const data = await reponse.json();
       return data;
     },
+    deleteSubGroup(id) {
+     // let data = JSON.parse(localStorage.getItem("user"));
+        axios.post("/delete-subgroup/" + id + "", {}).then((response) => {
+        console.log(response.data);
+        window.location.href = "/admin/category";
+      })
+         .catch((error) => {
+                console.log(error.response.data);
+            })
+    },
     edit(){
       if(this.subgroup.id){
         axios
@@ -138,10 +149,11 @@ export default {
                 console.log(error.response.data);
             })
              window.location.href = "/admin/category";
-    }
+      }
       }
        
   },
+  
   async created() {
     this.data_subgroup = await this.getDataSubgroup();
   },
@@ -151,5 +163,16 @@ export default {
 #category .edit-category{
     text-decoration: none;
     color: black;
+}
+#category{
+    /* padding: 50px; */
+    background: #f8f9fc;
+    height: 694px;
+}
+.card-body{
+  background: white;
+}
+h1{
+  text-align: center;
 }
 </style>

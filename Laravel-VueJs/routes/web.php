@@ -89,4 +89,5 @@ Route::post('/subgroup-id/{id}',[SubGroupController::class,'update']);
 // });
 Route::post('create-category', [SubGroupController::class,'store'])->name('add.store');
 
+Route::post('/delete-subgroup/{id}',[SubGroupController::class,'destroy']);
 

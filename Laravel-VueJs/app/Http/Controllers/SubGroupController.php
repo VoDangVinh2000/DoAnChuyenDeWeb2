@@ -94,6 +94,7 @@ class SubGroupController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $subgroup = SubGroup::find($id);      
+        $subgroup->delete();
     }
 }
