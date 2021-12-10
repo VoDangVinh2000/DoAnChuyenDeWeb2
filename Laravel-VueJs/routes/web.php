@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\SubGroupController;
 use Illuminate\Http\Request;
 
 /*
@@ -34,9 +35,9 @@ Route::get('/edit/{id}',function(){
 });
 
 
-Route::fallback(function(){
-    return redirect('/cars-home');
-});
+// Route::fallback(function(){
+//     return redirect('/cars-home');
+// });
 Route::post('register_test', [UserController::class,'store'])->name('register.store');//tạo route để gửi dữ liệu qua UserController
 Route::post('/login',[UserController::class,'login']);
 Route::get('/home',[UserController::class,'index']);
@@ -73,6 +74,19 @@ Route::get('/company',function(){
 Route::get('/admin/innovation',function(){
     return view('app.Admin.Layouts.Innovation.Innovation');
 });
+Route::get('/admin/category',function(){
+    return view('app.Admin.Layouts.Subgroup.Subgroup');
+});
 
+Route::get('admin/edit-category/{id}',function(){
+    return view('app.Admin.Layouts.Subgroup.EditForm');
+});
+
+Route::post('/subgroup-id/{id}',[SubGroupController::class,'update']);
+
+Route::get('/admin/add-category',function(){
+    return view('app.Admin.Layouts.Subgroup.AddForm');
+});
+Route::post('create-category', [SubGroupController::class,'store'])->name('add.store');
 
 

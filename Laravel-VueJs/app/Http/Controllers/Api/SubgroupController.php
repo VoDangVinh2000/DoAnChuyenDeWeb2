@@ -47,7 +47,14 @@ class SubgroupController extends Controller
      */
     public function show($id)
     {
-        //
+        $subgroup = null;
+        if($id != null){
+            $subgroup = SubGroup::find($id);
+            return response($subgroup,200);
+        }
+        else{
+            return $subgroup;
+        }
     }
 
     /**

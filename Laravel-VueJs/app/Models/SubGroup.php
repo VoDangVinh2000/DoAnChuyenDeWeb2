@@ -8,5 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class SubGroup extends Model
 {
     protected $table = "subgroup";
+    protected $fillable = [
+        'subgroup_name',
+        'status',
+    ];
     use HasFactory;
 }

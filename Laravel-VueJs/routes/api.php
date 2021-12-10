@@ -46,4 +46,4 @@ Route::get('/all-category-article-post-innovation',[CategoryArticlePostControlle
 Route::get('/section-article-post-innovation/{id}',[SectionArticlesPostsController::class,'show'])->name('section-article-post-innovation-id');
 //This route get all category_article_post data by menumain.id
 Route::get('/category-article-post-innovation-menu-main-id/{id}',[CategoryArticlePostController::class,'show'])->name('category-article-post-innovation');
-
+Route::get('/subgroup-id/{id}',[SubgroupController::class,'show']);//Tìm subgroup với api
