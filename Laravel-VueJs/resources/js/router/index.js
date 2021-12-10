@@ -13,9 +13,6 @@ import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue"
 import Company from "../views/Pages/Company/Company.vue"
 //Admin
 // import Innovation from "SrcComponent/components/Admin/Layouts/Innovation.vue";
- //import AddForm from "SrcComponent/components/Admin/Layouts/EditSubGroup/AddForm.vue";
- //import SubGroup from "SrcComponent/components/Admin/Layouts/EditSubGroup/EditSubGroup.vue";
-//import EditForm from "SrcComponent/components/Admin/Layouts/EditSubGroup/EditForm.vue";
 const routes = [
     {
         /* Tạo routes trong vuejs */
@@ -81,16 +78,6 @@ const routes = [
         path : "/admin/innovation",
         component : Innovation
     },
-    // {
-    //     name : "edit-category",
-    //     path : "/admin/edit-category/:id",
-    //     component : EditForm
-    // },
-    // {
-    //     name : "subgroup",
-    //     path : "/admin/category",
-    //     component : SubGroup
-    // },
 ];
 
 const router = createRouter({

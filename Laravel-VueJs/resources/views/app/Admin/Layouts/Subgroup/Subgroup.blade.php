@@ -1,4 +1,4 @@
-@extends('app.Admin.master')
+@extends('master')
 @section('content')
     <admin-category></admin-category>
 @endsection

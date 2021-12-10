@@ -25,8 +25,6 @@ app.component("page-company",require("../js/views/Pages/Company/Company.vue").de
 //Admin
 app.component("admin-innovation", require("SrcComponent/Components/Admin/Layouts/Innovation/Innovation.vue").default);
 app.component("admin-category", require("SrcComponent/Components/Admin/Layouts/EditSubGroup/EditSubGroup.vue").default); 
-app.component("admin-editcategory", require("SrcComponent/Components/Admin/Layouts/EditSubGroup/EditForm.vue").default);
-app.component("admin-addcategory", require("SrcComponent/Components/Admin/Layouts/EditSubGroup/AddForm.vue").default);
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");
