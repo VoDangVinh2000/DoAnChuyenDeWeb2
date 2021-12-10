@@ -22,7 +22,7 @@
                         ></path>
                         <circle cx="63.026" cy="20.099" r="2.479"></circle>
                         </svg>
-                            <span> {{itemSubgroup.subgroup_name}}</span>
+                            <span @click.prevent="category()"> {{itemSubgroup.subgroup_name}}</span>
                     </a>
                 </p>
 
@@ -116,6 +116,9 @@ export default {
   async created() {
     this.data = await this.getData();
     this.data_subgroup = await this.getDataSubgroup();
+  },
+  category(){
+    alert(12);
   },
 };
 </script>

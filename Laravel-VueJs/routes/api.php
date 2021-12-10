@@ -40,7 +40,7 @@ Route::get('/subfooter/{id}',[SubFooterController::class,'show']);//Lấy danh s
 Route::get('/slides',[SlideShowController::class, 'index']);
 Route::get('/all-subgroup',[SubgroupController::class,'index']);//Lấy danh sách các cotegories
 Route::get('/all-cars',[CarsController::class,'index']);
-
+Route::get('/show-cars/{sub_group_id}',[CarsController::class,'show']);//Tìm loại xe với api
 #Api category-article-post
 Route::get('/all-category-article-post-innovation',[CategoryArticlePostController::class,'index'])->name('all-category-article-post-innovation');
 Route::get('/section-article-post-innovation/{id}',[SectionArticlesPostsController::class,'show'])->name('section-article-post-innovation-id');

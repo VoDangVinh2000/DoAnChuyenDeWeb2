@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers\Api;
-
+use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
 use App\Models\Cars;
 use Illuminate\Http\Request;
@@ -46,9 +46,16 @@ class CarsController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($sub_group_id)
     {
-        //
+        $cars = null;
+        if($sub_group_id != null){
+            $cars = DB::table('cars')->where('sub_group_id', $sub_group_id)->get();
+            return response($cars,200);
+        }
+        else{
+            return $cars;
+        }
     }
 
     /**
