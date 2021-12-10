@@ -11,6 +11,7 @@ import Innovation from "SrcComponent/views/Pages/Innovation/Innovation.vue";
 import Events from "SrcComponent/views/Pages/Events/Events.vue";
 import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue"
 import Company from "../views/Pages/Company/Company.vue"
+import AdminFooter from '../components/Admin/Layouts/Footer/ListFooter.vue'
 //Admin
 // import Innovation from "SrcComponent/components/Admin/Layouts/Innovation.vue";
 const routes = [
@@ -78,6 +79,12 @@ const routes = [
         path : "/admin/innovation",
         component : Innovation
     },
+
+    {
+        name: "admin-footer",
+        path: "/admin-footer",
+        component : AdminFooter,
+    }
 ];
 
 const router = createRouter({

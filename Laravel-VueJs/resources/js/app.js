@@ -24,10 +24,12 @@ app.component("page-museums_history", require("SrcComponent/views/Pages/Museums_
 app.component("page-company",require("../js/views/Pages/Company/Company.vue").default);
 //Admin
 app.component("admin-innovation", require("SrcComponent/Components/Admin/Layouts/Innovation/Innovation.vue").default);
+app.component("admin-footer", require("../js/components/Admin/Layouts/Footer/ListFooter.vue").default);
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");
 app.mount('#wrapper');
 AOS.init()
+
 
 export default app;

@@ -14,6 +14,13 @@
                     </button>
                 </li>
             </ul>
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-success">
+                        <a @click.prevent="footer" >Footer</a>
+                    </button>
+                </li>
+            </ul>
         </nav>
     </header>
 </template>
@@ -28,6 +35,12 @@ export default {
             if(user == null){
                 window.location.href ='/login';
             }
+        }
+    },
+    methods: {
+        //Vào admin footer
+         footer: function(event) {
+                window.location.href ='/admin-footer';
         }
     },
 
