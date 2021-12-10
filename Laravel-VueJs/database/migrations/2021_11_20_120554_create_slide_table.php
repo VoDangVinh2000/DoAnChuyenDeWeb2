@@ -15,13 +15,13 @@ class CreateSlideTable extends Migration
     {
         Schema::create('slide', function (Blueprint $table) {
             $table->id();
-            $table->string('active',6);
+            $table->string('active',6)->nullable();
             $table->string('title',150);
             $table->string('btn_text',150);
             $table->text('image');
-            $table->text('des_1');
-            $table->text('des_2');
-            $table->string('color',100);
+            $table->text('des_1')->nullable();
+            $table->text('des_2')->nullable();
+            $table->string('color',100)->nullable();
             $table->timestamps();
         });
     }

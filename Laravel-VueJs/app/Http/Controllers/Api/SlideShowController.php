@@ -48,7 +48,15 @@ class SlideShowController extends Controller
      */
     public function show($id)
     {
-        //
+        $slides = null;
+        if($id != null){
+            $slides = Slide::find($id);
+            return response($slides,200);
+        }
+        else{
+            return $slides;
+        }
+
     }
 
     /**

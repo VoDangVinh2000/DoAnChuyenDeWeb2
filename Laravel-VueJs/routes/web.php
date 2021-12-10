@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\SlidesController;
 use Illuminate\Http\Request;
 
 /*
@@ -73,6 +74,22 @@ Route::get('/company',function(){
 Route::get('/admin/innovation',function(){
     return view('app.Admin.Layouts.Innovation.Innovation');
 });
+
+Route::get('/admin/slides',function(){
+    return view('app.Admin.Layouts.Slider.Slider');
+});
+
+Route::get('/slides/add-slides',function(){
+    return view('app.Admin.Layouts.Slider.Add-Slides');
+});
+
+Route::get('/update-slides/{id}',function(){
+    return view('app.Admin.Layouts.Slider.Update-Slides');
+});
+
+Route::post('/create-slides', [SlidesController::class,'store'])->name('addSlide.store');
+Route::post('/update-slides/{id}',[SlidesController::class,'update']);
+Route::post('/delete-slides/{id}',[SlidesController::class,'destroy']);
 
 
 
