@@ -5,8 +5,8 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class BannerMuseum extends Model
+class BeforeRecent extends Model
 {
-    protected $table = "banner_menu";
+    protected $table = "before_recent";
     use HasFactory;
 }

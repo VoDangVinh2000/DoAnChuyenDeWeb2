@@ -3,9 +3,10 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
+use App\Models\BannerMuseum;
 use Illuminate\Http\Request;
 
-class BeforeRecentLeftControlle extends Controller
+class BannerMuseumController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,6 +16,8 @@ class BeforeRecentLeftControlle extends Controller
     public function index()
     {
         //
+        $bannerMenu = BannerMuseum::all();
+        return response($bannerMenu, 200);
     }
 
     /**

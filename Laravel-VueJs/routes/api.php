@@ -1,14 +1,14 @@
 <?php
 
-use App\Http\Controllers\Api\BannerMuseumControlle;
-use App\Http\Controllers\Api\BeforeRecentLeftControlle;
+use App\Http\Controllers\Api\BannerMuseumController;
+use App\Http\Controllers\Api\BeforeRecentLeftController;
 use App\Http\Controllers\Api\CarsController;
 use App\Http\Controllers\Api\FooterController;
-use App\Http\Controllers\Api\HistoryMecRightControlle;
-use App\Http\Controllers\Api\ImageBeforePhotosControlle;
-use App\Http\Controllers\Api\ImageRecentControlle;
-use App\Http\Controllers\Api\MecBenzHoursntroControlle;
-use App\Http\Controllers\Api\MenuMuseumControlle;
+use App\Http\Controllers\Api\HistoryMecRightController;
+use App\Http\Controllers\Api\ImageBeforePhotosController;
+use App\Http\Controllers\Api\ImageRecentController;
+use App\Http\Controllers\Api\MecBenzHoursntroController;
+use App\Http\Controllers\Api\MenuMuseumController;
 use App\Http\Controllers\Api\SlidesCarouselController;
 use App\Http\Controllers\Api\SlideShowController;
 use App\Http\Controllers\Api\SubFooterController;
@@ -47,11 +47,11 @@ Route::get('/all-subgroup', [SubgroupController::class, 'index']); //Lấy danh 
 Route::get('/all-cars', [CarsController::class, 'index']);
 
 /*  API PAGE MUSEM & HISTORY  */
-Route::get('/banner-museum', [BannerMuseumControlle::class, 'index']);
-Route::get('/before-recent-museum', [BeforeRecentLeftControlle::class, 'index']);
-Route::get('/history-mec-museum', [HistoryMecRightControlle::class, 'index']);
-Route::get('/image-photos-museum', [ImageBeforePhotosControlle::class, 'index']);
-Route::get('/image-recent-museum', [ImageRecentControlle::class, 'index']);
-Route::get('/mecbenz-hours-museum', [MecBenzHoursntroControlle::class, 'index']);
-Route::get('/menu-museum', [MenuMuseumControlle::class, 'index']);
+Route::get('/banner-museum', [BannerMuseumController::class, 'index']);
+Route::get('/before-recent-museum', [BeforeRecentLeftController::class, 'index']);
+Route::get('/history-mec-museum', [HistoryMecRightController::class, 'index']);
+Route::get('/image-photos-museum', [ImageBeforePhotosController::class, 'index']);
+Route::get('/image-recent-museum', [ImageRecentController::class, 'index']);
+Route::get('/mecbenz-hours-museum', [MecBenzHoursntroController::class, 'index']);
+Route::get('/menu-museum', [MenuMuseumController::class, 'index']);
 Route::get('/slides-carousel-museum', [SlidesCarouselController::class, 'index']);

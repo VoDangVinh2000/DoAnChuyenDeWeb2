@@ -1,24 +1,26 @@
 <template>
     <section id="recent">
-        <b-container>
-            <b-row>
-                <b-col md="4">
+        <b-container  v-for="(item, index) in intro" :key="index">
+            <b-row >
+                <b-col xl="4" md="12">
                     <div class="left">
                         <h2 data-aos ="fade-up"
                         data-aos-duration="1800">
-                            Mercedes-Benz Classic.
+                            <!-- Mercedes-Benz Classic. -->
+                            {{item.title}}
                         </h2>
                         <b-card-text data-aos ="fade-up"
                         data-aos-duration="1800">
-                            Experience a journey through time in the Mercedes-Benz Museum, fulfill your dream of a Mercedes-Benz classic car or learn more about our brand clubs.
+                            <!-- Experience a journey through time in the Mercedes-Benz Museum, fulfill your dream of a Mercedes-Benz classic car or learn more about our brand clubs. -->
+                            {{item.text}}
                         </b-card-text>
-                        <b-img :src="img1" data-aos ="fade-up"
+                        <b-img  :src="item.img" data-aos ="fade-up"
                         data-aos-duration="1500"/>
                     </div>
                 </b-col>
-                <b-col md="8">
+                <b-col xl="8" md="12">
                     <div class="right">
-                        <b-img :src="img" data-aos ="fade-up"
+                        <b-img  :src="item.img" data-aos ="fade-up"
                         data-aos-duration="1500" />
                     </div>
                 </b-col>
@@ -33,9 +35,19 @@ import intro1 from "../../../../assets/img-museums/05-mercedes-benz-classic-2560
 export default {
     data() {
         return {
-            img: intro,
-            img1: intro1
+            intro:[],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/before-recent-museum";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.intro = await this.getDataApi();
     },
 };
 </script>
