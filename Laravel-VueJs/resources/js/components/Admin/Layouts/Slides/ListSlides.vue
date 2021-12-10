@@ -1,6 +1,13 @@
 <template>
     <b-container class="my-3">
         <div class="card shadow mb-4">
+            <!-- Hiên thị thông báo lỗi khi người dùng nhập sai -->
+            <!-- <div class="alert alert-success text-center" v-if="check==true">
+                        <span>Xóa thành công</span>
+                    </div>
+                      <div class="alert alert-danger text-center" v-if="check==false">
+                        <span>Xóa thất bại</span>
+                    </div> -->
             <div class="card-header py-4" style="text-align: center">
                 <h3 class="m-0 font-weight-bold text-primary">Quản Lý Slide</h3>
             </div>
@@ -102,6 +109,7 @@ export default {
             load: true,
             itemClass: "carousel-item",
             slides: [],
+            check: null,
         };
     },
     methods: {
@@ -117,12 +125,18 @@ export default {
         deleteSlides(id) {
             axios
                 .post("/delete-slides/" + id + "", {})
-                .then((response) => {})
+                .then((response) => {
+                    this.check = true;
+                    if (response.data == "error") {
+                        alert("!!! Bạn không thể xóa khi còn 6 slide !!!");
+                    } else {
+                        alert("!!! Xóa thành công!!!");
+                        window.location.href = "/admin/slides";
+                    }
+                })
                 .catch((error) => {
-                    alert("!!! Bạn không thể xóa khi còn 6 slide !!!");
+                    this.check = false;
                 });
-            alert("Xóa thành công");
-            window.location.href = "/admin/slides";
         },
     },
     async created() {
@@ -185,5 +199,46 @@ img {
 .action {
     display: flex;
     justify-content: space-around;
+}
+.alert {
+    position: fixed;
+    z-index: 10;
+    width: 30%;
+    left: 34%;
+    top: -150px;
+    box-shadow: 10px 10px 15px rgb(0 0 0 / 30%);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: down 3s ease-in;
+    animation-iteration-count: 1;
+}
+
+@keyframes down {
+    0% {
+        top: -100px;
+    }
+    20% {
+        top: 10px;
+    }
+    30% {
+        top: 14px;
+    }
+    40% {
+        top: 10px;
+    }
+    50% {
+        top: 14px;
+    }
+    60% {
+        top: 10px;
+    }
+    90% {
+        top: 20px;
+    }
+    100% {
+        top: -100px;
+    }
 }
 </style>

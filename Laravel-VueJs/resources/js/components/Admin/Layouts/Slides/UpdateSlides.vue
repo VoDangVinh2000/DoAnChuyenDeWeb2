@@ -170,6 +170,9 @@ export default {
                     } else if (error.response.data.errors.btn_text) {
                         this.errors = error.response.data.errors.btn_text[0];
                     }
+                    else if (error.response.data.errors.color) {
+                        this.errors = error.response.data.errors.color[0];
+                    }
                 });
         },
     },

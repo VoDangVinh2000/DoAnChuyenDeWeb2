@@ -91,9 +91,14 @@ class SlidesController extends Controller
     public function update(Request $request, $id)
     {
         $slides = Slide::find($id);
-        if (! $slides) {
+        $this->validate($request, [
+            'title' => 'required',
+            'btn_text' => 'required',
+            'color' => 'required',
+        ]);
+        if (!$slides) {
             return response()
-            ->json(['error' => 'Error: User not found']);
+                ->json(['error' => 'Error: User not found']);
         }
         $slides->update($request->all());
         return response()->json(['message' => 'Success: You have updated the user']);
@@ -109,12 +114,12 @@ class SlidesController extends Controller
     {
         $count = DB::table('slide')->count('id');
         $slide = Slide::find($id);
-        if($count <= 7){
-            return response([],500);
+        if ($count > 6) {
+            $slide->delete();
+            return response()->json("successfully");
         }
         else{
-            $slide->delete();
-            return response();
+            return response()->json("error");
         }
     }
 }
