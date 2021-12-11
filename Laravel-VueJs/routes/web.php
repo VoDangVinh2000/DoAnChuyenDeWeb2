@@ -82,14 +82,14 @@ Route::get('/admin/slides',function(){
 Route::get('/slides/add-slides',function(){
     return view('app.Admin.Layouts.Slider.Add-Slides');
 });
-
+//view update slides
 Route::get('/update-slides/{id}',function(){
     return view('app.Admin.Layouts.Slider.Update-Slides');
 });
 
 Route::post('/create-slides', [SlidesController::class,'store'])->name('addSlide.store');
 
-Route::post('/update-slides/{id}',[SlidesController::class,'update']);
+Route::post('/update-slides/{id}',[SlidesController::class,'update']); //Update slides
 
 Route::post('/delete-slides/{id}',[SlidesController::class,'destroy']);
 

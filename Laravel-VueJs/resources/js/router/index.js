@@ -95,6 +95,7 @@ const routes = [
         component : AdminSlidesAdd
     },
     {
+        //Update slides
         name : "admin-slides-update",
         path : "/update-slides/:id",
         component : AdminSlidesUpdate

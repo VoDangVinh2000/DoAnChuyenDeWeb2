@@ -90,6 +90,7 @@ class SlidesController extends Controller
      */
     public function update(Request $request, $id)
     {
+        // Update slides
         $slides = Slide::find($id);
         $this->validate($request, [
             'title' => 'required',

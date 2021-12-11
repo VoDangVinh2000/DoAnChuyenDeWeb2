@@ -1,4 +1,5 @@
 <template>
+<!-- Update Slide -->
     <b-container class="my-3">
         <div class="card shadow mb-4">
             <div class="card-header py-3" style="text-align: center">

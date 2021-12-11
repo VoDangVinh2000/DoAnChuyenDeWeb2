@@ -28,7 +28,7 @@ app.component("admin-slides", require("./components/Admin/Layouts/Slides/ListSli
 
 app.component("admin-slides-add", require("./components/Admin/Layouts/Slides/AddSlides.vue").default);
 
-app.component("admin-slides-update-views", require("./components/Admin/Layouts/Slides/UpdateSlides.vue").default);
+app.component("admin-slides-update-views", require("./components/Admin/Layouts/Slides/UpdateSlides.vue").default); //Update slides
 
 app.use(router);
 app.use(BootstrapVue3);
