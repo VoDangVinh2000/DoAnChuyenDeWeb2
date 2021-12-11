@@ -113,6 +113,7 @@ class SlidesController extends Controller
      */
     public function destroy($id)
     {
+        // delete slides
         $count = DB::table('slide')->count('id');
         $slide = Slide::find($id);
         if ($count > 6) {

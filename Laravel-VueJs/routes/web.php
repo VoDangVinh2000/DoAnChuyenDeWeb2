@@ -91,7 +91,7 @@ Route::post('/create-slides', [SlidesController::class,'store'])->name('addSlide
 
 Route::post('/update-slides/{id}',[SlidesController::class,'update']);
 
-Route::post('/delete-slides/{id}',[SlidesController::class,'destroy']);
+Route::post('/delete-slides/{id}',[SlidesController::class,'destroy']); //delete slides
 
 
 

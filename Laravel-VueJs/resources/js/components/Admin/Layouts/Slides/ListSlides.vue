@@ -103,6 +103,7 @@ export default {
         updateSlide(id) {
             window.location.href = "/update-slides/" + btoa(id + "123");
         },
+        // delete slides
         deleteSlides(id) {
             axios
                 .post("/delete-slides/" + id + "", {})
