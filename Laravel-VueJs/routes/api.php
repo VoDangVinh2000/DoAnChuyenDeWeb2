@@ -40,4 +40,4 @@ Route::get('/subfooter/{id}',[SubFooterController::class,'show']);//Lấy danh s
 Route::get('/slides',[SlideShowController::class, 'index']);
 Route::get('/all-subgroup',[SubgroupController::class,'index']);//Lấy danh sách các cotegories
 Route::get('/all-cars',[CarsController::class,'index']);
-Route::get('/all-subevent',[SubeventController::class,'index']);// lấy ra danh sách các navbar trang event
+Route::get('/all-subevent',[SubeventController::class,'index']);// api page event
