@@ -14,7 +14,9 @@ import Company from "../views/Pages/Company/Company.vue"
 //Admin
 // import Innovation from "SrcComponent/components/Admin/Layouts/Innovation.vue";
 import AdminSlides from "../components/Admin/Layouts/Slides/ListSlides.vue"
+
 import AdminSlidesAdd from '../components/Admin/Layouts/Slides/AddSlides.vue'
+
 import AdminSlidesUpdate from '../components/Admin/Layouts/Slides/UpdateSlides.vue'
 const routes = [
     {

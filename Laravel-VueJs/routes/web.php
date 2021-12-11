@@ -88,7 +88,9 @@ Route::get('/update-slides/{id}',function(){
 });
 
 Route::post('/create-slides', [SlidesController::class,'store'])->name('addSlide.store');
+
 Route::post('/update-slides/{id}',[SlidesController::class,'update']);
+
 Route::post('/delete-slides/{id}',[SlidesController::class,'destroy']);
 
 

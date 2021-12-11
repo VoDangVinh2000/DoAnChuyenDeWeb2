@@ -1,13 +1,6 @@
 <template>
     <b-container class="my-3">
         <div class="card shadow mb-4">
-            <!-- Hiên thị thông báo lỗi khi người dùng nhập sai -->
-            <!-- <div class="alert alert-success text-center" v-if="check==true">
-                        <span>Xóa thành công</span>
-                    </div>
-                      <div class="alert alert-danger text-center" v-if="check==false">
-                        <span>Xóa thất bại</span>
-                    </div> -->
             <div class="card-header py-4" style="text-align: center">
                 <h3 class="m-0 font-weight-bold text-primary">Quản Lý Slide</h3>
             </div>
@@ -52,11 +45,7 @@
                         </tr>
                     </thead>
                     <tbody id="cmsSlideInAdmin">
-                        <tr
-                            class="show-info"
-                            v-for="(item, index) in slides"
-                            :key="index"
-                        >
+                        <tr class="show-info" v-for="(item, index) in slides" :key="index">
                             <td>
                                 <p>{{ index + 1 }}</p>
                             </td>
@@ -78,18 +67,10 @@
                                 <p v-else style="color: crimson">Null</p>
                             </td>
                             <td class="action">
-                                <a
-                                    href="/update-slides"
-                                    class="edit"
-                                    @click.prevent="updateSlide(item.id)"
-                                >
+                                <a href="/update-slides" class="edit" @click.prevent="updateSlide(item.id)">
                                     <i class="fas fa-user-edit"></i>
                                 </a>
-                                <a
-                                    href="#"
-                                    class="delete"
-                                    @click.prevent="deleteSlides(item.id)"
-                                >
+                                <a href="#" class="delete" @click.prevent="deleteSlides(item.id)" >
                                     <!-- bắt sự kiện -->
                                     <i class="fas fa-trash-alt"></i>
                                 </a>

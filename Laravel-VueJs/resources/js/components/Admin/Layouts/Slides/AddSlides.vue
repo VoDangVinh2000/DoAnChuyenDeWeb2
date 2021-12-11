@@ -15,9 +15,19 @@
             <div class="card-body">
                 <form method="post" enctype="multipart/form-data">
                     <!-- Hiên thị thông báo lỗi khi người dùng nhập sai -->
-                    <div class="alert alert-success text-center" v-if="check"
-                        ><span>!!! Thêm Slides thành công !!!</span></div>
-                    <div  class="error alert alert-danger text-center shadow" v-if="errors.length">
+                    <a
+                        href="/admin/slides"
+                        class="alert alert-success text-center"
+                        v-if="check"
+                    >
+                        <span
+                            >!!! Thêm Slides thành công !!! Nhấn vào để trở về
+                        </span>
+                    </a>
+                    <div
+                        class="error alert alert-danger text-center shadow"
+                        v-if="errors.length"
+                    >
                         <span v-for="(err, index) of errors" :key="index">
                             {{ err }}
                         </span>
@@ -35,6 +45,7 @@
                     </div>
                     <div class="form-group">
                         <label for="sImage">Hình Ảnh</label>
+
                         <input
                             type="file"
                             class="form-control"
@@ -43,6 +54,12 @@
                             accept="image/png, .jpeg, .jpg, image/gif, .webp"
                             @change="handleOnchange"
                         />
+                        <div class="img-add" v-if="slides.image != ''">
+                                <b-img :src="'/' + slides.image" />
+                        </div>
+                        <div class="img-add" v-if="slides.image == ''">
+                                <p>Vui lòng chọn ảnh</p>
+                        </div>
                     </div>
                     <div class="form-group">
                         <label for="sDescription">Name Link</label>
@@ -173,11 +190,9 @@ export default {
                     // console.log(error.response.data.errors.title);
                     if (error.response.data.errors.title) {
                         this.errors = error.response.data.errors.title[0];
-                    }
-                    else if (error.response.data.errors.btn_text) {
+                    } else if (error.response.data.errors.btn_text) {
                         this.errors = error.response.data.errors.btn_text[0];
-                    }
-                    else if (error.response.data.errors.color) {
+                    } else if (error.response.data.errors.color) {
                         this.errors = error.response.data.errors.color[0];
                     }
                 });
@@ -189,11 +204,52 @@ export default {
 a {
     text-decoration: none;
 }
+a:hover {
+    cursor: pointer;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+p{
+    margin: 0;
+}
 label {
     font-weight: bold;
     margin: 10px 0;
 }
 textarea {
     height: 100px;
+}
+
+.img-add{
+    margin-top: 30px;
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #c4c4c4;
+}
+
+img {
+    width: 100%;
+}
+
+.alert-success {
+    position: fixed;
+    width: 83%;
+    top: 10px;
+    box-shadow: 10px 10px 15px rgb(0 0 0 / 30%);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: down 1s ease-in;
+    animation-iteration-count: 1;
+}
+
+@keyframes down {
+    0% {
+        top: -100px;
+    }
+    100% {
+        top: 10px;
+    }
 }
 </style>
