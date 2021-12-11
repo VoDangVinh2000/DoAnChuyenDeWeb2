@@ -1,7 +1,9 @@
 <?php
 
+
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
+use App\Http\Controllers\HeaderController;
 use Illuminate\Http\Request;
 
 /*
@@ -74,5 +76,17 @@ Route::get('/admin/innovation',function(){
     return view('app.Admin.Layouts.Innovation.Innovation');
 });
 
+Route::get('/admin-header',function(){
+    return view('app.Admin.Layouts.Header.Header');
+});
 
+Route::get('/admin-addheader',function(){
+    return view('app.Admin.Layouts.Header.AddHeader');
+});
 
+Route::get('/admin-updateheader/{id}',function(){
+    return view('app.Admin.Layouts.Header.UpdateHeader');
+});
+
+Route::post('/creat-header', [HeaderController::class,'store']);//tạo route để gửi dữ liệu qua HeaderController
+Route::post('/update-header/{id}', [HeaderController::class,'update']);
