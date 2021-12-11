@@ -29,6 +29,12 @@
             >
               <i class="far fa-edit"></i>
             </a>
+             <a
+              class="btn"
+              @click.prevent="deleteHeader(item.id)"
+            >
+                 <i class="fas fa-trash-alt"></i>
+            </a>
           </tr>
         </thead>
       </table>
@@ -119,13 +125,25 @@ export default {
       const url = "/api/all-menu";
       const response = await fetch(url);
       const data = await response.json();
-      console.log(response);
       return data;
     },
     updateHeader(id){
       //  window.location.href = "/admin-updateheader/" + id;
        window.location.href = "/admin-updateheader/" + btoa(id + "123");
-    }
+    },
+     deleteHeader(id) {
+            axios
+                .post("/delete-header/" + id + "", {})
+                .then((response) => {
+                    if (response.data == "success") {
+                          alert("!!! Xóa thành công!!!");
+                        window.location.href = "/admin-header";
+                    }
+                })
+                .catch((error) => { 
+                  console.log(error.response.data);
+                });
+        },
   },
 
   async created() {

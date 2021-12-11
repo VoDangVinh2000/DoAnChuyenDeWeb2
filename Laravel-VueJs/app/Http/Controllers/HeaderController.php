@@ -95,6 +95,8 @@ class HeaderController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $menu = MenuMain::find($id);
+        $menu->delete();
+        return response()->json("success");
     }
 }

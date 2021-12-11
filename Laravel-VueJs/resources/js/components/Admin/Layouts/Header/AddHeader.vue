@@ -73,7 +73,18 @@ export default {
   },
   methods: {
     addHeader() {
-     
+      axios
+        .post("/creat-header", {
+          name: this.addheader.name,
+          link: this.addheader.link,
+          enabled: this.addheader.enabled
+        })
+        .then((response) => {
+           if(response.data == 'success'){
+             alert('Thêm thành công');
+             window.location.href = '/admin-header'
+           }
+        }).catch((error)=>{console.log(error.response.data)});
     },
   },
 };

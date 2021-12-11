@@ -90,3 +90,4 @@ Route::get('/admin-updateheader/{id}',function(){
 
 Route::post('/creat-header', [HeaderController::class,'store']);//tạo route để gửi dữ liệu qua HeaderController
 Route::post('/update-header/{id}', [HeaderController::class,'update']);
+Route::post('/delete-header/{id}',[HeaderController::class,'destroy']);
