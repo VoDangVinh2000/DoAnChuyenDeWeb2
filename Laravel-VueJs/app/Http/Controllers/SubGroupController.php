@@ -37,11 +37,21 @@ class SubGroupController extends Controller
      */
     public function store(Request $request)
     {
-        $subgroup = SubGroup::create([
-            'subgroup_name' => $request->input('subgroup_name'),
-            'status' => $request->input('status'),
-        ]);
-        $subgroup->save();
+         if( !is_null($request->input('subgroup_name')) &&
+            !is_int($request->input('subgroup_name')) &&
+            !is_object($request->input('subgroup_name')) &&
+            !is_array($request->input('subgroup_name')) &&
+            !is_int($request->input('subgroup_name')) &&
+            !is_bool($request->input('subgroup_name'))){
+                $subgroup = SubGroup::create([
+                'subgroup_name' => $request->input('subgroup_name'),
+                'status' => $request->input('status'),
+                ]); 
+                $subgroup->save();                              
+        }else{
+            return false;
+        }
+       
 
     }
 
@@ -79,11 +89,18 @@ class SubGroupController extends Controller
         $subgroup = SubGroup::find($id);
             $subgroup_name = $request->input('subgroup_name');
             $status = $request->input('status');
+            if(!is_null($subgroup_name) && !is_object($subgroup_name) &&
+             !is_array($subgroup_name) && !is_int($subgroup_name)){
+                DB::update('update subgroup set subgroup_name = ?, status = ? where id = ?',
+                [$subgroup_name,$status,$id]);
+            // $subgroup->save();
+                $request->session()->flash('statusTrue', 'Update successful!');
+            }
+            else{
+                return false;
+            }
 
-            DB::update('update subgroup set subgroup_name = ?, status = ? where id = ?',
-            [$subgroup_name,$status,$id]);
-           // $subgroup->save();
-            $request->session()->flash('statusTrue', 'Update successful!');
+            
     }
 
     /**
@@ -94,7 +111,14 @@ class SubGroupController extends Controller
      */
     public function destroy($id)
     {
-        $subgroup = SubGroup::find($id);      
-        $subgroup->delete();
+        if(!is_null($id) && !is_object($id && !is_string($id))
+        && $id > 0 && !is_array($id) && !is_bool($id)){
+            $subgroup = SubGroup::find($id);      
+            $subgroup->delete();
+        }
+        else{
+            return false;
+        }
+        
     }
 }
