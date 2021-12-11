@@ -34,9 +34,9 @@ Route::get('/edit/{id}',function(){
 });
 
 
-Route::fallback(function(){
-    return redirect('/cars-home');
-});
+// Route::fallback(function(){
+//     return redirect('/cars-home');
+// });
 Route::post('register_test', [UserController::class,'store'])->name('register.store');//tạo route để gửi dữ liệu qua UserController
 Route::post('/login',[UserController::class,'login']);
 Route::get('/home',[UserController::class,'index']);
