@@ -74,20 +74,14 @@ Route::get('/company',function(){
 Route::get('/admin/innovation',function(){
     return view('app.Admin.Layouts.Innovation.Innovation');
 });
+//show subgroup
 Route::get('/admin/category',function(){
     return view('app.Admin.Layouts.Subgroup.Subgroup');
 });
-
-// Route::get('/admin/edit-category/{id}',function(){
-//     return view('app.Admin.Layouts.Subgroup.EditForm');
-// });
-
+//update subroup
 Route::post('/subgroup-id/{id}',[SubGroupController::class,'update']);
-
-// Route::get('/admin/add-category',function(){
-//     return view('app.Admin.Layouts.Subgroup.AddForm');
-// });
+//create subgroup
 Route::post('create-category', [SubGroupController::class,'store'])->name('add.store');
-
+//deletesubgroup
 Route::post('/delete-subgroup/{id}',[SubGroupController::class,'destroy']);
 

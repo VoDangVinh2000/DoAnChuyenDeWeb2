@@ -124,6 +124,7 @@ export default {
      // let data = JSON.parse(localStorage.getItem("user"));
         axios.post("/delete-subgroup/" + id + "", {}).then((response) => {
         console.log(response.data);
+        window.location.href = "/admin/category";
       })
          .catch((error) => {
                 console.log(error.response.data);
