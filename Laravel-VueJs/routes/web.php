@@ -78,7 +78,7 @@ Route::get('/admin/innovation',function(){
 Route::get('/admin/slides',function(){
     return view('app.Admin.Layouts.Slider.Slider');
 });
-
+// Add Slides
 Route::get('/slides/add-slides',function(){
     return view('app.Admin.Layouts.Slider.Add-Slides');
 });
@@ -87,7 +87,7 @@ Route::get('/update-slides/{id}',function(){
     return view('app.Admin.Layouts.Slider.Update-Slides');
 });
 
-Route::post('/create-slides', [SlidesController::class,'store'])->name('addSlide.store');
+Route::post('/create-slides', [SlidesController::class,'store'])->name('addSlide.store'); //Route add slides
 
 Route::post('/update-slides/{id}',[SlidesController::class,'update']);
 

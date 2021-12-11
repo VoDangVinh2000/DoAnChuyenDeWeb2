@@ -40,6 +40,7 @@ class SlidesController extends Controller
      */
     public function store(Request $request)
     {
+        // Add slides
         $this->validate($request, [
             'title' => 'required',
             'btn_text' => 'required',

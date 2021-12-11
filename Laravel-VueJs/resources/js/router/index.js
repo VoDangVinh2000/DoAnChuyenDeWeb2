@@ -90,6 +90,7 @@ const routes = [
         component : AdminSlides
     },
     {
+        //Add Slides
         name : "admin-slides-add",
         path : "/slides/add-slides",
         component : AdminSlidesAdd
