@@ -24,7 +24,9 @@ app.component("page-museums_history", require("SrcComponent/views/Pages/Museums_
 app.component("page-company",require("../js/views/Pages/Company/Company.vue").default);
 //Admin
 app.component("admin-innovation", require("SrcComponent/Components/Admin/Layouts/Innovation/Innovation.vue").default);
-app.component("admin-footer", require("../js/components/Admin/Layouts/Footer/ListFooter.vue").default);
+app.component("admin-subfooter", require("../js/components/Admin/Layouts/SubFooter/ListSubFooter.vue").default);
+app.component("admin-subfooter-add", require("../js/components/Admin/Layouts/SubFooter/AddSubFooter.vue").default);
+app.component("admin-subfooter-update-views", require("./components/Admin/Layouts/SubFooter/UpdateSubFooter.vue").default);
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");

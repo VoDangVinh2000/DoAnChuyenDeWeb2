@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\Footer;
+use Illuminate\Http\Request;
 
 class FooterController extends Controller
 {
@@ -17,7 +17,7 @@ class FooterController extends Controller
     {
         //footer
         $footer = Footer::all();
-        return response($footer,200);
+        return response($footer, 200);
     }
 
     /**
@@ -50,6 +50,13 @@ class FooterController extends Controller
     public function show($id)
     {
         //
+        $footer = null;
+        if ($id != null) {
+            $footer = Footer::find($id);
+            return response($footer, 200);
+        } else {
+            return $footer;
+        }
     }
 
     /**

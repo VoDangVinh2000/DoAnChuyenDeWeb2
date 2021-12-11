@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\SubFooterController;
 use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
@@ -72,6 +73,18 @@ Route::get('/admin/innovation', function () {
 });
 
 //  list Footer
-Route::get('/admin-footer', function () {
-    return view('app.Admin.admin-footer');
+Route::get('/admin/subfooter', function () {
+    return view('app.Admin.Layouts.SubFooter.SubFooter');
 });
+
+Route::get('/subfooter/add-subfooter', function () {
+    return view('app.Admin.Layouts.SubFooter.Add-SubFooter');
+});
+
+Route::get('/update-subfooter/{id}', function () {
+    return view('app.Admin.Layouts.SubFooter.Update-SubFooter');
+});
+
+Route::post('/create-subfooter', [SubFooterController::class, 'store'])->name('addSubFooter.store');
+Route::post('/update-subfooter/{id}', [SubFooterController::class, 'update']);
+Route::post('/delete-subfooter/{id}', [SubFooterController::class, 'destroy']);

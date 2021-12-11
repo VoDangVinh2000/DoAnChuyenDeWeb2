@@ -11,7 +11,9 @@ import Innovation from "SrcComponent/views/Pages/Innovation/Innovation.vue";
 import Events from "SrcComponent/views/Pages/Events/Events.vue";
 import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue"
 import Company from "../views/Pages/Company/Company.vue"
-import AdminFooter from '../components/Admin/Layouts/Footer/ListFooter.vue'
+import AdminSubFooter from '../components/Admin/Layouts/SubFooter/ListSubFooter.vue'
+import AdminSubFooterAdd from '../components/Admin/Layouts/SubFooter/AddSubFooter.vue'
+import AdminSubFooterUpdate from '../components/Admin/Layouts/SubFooter/UpdateSubFooter.vue'
 //Admin
 // import Innovation from "SrcComponent/components/Admin/Layouts/Innovation.vue";
 const routes = [
@@ -81,10 +83,20 @@ const routes = [
     },
 
     {
-        name: "admin-footer",
-        path: "/admin-footer",
-        component : AdminFooter,
-    }
+        name: "admin-subfooter",
+        path: "/admin/subfooter",
+        component : AdminSubFooter,
+    },
+    {
+        name : "admin-subfooter-add",
+        path : "/subfooter/add-subfooter",
+        component : AdminSubFooterAdd
+    },
+    {
+        name : "admin-subfooter-update",
+        path : "/update-subfooter/:id",
+        component : AdminSubFooterUpdate
+    },
 ];
 
 const router = createRouter({

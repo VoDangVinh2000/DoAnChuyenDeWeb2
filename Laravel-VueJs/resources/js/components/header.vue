@@ -8,16 +8,14 @@
             />
             <h1>Nhóm D</h1>
             <ul class="nav nav-pills">
+                   <li class="nav-item">
+                    <a class="btn btn-outline-success" href="admin/subfooter">
+                        Admin SubFooter</a
+                    >
+                </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-outline-success">
                         <a @click.prevent="logout" >Logout</a>
-                    </button>
-                </li>
-            </ul>
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <button type="button" class="btn btn-outline-success">
-                        <a @click.prevent="footer" >Footer</a>
                     </button>
                 </li>
             </ul>
@@ -37,12 +35,7 @@ export default {
             }
         }
     },
-    methods: {
-        //Vào admin footer
-         footer: function(event) {
-                window.location.href ='/admin-footer';
-        }
-    },
+
 
 };
 </script>
@@ -67,4 +60,8 @@ export default {
         display: inline-block;
         font-weight: bold;
     }
+    a.btn {
+    text-decoration: none;
+    margin: 0 10px;
+}
 </style>
