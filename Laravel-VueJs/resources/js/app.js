@@ -23,11 +23,11 @@ app.component("page-events", require("SrcComponent/views/Pages/Events/Events.vue
 app.component("page-museums_history", require("SrcComponent/views/Pages/Museums_History/Museums_History.vue").default);
 app.component("page-company",require("../js/views/Pages/Company/Company.vue").default);
 //Admin
-app.component("admin-innovation", require("SrcComponent/Components/Admin/Layouts/Innovation/Innovation.vue").default);
+app.component("admin-innovation", require("SrcComponent/Components/Admin/Layouts/Innovation/Innovation_admin.vue").default);
+
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");
 app.mount('#wrapper');
-AOS.init()
-
+AOS.init();
 export default app;

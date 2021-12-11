@@ -47,3 +47,7 @@ Route::get('/section-article-post-innovation/{id}',[SectionArticlesPostsControll
 //This route get all category_article_post data by menumain.id
 Route::get('/category-article-post-innovation-menu-main-id/{id}',[CategoryArticlePostController::class,'show'])->name('category-article-post-innovation');
 
+//Api Admin - Innovation page (get all section_articles_posts new)
+Route::get('/all-section-articles-post-new-innovation',[SectionArticlesPostsController::class,'allSectionArticlePostNew_Innovation']);
+Route::get('/section-article-post-innovation-id/{id}',[SectionArticlesPostsController::class,'getSectionArticlePostInnovationById']);
+Route::post('/update-section-article-post-id/{id}',[SectionArticlesPostsController::class,'updateSectionArticlePostByID']);

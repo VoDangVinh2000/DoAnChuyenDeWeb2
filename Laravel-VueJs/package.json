@@ -18,7 +18,7 @@
         "axios": "^0.21.4",
         "laravel-mix": "^6.0.39",
         "laravel-mix-vue3": "^0.7.0",
-        "lodash": "^4.17.19",
+        "lodash": "^4.17.21",
         "node-sass": "^6.0.1",
         "postcss": "^8.4.4",
         "sass-loader": "^12.3.0",
