@@ -52,4 +52,8 @@ Route::get('/innovation',function(){
     return view('app.Pages.innovation');
 });
 
+//Admin
+Route::get('/admin/innovation', function () {
+    return view('app.Admin.Layouts.Innovation.Innovation');
+});
 

@@ -11,7 +11,7 @@ import Events from "SrcComponent/views/Pages/Events/Events.vue";
 import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue";
 import Company from "../views/Pages/Company/Company.vue";
 //Admin
-// import innovation_admin from "SrcComponent/components/Admin/Layouts/Innovation/innovation_admin.vue";
+// import Innovation_admin from "SrcComponent/components/Admin/Layouts/Innovation/Innovation_admin.vue";
 // import Addpost from "SrcComponent/components/Admin/Layouts/Innovation/Addpost.vue";
 const routes = [
     {
