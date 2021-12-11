@@ -8,6 +8,11 @@
             />
             <h1>Nhóm D</h1>
             <ul class="nav nav-pills">
+              <li class="nav-item">
+                    <button type="button" class="btn btn-outline-success" style="margin: 0 10px;">
+                        <a @click.prevent="category">Category</a>
+                    </button>
+                </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-outline-success">
                         <a @click.prevent="logout" >Logout</a>
@@ -28,6 +33,9 @@ export default {
             if(user == null){
                 window.location.href ='/login';
             }
+        },
+        category(){
+             window.location.href ='/admin/category';
         }
     },
 

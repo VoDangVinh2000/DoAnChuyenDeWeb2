@@ -124,10 +124,10 @@ export default {
      // let data = JSON.parse(localStorage.getItem("user"));
         axios.post("/delete-subgroup/" + id + "", {}).then((response) => {
         console.log(response.data);
-        window.location.href = "/admin/category";
       })
          .catch((error) => {
                 console.log(error.response.data);
+                
             })
     },
     edit(){
@@ -165,7 +165,7 @@ export default {
     color: black;
 }
 #category{
-    /* padding: 50px; */
+    padding: 20px 70px;
     background: #f8f9fc;
     height: 694px;
 }
