@@ -5,7 +5,7 @@
     <b-container class="my-3">
         <div class="card shadow mb-4">
             <div class="card-header py-3" style="text-align: center">
-                <h3 class="font-weight-bold text-primary">Add Slides</h3>
+                <h3 class="font-weight-bold text-primary">Add Header</h3>
             </div>
             <div class="card-header link-header py-2">
                 <b-link
