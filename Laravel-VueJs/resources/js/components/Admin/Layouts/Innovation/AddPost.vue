@@ -114,16 +114,22 @@ export default {
       return true;
     },
     async addPost() {
-      var formData = new FormData();
-      formData.set("image", this.image);
-      formData.set("title", this.$refs.title.value);
-      formData.set("subtitle", this.$refs.subtitle.value);
-      formData.set("type_post", this.$refs.type_post.value);
-      axios
-        .post("/api/add-section-article-post", formData)
-        .then((resposnse) => {
-          window.location.href = '/admin/innovation?noticeAdd="success"';
-        });
+        if(this.$refs.title.value != "" && this.$refs.subtitle.value != ""){
+                var formData = new FormData();
+            formData.set("image", this.image);
+            formData.set("title", this.$refs.title.value);
+            formData.set("subtitle", this.$refs.subtitle.value);
+            formData.set("type_post", this.$refs.type_post.value);
+            axios
+                .post("/api/add-section-article-post", formData)
+                .then((resposnse) => {
+                window.location.href = '/admin/innovation?noticeAdd="success"';
+                });
+        }
+        else{
+            alert('Vui lòng điền thông tin');
+        }
+
     },
   },
   async mounted() {

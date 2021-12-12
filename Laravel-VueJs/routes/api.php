@@ -118,3 +118,4 @@ Route::get('/all-section-articles-post-new-innovation',[SectionArticlesPostsCont
 Route::get('/section-article-post-innovation-id/{id}',[SectionArticlesPostsController::class,'getSectionArticlePostInnovationById']);
 Route::post('/update-section-article-post-id/{id}',[SectionArticlesPostsController::class,'updateSectionArticlePostByID']);
 Route::post('/add-section-article-post',[SectionArticlesPostsController::class,'addSectionArticlePost']);
+Route::get('/subgroup-id/{id}',[SubgroupController::class,'show']);//Tìm subgroup với api

@@ -38,6 +38,7 @@ app.component("admin-slides-add", require("./components/Admin/Layouts/Slides/Add
 app.component("admin-slides-update-views", require("./components/Admin/Layouts/Slides/UpdateSlides.vue").default);
 app.component("admin-innovation", require("SrcComponent/Components/Admin/Layouts/Innovation/Innovation_admin.vue").default);
 
+app.component("admin-category", require("SrcComponent/Components/Admin/Layouts/EditSubGroup/EditSubGroup.vue").default);
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");

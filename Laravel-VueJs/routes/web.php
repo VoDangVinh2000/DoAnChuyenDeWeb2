@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\HeaderController;
 use App\Http\Controllers\SlidesController;
+use App\Http\Controllers\SubGroupController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\FooterController;
 
@@ -150,6 +151,16 @@ Route::get('/update-footer/{id}', function () {
 Route::get('/admin/innovation', function () {
     return view('app.Admin.Layouts.Innovation.Innovation');
 });
+//show subgroup
+Route::get('/admin/category',function(){
+    return view('app.Admin.Layouts.Subgroup.Subgroup');
+});
+//update subroup
+Route::post('/subgroup-id/{id}',[SubGroupController::class,'update']);
+//create subgroup
+Route::post('create-category', [SubGroupController::class,'store'])->name('add.store');
+//deletesubgroup
+Route::post('/delete-subgroup/{id}',[SubGroupController::class,'destroy']);
 
 Route::post('/create-footer', [FooterController::class, 'store'])->name('addFooter.store');
 Route::post('/update-footer/{id}', [FooterController::class, 'update']);

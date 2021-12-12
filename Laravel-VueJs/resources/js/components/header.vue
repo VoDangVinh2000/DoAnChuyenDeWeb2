@@ -7,6 +7,11 @@
       />
       <ul class="nav nav-pills">
         <li class="nav-item">
+          <a href="/admin/innovation" class="btn btn-outline-success"
+            >Admin Innovation</a
+          >
+        </li>
+        <li class="nav-item">
           <a href="/admin-header" class="btn btn-outline-success"
             >Admin Header</a
           >
@@ -42,6 +47,9 @@ export default {
       if (user == null) {
         window.location.href = "/login";
       }
+    },
+    category() {
+      window.location.href = "/admin/category";
     },
   },
 };

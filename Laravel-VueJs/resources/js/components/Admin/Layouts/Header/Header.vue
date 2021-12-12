@@ -4,8 +4,6 @@
     <div class="card-body">
       <a
         href="/admin-addheader"
-        data-toggle="modal"
-        data-target="#exampleModal"
         class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm mb-2"
         style="color: white"
         ><i class="fa fa-plus fa-sm text-white-50" aria-hidden="true"></i>
@@ -68,8 +66,8 @@
                   >
                   <input
                     type="text"
-                  
-                    
+
+
                     class="form-control"
                     id="recipient-name"
                   />
@@ -81,8 +79,8 @@
                   >
                   <input
                     type="text"
-                  
-                    
+
+
                     class="form-control"
                     id="recipient-name"
                   />
@@ -100,7 +98,7 @@
               <button
                 type="button"
                 class="btn btn-primary"
-                
+
               >
                 update
               </button>
@@ -140,7 +138,7 @@ export default {
                         window.location.href = "/admin-header";
                     }
                 })
-                .catch((error) => { 
+                .catch((error) => {
                   console.log(error.response.data);
                 });
         },
@@ -160,6 +158,6 @@ export default {
   },
 };
 </script>
- 
+
 <style lang="">
 </style>
