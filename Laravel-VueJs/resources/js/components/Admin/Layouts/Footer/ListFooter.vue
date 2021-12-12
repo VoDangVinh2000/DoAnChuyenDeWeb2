@@ -81,7 +81,7 @@ export default {
         },
        //update
        updateFooter(id) {
-            window.location.href = "/api/update-footer/" + btoa(id + "123");
+            window.location.href = "/update-footer/" + btoa(id + "123");
             // window.location.href = "/update-subfooter/" +id ;
         },
         deleteFooter(id) {
