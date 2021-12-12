@@ -9,8 +9,8 @@
             <h1>Nhóm D</h1>
             <ul class="nav nav-pills">
                    <li class="nav-item">
-                    <a class="btn btn-outline-success" href="admin/subfooter">
-                        Admin SubFooter</a
+                    <a class="btn btn-outline-success" href="admin/footer">
+                        Admin Footer</a
                     >
                 </li>
                 <li class="nav-item">

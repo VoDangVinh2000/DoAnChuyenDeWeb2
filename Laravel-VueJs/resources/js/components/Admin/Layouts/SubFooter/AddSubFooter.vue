@@ -2,15 +2,13 @@
     <b-container class="my-3">
         <div class="card shadow mb-4">
             <div class="card-header py-3" style="text-align: center">
-                <h3 class="font-weight-bold text-primary">Add SubFooter</h3>
+                <h3 class="font-weight-bold" style="color: #333333">Add SubFooter</h3>
             </div>
             <div class="card-header link-header py-2">
                 <b-link
-                    class="font-weight-bold text-primary"
-                    href="/admin/slides"
-                    ><i class="fas fa-angle-double-left"></i> Quay lại List
-                    SubFooter</b-link
-                >
+                    class="font-weight-bold " style="color:#333333"
+                    href="/admin/subfooter"
+                    ><i class="fas fa-angle-double-left"></i> List SubFooter</b-link  >
             </div>
             <div class="card-body">
                 <form method="post" enctype="multipart/form-data">
@@ -48,21 +46,18 @@
                                 <select
                                     class="form-control"
                                     id="sFooter_Id"
-                                    name="footer_id"
-                                    v-model="slides.footer_id">
+                                    name="footer_id">
                                     <option value="1">More topics</option>
                                     <option value="2">Shopping</option>
                                     <option value="3">All about cars</option>
-                                    <option value="4">discover more</option>
+                                    <option value="4">Discover more</option>
                                 </select>
                     </div>
                     <div class="form-group" style="text-align: center">
                         <button
                             type="submit"
                             @click.prevent="addSubFooter"
-                            class="btn btn-primary btn-block add-button my-5">
-                            Add SubFooter
-                        </button>
+                            class="btn btn-block add-button my-5" style="background:#333333; color:#fff">Add SubFooter  </button>
                     </div>
                 </form>
             </div>

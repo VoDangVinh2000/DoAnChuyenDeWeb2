@@ -37,21 +37,21 @@
                                 <p>{{ item.link }}</p>
                             </td>
                             <td>
-                                <p>{{ item.footer_id }}</p>
+                                <p>{{ item.footer_id}}</p>
                             </td>
                             <td class="action">
                                 <a
                                     href="/update-subfooter"
                                     class="edit"
                                     @click.prevent="updateSubFooter(item.id)" >
-                                    <i class="fas fa-user-edit" style="background: #333333"></i>
+                                    <i class="fas fa-user-edit" style="color: #333333"></i>
                                 </a>
                                 <a
                                     href="#"
                                     class="delete"
                                     @click.prevent="deleteSubFooter(item.id)"  >
                                     <!-- bắt sự kiện -->
-                                    <i class="fas fa-trash-alt" style="background: #333333"></i>
+                                    <i class="fas fa-trash-alt" style="color: #333333"></i>
                                 </a>
                             </td>
                         </tr>
@@ -77,12 +77,27 @@ export default {
     },
     methods: {
         async getDataApi() {
-            const url = "/api/subfooter";
+            const url = "/api/all-subfooter";
             const response = await fetch(url);
             const data = await response.json();
             return data;
         },
        //update
+       updateSubFooter(id) {
+            window.location.href = "/update-subfooter/" + btoa(id + "123");
+            // window.location.href = "/update-subfooter/" +id ;
+        },
+        deleteSubFooter(id) {
+            axios
+                .post("/delete-subfooter/" + id + "", {})
+                .then((response) => {
+                    this.check = true;
+                     window.location.href = "/admin/subfooter";
+                })
+                .catch((error) => {
+                    this.check = false;
+                });
+        },
        //delete
 
     },

@@ -6,11 +6,9 @@
             </div>
             <div class="card-header link-header py-2">
                 <b-link
-                    class="font-weight-bold text-primary"
+                    class="font-weight-bold "
                     href="/admin/subfooter" style="color: black"
-                    ><i class="fas fa-angle-double-left"></i>List
-                    SubFooter</b-link
-                >
+                    ><i class="fas fa-angle-double-left"></i>List SubFooter</b-link   >
             </div>
             <div class="card-body">
                 <form name="myFormAcc" method="post">
@@ -20,8 +18,7 @@
                     </a>
                     <div
                         class="error alert alert-danger text-center shadow"
-                        v-if="errors.length"
-                    >
+                        v-if="errors.length" >
                         <span v-for="(err, index) of errors" :key="index">
                             {{ err }}
                         </span>
@@ -44,8 +41,7 @@
                             class="form-control"
                             id="sLink"
                             name="link"
-                          v-model="subfooter.link"
-                        />
+                          v-model="subfooter.link"/>
                     </div>
                     <div class="form-group">
                                 <label for="sFooter_Id">Footer</label>
@@ -53,18 +49,18 @@
                                     class="form-control"
                                     id="sFooter_Id"
                                     name="footer_id"
-                                    v-model="slides.footer_id">
+                                    >
                                     <option value="1">More topics</option>
                                     <option value="2">Shopping</option>
                                     <option value="3">All about cars</option>
                                     <option value="4">discover more</option>
                                 </select>
                     </div>
-                    <div class="form-group" style="text-align: center; color: black">
+                    <div class="form-group" style="text-align: center">
                         <button
                             type="submit"
                             @click.prevent="updateSubFooter"
-                            class="btn  btn-lg btn-block my-4" > Update SubFooter
+                            class="btn  btn-lg btn-block my-4" style="background:#333333; color: #fff" > Update SubFooter
                         </button>
                     </div>
                 </form>
@@ -87,14 +83,15 @@ export default {
         };
     },
     mounted() {
-        var current_url = window.location.href;
+       var current_url = window.location.href;
         var indexOf = current_url.lastIndexOf("/");
         var value_indexOf = atob(current_url.substr(indexOf + 1));
         value_indexOf = value_indexOf.substr(0, value_indexOf.length - 3);
+        console.log(value_indexOf);
         current_url = "/api/subfooter-id/" + value_indexOf;
         axios.get(current_url).then((response) => {
             if (response.data.id) {
-                this.slides = response.data;
+                this.subfooter = response.data;
                 // console.log(this.slides);
             }
         });

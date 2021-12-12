@@ -45,6 +45,8 @@ Route::get('/all-category-article-post-innovation', [CategoryArticlePostControll
 Route::get('/section-article-post-innovation/{id}', [SectionArticlesPostsController::class, 'show'])->name('section-article-post-innovation-id');
 //This route get all category_article_post data by menumain.id
 Route::get('/category-article-post-innovation-menu-main-id/{id}', [CategoryArticlePostController::class, 'show'])->name('category-article-post-innovation');
-
-// Tìm SubFooter với API
-Route::get('/subfooter-id/{id}', [SubFooterController::class, 'show']); //Tìm subfooter với api
+//API Footer
+Route::get('/get-footer-by-id/{id}', [FooterController::class, 'getFooterByID']);
+Route::post('/create-footer', [FooterController::class, 'store'])->name('addFooter.store');
+Route::post('/update-footer/{id}', [FooterController::class, 'update']);
+Route::post('/delete-footer/{id}', [FooterController::class, 'destroy']);

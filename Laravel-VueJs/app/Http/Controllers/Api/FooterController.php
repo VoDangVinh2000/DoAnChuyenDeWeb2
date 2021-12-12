@@ -38,7 +38,10 @@ class FooterController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $footer = Footer::where(['id' => $request->topics])->update([
+            'subfooter' => $request->subFooter,
+        ]);
+        return response($footer, 200);
     }
 
     /**
@@ -49,10 +52,11 @@ class FooterController extends Controller
      */
     public function show($id)
     {
-        //
         $footer = null;
         if ($id != null) {
-            $footer = Footer::find($id);
+            $footer = Footer::join('subfooter', 'footer.subfooter', '=', 'footer.name')
+                ->where(['footer.name' => $id])
+                ->select('footer.subfooter')->get();
             return response($footer, 200);
         } else {
             return $footer;
@@ -80,6 +84,20 @@ class FooterController extends Controller
     public function update(Request $request, $id)
     {
         //
+        $footer = Footer::find($id);
+        $this->validate($request, [
+            'topics' => 'required',
+            'subfooter' => 'required',
+        ]);
+        if (!$footer) {
+            $footer = Footer::join('subfooter', 'footer.subfooter', '=', 'footer.name')
+                ->where(['footer.name' => $id])
+                ->select('footer.subfooter')->get();
+            return response()
+                ->json(['error' => 'Error: Footer not found']);
+        }
+        $footer->update($request->all());
+        return response()->json(['message' => 'Success: You have updated the Footer']);
     }
 
     /**
@@ -91,5 +109,15 @@ class FooterController extends Controller
     public function destroy($id)
     {
         //
+
+        $footer = Footer::find($id);
+        $footer->delete();
+        return response()->json("Successfully");
+    }
+
+    public function getFooterByID(Request $req, $id)
+    {
+        $footerById = Footer::find($id);
+        return response($footerById, 200);
     }
 }
