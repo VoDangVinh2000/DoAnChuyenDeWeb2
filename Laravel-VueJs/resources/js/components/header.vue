@@ -8,8 +8,15 @@
             />
             <h1>Nhóm D</h1>
             <ul class="nav nav-pills">
+<<<<<<< HEAD
                  <li class="nav-item">
                     <a href="/admin-header" class="btn btn-outline-success">Admin Header</a>
+=======
+                   <li class="nav-item">
+                    <a class="btn btn-outline-success" href="admin/footer">
+                        Admin Footer</a
+                    >
+>>>>>>> GroupD-Khang/Admin-Footer
                 </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-outline-success">
@@ -34,6 +41,7 @@ export default {
         }
     },
 
+
 };
 </script>
 <style scoped>
@@ -57,4 +65,8 @@ export default {
         display: inline-block;
         font-weight: bold;
     }
+    a.btn {
+    text-decoration: none;
+    margin: 0 10px;
+}
 </style>
