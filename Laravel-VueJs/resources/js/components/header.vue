@@ -8,6 +8,11 @@
       <ul class="nav nav-pills">
         <li class="nav-item">
           <a href="/admin/innovation" class="btn btn-outline-success"
+            >Admin Sub group</a
+          >
+        </li>
+        <li class="nav-item">
+          <a href="/admin/innovation" class="btn btn-outline-success"
             >Admin Innovation</a
           >
         </li>
