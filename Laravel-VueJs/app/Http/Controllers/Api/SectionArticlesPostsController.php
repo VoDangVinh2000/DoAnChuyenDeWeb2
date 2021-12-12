@@ -171,4 +171,38 @@ class SectionArticlesPostsController extends Controller
             return response(['success' => 'Đã sửa']);
         }
     }
+
+     /**
+     *
+     *
+     */
+    public function addSectionArticlePost(Request $req)
+    {
+        if ($req->hasFile('image')) {
+            $image = $req->file('image');
+            $title = $req->title;
+            $subtitle = $req->subtitle;
+            $type_post = $req->type_post;
+            $image->move('images/assets/articles-post-innovation/', $image->getClientOriginalName());
+
+            $addPost = SectionArticlesPosts::create([
+                'category_article_post_id' => $type_post,
+                'menu_main_header_id' => 4,
+                'image_article' =>  'images/assets/articles-post-innovation/' . $image->getClientOriginalName(),
+                'title_article' => $title,
+                'subtitle_article' => $subtitle,
+                'created_at' => now()
+            ]);
+            return response(['success' => 'Đã thêm']);
+        } else {
+            $addPost = SectionArticlesPosts::create([
+                'category_article_post_id' => $req->type_post,
+                'menu_main_header_id' => 4,
+                'title_article' => $req->title,
+                'subtitle_article' => $req->subtitle,
+                'created_at' => now()
+            ]);
+            return response(['success' => 'Đã thêm']);
+        }
+    }
 }
