@@ -132,7 +132,6 @@ class SlidesControllerTest extends TestCase
             'color' => false,
         ];
         $response = $this->postJson($api, $request);
-        var_dump(!isset($response->original["message"]));
         $excute = true;
         $this->assertEquals($excute, !isset($response->original["message"]));
     }
@@ -177,8 +176,9 @@ class SlidesControllerTest extends TestCase
             'color' => 'text-light',
         ];
         $response = $this->postJson($api, $request);
-        $excute = true;
-        $this->assertEquals($excute, !isset($response->original["message"]));
+        // var_dump($response->original);die();
+        $excute = "Success: You have updated the user";
+        $this->assertEquals($excute, $response->original["message"]);
     }
 
       /**
@@ -195,7 +195,7 @@ class SlidesControllerTest extends TestCase
             'title' => 'The test',
         ];
         $response = $this->postJson($api, $request);
-        $excute = true;
+        $excute = false;
         $this->assertEquals($excute, !isset($response->original["message"]));
     }
 
@@ -262,7 +262,7 @@ class SlidesControllerTest extends TestCase
             'color' => '',
         ];
         $response = $this->postJson($api, $request);
-        $excute = true;
+        $excute = false;
         $this->assertEquals($excute, !isset($response->original["message"]));
     }
 
@@ -284,7 +284,7 @@ class SlidesControllerTest extends TestCase
             'color' => [],
         ];
         $response = $this->postJson($api, $request);
-        $excute = true;
+        $excute = false;
         $this->assertEquals($excute, !isset($response->original["message"]));
     }
 
@@ -307,7 +307,7 @@ class SlidesControllerTest extends TestCase
             'color' => $slide,
         ];
         $response = $this->postJson($api, $request);
-        $excute = true;
+        $excute = false;
         $this->assertEquals($excute, !isset($response->original["message"]));
     }
 
@@ -329,7 +329,7 @@ class SlidesControllerTest extends TestCase
             'color' => "text-light",
         ];
         $response = $this->postJson($api, $request);
-        $excute = true;
+        $excute = false;
         $this->assertEquals($excute, !isset($response->original["message"]));
     }
 
@@ -351,7 +351,60 @@ class SlidesControllerTest extends TestCase
             'color' => null,
         ];
         $response = $this->postJson($api, $request);
-        $excute = true;
+        $excute = false;
         $this->assertEquals($excute, !isset($response->original["message"]));
     }
+
+     /**
+     * Test delete slides oke
+     *
+     * @return void
+     */
+    public function test_delete_ok()
+    {
+        $api = '/delete-slides/52';
+        $response = $this->postJson($api);
+        $excute = "successfully";
+        $this->assertEquals($excute, $response->original);
+    }
+
+    /**
+     * Test delete slides id string
+     *
+     * @return void
+     */
+    public function test_delete_is_string_not_ok()
+    {
+        $api = '/delete-slides/aaaaaa';
+        $response = $this->postJson($api);
+        $excute = "Error";
+        $this->assertEquals($excute, $response->original['exception']);
+    }
+
+    /**
+     * Test delete slides id empty
+     *
+     * @return void
+     */
+    public function test_delete_is_empty_not_ok()
+    {
+        $api = '/delete-slides/" "';
+        $response = $this->postJson($api);
+        $excute = "Error";
+        $this->assertEquals($excute, $response->original['exception']);
+    }
+
+    /**
+     * Test delete slides id array
+     *
+     * @return void
+     */
+    public function test_delete_is_array_not_ok()
+    {
+        $api = '/delete-slides/[]';
+        $response = $this->postJson($api);
+        $excute = "Error";
+        $this->assertEquals($excute, $response->original['exception']);
+    }
+
 }

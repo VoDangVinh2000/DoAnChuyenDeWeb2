@@ -43,6 +43,7 @@ class SlidesController extends Controller
         $this->validate($request, [
             'title' => 'required',
             'btn_text' => 'required',
+            'image' => 'required',
             'color' => 'required',
         ]);
         $slide = Slide::create([
@@ -120,7 +121,7 @@ class SlidesController extends Controller
     {
         $count = DB::table('slide')->count('id');
         $slide = Slide::find($id);
-        if ($count > 6) {
+        if ($count > 6 || is_integer($id) || is_float($id)) {
             $slide->delete();
             return response()->json("successfully");
         }
