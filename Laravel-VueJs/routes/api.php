@@ -113,3 +113,8 @@ Route::get('/company-images-post',[CompanyImagePostController::class, 'index']);
 /* ---------------------------------------------------------------------------------- */
 // Tìm slide với API
 Route::get('/slides-id/{id}',[SlideShowController::class,'show']);//Tìm user với api
+//Api Admin - Innovation page (get all section_articles_posts new)
+Route::get('/all-section-articles-post-new-innovation',[SectionArticlesPostsController::class,'allSectionArticlePostNew_Innovation']);
+Route::get('/section-article-post-innovation-id/{id}',[SectionArticlesPostsController::class,'getSectionArticlePostInnovationById']);
+Route::post('/update-section-article-post-id/{id}',[SectionArticlesPostsController::class,'updateSectionArticlePostByID']);
+Route::post('/add-section-article-post',[SectionArticlesPostsController::class,'addSectionArticlePost']);

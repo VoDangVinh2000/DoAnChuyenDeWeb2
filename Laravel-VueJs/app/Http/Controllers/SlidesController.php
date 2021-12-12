@@ -108,7 +108,6 @@ class SlidesController extends Controller
             $slides->update($request->all());
             return response()->json(['message' => 'Success: You have updated the user']);
         }
-
     }
 
     /**

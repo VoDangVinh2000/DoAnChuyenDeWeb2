@@ -24,6 +24,11 @@ import AdminSlides from "../components/Admin/Layouts/Slides/ListSlides.vue"
 import AdminSlidesAdd from '../components/Admin/Layouts/Slides/AddSlides.vue'
 
 import AdminSlidesUpdate from '../components/Admin/Layouts/Slides/UpdateSlides.vue'
+// import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue";
+// import Company from "../views/Pages/Company/Company.vue";
+//Admin
+// import Innovation_admin from "SrcComponent/components/Admin/Layouts/Innovation/Innovation_admin.vue";
+// import Addpost from "SrcComponent/components/Admin/Layouts/Innovation/Addpost.vue";
 const routes = [
     {
         /* Tạo routes trong vuejs */
@@ -135,6 +140,16 @@ const routes = [
         path : "/update-slides/:id",
         component : AdminSlidesUpdate
     },
+    {
+        name: "admin-innovation",
+        path: "/admin/innovation",
+        component: Innovation,
+    },
+    // {
+    //     name: "admin-addpost",
+    //     path: "/admin/add-post",
+    //     component: Addpost,
+    // },
 ];
 
 const router = createRouter({

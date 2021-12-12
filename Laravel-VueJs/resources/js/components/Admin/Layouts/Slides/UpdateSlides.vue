@@ -136,7 +136,7 @@ export default {
         axios.get(current_url).then((response) => {
             if (response.data.id) {
                 this.slides = response.data;
-                // console.log(this.slides);
+
             }
         });
     },
@@ -149,6 +149,7 @@ export default {
             }
         },
         updateSlides() {
+            console.log(this.slides);
             axios
                 .post("/update-slides/" + this.slides.id, {
                     active: this.slides.active,
@@ -162,6 +163,7 @@ export default {
                 .then((response) => {
                     (this.check = true), (this.errors = [null]);
                     this.errors.length = 0;
+                    console.log(response.data);
                 })
                 .catch((error) => {
                     this.check = false;
