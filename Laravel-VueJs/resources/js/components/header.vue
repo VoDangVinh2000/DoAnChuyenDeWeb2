@@ -8,6 +8,9 @@
             />
             <h1>Nhóm D</h1>
             <ul class="nav nav-pills">
+                 <li class="nav-item">
+                    <a href="/admin/innovation" class="btn btn-outline-success">Innovation page managerment</a>
+                </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-outline-success">
                         <a @click.prevent="logout" >Logout</a>
