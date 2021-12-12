@@ -12,6 +12,9 @@ use App\Http\Controllers\Api\SectionArticlesPostsController;
 use App\Http\Controllers\Api\SubFooterController;
 use App\Http\Controllers\Api\SubgroupController;
 use App\Models\SectionArticlesPosts;
+use App\Http\Controllers\Api\SubeventController;
+use App\Http\Controllers\Api\EventIntrduceController;
+use App\Models\EventIntroduce;
 
 /*
 |--------------------------------------------------------------------------
@@ -50,3 +53,4 @@ Route::get('/category-article-post-innovation-menu-main-id/{id}',[CategoryArticl
 Route::get('/all-header',[CarsController::class,'index']);
 
 Route::get('/all-menu-id/{id}',[UserMenuController::class,'show']);
+Route::get('/all-subevent',[SubeventController::class,'index']);// api page event

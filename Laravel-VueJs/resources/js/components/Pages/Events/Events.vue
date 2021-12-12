@@ -5,25 +5,16 @@
                 Lựa chọn
             </MDBDropdownToggle>
             <MDBDropdownMenu>
-                <MDBDropdownItem href="#">IAA MOBILITY 2021</MDBDropdownItem>
-                <MDBDropdownItem href="#">Circle of Excellence</MDBDropdownItem>
-                <MDBDropdownItem href="#">Driving Events</MDBDropdownItem>
-                <MDBDropdownItem href="#">G-Class Experience</MDBDropdownItem>
-                <MDBDropdownItem href="#">AMG Driving Academy</MDBDropdownItem>
-                <MDBDropdownItem href="#">Classic Car Travel</MDBDropdownItem>
-                <MDBDropdownItem href="#">Motorsport Tickets</MDBDropdownItem>
+                  <div v-for="itemSubevent in data_subevent" :key="itemSubevent.id">
+                <MDBDropdownItem href="#">{{itemSubevent.subevent_item}}</MDBDropdownItem>
+                  </div>
             </MDBDropdownMenu>
-        </MDBDropdown>
+        </MDBDropdown>     
         <b-nav toggleable type="secondary" class="bg-secondary header-title">
-            <b-nav-item><span>IAA MOBILITY 2021</span></b-nav-item>
-            <b-nav-item><span>Circle of Excellence</span></b-nav-item>
-            <b-nav-item><span>Driving Events</span></b-nav-item>
-            <b-nav-item><span>G-Class Experience</span></b-nav-item>
-            <b-nav-item><span>AMG Driving Academy</span></b-nav-item>
-            <b-nav-item><span>Classic Car Travel</span> </b-nav-item>
-            <b-nav-item><span>Motorsport Tickets</span></b-nav-item>
-        </b-nav>
-
+             <div v-for="itemSubevent in data_subevent" :key="itemSubevent.id">
+            <b-nav-item><span> {{itemSubevent.subevent_item}}</span></b-nav-item>
+              </div>
+        </b-nav>     
         <!-- Background image -->
         <div
             class="p-5 bg-image img-content"
@@ -181,81 +172,18 @@
             </div>
             <div class="footer-event">
                 <div class="footer-title">
-                    <span
-                        ><i class="fas fa-gas-pump"></i> Kraftstoffverbrauch
-                        kombiniert</span
-                    >
-                    <span
-                        ><i class="fas fa-leaf"></i> CO₂-Emissionen
-                        kombiniert</span
-                    >
-                    <span
-                        ><i class="fas fa-gas-pump"></i> Stromverbrauch im
-                        kombinierten Testzyklus</span
-                    >
+               
+                    <span v-for="itemSubevent in data_subevent" :key="itemSubevent.id">
+                         {{itemSubevent.event_introduce_title}}
+                        </span>
+                   
+                   
                 </div>
                 <div class="footer-detail" data-aos="fade-up">
-                    <p>Product may vary after press date on 26.09.2014.</p>
-                    <p>
-                        1 Die angegebenen Werte wurden nach dem vorgeschriebenen
-                        Messverfahren ermittelt. Es handelt sich um die
-                        „NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 1
-                        Durchführungsverordnung (EU) 2017/1153. Die
-                        Kraftstoffverbrauchswerte wurden auf Basis dieser Werte
-                        errechnet. Der Stromverbrauch wurde auf der Grundlage
-                        der VO 692/2008/EG ermittelt. Weitere Informationen zum
-                        offiziellen Kraftstoffverbrauch und den offiziellen
-                        spezifischen CO₂-Emissionen neuer Personenkraftwagen
-                        können dem „Leitfaden über den Kraftstoffverbrauch, die
-                        CO₂-Emissionen und den Stromverbrauch aller neuen
-                        Personenkraftwagenmodelle“ entnommen werden, der an
-                        allen Verkaufsstellen und bei der Deutschen Automobil
-                        Treuhand GmbH unter www.dat.de unentgeltlich erhältlich
-                        ist.
-                    </p>
-                    <p>
-                        4 Angaben zu Kraftstoffverbrauch, Stromverbrauch und
-                        CO₂-Emissionen sind vorläufig und wurden vom Technischen
-                        Dienst für das Zertifizierungsverfahren nach Maßgabe des
-                        WLTP-Prüfverfahrens ermittelt und in NEFZ-Werte
-                        korreliert. Eine EG-Typgenehmigung und
-                        Konformitätsbescheinigung mit amtlichen Werten liegen
-                        noch nicht vor. Abweichungen zwischen den Angaben und
-                        den amtlichen Werten sind möglich.
-                    </p>
-                    <p>
-                        6 Stromverbrauch und Reichweite wurden auf der Grundlage
-                        der VO 692/2008/EG ermittelt. Stromverbrauch und
-                        Reichweite sind abhängig von der Fahrzeugkonfiguration.
-                        Weitere Informationen zum offiziellen
-                        Kraftstoffverbrauch und den offiziellen spezifischen
-                        CO₂-Emissionen neuer Personenkraftwagen können dem
-                        „Leitfaden über den Kraftstoffverbrauch, die
-                        CO₂-Emissionen und den Stromverbrauch aller neuen
-                        Personenkraftwagenmodelle“ entnommen werden, der an
-                        allen Verkaufsstellen und bei der Deutschen Automobil
-                        Treuhand GmbH unter www.dat.de unentgeltlich erhältlich
-                        ist.
-                    </p>
-                    <p>
-                        7 Angaben zu Stromverbrauch und Reichweite sind
-                        vorläufig und wurden vom Technischen Dienst für das
-                        Zertifizierungsverfahren nach Maßgabe der
-                        UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung
-                        und eine Konformitätsbescheinigung mit amtlichen Werten
-                        liegen noch nicht vor. Abweichungen zwischen den Angaben
-                        und den amtlichen Werten sind möglich.
-                    </p>
-                    <p>
-                        8 Alle technischen Angaben sind vorläufig und wurden
-                        intern nach Maßgabe der jeweils anwendbaren
-                        Zertifizierungsmethode ermittelt. Es liegen bislang
-                        weder bestätigte Werte vom TÜV noch eine
-                        EG-Typgenehmigung noch eine Konformitätsbescheinigung
-                        mit amtlichen Werten vor. Abweichungen zwischen den
-                        Angaben und den amtlichen Werten sind möglich.
-                    </p>
+                    <div v-for="itemSubevent in data_subevent" :key="itemSubevent.id">
+                    <p>{{itemSubevent.event_introduce}}</p>
                     
+                    </div>
                 </div>
             </div>
         </div>
@@ -271,7 +199,7 @@ import {
   } from 'mdb-vue-ui-kit';
   import { ref } from 'vue';
   export default {
-    components: {
+      components: {
       MDBDropdown,
       MDBDropdownToggle,
       MDBDropdownMenu,
@@ -283,6 +211,24 @@ import {
         dropdown25,
       };
     },
+      name: "Events.vue",
+       data() {
+    return {
+      data_subevent: [],
+    };
+  },
+  methods: {
+    async getDataSubevent() {
+      const url = "/api/all-subevent";
+      const reponse = await fetch(url);
+      const data = await reponse.json();
+      console.log(data);
+      return data;
+    },
+  },
+  async created() {
+    this.data_subevent = await this.getDataSubevent();
+  },
   };
   
 </script>
