@@ -13,6 +13,9 @@ import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue"
 import Company from "../views/Pages/Company/Company.vue"
 //Admin
 // import Innovation from "SrcComponent/components/Admin/Layouts/Innovation.vue";
+import Header from "SrcComponent/components/Admin/Layouts/Header/Header.vue";
+import AddHeader from "SrcComponent/components/Admin/Layouts/Header/AddHeader.vue";
+import UpdateHeader from "SrcComponent/components/Admin/Layouts/Header/UpdateHeader.vue";
 const routes = [
     {
         /* Tạo routes trong vuejs */
@@ -77,6 +80,23 @@ const routes = [
         name : "admin-innovation",
         path : "/admin/innovation",
         component : Innovation
+    },
+
+    {
+        name : "admin-header",
+        path : "/admin/header",
+        component : Header,
+    },
+
+    {
+        name : "admin-addheader",
+        path : "/admin-addheaderr",
+        component : AddHeader,
+    },
+    {
+        name : "admin-updateheader",
+        path : "/admin-updateheader/:id",
+        component : UpdateHeader,
     },
 ];
 

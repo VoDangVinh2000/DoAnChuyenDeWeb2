@@ -47,3 +47,6 @@ Route::get('/section-article-post-innovation/{id}',[SectionArticlesPostsControll
 //This route get all category_article_post data by menumain.id
 Route::get('/category-article-post-innovation-menu-main-id/{id}',[CategoryArticlePostController::class,'show'])->name('category-article-post-innovation');
 
+Route::get('/all-header',[CarsController::class,'index']);
+
+Route::get('/all-menu-id/{id}',[UserMenuController::class,'show']);

@@ -24,6 +24,10 @@ app.component("page-museums_history", require("SrcComponent/views/Pages/Museums_
 app.component("page-company",require("../js/views/Pages/Company/Company.vue").default);
 //Admin
 app.component("admin-innovation", require("SrcComponent/Components/Admin/Layouts/Innovation/Innovation.vue").default);
+
+app.component("admin-header", require("SrcComponent/Components/Admin/Layouts/Header/Header.vue").default);
+app.component("admin-addheader", require("SrcComponent/Components/Admin/Layouts/Header/AddHeader.vue").default);
+app.component("admin-updateheader", require("SrcComponent/Components/Admin/Layouts/Header/UpdateHeader.vue").default);
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");

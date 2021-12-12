@@ -48,7 +48,14 @@ class UserMenuController extends Controller
      */
     public function show($id)
     {
-        //
+        $menu = null;
+        if($id != null){
+            $menu = MenuMain::find($id);
+            return response($menu,200);
+        }
+        else{
+            return $menu;
+        }
     }
 
     /**
@@ -71,7 +78,7 @@ class UserMenuController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        
     }
 
     /**
