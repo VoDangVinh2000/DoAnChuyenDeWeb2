@@ -128,18 +128,7 @@ export default {
     },
   },
   async mounted() {
-    //Check expire token of user
-    var user = JSON.parse(localStorage.getItem("user"));
-    if (user == null) {
-      this.load = false;
-      window.location.href = "/login";
-    }
-    if (Date.now() > user.data.time) {
-      //check time now and expire time of localStorage
-      localStorage.removeItem("user");
-      alert("Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại.");
-      window.location.href = "/login";
-    }
+
     const url = "/api/all-category-article-post-innovation";
     const response = await fetch(url);
     const data = await response.json();

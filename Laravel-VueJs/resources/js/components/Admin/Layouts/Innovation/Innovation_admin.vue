@@ -28,9 +28,7 @@
       <MDBTabItem tabId="ex1-2" href="ex1-2"
         >Danh sách các chủ đề phổ biến</MDBTabItem
       >
-      <MDBTabItem tabId="ex1-3" href="ex1-3"
-        >Thêm chủ đề</MDBTabItem
-      >
+      <MDBTabItem tabId="ex1-3" href="ex1-3">Thêm chủ đề</MDBTabItem>
     </MDBTabNav>
     <!-- Tabs navs -->
     <!-- Tabs content -->
@@ -39,9 +37,9 @@
         <Listpost />
       </MDBTabPane>
       <MDBTabPane tabId="ex1-2">Content #2</MDBTabPane>
-       <MDBTabPane tabId="ex1-3">
-           <Addpost />
-       </MDBTabPane>
+      <MDBTabPane tabId="ex1-3">
+        <Addpost />
+      </MDBTabPane>
     </MDBTabContent>
     <!-- Tabs content -->
   </MDBTabs>
@@ -66,27 +64,40 @@ export default {
       notice: "",
       showBottom: false,
       showTop: false,
-      noticeAdd : ""
+      noticeAdd: "",
     };
   },
   created() {
     this.activeTabId1 = ref("ex1-1");
     var href = new URL(window.location.href);
     this.notice = href.searchParams.get("notice");
-    this.noticeAdd = href.searchParams.get('noticeAdd');
+    this.noticeAdd = href.searchParams.get("noticeAdd");
     if (this.notice != null) {
       this.showTop = true;
       setTimeout(() => {
-          this.showTop = false;
-          window.location.href = '/admin/innovation';
+        this.showTop = false;
+        window.location.href = "/admin/innovation";
+      }, 1500);
+    } else if (this.noticeAdd != null) {
+      this.showTop = true;
+      setTimeout(() => {
+        this.showTop = false;
+        window.location.href = "/admin/innovation";
       }, 1500);
     }
-    else if(this.noticeAdd != null){
-         this.showTop = true;
-      setTimeout(() => {
-          this.showTop = false;
-          window.location.href = '/admin/innovation';
-      }, 1500);
+  },
+  mounted() {
+    //Check expire token of user
+    var user = JSON.parse(localStorage.getItem("user"));
+    if (user == null) {
+      this.load = false;
+      window.location.href = "/login";
+    }
+    if (Date.now() > user.data.time) {
+      //check time now and expire time of localStorage
+      localStorage.removeItem("user");
+      alert("Phiên đăng nhập đã hết hạn, vui lòng đăng nhập lại.");
+      window.location.href = "/login";
     }
   },
   components: {
