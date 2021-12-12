@@ -1,9 +1,11 @@
 <template>
-    <section id="menu__museum">
+       <section id="menu__museum">
         <b-container>
             <b-nav>
                 <li v-for="(item, i) in menu" :key="i">
-                    <b-link href="#" :class="item.active">{{ item.link }}</b-link>
+                    <b-link href="#" :class="item.active">{{
+                        item.menu_name
+                    }}</b-link>
                 </li>
             </b-nav>
         </b-container>
@@ -14,15 +16,26 @@ export default {
     data() {
         return {
             menu: [
-                { link: "Mercedes-Benz Classic", active : "active" },
-                { link: "Museum" },
-                { link: "History" },
-                { link: "Classic Center" },
-                { link: "Classic spare parts " },
-                { link: " Brand Clubs " },
-                { link: " Magazine" },
+                // { link: "Mercedes-Benz Classic", active : "active" },
+                // { link: "Museum" },
+                // { link: "History" },
+                // { link: "Classic Center" },
+                // { link: "Classic spare parts " },
+                // { link: " Brand Clubs " },
+                // { link: " Magazine" },
             ],
         };
+    },
+        methods: {
+        async getDataApi() {
+            const url = "/api/banner-museum";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.menu = await this.getDataApi();
     },
 };
 </script>

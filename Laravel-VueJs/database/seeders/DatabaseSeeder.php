@@ -77,7 +77,7 @@ class Slide extends Seeder
                 'color' => "text-light",
                 'des_1' => "",
                 'des_2' => "",
-            ]
+            ],
         ]);
     }
 }

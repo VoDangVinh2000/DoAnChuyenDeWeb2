@@ -1,7 +1,7 @@
 <template>
     <section id="img__recent">
         <b-row>
-            <b-col md="4" v-for="(item, i) in btImg1" :key="i" data-aos ="fade-up"
+            <b-col  md="4"  v-for="(item, i) in btImg" :key="i" data-aos ="fade-up"
                         data-aos-duration="1800">
                 <div class="group1">
                     <b-img :src="item.img"></b-img>
@@ -9,8 +9,8 @@
                 </div>
             </b-col>
         </b-row>
-        <b-row>
-            <b-col md="4" v-for="(item, i) in btImg2" :key="i" data-aos ="fade-up"
+        <!-- <b-row>
+            <b-col  md="4" v-for="(item, i) in btImg2" :key="i" data-aos ="fade-up"
                         data-aos-duration="1800">
                 <div class="group2">
                     <b-img :src="item.img"></b-img>
@@ -19,14 +19,14 @@
             </b-col>
         </b-row>
         <b-row>
-            <b-col md="4" v-for="(item, i) in btImg3" :key="i" data-aos ="fade-up"
+            <b-col md="4"  v-for="(item, i) in btImg3" :key="i" data-aos ="fade-up"
                         data-aos-duration="1800">
                 <div class="group3">
                     <b-img :src="item.img"></b-img>
                     <h2>{{ item.text }}</h2>
                 </div>
             </b-col>
-        </b-row>
+        </b-row> -->
     </section>
 </template>
 <script>
@@ -42,22 +42,35 @@ import img9 from "../../../../assets/img-museums/01-mercedes-benz-museum-rudolf-
 export default {
     data() {
         return {
-            btImg1: [
-                { img: img1, text: "It must be love. More and more young people are driving and celebrating Mercedes-Benz classics. A journey through a very colourful, passionate scene." },
-                { img: img2, text: "On the “Dad Route”: A success story. With hard work and luck, dreams can come true. Danny Lucas believed it and wrote his own success story." },
-                { img: img3, text: "In orbit for 100 years. The Mercedes star in the ring turns 100: the trademark was registered by the Daimler-Motoren-Gesellschaft i..." },
+            btImg: [
+                // { img: img1, text: "It must be love. More and more young people are driving and celebrating Mercedes-Benz classics. A journey through a very colourful, passionate scene." },
+                // { img: img2, text: "On the “Dad Route”: A success story. With hard work and luck, dreams can come true. Danny Lucas believed it and wrote his own success story." },
+                // { img: img3, text: "In orbit for 100 years. The Mercedes star in the ring turns 100: the trademark was registered by the Daimler-Motoren-Gesellschaft i..." },
             ],
-            btImg2: [
-                { img: img4, text: "South American adventure. After a year of pandemic, Kevin and Lars see their Mercedes-Benz 300 TE left behind in the jungle again."},
-                { img: img5, text: "The epic SEC. Born in 1981: the SEC Coupés of the 126 model series." },
-                { img: img6, text: "The Mercedes-Benz SL. There is no end to the fascination of the Mercedes-Benz SL: each generation is a chapter in this tradition ..." },
-            ],
-            btImg3: [
-                { img: img7, text: "Classic spare parts. Mercedes-Benz Classic offers genuine spare parts of the highest quality for the preservation of your classi..." },
-                { img: img8, text: "Manufacturer’s expert assessment. The unique confirmation of the originality of your classic: reliable, transparent, from Mercedes-Benz Class..." },
-                { img: img9, text: "Master of Silver Arrows. Rudolf Caracciola is the most successful German racing driver of the 1930s. Hot on his heels at the Mercede..." },
-            ],
+            // btImg2: [
+                // { img: img4, text: "South American adventure. After a year of pandemic, Kevin and Lars see their Mercedes-Benz 300 TE left behind in the jungle again."},
+                // { img: img5, text: "The epic SEC. Born in 1981: the SEC Coupés of the 126 model series." },
+                // { img: img6, text: "The Mercedes-Benz SL. There is no end to the fascination of the Mercedes-Benz SL: each generation is a chapter in this tradition ..." },
+            // ],
+            // btImg3: [
+                // { img: img7, text: "Classic spare parts. Mercedes-Benz Classic offers genuine spare parts of the highest quality for the preservation of your classi..." },
+                // { img: img8, text: "Manufacturer’s expert assessment. The unique confirmation of the originality of your classic: reliable, transparent, from Mercedes-Benz Class..." },
+                // { img: img9, text: "Master of Silver Arrows. Rudolf Caracciola is the most successful German racing driver of the 1930s. Hot on his heels at the Mercede..." },
+            // ],
         };
+    },
+         methods: {
+        async getDataApi() {
+            const url = "/api/image-recent-museum";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.btImg = await this.getDataApi();
+        // this.btImg2 = await this.getDataApi();
+        // this.btImg3 = await this.getDataApi();
     },
 };
 </script>
