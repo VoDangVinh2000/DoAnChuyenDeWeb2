@@ -2,15 +2,9 @@
 
   <div class="design-page">
     <b-nav id="nav-design" toggleable type="secondary" class="bg-secondary header-title">
-            <b-nav-item><span>Overview</span></b-nav-item>
-            <b-nav-item><span>Circle of Excellence</span></b-nav-item>
-            <b-nav-item><span>Driving Events</span></b-nav-item>
-            <b-nav-item><span>G-Class Experience</span></b-nav-item>
-            <b-nav-item><span>AMG Driving Academy</span></b-nav-item>
-            <b-nav-item><span>Classic Car Travel</span> </b-nav-item>
-            <b-nav-item><span>Motorsport Tickets</span></b-nav-item>
+            <b-nav-item v-for="item in data" :key="item.id"><span>{{item.title}}</span></b-nav-item>
         </b-nav>
-    <p>
+    <p> 
          <img src="/images/assets/design-post/baner.webp" alt="" class="img-fluid"/>
         
       
@@ -225,66 +219,8 @@
                     >
                 </div>
                 <div class="footer-detail" data-aos="fade-up">
-                    <p>Product may vary after press date on 26.09.2014.</p>
-                    <p>
-                        1 Die angegebenen Werte wurden nach dem vorgeschriebenen
-                        Messverfahren ermittelt. Es handelt sich um die
-                        „NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 1
-                        Durchführungsverordnung (EU) 2017/1153. Die
-                        Kraftstoffverbrauchswerte wurden auf Basis dieser Werte
-                        errechnet. Der Stromverbrauch wurde auf der Grundlage
-                        der VO 692/2008/EG ermittelt. Weitere Informationen zum
-                        offiziellen Kraftstoffverbrauch und den offiziellen
-                        spezifischen CO₂-Emissionen neuer Personenkraftwagen
-                        können dem „Leitfaden über den Kraftstoffverbrauch, die
-                        CO₂-Emissionen und den Stromverbrauch aller neuen
-                        Personenkraftwagenmodelle“ entnommen werden, der an
-                        allen Verkaufsstellen und bei der Deutschen Automobil
-                        Treuhand GmbH unter www.dat.de unentgeltlich erhältlich
-                        ist.
-                    </p>
-                    <p>
-                        4 Angaben zu Kraftstoffverbrauch, Stromverbrauch und
-                        CO₂-Emissionen sind vorläufig und wurden vom Technischen
-                        Dienst für das Zertifizierungsverfahren nach Maßgabe des
-                        WLTP-Prüfverfahrens ermittelt und in NEFZ-Werte
-                        korreliert. Eine EG-Typgenehmigung und
-                        Konformitätsbescheinigung mit amtlichen Werten liegen
-                        noch nicht vor. Abweichungen zwischen den Angaben und
-                        den amtlichen Werten sind möglich.
-                    </p>
-                    <p>
-                        6 Stromverbrauch und Reichweite wurden auf der Grundlage
-                        der VO 692/2008/EG ermittelt. Stromverbrauch und
-                        Reichweite sind abhängig von der Fahrzeugkonfiguration.
-                        Weitere Informationen zum offiziellen
-                        Kraftstoffverbrauch und den offiziellen spezifischen
-                        CO₂-Emissionen neuer Personenkraftwagen können dem
-                        „Leitfaden über den Kraftstoffverbrauch, die
-                        CO₂-Emissionen und den Stromverbrauch aller neuen
-                        Personenkraftwagenmodelle“ entnommen werden, der an
-                        allen Verkaufsstellen und bei der Deutschen Automobil
-                        Treuhand GmbH unter www.dat.de unentgeltlich erhältlich
-                        ist.
-                    </p>
-                    <p>
-                        7 Angaben zu Stromverbrauch und Reichweite sind
-                        vorläufig und wurden vom Technischen Dienst für das
-                        Zertifizierungsverfahren nach Maßgabe der
-                        UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung
-                        und eine Konformitätsbescheinigung mit amtlichen Werten
-                        liegen noch nicht vor. Abweichungen zwischen den Angaben
-                        und den amtlichen Werten sind möglich.
-                    </p>
-                    <p>
-                        8 Alle technischen Angaben sind vorläufig und wurden
-                        intern nach Maßgabe der jeweils anwendbaren
-                        Zertifizierungsmethode ermittelt. Es liegen bislang
-                        weder bestätigte Werte vom TÜV noch eine
-                        EG-Typgenehmigung noch eine Konformitätsbescheinigung
-                        mit amtlichen Werten vor. Abweichungen zwischen den
-                        Angaben und den amtlichen Werten sind möglich.
-                    </p>
+                    <p v-for="item in data" :key="item.id">{{item.sub_footer}}</p>
+                    
                     
                 </div>
             </div>
@@ -303,8 +239,21 @@ import Header from "../../Products/Header.vue";
 export default {
   components: { Header },
   name: "Design.vue",
-  data() {
-    return {};
+ data() {
+    return {
+      data: [],
+    };
+  },
+  methods: {
+    async getData() {
+      const url = "/api/all-design";
+      const response = await fetch(url);
+      const data = await response.json();
+      return data;
+    },
+  },
+  async created() {
+    this.data = await this.getData();
   },
 };
 </script>

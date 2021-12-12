@@ -20,7 +20,7 @@ class SubGroupFactory extends Factory
      * @return array
      */
     public function definition()
-    {
+    { 
         return [
             'subgroup_name' => 'Xe Coupé',
             'status' => 'Tồn',

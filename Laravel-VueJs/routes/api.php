@@ -9,6 +9,7 @@ use App\Http\Controllers\Api\UserMenuController;
 use App\Http\Controllers\Api\FooterController;
 use App\Http\Controllers\Api\SubFooterController;
 use App\Http\Controllers\Api\SubgroupController;
+use App\Http\Controllers\Api\SubDesignController;
 
 /*
 |--------------------------------------------------------------------------
@@ -37,3 +38,4 @@ Route::get('/subfooter/{id}',[SubFooterController::class,'show']);//Lấy danh s
 Route::get('/slides',[SlideShowController::class, 'index']);
 Route::get('/all-subgroup',[SubgroupController::class,'index']);//Lấy danh sách các cotegories
 Route::get('/all-cars',[CarsController::class,'index']);
+Route::get('/all-design',[SubDesignController::class,'index']);

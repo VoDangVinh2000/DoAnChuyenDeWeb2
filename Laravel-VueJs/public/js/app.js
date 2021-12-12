@@ -20130,15 +20130,77 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _Products_Header_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../Products/Header.vue */ "./resources/js/components/Products/Header.vue");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _Products_Header_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../Products/Header.vue */ "./resources/js/components/Products/Header.vue");
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   components: {
-    Header: _Products_Header_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+    Header: _Products_Header_vue__WEBPACK_IMPORTED_MODULE_1__["default"]
   },
   name: "Design.vue",
   data: function data() {
-    return {};
+    return {
+      data: []
+    };
+  },
+  methods: {
+    getData: function getData() {
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        var url, response, data;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                url = "/api/all-design";
+                _context.next = 3;
+                return fetch(url);
+
+              case 3:
+                response = _context.sent;
+                _context.next = 6;
+                return response.json();
+
+              case 6:
+                data = _context.sent;
+                return _context.abrupt("return", data);
+
+              case 8:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    }
+  },
+  created: function created() {
+    var _this = this;
+
+    return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2() {
+      return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return _this.getData();
+
+            case 2:
+              _this.data = _context2.sent;
+
+            case 3:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    }))();
   }
 });
 
@@ -21468,66 +21530,24 @@ var _hoisted_1 = {
   "class": "design-page"
 };
 
-var _hoisted_2 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Overview", -1
-  /* HOISTED */
-  );
-});
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p data-v-30cbe409><img src=\"/images/assets/design-post/baner.webp\" alt=\"\" class=\"img-fluid\" data-v-30cbe409></p><div class=\"container\" data-v-30cbe409><div class=\"home-desgin\" data-v-30cbe409><span id=\"home\" style=\"cursor:pointer;\" data-v-30cbe409> Home </span><i class=\"fas fa-chevron-right\" data-v-30cbe409></i><span id=\"design\" style=\"cursor:pointer;\" data-v-30cbe409> Design </span></div><div class=\"row\" data-v-30cbe409><div class=\"content\" data-aos=\"fade-up\" data-v-30cbe409><div class=\"col-md-6\" data-v-30cbe409><h1 data-v-30cbe409>Mercedes-Benz Design: Sensual Purity and Modern Luxury.</h1><p data-v-30cbe409> The designers at Mercedes-Benz are reconciling tradition and modernity in designing the cars for the future. Their work centres on “Sensual Purity” as an expression of modern luxury. The new design idiom featuring reduced edges and creases – indentations and recesses in the sheet metal – aims to create clear forms and sensual surfaces which showcase high tech while also arousing emotions. Design creates something out of the ordinary and makes a major contribution to shaping the brand image. For Mercedes-Benz designers, good design has to be both beautiful and intelligent. </p></div><div class=\"col-md-6\" data-v-30cbe409><img src=\"https://www.mercedes-benz.com/en/design/_jcr_content/root/paragraph_3_copy/paragraph-right/video_copy_copy/image/MQ6-0-image-20190523142337/04-mercedes-benz-fahrzeuge-mercedes-amg-gt-concept-eq-power-1360x758.jpeg\" alt=\"\" class=\"img-fluid\" data-v-30cbe409></div></div></div></div>", 2);
 
-var _hoisted_3 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Circle of Excellence", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_4 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Driving Events", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_5 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "G-Class Experience", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "AMG Driving Academy", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Classic Car Travel", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, "Motorsport Tickets", -1
-  /* HOISTED */
-  );
-});
-
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<p data-v-30cbe409><img src=\"/images/assets/design-post/baner.webp\" alt=\"\" class=\"img-fluid\" data-v-30cbe409></p><div class=\"container\" data-v-30cbe409><div class=\"home-desgin\" data-v-30cbe409><span id=\"home\" style=\"cursor:pointer;\" data-v-30cbe409> Home </span><i class=\"fas fa-chevron-right\" data-v-30cbe409></i><span id=\"design\" style=\"cursor:pointer;\" data-v-30cbe409> Design </span></div><div class=\"row\" data-v-30cbe409><div class=\"content\" data-aos=\"fade-up\" data-v-30cbe409><div class=\"col-md-6\" data-v-30cbe409><h1 data-v-30cbe409>Mercedes-Benz Design: Sensual Purity and Modern Luxury.</h1><p data-v-30cbe409> The designers at Mercedes-Benz are reconciling tradition and modernity in designing the cars for the future. Their work centres on “Sensual Purity” as an expression of modern luxury. The new design idiom featuring reduced edges and creases – indentations and recesses in the sheet metal – aims to create clear forms and sensual surfaces which showcase high tech while also arousing emotions. Design creates something out of the ordinary and makes a major contribution to shaping the brand image. For Mercedes-Benz designers, good design has to be both beautiful and intelligent. </p></div><div class=\"col-md-6\" data-v-30cbe409><img src=\"https://www.mercedes-benz.com/en/design/_jcr_content/root/paragraph_3_copy/paragraph-right/video_copy_copy/image/MQ6-0-image-20190523142337/04-mercedes-benz-fahrzeuge-mercedes-amg-gt-concept-eq-power-1360x758.jpeg\" alt=\"\" class=\"img-fluid\" data-v-30cbe409></div></div></div></div>", 2);
-
-var _hoisted_11 = {
+var _hoisted_4 = {
   "class": "Articles",
   "data-aos": "fade-up"
 };
 
-var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h3 data-v-30cbe409>Articles, News &amp; Videos.</h3><div class=\"post-content\" data-v-30cbe409><div class=\"new-post\" data-v-30cbe409><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 95 70\" width=\"1.3571428571428572rem\" height=\"1rem\" class=\"brandhub-icon\" data-v-30cbe409><path d=\"M61 10.9H34.7v26.3H61V10.9zm22.9 0H66.6v4.3H84v-4.3zm0 10.6H66.6v4.3H84v-4.3zm0 10.5H66.6v4.3H84V32zm0 10.6H34.7v4.3h49.2v-4.3zm-56.2 0H11.4v4.3h16.4v-4.3zm0-11H11.4v4.3h16.4v-4.3z\" fill=\"currentColor\" data-v-30cbe409></path><path d=\"M23.8.2v20.9H.5v35.6C.5 63.2 6.3 70 14 70h68.7c7.1 0 12.2-6.8 12.2-13.2V.2H23.8zm-18 56.5V26.3l18-.1v30.5c0 3.4-2.6 7.8-9.6 7.8-4.3.1-8.4-3.7-8.4-7.8zm76.9 7.8H25.8c.5-.1 3.3-2.4 3.3-7.8V5.8h60v51c0 4.7-2.8 7.7-6.4 7.7z\" fill=\"#00adef\" data-v-30cbe409></path></svg><div id=\"new-post1\" data-v-30cbe409>New</div></div></div>", 2);
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<h3 data-v-30cbe409>Articles, News &amp; Videos.</h3><div class=\"post-content\" data-v-30cbe409><div class=\"new-post\" data-v-30cbe409><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 95 70\" width=\"1.3571428571428572rem\" height=\"1rem\" class=\"brandhub-icon\" data-v-30cbe409><path d=\"M61 10.9H34.7v26.3H61V10.9zm22.9 0H66.6v4.3H84v-4.3zm0 10.6H66.6v4.3H84v-4.3zm0 10.5H66.6v4.3H84V32zm0 10.6H34.7v4.3h49.2v-4.3zm-56.2 0H11.4v4.3h16.4v-4.3zm0-11H11.4v4.3h16.4v-4.3z\" fill=\"currentColor\" data-v-30cbe409></path><path d=\"M23.8.2v20.9H.5v35.6C.5 63.2 6.3 70 14 70h68.7c7.1 0 12.2-6.8 12.2-13.2V.2H23.8zm-18 56.5V26.3l18-.1v30.5c0 3.4-2.6 7.8-9.6 7.8-4.3.1-8.4-3.7-8.4-7.8zm76.9 7.8H25.8c.5-.1 3.3-2.4 3.3-7.8V5.8h60v51c0 4.7-2.8 7.7-6.4 7.7z\" fill=\"#00adef\" data-v-30cbe409></path></svg><div id=\"new-post1\" data-v-30cbe409>New</div></div></div>", 2);
 
-var _hoisted_14 = {
+var _hoisted_7 = {
   "class": "container"
 };
-var _hoisted_15 = {
+var _hoisted_8 = {
   "class": "post-top",
   "data-aos": "fade-up"
 };
 
-var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh1"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21544,7 +21564,7 @@ var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh2"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21555,7 +21575,7 @@ var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hienanh"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -21567,7 +21587,7 @@ var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_19 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_12 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh3"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21578,7 +21598,7 @@ var _hoisted_19 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_13 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hienanh"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -21590,7 +21610,7 @@ var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_14 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh4"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21607,7 +21627,7 @@ var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_15 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh5"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21618,7 +21638,7 @@ var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hienanh"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -21630,7 +21650,7 @@ var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_24 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh6"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21641,7 +21661,7 @@ var _hoisted_24 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_25 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hienanh"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -21653,7 +21673,7 @@ var _hoisted_25 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_26 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_19 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh7"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21664,7 +21684,7 @@ var _hoisted_26 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_27 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hienanh"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -21676,7 +21696,7 @@ var _hoisted_27 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_28 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh8"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21687,7 +21707,7 @@ var _hoisted_28 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hienanh"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -21699,7 +21719,7 @@ var _hoisted_29 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_30 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "anh9"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
@@ -21710,7 +21730,7 @@ var _hoisted_30 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_24 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hienanh"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
@@ -21722,8 +21742,29 @@ var _hoisted_31 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_32 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"footer-design\" data-aos=\"fade-up\" data-v-30cbe409><div class=\"footer-title\" data-v-30cbe409><span data-v-30cbe409><i class=\"fas fa-gas-pump\" data-v-30cbe409></i> Kraftstoffverbrauch kombiniert</span><span data-v-30cbe409><i class=\"fas fa-leaf\" data-v-30cbe409></i> CO₂-Emissionen kombiniert</span><span data-v-30cbe409><i class=\"fas fa-gas-pump\" data-v-30cbe409></i> Stromverbrauch im kombinierten Testzyklus</span></div><div class=\"footer-detail\" data-aos=\"fade-up\" data-v-30cbe409><p data-v-30cbe409>Product may vary after press date on 26.09.2014.</p><p data-v-30cbe409> 1 Die angegebenen Werte wurden nach dem vorgeschriebenen Messverfahren ermittelt. Es handelt sich um die „NEFZ-CO₂-Werte“ i. S. v. Art. 2 Nr. 1 Durchführungsverordnung (EU) 2017/1153. Die Kraftstoffverbrauchswerte wurden auf Basis dieser Werte errechnet. Der Stromverbrauch wurde auf der Grundlage der VO 692/2008/EG ermittelt. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter www.dat.de unentgeltlich erhältlich ist. </p><p data-v-30cbe409> 4 Angaben zu Kraftstoffverbrauch, Stromverbrauch und CO₂-Emissionen sind vorläufig und wurden vom Technischen Dienst für das Zertifizierungsverfahren nach Maßgabe des WLTP-Prüfverfahrens ermittelt und in NEFZ-Werte korreliert. Eine EG-Typgenehmigung und Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p><p data-v-30cbe409> 6 Stromverbrauch und Reichweite wurden auf der Grundlage der VO 692/2008/EG ermittelt. Stromverbrauch und Reichweite sind abhängig von der Fahrzeugkonfiguration. Weitere Informationen zum offiziellen Kraftstoffverbrauch und den offiziellen spezifischen CO₂-Emissionen neuer Personenkraftwagen können dem „Leitfaden über den Kraftstoffverbrauch, die CO₂-Emissionen und den Stromverbrauch aller neuen Personenkraftwagenmodelle“ entnommen werden, der an allen Verkaufsstellen und bei der Deutschen Automobil Treuhand GmbH unter www.dat.de unentgeltlich erhältlich ist. </p><p data-v-30cbe409> 7 Angaben zu Stromverbrauch und Reichweite sind vorläufig und wurden vom Technischen Dienst für das Zertifizierungsverfahren nach Maßgabe der UN/ECE-Regelung Nr. 101 ermittelt. Die EG-Typgenehmigung und eine Konformitätsbescheinigung mit amtlichen Werten liegen noch nicht vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p><p data-v-30cbe409> 8 Alle technischen Angaben sind vorläufig und wurden intern nach Maßgabe der jeweils anwendbaren Zertifizierungsmethode ermittelt. Es liegen bislang weder bestätigte Werte vom TÜV noch eine EG-Typgenehmigung noch eine Konformitätsbescheinigung mit amtlichen Werten vor. Abweichungen zwischen den Angaben und den amtlichen Werten sind möglich. </p></div></div>", 1);
+var _hoisted_25 = {
+  "class": "footer-design",
+  "data-aos": "fade-up"
+};
 
+var _hoisted_26 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "footer-title"
+  }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fas fa-gas-pump"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Kraftstoffverbrauch kombiniert")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fas fa-leaf"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" CO₂-Emissionen kombiniert")]), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("i", {
+    "class": "fas fa-gas-pump"
+  }), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Stromverbrauch im kombinierten Testzyklus")])], -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_27 = {
+  "class": "footer-detail",
+  "data-aos": "fade-up"
+};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_b_nav_item = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("b-nav-item");
 
@@ -21740,51 +21781,53 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "bg-secondary header-title"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+      return [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.data, function (item) {
+        return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)(_component_b_nav_item, {
+          key: item.id
+        }, {
+          "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+            return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.title), 1
+            /* TEXT */
+            )];
+          }),
+          _: 2
+          /* DYNAMIC */
+
+        }, 1024
+        /* DYNAMIC_SLOTS */
+        );
+      }), 128
+      /* KEYED_FRAGMENT */
+      ))];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [_hoisted_5, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Noi dung post "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_2];
+          return [_hoisted_9];
         }),
         _: 1
         /* STABLE */
 
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_3];
+          return [_hoisted_10, _hoisted_11];
         }),
         _: 1
         /* STABLE */
 
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_4];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_5];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_6];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_7];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_nav_item, null, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_8];
+          return [_hoisted_12, _hoisted_13];
         }),
         _: 1
         /* STABLE */
@@ -21794,13 +21837,22 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), _hoisted_9, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("  "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [_hoisted_12, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Noi dung post "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_15, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
         "class": "up-img postion-relative"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_16];
+          return [_hoisted_14];
+        }),
+        _: 1
+        /* STABLE */
+
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+        "class": "up-img postion-relative"
+      }, {
+        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+          return [_hoisted_15, _hoisted_16];
         }),
         _: 1
         /* STABLE */
@@ -21814,7 +21866,14 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
         /* STABLE */
 
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+      })];
+    }),
+    _: 1
+    /* STABLE */
+
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
         "class": "up-img postion-relative"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
@@ -21823,18 +21882,11 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         _: 1
         /* STABLE */
 
-      })];
-    }),
-    _: 1
-    /* STABLE */
-
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
+      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
         "class": "up-img postion-relative"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_21];
+          return [_hoisted_21, _hoisted_22];
         }),
         _: 1
         /* STABLE */
@@ -21843,16 +21895,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         "class": "up-img postion-relative"
       }, {
         "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_22, _hoisted_23];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-        "class": "up-img postion-relative"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_24, _hoisted_25];
+          return [_hoisted_23, _hoisted_24];
         }),
         _: 1
         /* STABLE */
@@ -21862,41 +21905,15 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     _: 1
     /* STABLE */
 
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_row, null, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-        "class": "up-img postion-relative"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_26, _hoisted_27];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-        "class": "up-img postion-relative"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_28, _hoisted_29];
-        }),
-        _: 1
-        /* STABLE */
-
-      }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_b_col, {
-        "class": "up-img postion-relative"
-      }, {
-        "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-          return [_hoisted_30, _hoisted_31];
-        }),
-        _: 1
-        /* STABLE */
-
-      })];
-    }),
-    _: 1
-    /* STABLE */
-
-  })])]), _hoisted_32]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer-design ")]);
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_25, [_hoisted_26, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_27, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)($data.data, function (item) {
+    return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("p", {
+      key: item.id
+    }, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(item.sub_footer), 1
+    /* TEXT */
+    );
+  }), 128
+  /* KEYED_FRAGMENT */
+  ))])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" Footer-design ")]);
 }
 
 /***/ }),
@@ -23663,15 +23680,14 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
   var undefined;
 
   /** Used as the semantic version number. */
-  var VERSION = '4.17.21';
+  var VERSION = '4.17.19';
 
   /** Used as the size to enable large array optimizations. */
   var LARGE_ARRAY_SIZE = 200;
 
   /** Error message constants. */
   var CORE_ERROR_TEXT = 'Unsupported core-js use. Try https://npms.io/search?q=ponyfill.',
-      FUNC_ERROR_TEXT = 'Expected a function',
-      INVALID_TEMPL_VAR_ERROR_TEXT = 'Invalid `variable` option passed into `_.template`';
+      FUNC_ERROR_TEXT = 'Expected a function';
 
   /** Used to stand-in for `undefined` hash values. */
   var HASH_UNDEFINED = '__lodash_hash_undefined__';
@@ -23804,11 +23820,10 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
   var reRegExpChar = /[\\^$.*+?()[\]{}|]/g,
       reHasRegExpChar = RegExp(reRegExpChar.source);
 
-  /** Used to match leading whitespace. */
-  var reTrimStart = /^\s+/;
-
-  /** Used to match a single whitespace character. */
-  var reWhitespace = /\s/;
+  /** Used to match leading and trailing whitespace. */
+  var reTrim = /^\s+|\s+$/g,
+      reTrimStart = /^\s+/,
+      reTrimEnd = /\s+$/;
 
   /** Used to match wrap detail comments. */
   var reWrapComment = /\{(?:\n\/\* \[wrapped with .+\] \*\/)?\n?/,
@@ -23817,18 +23832,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
   /** Used to match words composed of alphanumeric characters. */
   var reAsciiWord = /[^\x00-\x2f\x3a-\x40\x5b-\x60\x7b-\x7f]+/g;
-
-  /**
-   * Used to validate the `validate` option in `_.template` variable.
-   *
-   * Forbids characters which could potentially change the meaning of the function argument definition:
-   * - "()," (modification of function parameters)
-   * - "=" (default value)
-   * - "[]{}" (destructuring of function parameters)
-   * - "/" (beginning of a comment)
-   * - whitespace
-   */
-  var reForbiddenIdentifierChars = /[()=,{}\[\]\/\s]/;
 
   /** Used to match backslashes in property paths. */
   var reEscapeChar = /\\(\\)?/g;
@@ -24659,19 +24662,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
   }
 
   /**
-   * The base implementation of `_.trim`.
-   *
-   * @private
-   * @param {string} string The string to trim.
-   * @returns {string} Returns the trimmed string.
-   */
-  function baseTrim(string) {
-    return string
-      ? string.slice(0, trimmedEndIndex(string) + 1).replace(reTrimStart, '')
-      : string;
-  }
-
-  /**
    * The base implementation of `_.unary` without support for storing metadata.
    *
    * @private
@@ -25002,21 +24992,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     return hasUnicode(string)
       ? unicodeToArray(string)
       : asciiToArray(string);
-  }
-
-  /**
-   * Used by `_.trim` and `_.trimEnd` to get the index of the last non-whitespace
-   * character of `string`.
-   *
-   * @private
-   * @param {string} string The string to inspect.
-   * @returns {number} Returns the index of the last non-whitespace character.
-   */
-  function trimmedEndIndex(string) {
-    var index = string.length;
-
-    while (index-- && reWhitespace.test(string.charAt(index))) {}
-    return index;
   }
 
   /**
@@ -36187,7 +36162,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
       if (typeof value != 'string') {
         return value === 0 ? value : +value;
       }
-      value = baseTrim(value);
+      value = value.replace(reTrim, '');
       var isBinary = reIsBinary.test(value);
       return (isBinary || reIsOctal.test(value))
         ? freeParseInt(value.slice(2), isBinary ? 2 : 8)
@@ -38559,12 +38534,6 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
       if (!variable) {
         source = 'with (obj) {\n' + source + '\n}\n';
       }
-      // Throw an error if a forbidden character was found in `variable`, to prevent
-      // potential command injection attacks.
-      else if (reForbiddenIdentifierChars.test(variable)) {
-        throw new Error(INVALID_TEMPL_VAR_ERROR_TEXT);
-      }
-
       // Cleanup code by stripping empty strings.
       source = (isEvaluating ? source.replace(reEmptyStringLeading, '') : source)
         .replace(reEmptyStringMiddle, '$1')
@@ -38678,7 +38647,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     function trim(string, chars, guard) {
       string = toString(string);
       if (string && (guard || chars === undefined)) {
-        return baseTrim(string);
+        return string.replace(reTrim, '');
       }
       if (!string || !(chars = baseToString(chars))) {
         return string;
@@ -38713,7 +38682,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
     function trimEnd(string, chars, guard) {
       string = toString(string);
       if (string && (guard || chars === undefined)) {
-        return string.slice(0, trimmedEndIndex(string) + 1);
+        return string.replace(reTrimEnd, '');
       }
       if (!string || !(chars = baseToString(chars))) {
         return string;
@@ -39287,7 +39256,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
      * // => [{ 'a': 4, 'b': 5, 'c': 6 }]
      *
      * // Checking for several possible values
-     * _.filter(objects, _.overSome([_.matches({ 'a': 1 }), _.matches({ 'a': 4 })]));
+     * _.filter(users, _.overSome([_.matches({ 'a': 1 }), _.matches({ 'a': 4 })]));
      * // => [{ 'a': 1, 'b': 2, 'c': 3 }, { 'a': 4, 'b': 5, 'c': 6 }]
      */
     function matches(source) {
@@ -39324,7 +39293,7 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
      * // => { 'a': 4, 'b': 5, 'c': 6 }
      *
      * // Checking for several possible values
-     * _.filter(objects, _.overSome([_.matchesProperty('a', 1), _.matchesProperty('a', 4)]));
+     * _.filter(users, _.overSome([_.matchesProperty('a', 1), _.matchesProperty('a', 4)]));
      * // => [{ 'a': 1, 'b': 2, 'c': 3 }, { 'a': 4, 'b': 5, 'c': 6 }]
      */
     function matchesProperty(path, srcValue) {
