@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Api;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
 use App\Models\SubFooter;
+use Illuminate\Http\Request;
 
 class SubFooterController extends Controller
 {
@@ -16,8 +16,8 @@ class SubFooterController extends Controller
     public function index()
     {
         //
-        // $subFooter = SubFooter::find;
-        // return response($subFooter,200);
+        $subFooter = SubFooter::all();
+        return response($subFooter, 200);
     }
 
     /**
@@ -49,10 +49,15 @@ class SubFooterController extends Controller
      */
     public function show($id)
     {
-        $subFooter = SubFooter::join('footer','subfooter.footer_id','=','footer.id')
-        ->where(['subfooter.footer_id' => $id])
-        ->select('subfooter.name')->get();
-        return response($subFooter,200);
+        $subFooter = null;
+        if ($id != null) {
+            $subFooter = SubFooter::join('footer', 'subfooter.footer_id', '=', 'footer.id')
+                ->where(['subfooter.footer_id' => $id])
+                ->select('subfooter.name')->get();
+            return response($subFooter, 200);
+        } else {
+            return $subFooter;
+        }
     }
 
     /**
