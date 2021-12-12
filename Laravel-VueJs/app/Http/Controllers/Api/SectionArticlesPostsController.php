@@ -49,9 +49,16 @@ class SectionArticlesPostsController extends Controller
     public function show($id)
     {
         //get section article post with category_article_post_id
-        $SectionArticlePost_ID = SectionArticlesPosts::join('category_article_post', 'section_articles_posts.category_article_post_id', '=', 'category_article_post.id')
-            ->select('section_articles_posts.*')->where(['section_articles_posts.category_article_post_id' => $id])->get();
-        return response($SectionArticlePost_ID, 200);
+        if(!is_null($id)){
+            if (is_numeric($id) && !is_object($id) && !is_float($id)) {
+                $SectionArticlePost_ID = SectionArticlesPosts::join('category_article_post', 'section_articles_posts.category_article_post_id', '=', 'category_article_post.id')
+                    ->select('section_articles_posts.*')->where(['section_articles_posts.category_article_post_id' => $id])->get();
+                return response($SectionArticlePost_ID, 200);
+            }
+        }
+        else{
+            return false;
+        }
     }
 
     /**
@@ -161,14 +168,47 @@ class SectionArticlesPostsController extends Controller
                     return response(['success' => 'Đã sửa']);
                 }
             }
-        }
-        else{
+        } else {
             $saveSectionAricle = SectionArticlesPosts::where('id', $id)->update([
                 'category_article_post_id' => $req->type_post,
                 'title_article' => $req->title,
                 'subtitle_article' => $req->subtitle,
             ]);
             return response(['success' => 'Đã sửa']);
+        }
+    }
+
+    /**
+     *
+     *
+     */
+    public function addSectionArticlePost(Request $req)
+    {
+        if ($req->hasFile('image')) {
+            $image = $req->file('image');
+            $title = $req->title;
+            $subtitle = $req->subtitle;
+            $type_post = $req->type_post;
+            $image->move('images/assets/articles-post-innovation/', $image->getClientOriginalName());
+
+            $addPost = SectionArticlesPosts::create([
+                'category_article_post_id' => $type_post,
+                'menu_main_header_id' => 4,
+                'image_article' =>  'images/assets/articles-post-innovation/' . $image->getClientOriginalName(),
+                'title_article' => $title,
+                'subtitle_article' => $subtitle,
+                'created_at' => now()
+            ]);
+            return response(['success' => 'Đã thêm']);
+        } else {
+            $addPost = SectionArticlesPosts::create([
+                'category_article_post_id' => $req->type_post,
+                'menu_main_header_id' => 4,
+                'title_article' => $req->title,
+                'subtitle_article' => $req->subtitle,
+                'created_at' => now()
+            ]);
+            return response(['success' => 'Đã thêm']);
         }
     }
 }
