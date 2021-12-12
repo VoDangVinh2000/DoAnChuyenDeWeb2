@@ -8,6 +8,11 @@
             />
             <h1>Nhóm D</h1>
             <ul class="nav nav-pills">
+                   <li class="nav-item">
+                    <a class="btn btn-outline-success" href="admin/footer">
+                        Admin Footer</a
+                    >
+                </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-outline-success">
                         <a @click.prevent="logout" >Logout</a>
@@ -30,6 +35,7 @@ export default {
             }
         }
     },
+
 
 };
 </script>
@@ -54,4 +60,8 @@ export default {
         display: inline-block;
         font-weight: bold;
     }
+    a.btn {
+    text-decoration: none;
+    margin: 0 10px;
+}
 </style>

@@ -11,6 +11,9 @@ import Innovation from "SrcComponent/views/Pages/Innovation/Innovation.vue";
 import Events from "SrcComponent/views/Pages/Events/Events.vue";
 import MuseumsHistory from "../views/Pages/Museums_History/Museums_History.vue"
 import Company from "../views/Pages/Company/Company.vue"
+import AdminFooter from '../components/Admin/Layouts/Footer/ListFooter.vue'
+import AdminFooterAdd from '../components/Admin/Layouts/Footer/AddFooter.vue'
+import AdminFooterUpdate from '../components/Admin/Layouts/Footer/UpdateFooter.vue'
 //Admin
 // import Innovation from "SrcComponent/components/Admin/Layouts/Innovation.vue";
 const routes = [
@@ -77,6 +80,22 @@ const routes = [
         name : "admin-innovation",
         path : "/admin/innovation",
         component : Innovation
+    },
+
+    {
+        name: "admin-footer",
+        path: "/admin/footer",
+        component : AdminFooter,
+    },
+    {
+        name : "admin-footer-add",
+        path : "/footer/add-footer",
+        component : AdminFooterAdd
+    },
+    {
+        name : "admin-footer-update",
+        path : "/update-footer/:id",
+        component : AdminFooterUpdate
     },
 ];
 
