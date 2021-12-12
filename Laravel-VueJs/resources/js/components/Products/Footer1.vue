@@ -5,7 +5,7 @@
       <div class="container-fluid">
         <div class="row" data-aos ="fade-up"
                         data-aos-duration="1800">
-          <div class="col-md-3 brand__items" v-for="item in data" :key="item.id">
+          <div class="col-md-3 mx-auto brand__items" v-for="item in data" :key="item.id">
             <h3 class="title">{{item.topics}}</h3>
             <hr class="brand__line" />
             <ul class="brand__links" >
