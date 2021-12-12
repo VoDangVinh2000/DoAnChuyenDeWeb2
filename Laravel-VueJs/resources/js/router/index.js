@@ -19,6 +19,11 @@ import AdminFooterUpdate from '../components/Admin/Layouts/Footer/UpdateFooter.v
 import Header from "SrcComponent/components/Admin/Layouts/Header/Header.vue";
 import AddHeader from "SrcComponent/components/Admin/Layouts/Header/AddHeader.vue";
 import UpdateHeader from "SrcComponent/components/Admin/Layouts/Header/UpdateHeader.vue";
+import AdminSlides from "../components/Admin/Layouts/Slides/ListSlides.vue"
+
+import AdminSlidesAdd from '../components/Admin/Layouts/Slides/AddSlides.vue'
+
+import AdminSlidesUpdate from '../components/Admin/Layouts/Slides/UpdateSlides.vue'
 const routes = [
     {
         /* Tạo routes trong vuejs */
@@ -113,6 +118,22 @@ const routes = [
         name : "admin-footer-update",
         path : "/update-footer/:id",
         component : AdminFooterUpdate
+    },
+    // Admin Slides
+    {
+        name : "admin-slides",
+        path : "/admin/slides",
+        component : AdminSlides
+    },
+    {
+        name : "admin-slides-add",
+        path : "/slides/add-slides",
+        component : AdminSlidesAdd
+    },
+    {
+        name : "admin-slides-update",
+        path : "/update-slides/:id",
+        component : AdminSlidesUpdate
     },
 ];
 

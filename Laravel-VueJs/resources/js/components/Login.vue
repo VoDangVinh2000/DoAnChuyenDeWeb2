@@ -103,7 +103,7 @@
                 response.data = response.data.map(item => item.id != 0 ? {...item,token : token_user} : item);
                 let obj = {
                     'data' : {
-                        time: new Date().getTime() + (1 * 1800 * 1000),
+                        time: new Date().getTime() + (1 * 3600 * 1000),
                         value: response.data,
                     }
                 };

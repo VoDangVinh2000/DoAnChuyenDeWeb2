@@ -4,6 +4,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\HeaderController;
+use App\Http\Controllers\SlidesController;
 use Illuminate\Http\Request;
 use App\Http\Controllers\FooterController;
 
@@ -87,6 +88,24 @@ Route::get('/admin-addheader',function(){
 Route::get('/admin-updateheader/{id}',function(){
     return view('app.Admin.Layouts.Header.UpdateHeader');
 });
+Route::get('/admin/slides',function(){
+    return view('app.Admin.Layouts.Slider.Slider');
+});
+
+Route::get('/slides/add-slides',function(){
+    return view('app.Admin.Layouts.Slider.Add-Slides');
+});
+
+Route::get('/update-slides/{id}',function(){
+    return view('app.Admin.Layouts.Slider.Update-Slides');
+});
+
+Route::post('/create-slides', [SlidesController::class,'store'])->name('addSlide.store');
+
+Route::post('/update-slides/{id}',[SlidesController::class,'update']);
+
+Route::post('/delete-slides/{id}',[SlidesController::class,'destroy']);
+
 
 Route::post('/creat-header', [HeaderController::class,'store']);//tạo route để gửi dữ liệu qua HeaderController
 Route::post('/update-header/{id}', [HeaderController::class,'update']);

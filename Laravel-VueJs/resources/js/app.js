@@ -31,6 +31,12 @@ app.component("admin-updateheader", require("SrcComponent/Components/Admin/Layou
 app.component("admin-footer", require("../js/components/Admin/Layouts/Footer/ListFooter.vue").default);
 app.component("admin-footer-add", require("../js/components/Admin/Layouts/Footer/AddFooter.vue").default);
 app.component("admin-footer-update-views", require("./components/Admin/Layouts/Footer/UpdateFooter.vue").default);
+app.component("admin-slides", require("./components/Admin/Layouts/Slides/ListSlides.vue").default);
+
+app.component("admin-slides-add", require("./components/Admin/Layouts/Slides/AddSlides.vue").default);
+
+app.component("admin-slides-update-views", require("./components/Admin/Layouts/Slides/UpdateSlides.vue").default);
+
 app.use(router);
 app.use(BootstrapVue3);
 app.mount("#app");

@@ -111,3 +111,5 @@ Route::get('/company-mec-ben-vans',[MecBenVansController::class, 'index']);
 Route::get('/company-bottom-intro',[CompanyBottomIntroController::class, 'index']);
 Route::get('/company-images-post',[CompanyImagePostController::class, 'index']);
 /* ---------------------------------------------------------------------------------- */
+// Tìm slide với API
+Route::get('/slides-id/{id}',[SlideShowController::class,'show']);//Tìm user với api
