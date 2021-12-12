@@ -8,15 +8,12 @@
             />
             <h1>Nhóm D</h1>
             <ul class="nav nav-pills">
-<<<<<<< HEAD
                  <li class="nav-item">
                     <a href="/admin-header" class="btn btn-outline-success">Admin Header</a>
-=======
                    <li class="nav-item">
                     <a class="btn btn-outline-success" href="admin/footer">
                         Admin Footer</a
                     >
->>>>>>> GroupD-Khang/Admin-Footer
                 </li>
                 <li class="nav-item">
                     <button type="button" class="btn btn-outline-success">

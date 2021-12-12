@@ -23,6 +23,14 @@ use App\Http\Controllers\Api\UserController;
 use App\Http\Controllers\Api\UserMenuController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\MenuBannerController;
+use App\Http\Controllers\Api\IntroGlanceController;
+use App\Http\Controllers\Api\CompanySlide01Controller;
+use App\Http\Controllers\Api\CompanySlide02Controller;
+use App\Http\Controllers\Api\MecBenCarController;
+use App\Http\Controllers\Api\MecBenVansController;
+use App\Http\Controllers\Api\CompanyBottomIntroController;
+use App\Http\Controllers\Api\CompanyImagePostController;
 
 /*
 |--------------------------------------------------------------------------
@@ -88,3 +96,18 @@ Route::get('/get-footer-by-id/{id}', [FooterController::class, 'getFooterByID'])
 Route::post('/create-footer', [FooterController::class, 'store'])->name('addFooter.store');
 Route::post('/update-footer/{id}', [FooterController::class, 'update']);
 Route::post('/delete-footer/{id}', [FooterController::class, 'destroy']);
+Route::get('/subfooter/{id}',[SubFooterController::class,'show']);//Lấy danh sách subfooter với api
+Route::get('/slides',[SlideShowController::class, 'index']);
+Route::get('/all-subgroup',[SubgroupController::class,'index']);//Lấy danh sách các cotegories
+Route::get('/all-cars',[CarsController::class,'index']);
+
+/* -------------------------- API PAGE COMPANY ABOUT US------------------------------ */
+Route::get('/menu-banner',[MenuBannerController::class, 'index']);
+Route::get('/intro-glance',[IntroGlanceController::class, 'index']);
+Route::get('/company-slide-01',[CompanySlide01Controller::class, 'index']);
+Route::get('/company-slide-02',[CompanySlide02Controller::class, 'index']);
+Route::get('/company-mec-ben-car',[MecBenCarController::class, 'index']);
+Route::get('/company-mec-ben-vans',[MecBenVansController::class, 'index']);
+Route::get('/company-bottom-intro',[CompanyBottomIntroController::class, 'index']);
+Route::get('/company-images-post',[CompanyImagePostController::class, 'index']);
+/* ---------------------------------------------------------------------------------- */

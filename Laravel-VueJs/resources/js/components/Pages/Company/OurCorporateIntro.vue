@@ -1,39 +1,27 @@
 <template>
     <section id="our__corporate">
-        <b-container>
-            <b-row>
+        <b-container v-for="(item, index) in intro" :key="index">
+            <b-row v-if="item.name === 'our-corporate'">
                 <b-col xl="8" md="12">
                     <div
                         class="left"
                         data-aos="fade-up"
                         data-aos-duration="1800"
                     >
-                        <b-img :src="img"></b-img>
+                        <b-img :src="item.img"></b-img>
                     </div>
                 </b-col>
                 <b-col xl="4" md="12">
                     <div class="right">
                         <h2 data-aos="fade-up" data-aos-duration="1800">
-                            Our corporate governance.
+                            {{item.title}}
                         </h2>
                         <b-card-text
                             data-aos="fade-up"
                             data-aos-duration="1800"
                             data-aos-delay="200"
                         >
-                            As part of the new corporate structure of the
-                            Daimler AG holding company, the Mercedes-Benz Cars
-                            and Mercedes-Benz Vans divisions were consolidated
-                            under Mercedes-Benz AG on November 1, 2019. Dr.
-                            Bernd Pischetsrieder was elected as Chairman of the
-                            Supervisory Board of Mercedes-Benz AG. The
-                            Supervisory Board appointed Ola Källenius as
-                            Chairman of the Board of Management of Mercedes-Benz
-                            AG. Ola Källenius is also Chairman of the Board of
-                            Management of Daimler AG. Following is an overview
-                            of the eight members of the Board of Management of
-                            Mercedes-Benz AG and the allocation of
-                            responsibilities.
+                           {{item.text}}
                         </b-card-text>
                         <b-link
                             data-aos="fade-up"
@@ -50,13 +38,25 @@
     </section>
 </template>
 <script>
-import intro from "../../../../assets/img-company/our-coparate.webp";
 
 export default {
     data() {
         return {
-            img: intro,
+             intro: [
+
+            ],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/company-bottom-intro";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.intro = await this.getDataApi();
     },
 };
 </script>

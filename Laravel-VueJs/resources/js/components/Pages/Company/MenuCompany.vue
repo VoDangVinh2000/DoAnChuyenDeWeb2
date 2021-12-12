@@ -3,7 +3,9 @@
         <b-container>
             <b-nav>
                 <li v-for="(item, i) in menu" :key="i">
-                    <b-link href="#" :class="item.active">{{ item.link }}</b-link>
+                    <b-link href="#" :class="item.active">{{
+                        item.menu_name
+                    }}</b-link>
                 </li>
             </b-nav>
         </b-container>
@@ -13,13 +15,19 @@
 export default {
     data() {
         return {
-            menu: [
-                { link: "About us", active : "active" },
-                { link: "Career" },
-                { link: "Media" },
-                { link: "Daimler AG Investors" },
-            ],
+            menu: [],
         };
+    },
+    methods: {
+        async getDataApi() {
+            const url = "/api/menu-banner";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.menu = await this.getDataApi();
     },
 };
 </script>
@@ -41,13 +49,13 @@ export default {
 #menu__company li {
     list-style-type: none;
 }
-#menu__company a.active{
+#menu__company a.active {
     color: #fff;
     position: relative;
 }
 
 #menu__company a.active::before {
-    content: '';
+    content: "";
     position: absolute;
     left: 0px;
     color: #fff;

@@ -16,18 +16,24 @@
     </section>
 </template>
 <script>
-import imgbottom01 from "../../../../assets/img-company/bottom-img-01.webp";
-import imgbottom02 from "../../../../assets/img-company/bottom-img-02.webp";
-import imgbottom03 from "../../../../assets/img-company/bottom-img-03.webp";
 export default {
     data() {
         return {
             btImg: [
-                { img: imgbottom01, text: "Carrer." },
-                { img: imgbottom02, text: "Media." },
-                { img: imgbottom03, text: "Daimler AG Investors" },
+
             ],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/company-images-post";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.btImg = await this.getDataApi();
     },
 };
 </script>

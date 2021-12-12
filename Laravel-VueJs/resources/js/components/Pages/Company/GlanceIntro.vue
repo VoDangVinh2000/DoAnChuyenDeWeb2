@@ -51,17 +51,19 @@ export default {
     data() {
         return {
             items: [
-                {
-                    text: " Mercedes-Benz AG is responsible for the global business of Mercedes-Benz Cars and Mercedes-Benz Vans, with over 170,000 employees worldwide. Ola Källenius is Chairman of the Board of Management of Mercedes-Benz AG. The company focuses on the development, production and sales of passenger cars, vans and vehicle-related services. Furthermore, the company aspires to be the leader in the fields of electric mobility and vehicle software. The product portfolio comprises the Mercedes-Benz brand with the sub-brands of Mercedes-AMG, Mercedes-Maybach, Mercedes-EQ, G-Class and the smart brand. The Mercedes me brand offers access to the digital services from Mercedes-Benz. ",
-                },
-                {
-                    text: " Mercedes-Benz AG is one of the world's largest manufacturers of luxury passenger cars. In 2020, it sold around 2.1 million passenger cars and nearly 375,000 vans. In its two business segments, Mercedes-Benz AG is continually expanding its worldwide production network with around 35 production sites on four continents, while gearing itself to meet the requirements of electric mobility. At the same time, the company is constructing and extending its global battery production network on three continents. ",
-                },
-                {
-                    text: " As sustainability is the guiding principle of the Mercedes-Benz strategy and for the company itself, this means creating lasting value for all stakeholders: for customers, employees, investors, business partners and society as a whole. The basis for this is Daimler’s sustainable business strategy. The company thus takes responsibility for the economic, ecological and social effects of its business activities and looks at the entire value chain. ",
-                },
             ],
         };
+    },
+    methods: {
+        async getDataApi() {
+            const url = "/api/intro-glance";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.items = await this.getDataApi();
     },
 };
 </script>

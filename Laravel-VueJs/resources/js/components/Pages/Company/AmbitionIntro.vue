@@ -1,47 +1,27 @@
 <template>
     <section id="ambition">
-        <b-container>
-            <b-row>
+        <b-container v-for="(item, index) in intro" :key="index">
+            <b-row v-if="item.name === 'ambition'">
                 <b-col xl="8" md="12">
                     <div class="left">
                         <b-img
                             data-aos="fade-up"
                             data-aos-duration="1800"
-                            :src="img"
+                            :src="item.img"
                         ></b-img>
                     </div>
                 </b-col>
                 <b-col xl="4" md="12">
                     <div class="right">
                         <h2 data-aos="fade-up" data-aos-duration="1800">
-                            Ambition 2039: the road to CO₂-neutrality.
+                            {{item.title}}
                         </h2>
                         <b-card-text
                             data-aos="fade-up"
                             data-aos-duration="1800"
                             data-aos-delay="300"
                         >
-                            Under the heading “Ambition 2039”, Mercedes-Benz
-                            Cars has set itself ambitious yet realistic goals.
-                            As part of this, the automotive manufacturer is
-                            examining the issue of sustainability along the
-                            entire value chain. The goal is the transformation
-                            of the full range of passenger cars into a
-                            carbon-neutral product range as of 2039. This
-                            includes – from socially and climate-friendly
-                            degraded raw materials, through the supply chain,
-                            and the production of the vehicles – all stages up
-                            to the use phase as well as recycling concepts.
-                            Already during the development of a new model,
-                            Mercedes-Benz Cars looks at its environmental
-                            performance over the entire life cycle. Vehicles
-                            from Mercedes-Benz Cars are scrutinised in a
-                            comprehensive life-cycle assessment, the so-called
-                            360-degree environmental check: from manufacture of
-                            the raw materials to production and from vehicle
-                            operation to recycling at the end of the vehicle’s
-                            service life – a long way off in the case of a new
-                            Mercedes-Benz.
+                           {{item.text}}
                         </b-card-text>
                         <b-link
                             data-aos="fade-up"
@@ -58,13 +38,24 @@
     </section>
 </template>
 <script>
-import intro from "../../../../assets/img-company/intro-ambition.webp";
-
 export default {
     data() {
         return {
-            img: intro,
+            intro: [
+
+            ],
         };
+    },
+     methods: {
+        async getDataApi() {
+            const url = "/api/company-bottom-intro";
+            const response = await fetch(url);
+            const data = await response.json();
+            return data;
+        },
+    },
+    async created() {
+        this.intro = await this.getDataApi();
     },
 };
 </script>
