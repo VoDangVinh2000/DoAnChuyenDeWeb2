@@ -50,7 +50,7 @@ class CategoryArticlePostController extends Controller
     {
         //get all category-article-post by menu-header-main id
         $categoryArticle = CategoryArticlePost::join('menumain','category_article_post.menu_main_header_id'
-        ,'=','menumain.id')->where(['category_article_post.menu_main_header_id' => $id])
+        ,'=','menumain.id')->whereRaw('category_article_post.menu_main_header_id = ?', [$id])
         ->select('category_article_post.*')->get();
         return response($categoryArticle,200);
     }

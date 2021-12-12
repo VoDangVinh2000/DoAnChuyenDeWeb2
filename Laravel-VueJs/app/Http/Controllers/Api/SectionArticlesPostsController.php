@@ -50,7 +50,7 @@ class SectionArticlesPostsController extends Controller
     {
         //get section article post with category_article_post_id
         $SectionArticlePost_ID = SectionArticlesPosts::join('category_article_post', 'section_articles_posts.category_article_post_id', '=', 'category_article_post.id')
-            ->select('section_articles_posts.*')->where(['section_articles_posts.category_article_post_id' => $id])->get();
+            ->select('section_articles_posts.*')->whereRaw('section_articles_posts.category_article_post_id = ?' , [$id])->get();
         return response($SectionArticlePost_ID, 200);
     }
 
@@ -100,7 +100,7 @@ class SectionArticlesPostsController extends Controller
                 'section_articles_posts.id',
                 'category_article_post.category_post_name',
                 'category_article_post.id as category_post_id'
-            )->where(['section_articles_posts.category_article_post_id' => 1])->get();
+            )->whereRaw('section_articles_posts.category_article_post_id = ?',[1])->get();
         return response($sectionArticlePostNew, 200);
     }
 
@@ -116,7 +116,7 @@ class SectionArticlesPostsController extends Controller
                 'category_article_post.category_post_name',
                 'category_article_post.id as category_post_id'
             )
-            ->where(['section_articles_posts.id' => $id])->get();
+            ->whereRaw('section_articles_posts.id = ?', $id)->get();
         return response($sectionArticlePostNew, 200);
         // $sectionArticlePostNew =
         // SectionArticlesPosts::find($id);
@@ -143,7 +143,7 @@ class SectionArticlesPostsController extends Controller
                         unlink($oldPath);
                     }
                     $fileName->move('images/assets/articles-post-innovation/', $fileName->getClientOriginalName());
-                    $saveSectionAricle = SectionArticlesPosts::where('id', $id)->update([
+                    $saveSectionAricle = SectionArticlesPosts::whereRaw('id = ?',[$id])->update([
                         'category_article_post_id' => $req->type_post,
                         'image_article' => 'images/assets/articles-post-innovation/' . $fileName->getClientOriginalName(),
                         'title_article' => $req->title,
@@ -152,7 +152,7 @@ class SectionArticlesPostsController extends Controller
                     return response(['success' => 'Đã sửa']);
                 } else {
                     $fileName->move('images/assets/articles-post-innovation/', $fileName->getClientOriginalName());
-                    $saveSectionAricle = SectionArticlesPosts::where('id', $id)->update([
+                    $saveSectionAricle = SectionArticlesPosts::whereRaw('id = ?', [$id])->update([
                         'category_article_post_id' => $req->type_post,
                         'image_article' => 'images/assets/articles-post-innovation/' . $fileName->getClientOriginalName(),
                         'title_article' => $req->title,
@@ -163,7 +163,7 @@ class SectionArticlesPostsController extends Controller
             }
         }
         else{
-            $saveSectionAricle = SectionArticlesPosts::where('id', $id)->update([
+            $saveSectionAricle = SectionArticlesPosts::whereRaw('id = ?', [$id])->update([
                 'category_article_post_id' => $req->type_post,
                 'title_article' => $req->title,
                 'subtitle_article' => $req->subtitle,
