@@ -91,17 +91,23 @@ class SlidesController extends Controller
     public function update(Request $request, $id)
     {
         $slides = Slide::find($id);
-        $this->validate($request, [
-            'title' => 'required',
-            'btn_text' => 'required',
-            'color' => 'required',
-        ]);
-        if (!$slides) {
-            return response()
-                ->json(['error' => 'Error: User not found']);
+        if(!is_numeric($id)){
+          return false;
         }
-        $slides->update($request->all());
-        return response()->json(['message' => 'Success: You have updated the user']);
+        else{
+            $this->validate($request, [
+                'title' => 'required',
+                'btn_text' => 'required',
+                'color' => 'required',
+            ]);
+            if (!$slides) {
+                return response()
+                    ->json(['error' => 'Error: User not found']);
+            }
+            $slides->update($request->all());
+            return response()->json(['message' => 'Success: You have updated the user']);
+        }
+
     }
 
     /**
